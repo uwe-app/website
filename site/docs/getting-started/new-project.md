@@ -44,3 +44,4 @@ Or to easily share blueprints use a repository URL:
 uws init project-name https://github.com/uwe-app/blog
 ```
 
+{{> next-page menu="getting-started-idx"}}

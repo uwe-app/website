@@ -59,6 +59,7 @@ description = true
 pages = [
   "/docs/getting-started/new-project/",
   "/docs/getting-started/build-project/",
+  "/docs/getting-started/site-settings/",
   "/docs/getting-started/create-pages/",
   "/docs/getting-started/create-links/",
   "/docs/getting-started/customize/",
