@@ -4,6 +4,7 @@ host = "uwe.app"
 [dependencies]
 #"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
 "std::core" = { version = "~1" }
+"css::new" = { version = "~1", apply = { styles = [ "/**/**" ] } }
 
 [dependencies."font::inter"]
 path = "../../plugins/font/inter"
@@ -53,12 +54,12 @@ docs = { directory = "/docs/" }
 [page.menu.getting-started-idx]
 description = true
 pages = [
-  "/docs/getting-started/installation/",
   "/docs/getting-started/new-project/",
   "/docs/getting-started/build-project/",
   "/docs/getting-started/create-pages/",
   "/docs/getting-started/create-links/",
   "/docs/getting-started/customize/",
+  "/docs/getting-started/layouts/",
 ]
 
 #[profile.inc]

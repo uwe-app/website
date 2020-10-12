@@ -4,7 +4,7 @@ description = "Create a project"
 
 {{> components}}
 
-The `init` command creates a new project from a [blueprint]({{ link "/docs/blueprints/" }}).
+The `init` command creates a new project from a [blueprint]({{ link "/docs/getting-started/new-project/" }}).
 
 To create a new project using the default blueprint pass the project name:
 

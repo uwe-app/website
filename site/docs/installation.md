@@ -2,9 +2,16 @@
 description = "Installing, upgrading and managing software versions"
 +++
 
+{{> components}}
+
 ## Installation
 
-Learn how to install, upgrade and uninstall the software; we use a version manager (`uvm`) to manage multiple releases.
+Learn how to install the tools; we use a [version manager]({{ link "/docs/version-manager/" }}) to manage multiple releases.
+
+* `uwe`: Compile, live preview and publish websites.
+* `uws`: Utility for creating and syncing projects.
+* `upm`: Plugin manger; extra commands for plugin authors.
+* `uvm`: Version manager for installation and upgrading.
 
 ### Install
 
@@ -26,60 +33,22 @@ Then check the installation succeeded:
 which uwe
 ```
 
-### List
+### Test Drive
 
-List versions to see if a newer release version is available:
-
-```text
-uvm ls
-```
-
-### Upgrade
-
-To upgrade to the latest version run:
+Once the installation completes use this one-liner to take a test drive:
 
 ```text
-uvm latest
+uws init project && (cd project && uwe --live)
 ```
 
-### Downgrade
+Which will perform the following tasks:
 
-We try our best to ensure you never need to downgrade by planning for backwards compatibility but we do make mistakes so if you need it the `use` command will install and select a specific version:
+* Create a new website in the `project` folder
+* Compile the files in `project/site` to `project/build/debug`
+* Launch the site in a browser
+* Watch the `project/site` directory for changes
+    
+You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
-```text
-uvm use 0.30.0
-```
+Next read more about [getting started]({{ link "/docs/getting-started/" }}) or how to use the [version manager]({{ link "/docs/version-manager/" }}).
 
-### Update
-
-The version manager program (`uvm`) is considered stable and is not included when upgrading to a new release; however if you want to use a newer version run the `update` command:
-
-```text
-uvm update
-```
-
-### Remove & Prune
-
-Reclaim some disc space by removing unused versions; use the `rm` command to remove a specific version (it cannot be the current version!):
-
-```text
-uvm rm 0.30.0
-```
-
-Or use `prune` to remove all versions older than the current version:
-
-```text
-uvm prune
-```
-
-### Uninstall
-
-To uninstall the software run:
-
-```text
-uvm uninstall
-```
-
-When prompted type `y` to confirm you want to uninstall the program and all it's components. If you decide to uninstall we would appreciate it if you could let us know why in the [community issues](https://github.com/uwe-app/community/issues).
-
-Any websites you have created will not be deleted and you should remove them manually.

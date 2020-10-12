@@ -1,5 +1,3 @@
-@import url("./theme.css");
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   font-weight: normal;
@@ -106,13 +104,13 @@ li > a + p:last-child {
   text-align: center;
 }
 
-main > nav:first-child > * {
+nav.crumbtrail > * {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
 
-main > nav:first-child > *::after {
+nav.crumbtrail > *::after {
   display: inline-block;
   content: '»';
   margin: 0 .5rem;

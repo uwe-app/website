@@ -1,32 +1,12 @@
 +++
-description = "Installing, upgrading and managing software versions"
+description = "Upgrading and managing software versions"
 +++
 
 {{> components}}
 
-## Installation
+## Version Manager
 
-Learn how to install, upgrade and uninstall the software; we use a version manager (`uvm`) to manage multiple releases.
-
-### Install
-
-Currently we support the Linux and MacOS operating systems; use our [quick install script](https://release.uwe.app/install.sh) to download `uvm` which will install all the required components:
-
-```text
-curl https://release.uwe.app/install.sh | sh
-```
-
-Once the installation is complete you can start a new shell session or update the `PATH` for the current shell session:
-
-```text
-source $HOME/.uwe/env
-```
-
-Then check the installation succeeded:
-
-```text
-which uwe
-```
+Learn how to upgrade and manage versions using `uvm`.
 
 ### List
 
