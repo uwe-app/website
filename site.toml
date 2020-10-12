@@ -50,6 +50,17 @@ authors = [ { name = "Muji", link = "https://tmpfs.org" } ]
 main = { pages = ["/docs/", "/faq/"], description = true }
 docs = { directory = "/docs/" }
 
+[page.menu.getting-started-idx]
+description = true
+pages = [
+  "/docs/getting-started/installation/",
+  "/docs/getting-started/new-project/",
+  "/docs/getting-started/build-project/",
+  "/docs/getting-started/create-pages/",
+  "/docs/getting-started/create-links/",
+  "/docs/getting-started/customize/",
+]
+
 #[profile.inc]
 #incremental = true
 #pristine = false
