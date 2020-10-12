@@ -1,0 +1,69 @@
+lang = "en"
+host = "uwe.app"
+
+[dependencies]
+#"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
+"std::core" = { version = "~1" }
+
+[dependencies."font::inter"]
+path = "../../plugins/font/inter"
+version = "~3"
+apply = { styles = [ "/**/**" ] }
+features = ["regular"]
+
+[dependencies."font::awesome"]
+path = "../../plugins/font/awesome"
+version = "~5"
+apply = { styles = [ "/test-book/**" ] }
+
+[dependencies."font::source-code-pro"]
+path = "../../plugins/font/source-code-pro"
+version = "~1"
+apply = { styles = [ "/test-book/**" ] }
+
+[dependencies."std::book"]
+path = "../../plugins/std/book"
+version = "~1"
+apply = { styles = [ "/test-book/**" ], scripts = [ "/test-book/**" ], layouts = { main = [ "/test-book/**" ] } }
+
+[dependencies."lib::highlight"]
+path = "../../plugins/lib/highlight"
+version = "~10"
+apply = { scripts = [ "/docs/**/**", "/test-book/**" ], styles = [ "/docs/**/**", "/test-book/**" ] }
+
+[styles]
+main = ["/assets/css/style.css"]
+
+#[scripts]
+#main = ["/assets/highlight.pack.js"]
+
+[build]
+rewrite-index = true
+
+[page]
+description = "Fast and elegant site generator"
+keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
+authors = [ { name = "Muji", link = "https://tmpfs.org" } ]
+
+[page.menu]
+#sidebar = { file = "MENU.md" }
+main = { pages = ["/docs/", "/faq/"], description = true }
+docs = { directory = "/docs/" }
+
+#[profile.inc]
+#incremental = true
+#pristine = false
+
+[profile.dist]
+include-index = true
+
+[profile.docs]
+base = "docs"
+base-href = "docs"
+layout = "partials/docs-layout.hbs"
+paths = ["assets", "docs"]
+
+[publish.aws]
+region = "ap-southeast-1"
+credentials = "tmpfs"
+environments = {stage = {prefix = "stage"}, production = {prefix = "production"}}

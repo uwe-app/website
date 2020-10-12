@@ -1,0 +1,9 @@
+ht-upgrade 0.18.3
+Upgrade to latest
+
+USAGE:
+    ht upgrade
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information

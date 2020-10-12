@@ -1,0 +1,9 @@
+ht-docs 0.18.3
+Browse the documentation
+
+USAGE:
+    ht docs
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information

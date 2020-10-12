@@ -1,0 +1,13 @@
+ht-publish 0.18.3
+Publish a site
+
+USAGE:
+    ht publish <env> [project]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <env>        Publish environment
+    <project>    Project path [default: .]

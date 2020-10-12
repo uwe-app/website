@@ -1,0 +1,13 @@
+ht-fetch 0.18.3
+Update cached repositories
+
+USAGE:
+    ht fetch [FLAGS]
+
+FLAGS:
+    -b, --blueprint        Update the blueprint cache
+    -d, --documentation    Update the documentation cache
+    -h, --help             Prints help information
+    -r, --release          Update the release cache
+    -s, --standalone       Update the standalone cache
+    -V, --version          Prints version information

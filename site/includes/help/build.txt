@@ -1,0 +1,23 @@
+ht-build 0.18.3
+Compile a site
+
+USAGE:
+    ht build [FLAGS] [OPTIONS] [ARGS]
+
+FLAGS:
+        --force      Disable incremental build
+        --help       Prints help information
+    -l, --live       Enable live reload
+    -r, --release    Generate a release build
+    -V, --version    Prints version information
+
+OPTIONS:
+    -h, --host <host>              The name of the host
+        --layout <layout>          Set the default layout file
+    -m, --max-depth <max-depth>    Maximum depth to traverse
+    -p, --port <port>              The port number
+        --profile <profile>        Build profile name
+
+ARGS:
+    <project>     Read config from directory [default: .]
+    <paths>...    Compile only these paths
