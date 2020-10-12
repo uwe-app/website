@@ -1,5 +1,5 @@
 +++
-description = "Run scripts before a build"
+description = "Run commands before or after a build"
 +++
 
 {{> crumbtrail}}

@@ -16,7 +16,7 @@ To get in touch with us please email ...
 
 Now run the live reload server `uwe --live` and navigate to the `/contact/` page so see your changes in  the browser as you edit the file.
 
-### Frontmatter
+## Page Data
 
 The page title is automatically derived from the file name but you can set it explicitly in the page frontmatter:
 
