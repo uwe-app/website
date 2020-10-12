@@ -42,7 +42,7 @@ main = ["/assets/css/style.css"]
 rewrite-index = true
 
 [page]
-description = "Fast and elegant site generator"
+description = "Universal Web Editor"
 keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
 authors = [ { name = "Muji", link = "https://tmpfs.org" } ]
 

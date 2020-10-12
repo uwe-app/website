@@ -1,5 +1,5 @@
 <nav class="crumbtrail">
-{{#components}}
-{{#if @last}}{{title}}{{else}}<a href="{{@href}}">{{title}}</a>{{/if}}
-{{/components}}
+{{#crumbtrail}}
+{{#if @last}}{{title}}{{else}}<a href="{{@href}}"{{# if description}} title="{{description}}"{{/if}}>{{title}}</a>{{/if}}
+{{/crumbtrail}}
 </nav>
