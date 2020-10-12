@@ -1,7 +1,7 @@
 +++
 description = "Global site assets"
 +++
-{{> components}}
+{{> crumbtrail}}
 
 Assets give us a hint that certain files are global assets for the site; all you need to do is put the files in an `assets` folder.
 

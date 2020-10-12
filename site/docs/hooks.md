@@ -2,7 +2,7 @@
 description = "Run scripts before a build"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Hooks allow us to run commands before or after a build which means you can easily integrate with your favourite CSS pre-processor, Javascript bundler or perform custom optimizations.
 

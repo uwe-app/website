@@ -2,7 +2,7 @@
 description = "Create and build books"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The book command is used to create, list and build books.
 

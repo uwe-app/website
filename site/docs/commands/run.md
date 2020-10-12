@@ -2,7 +2,7 @@
 description = "Serve a website"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The run command serves website files in a directory:
 

@@ -2,7 +2,7 @@
 description = "Where to put partials and how to include them"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Partial templates (`.hbs`)  in the `site/partials` directory are automatically registered using a relative path without the file extension. So the file `site/partials/header.hbs` can be included with:
 

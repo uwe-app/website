@@ -2,7 +2,7 @@
 description = "Create a new project from blueprints, folders or repositories"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Create Project
 

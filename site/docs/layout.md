@@ -2,7 +2,7 @@
 description = "Describes the process for rendering layouts"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Layouts provide the skeleton structure for your pages; the default layout file (`layout.hbs`) should be at the root of the `site` source folder.
 

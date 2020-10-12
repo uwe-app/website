@@ -2,7 +2,7 @@
 description = "Folder structure and configuration"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Data sources are a folder in `site/data-sources` containing a configuration file and JSON data documents. When data sources are found an `all` index is created containing all the documents and you can [create additional indices]({{ link "/docs/data-sources/create-indices/" }}) if you need to.
 

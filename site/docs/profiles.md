@@ -2,7 +2,7 @@
 description = "Release profiles"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The default release profile is `debug` and the `--release` option will generate a release build into `build/release`.
 

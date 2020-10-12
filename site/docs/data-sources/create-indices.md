@@ -2,7 +2,7 @@
 description = "How to define custom indices"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 To create an index for all documents use the `identity` flag:
 

@@ -2,7 +2,7 @@
 description = "Manage site authors"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Pages accept a list of `authors` which can contain objects with an author name and link like this:
 

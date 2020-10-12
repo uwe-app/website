@@ -2,7 +2,7 @@
 description = "Compile a project to static pages"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Project Build
 

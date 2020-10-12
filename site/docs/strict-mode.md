@@ -2,7 +2,7 @@
 description = "What is strict mode and how to disable it"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Templates are parsed with strict mode enabled so it is an error if a variable does not exist.
 

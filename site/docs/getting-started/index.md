@@ -1,7 +1,7 @@
-{{> components}}
+{{> crumbtrail}}
 
 ## Getting Started
 
-Articles to help you quickly get up and running with our tools.
+Get up and running with the fundamental concepts.
 
 {{menu "getting-started-idx"}}

@@ -2,7 +2,7 @@
 description = "User preferences"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Preferences let you control defaults such as the language and blueprint for new projects.
 

@@ -2,7 +2,7 @@
 description = "Group related projects"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Workspaces allow us to group related projects into a single space; they are particularly useful if you have various related websites published to sub-domains.
 

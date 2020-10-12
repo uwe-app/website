@@ -2,7 +2,7 @@
 description = "Create custom error pages"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 To create custom error pages for the web server just output a page using the status code that you wish to handle.
 

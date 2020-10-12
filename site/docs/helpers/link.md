@@ -2,7 +2,7 @@
 description = "Create valid, relative links"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The link helper generates links relative to the current page. You pass it an absolute path and it will return a URL relative to the current page with the correct amount of `../` references. 
 

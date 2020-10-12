@@ -2,7 +2,7 @@
 description = "Change file extensions"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 If you need finer control over how file extensions map to pages the `types` setting allows full control and is given sensible default values:
 

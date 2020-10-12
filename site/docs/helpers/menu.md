@@ -2,7 +2,7 @@
 description = "Generate navigation menus"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Use the `menu` helper to iterate the destinations for the current location:
 

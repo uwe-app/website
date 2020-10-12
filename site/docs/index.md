@@ -3,7 +3,7 @@ title = "Documentation"
 description = "Documentation and developer reference"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Getting Started
 

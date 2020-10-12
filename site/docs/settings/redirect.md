@@ -2,7 +2,7 @@
 description = "Redirect to new locations"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Redirects are useful if you have moved a page and want the old page to redirect to the new location. To define a redirect just map the old path to the new path:
 

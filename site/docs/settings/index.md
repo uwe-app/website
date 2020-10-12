@@ -2,7 +2,7 @@
 description = "Configure the site settings"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The settings for a website are put in `site.toml`; these are the minimum required fields:
 

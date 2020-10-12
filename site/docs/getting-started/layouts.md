@@ -2,7 +2,7 @@
 description = "Create a custom layout"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Layouts
 

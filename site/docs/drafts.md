@@ -2,7 +2,7 @@
 description = "Mark work in progress as drafts"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Drafts allow you to work on documents and books but exclude them from release builds.
 

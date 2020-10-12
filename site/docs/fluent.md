@@ -2,7 +2,7 @@
 description = "Native i18n support"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Use [fluent](https://www.projectfluent.org/) for multiple language support.
 

@@ -2,7 +2,7 @@
 description = "Installing, upgrading and managing software versions"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Installation
 

@@ -2,7 +2,7 @@
 description = "Publish a site to Amazon Web Services"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ### Credentials
 

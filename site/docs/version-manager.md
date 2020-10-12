@@ -2,7 +2,7 @@
 description = "Upgrading and managing software versions"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Version Manager
 

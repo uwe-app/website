@@ -2,7 +2,7 @@
 description = "Update caches"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 To update all caches just run the command with no options:
 

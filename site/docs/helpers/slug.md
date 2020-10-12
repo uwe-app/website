@@ -2,7 +2,7 @@
 description = "Create a slug from a name"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Generate a friendly *slug* from a value:
 

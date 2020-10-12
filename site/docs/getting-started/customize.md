@@ -2,7 +2,7 @@
 description = "Add styles and scripts to your pages"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Styles
 

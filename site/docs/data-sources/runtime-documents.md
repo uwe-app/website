@@ -2,7 +2,7 @@
 description = "Using data documents at runtime"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 To progressively enhance a website you may want runtime access to the JSON documents defined for a generator.
 

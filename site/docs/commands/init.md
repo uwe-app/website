@@ -2,7 +2,7 @@
 description = "Create a project"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The `init` command creates a new project from a [blueprint]({{ link "/docs/getting-started/new-project/" }}).
 

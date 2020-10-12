@@ -2,7 +2,7 @@
 description = "Change the web server behavior"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Documentation for the web server.
 

@@ -2,7 +2,7 @@
 description = "Control link behavior"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The `link` settings apply to the [link helper]({{ link "/docs/helpers/link/" }}) which we encourage you to use for all site links.
 

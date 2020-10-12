@@ -2,7 +2,7 @@
 description = "Compile a website"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The `build` command take source files in the `site` folder and compiles them to a build directory; it is the default command.
 

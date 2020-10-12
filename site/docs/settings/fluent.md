@@ -2,7 +2,7 @@
 description = "Support multiple languages"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 To configure your website for multi-lingual support add a `fluent` section to the settings in `site.toml`.
 

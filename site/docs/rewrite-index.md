@@ -2,7 +2,7 @@
 description = "Output with index pages"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Rewriting to index files lets us have a shallow source tree whilst easily supporting clean URLs. To enable index rewriting configure the settings:
 

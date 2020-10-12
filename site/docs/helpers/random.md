@@ -2,7 +2,7 @@
 description = "Choose a random array entry"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Select a random element from an array and assign it to the `entry` field:
 

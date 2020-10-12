@@ -2,7 +2,7 @@
 description = "Get command help"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 To get help for a command run `ht help <cmd>`; for example:
 

@@ -104,18 +104,6 @@ li > a + p:last-child {
   text-align: center;
 }
 
-nav.crumbtrail > * {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-nav.crumbtrail > *::after {
-  display: inline-block;
-  content: '»';
-  margin: 0 .5rem;
-}
-
 @media screen and (max-width: 480px) {
   ul.features {
     columns: 1;

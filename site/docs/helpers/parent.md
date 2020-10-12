@@ -2,7 +2,7 @@
 description = "Get data for parent pages"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Get the data for a parent directory:
 

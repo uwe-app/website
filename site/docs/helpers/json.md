@@ -2,7 +2,7 @@
 description = "Debug your template data"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 A useful helper to pretty print data as JSON.
 

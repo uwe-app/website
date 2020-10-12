@@ -2,7 +2,7 @@
 description = "Publish the site"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 How to publish the website.
 

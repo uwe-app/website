@@ -3,7 +3,7 @@ description = "Markdown snippets"
 content = "This is some *Markdown* content."
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The `md` helper is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
 

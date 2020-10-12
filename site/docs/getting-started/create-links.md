@@ -2,7 +2,7 @@
 description = "Best practices for creating links"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Links
 

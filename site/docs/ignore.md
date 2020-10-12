@@ -2,7 +2,7 @@
 description = "How to ignore files"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Hidden files and certain folders are ignored by convention:
 

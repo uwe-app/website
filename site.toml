@@ -4,6 +4,7 @@ host = "uwe.app"
 [dependencies]
 #"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
 "std::core" = { version = "~1" }
+"std::crumbtrail" = { version = "~1", apply = { styles = [ "/**/**" ] } }
 "css::new" = { version = "~1", apply = { styles = [ "/**/**" ] } }
 
 [dependencies."font::inter"]

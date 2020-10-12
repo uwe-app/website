@@ -2,7 +2,7 @@
 description = "Pages and page data"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Markdown documents are parsed as page templates; they are rendered using a [layout]({{ link "/docs/layout/" }}) unless configured to be [standalone]({{ link "/docs/standalone/" }}).
 

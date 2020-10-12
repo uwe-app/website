@@ -2,7 +2,7 @@
 description = "Custom date formats"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The `date` settings allow adding custom data format specifiers:
 

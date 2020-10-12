@@ -2,7 +2,7 @@
 description = "Template rendering helpers"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Helpers are here to make life easier.
 

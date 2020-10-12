@@ -2,7 +2,7 @@
 description = "Configure the build"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Settings for the build process, for example:
 

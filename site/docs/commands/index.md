@@ -2,7 +2,7 @@
 description = "Command line reference"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 Usage and more detail on the available commands.
 

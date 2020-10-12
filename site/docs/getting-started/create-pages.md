@@ -2,7 +2,7 @@
 description = "Add and edit pages"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 ## Create Pages
 

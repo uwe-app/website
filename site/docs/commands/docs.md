@@ -2,7 +2,7 @@
 description = "Browse the documentation"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 To browse the documentation run:
 

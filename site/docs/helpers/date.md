@@ -2,7 +2,7 @@
 description = "Format the date and time"
 +++
 
-{{> components}}
+{{> crumbtrail}}
 
 The `date` helper can be used to format date and time values.
 
