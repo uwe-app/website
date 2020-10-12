@@ -4,7 +4,7 @@ description = "Add and edit pages"
 
 {{> crumbtrail}}
 
-## Create Pages
+## {{title}}
 
 To create a new page add a Markdown file with a `.md` extension to the project `site` directory, let's call it `contact.md`.
 
@@ -40,3 +40,5 @@ description = "How to contact us and find our location"
 ```
 
 See [pages]({{ link "/docs/pages/" }}) to learn more about defining page data.
+
+{{> next-page menu="getting-started-idx"}}

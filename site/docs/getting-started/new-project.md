@@ -4,7 +4,7 @@ description = "Create a new project from blueprints, folders or repositories"
 
 {{> crumbtrail}}
 
-## Create Project
+## {{title}}
 
 Once you have an [installation]({{ link "/docs/installation/" }}) the quickest way to create a new project is to use the default project blueprint using the `uws` program:
 

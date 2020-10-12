@@ -4,7 +4,9 @@ description = "Add styles and scripts to your pages"
 
 {{> crumbtrail}}
 
-## Styles
+## {{title}}
+
+### Styles
 
 To add a custom stylesheet to your pages create the file:
 
@@ -21,7 +23,7 @@ main = ["/assets/css/style.css"]
 
 The stylesheet will automatically be included in your pages, just run `uwe --live` and make changes to the `style.css` file to see your updates in the browser.
 
-## Scripts
+### Scripts
 
 To add a custom script to your pages create the file:
 
@@ -39,3 +41,5 @@ main = ["/assets/js/main.js"]
 <!-- TODO: make this a note -->
 
 Because your styles and scripts are in the [assets]({{ link "/docs/assets/" }}) folder when you edit the file with live reload enabled (`uwe --live`) then all your pages will be compiled.
+
+{{> next-page menu="getting-started-idx"}}

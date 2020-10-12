@@ -4,7 +4,7 @@ description = "Compile a project to static pages"
 
 {{> crumbtrail}}
 
-## Project Build
+## {{title}}
 
 Use the `uwe` command line tool to compile your website; run `uwe` in the project working directory or pass a project path:
 
@@ -29,3 +29,5 @@ uwe --release
 ```
 
 Your website files are now in `build/release`.
+
+{{> next-page menu="getting-started-idx"}}

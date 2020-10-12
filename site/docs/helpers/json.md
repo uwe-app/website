@@ -17,11 +17,11 @@ A useful helper to pretty print data as JSON.
 If a parameter is passed it prints only the given variable:
 
 ```handlebars
-\{{json context}}
+\{{json authors}}
 ```
 
 ```json
-{{json context}}
+{{json authors}}
 ```
 
 When you are in an iterator (using `each`) the keyword `this` will print the current context.

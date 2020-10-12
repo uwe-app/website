@@ -4,7 +4,7 @@ description = "Best practices for creating links"
 
 {{> crumbtrail}}
 
-## Links
+## {{title}}
 
 A powerful feature of our system is the *compile-time link checking* which verifies that your links are valid.
 
@@ -21,3 +21,5 @@ Which when rendered would create a relative link to the resource:
 ```
 
 You pass an absolute path to the link helper and it will check the link exists so that if you move the page you will need to update all the links to the page.
+
+{{> next-page menu="getting-started-idx"}}

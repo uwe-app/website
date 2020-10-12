@@ -1,12 +1,12 @@
 +++
-description = "Inspect template data"
+description = "Inspect page data"
 +++
 
 {{> crumbtrail}}
 
-## Debugging
+## {{title}}
 
-It is often useful to know the shape of the data passed to your templates; to print the data inline into a page use:
+It is often useful to know the shape of the data passed to your page templates; to print the data inline use the [json helper]({{ link "/docs/helpers/json/" }}):
 
 ```html
 <pre>\{{json this}}</pre>
@@ -29,3 +29,5 @@ Will output:
 ```json
 {{json scripts}}
 ```
+
+{{> next-page menu="getting-started-idx"}}
