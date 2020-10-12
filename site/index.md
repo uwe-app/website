@@ -47,7 +47,7 @@ Use a combination of Markdown and your preferred web technology for complete fre
 
 Alpha testing is running for the rest of 2020 and a public beta will be available in Q1 of 2021.
 
-Interested? Head over to [installation]({{ link "/docs/installation/" }}) then learn more in the [getting started]({{ link "/docs/getting-started/" }}) guide and read the [docs]({{ link "/docs/" }}) for more information.
+Interested? Head over to [installation]({{ link "/docs/installation/" }}) then learn more in the [getting started]({{ link "/docs/getting-started/" }}) guide and read the [documentation]({{ link "/docs/" }}) for more information.
 
 [pulldown-cmark]: https://github.com/raphlinus/pulldown-cmark
 [handlebars]: https://github.com/sunng87/handlebars-rust

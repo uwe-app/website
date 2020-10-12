@@ -63,6 +63,12 @@ pages = [
   "/docs/getting-started/layouts/",
 ]
 
+[page.menu.design-patterns-idx]
+description = true
+pages = [
+  "/docs/design-patterns/crumbtrails/",
+]
+
 #[profile.inc]
 #incremental = true
 #pristine = false

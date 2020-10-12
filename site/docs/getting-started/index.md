@@ -1,3 +1,7 @@
++++
+description = "Getting started guide"
++++
+
 {{> crumbtrail}}
 
 ## Getting Started
