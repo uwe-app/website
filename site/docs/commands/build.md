@@ -11,7 +11,7 @@ It reads `site.toml` from a project directory and uses the [settings]({{ link "/
 When no project directory is specified then the current working directory is used so to compile a website just run:
 
 ```text
-ht
+uwe
 ```
 
 The compiled site is now in `build/debug`.
@@ -21,7 +21,7 @@ The compiled site is now in `build/debug`.
 To live reload files in the browser as you work pass the `--live` option:
 
 ```text
-ht --live
+uwe --live
 ```
 
 If you need to override the host or port used for live reload set the `--host` and `--port` options.
@@ -31,13 +31,13 @@ If you need to override the host or port used for live reload set the `--host` a
 To make a release build pass the `--release` option:
 
 ```text
-ht --release
+uwe --release
 ```
 
 In this case the site is now in `build/release`. Use the `--profile` option to compile into a specific build directory:
 
 ```text
-ht --release --profile=v3.1.0
+uwe --release --profile=v3.1.0
 ```
 
 You can set more compiler options by using a [profile]({{ link "/docs/profiles/" }}).
@@ -47,7 +47,7 @@ You can set more compiler options by using a [profile]({{ link "/docs/profiles/"
 After the project path you can pass specific folders and files to compile; for example to only build files in the `site/docs` directory:
 
 ```text
-ht . site/docs
+uwe . site/docs
 ```
 
 ### Usage

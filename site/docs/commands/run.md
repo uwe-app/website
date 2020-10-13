@@ -7,7 +7,7 @@ description = "Serve a website"
 The run command serves website files in a directory:
 
 ```text
-ht run build/release
+uwe run build/release
 ```
 
 Now you can visit the site at `http:://localhost:8888`.
