@@ -1,0 +1,12 @@
+uvm-remove 0.40.1
+Delete a release version
+
+USAGE:
+    uvm remove <version>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <version>    

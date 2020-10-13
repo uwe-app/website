@@ -1,0 +1,12 @@
+uvm-use 0.40.1
+Use a release version
+
+USAGE:
+    uvm use <version>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <version>    

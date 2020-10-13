@@ -63,7 +63,7 @@ uwe init new-project git@github.com:uwe-app/blog.git
 ### Usage
 
 ```text
-{{include ../../includes/help/init.txt}}
+{{include ../../includes/help/uws/init.txt}}
 ```
 
 {{> back}}

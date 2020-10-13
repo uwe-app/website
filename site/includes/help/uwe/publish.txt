@@ -1,8 +1,8 @@
-ht-publish 0.18.3
+uwe-publish 0.40.1
 Publish a site
 
 USAGE:
-    ht publish <env> [project]
+    uwe publish <env> [project]
 
 FLAGS:
     -h, --help       Prints help information

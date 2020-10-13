@@ -1,0 +1,12 @@
+upm-pack 0.40.1
+Package a plugin
+
+USAGE:
+    upm pack <path>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <path>    Plugin folder

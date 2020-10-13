@@ -17,7 +17,7 @@ The server does not list directory content; it is expected that an `index.html` 
 ### Usage
 
 ```text
-{{include ../../includes/help/run.txt}}
+{{include ../../includes/help/uwe/run.txt}}
 ```
 
 {{> back}}

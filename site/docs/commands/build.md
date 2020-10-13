@@ -53,7 +53,7 @@ uwe . site/docs
 ### Usage
 
 ```text
-{{include ../../includes/help/build.txt}}
+{{include ../../includes/help/uwe/build.txt}}
 ```
 
 {{> back}}

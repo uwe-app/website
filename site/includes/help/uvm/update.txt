@@ -1,0 +1,9 @@
+uvm-update 0.40.1
+Update the version manager (uvm)
+
+USAGE:
+    uvm update
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information

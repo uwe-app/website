@@ -1,0 +1,13 @@
+upm-lint 0.40.1
+Lint a plugin
+
+USAGE:
+    upm lint [FLAGS] <path>
+
+FLAGS:
+    -h, --help       Prints help information
+    -i, --inspect    Print the computed plugin information
+    -V, --version    Prints version information
+
+ARGS:
+    <path>    Plugin folder

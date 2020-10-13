@@ -1,0 +1,9 @@
+uws-list 0.40.1
+List project blueprints
+
+USAGE:
+    uws list
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information

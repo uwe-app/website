@@ -1,0 +1,16 @@
+uws-pull 0.40.1
+Pull a repository
+
+USAGE:
+    uws pull [OPTIONS] [target]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -b, --branch <branch>     [default: master]
+    -r, --remote <remote>     [default: origin]
+
+ARGS:
+    <target>    Repository path

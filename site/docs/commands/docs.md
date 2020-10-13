@@ -7,21 +7,19 @@ description = "Browse the documentation"
 To browse the documentation run:
 
 ```text
-ht docs
+uwe docs
 ```
 
-Which will open a cached version of the documentation in your browser.
-
-When you want to update the documentation you can run [fetch]({{ link "/docs/commands/fetch/" }}):
+Which will open a cached version of the documentation in your browser; if you want to update the documentation you can update the runtime assets using `uvm`:
 
 ```text
-ht fetch -d
+uvm runtime
 ```
 
 ### Usage
 
 ```text
-{{include ../../includes/help/docs.txt}}
+{{include ../../includes/help/uwe/docs.txt}}
 ```
 
 {{> back}}

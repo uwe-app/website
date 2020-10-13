@@ -1,0 +1,19 @@
+uws-init 0.40.1
+Create a new project
+
+USAGE:
+    uws init [OPTIONS] <target> [source]
+
+FLAGS:
+        --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -h, --host <host>            Host name for the new project
+    -l, --language <language>    Language for the new project
+    -L, --locales <locales>      Set multiple languages (comma delimited)
+    -m, --message <message>      Commit message
+
+ARGS:
+    <target>    Output directory for the new project
+    <source>    Repository URL, folder or blueprint name

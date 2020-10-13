@@ -1,0 +1,9 @@
+uvm-list 0.40.1
+List release versions
+
+USAGE:
+    uvm list
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information

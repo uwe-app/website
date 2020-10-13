@@ -1,0 +1,16 @@
+uws-copy 0.40.1
+Copy a repository (clone and squash)
+
+USAGE:
+    uws copy <source> --message <message> [target]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -m, --message <message>    Initial commit message
+
+ARGS:
+    <source>    Repository URL
+    <target>    Destination path

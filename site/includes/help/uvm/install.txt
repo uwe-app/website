@@ -1,0 +1,12 @@
+uvm-install 0.40.1
+Install a release version
+
+USAGE:
+    uvm install <version>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <version>    

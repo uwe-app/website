@@ -2,7 +2,11 @@ all: release
 
 RUNTIME_ROOT = ../runtime
 DOCS_ROOT = $(RUNTIME_ROOT)/documentation
-COMMAND_DOCS = book build docs fetch init publish run site upgrade
+
+UWE_COMMAND_DOCS = build docs publish run 
+UWS_COMMAND_DOCS = clone copy create init list pull site
+UPM_COMMAND_DOCS = lint pack publish 
+UVM_COMMAND_DOCS = install latest list prune remove runtime uninstall update use
 
 clean:
 	@rm -rf ./build
@@ -18,10 +22,31 @@ dist:
 	@rm -f build/uwe-preview.zip
 	@(cd build && zip -r uwe-preview.zip dist/*)
 
-help:
-	for cmd in $(COMMAND_DOCS); do \
-		ht help $$cmd > site/includes/help/$$cmd.txt; \
+help-uwe:
+	mkdir -p site/includes/help/uwe
+	for cmd in $(UWE_COMMAND_DOCS); do \
+		uwe help $$cmd > site/includes/help/uwe/$$cmd.txt; \
 	done;
+
+help-uws:
+	mkdir -p site/includes/help/uws
+	for cmd in $(UWS_COMMAND_DOCS); do \
+		uws help $$cmd > site/includes/help/uws/$$cmd.txt; \
+	done;
+
+help-upm:
+	mkdir -p site/includes/help/upm
+	for cmd in $(UPM_COMMAND_DOCS); do \
+		upm help $$cmd > site/includes/help/upm/$$cmd.txt; \
+	done;
+
+help-uvm:
+	mkdir -p site/includes/help/uvm
+	for cmd in $(UVM_COMMAND_DOCS); do \
+		uvm help $$cmd > site/includes/help/uvm/$$cmd.txt; \
+	done;
+
+help: help-uwe help-uws help-upm help-uvm
 
 docs:
 	@uwe --release --profile=docs

@@ -1,8 +1,8 @@
-ht-docs 0.18.3
-Browse the documentation
+uvm-prune 0.40.1
+Remove old release versions
 
 USAGE:
-    ht docs
+    uvm prune
 
 FLAGS:
     -h, --help       Prints help information

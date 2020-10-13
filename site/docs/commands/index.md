@@ -4,7 +4,7 @@ description = "Command line reference"
 
 {{> crumbtrail}}
 
-Usage and more detail on the available commands.
+An overview of the most frequently used commands.
 
 {{> listing}}
 

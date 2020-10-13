@@ -1,8 +1,8 @@
-ht-site 0.18.3
-Manage sites
+uws-site 0.40.1
+Manage site aliases
 
 USAGE:
-    ht site <SUBCOMMAND>
+    uws site <SUBCOMMAND>
 
 FLAGS:
     -h, --help       Prints help information

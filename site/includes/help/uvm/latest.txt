@@ -1,0 +1,9 @@
+uvm-latest 0.40.1
+Upgrade to latest release
+
+USAGE:
+    uvm latest
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information

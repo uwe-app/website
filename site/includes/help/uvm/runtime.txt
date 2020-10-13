@@ -1,0 +1,9 @@
+uvm-runtime 0.40.1
+Update the runtime assets
+
+USAGE:
+    uvm runtime
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information

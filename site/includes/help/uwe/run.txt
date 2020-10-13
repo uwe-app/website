@@ -1,0 +1,19 @@
+uwe-run 0.40.1
+Serve static files
+
+USAGE:
+    uwe run [OPTIONS] <target>
+
+FLAGS:
+        --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -h, --host <host>            The name of the host
+    -p, --port <port>            The port number
+        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
+        --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
+        --ssl-port <ssl-port>    The port number for SSL
+
+ARGS:
+    <target>    Directory to serve files from

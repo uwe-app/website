@@ -1,9 +1,12 @@
-ht-upgrade 0.18.3
-Upgrade to latest
+upm-publish 0.40.1
+Publish a plugin
 
 USAGE:
-    ht upgrade
+    upm publish <path>
 
 FLAGS:
     -h, --help       Prints help information
     -V, --version    Prints version information
+
+ARGS:
+    <path>    Plugin folder
