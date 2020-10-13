@@ -6,6 +6,8 @@ description = "Add favicon, styles and scripts to your pages"
 
 ## {{title}}
 
+{{> table-of-contents}}
+
 ### Favicon
 
 Adding a favicon to your site is easy, just create an `assets/favicon.png` file; the [favicon helper]({{ link "/docs/helpers/favicon/" }}) page has more information.

@@ -4,7 +4,7 @@ description = "Guide visitors with links to parent folders"
 
 {{> crumbtrail}}
 
-## Crumbtrails
+## {{title}}
 
 The *crumbtrail* pattern is very useful to orientate visitors when navigating deep folder hierarchies; you can see an example above ^^.
 
@@ -34,5 +34,7 @@ The [plugin styles](https://github.com/uwe-app/plugins/blob/master/std/crumbtrai
 [dependencies]
 "std::crumbtrail" = { version = "~1" }
 ```
+
+{{> next-page menu="design-patterns-idx"}}
 
 [std::crumbtrail]: https://github.com/uwe-app/plugins/tree/master/std/crumbtrail

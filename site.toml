@@ -41,6 +41,9 @@ main = ["/assets/css/style.css"]
 #[scripts]
 #main = ["/assets/highlight.pack.js"]
 
+[transform.html]
+toc = true
+
 [build]
 rewrite-index = true
 
@@ -83,6 +86,7 @@ pages = [
 description = true
 pages = [
   "/docs/design-patterns/crumbtrails/",
+  "/docs/design-patterns/table-of-contents/",
 ]
 
 #[profile.inc]
