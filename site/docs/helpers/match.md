@@ -4,6 +4,8 @@ description = "Highlight navigation items"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 It is considered good practice to highlight the navigation items for a user's current location. The `match` helper tests whether a target URL matches and outputs a value if the match succeeds.
 
 The parameters for `match` are:

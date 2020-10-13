@@ -4,6 +4,8 @@ description = "Generate navigation menus"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 Use the `menu` helper to iterate the destinations for the current location:
 
 ```handlebars

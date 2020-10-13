@@ -1,8 +1,10 @@
 +++
-description = "Debug your template data"
+description = "Debug your page data"
 +++
 
 {{> crumbtrail}}
+
+## {{title}}
 
 A useful helper to pretty print data as JSON.
 

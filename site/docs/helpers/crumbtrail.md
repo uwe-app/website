@@ -4,6 +4,8 @@ description = "Create crumbtrails"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 The `crumbtrail` helper can be used to create links to parent folders like the one above ^^.
 
 Each iteration is passed the data for the target and some extra fields:

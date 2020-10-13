@@ -5,6 +5,8 @@ content = "This is some *Markdown* content."
 
 {{> crumbtrail}}
 
+## {{title}}
+
 The `md` helper is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
 
 ### Usage

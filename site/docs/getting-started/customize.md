@@ -23,21 +23,26 @@ The stylesheet will automatically be included in your pages, just run `uwe --liv
 
 ### Scripts
 
-To add a custom script to your pages create the file:
-
-```text
-mkdir -p site/assets/js && touch site/assets/js/main.js
-```
-
-And set it as the `main` script in your [settings]({{ link "/docs/settings/" }}) by adding the `scripts` table to `site.toml`:
+To add a custom script to your pages create a `main.js` file in the `assets/js` folder and set it as the `main` script in your [settings]({{ link "/docs/settings/" }}) by adding the `scripts` table to `site.toml`:
 
 ```toml
 [scripts]
 main = ["/assets/js/main.js"]
 ```
 
+If you are using modern ES6 imports (which we recommend) you can set the `type` to `module`:
+
+```toml
+[scripts]
+main = [{src = "/assets/js/main.js", type = "module"}]
+```
+
+When using this object style notation for script assets you can use any attributes of the [script element][].
+
 <!-- TODO: make this a note -->
 
 Because your styles and scripts are in the [assets]({{ link "/docs/assets/" }}) folder when you edit the file with live reload enabled (`uwe --live`) then all your pages will be compiled.
 
 {{> next-page menu="getting-started-idx"}}
+
+[script element]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script

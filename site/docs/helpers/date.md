@@ -4,6 +4,8 @@ description = "Format the date and time"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 The `date` helper can be used to format date and time values.
 
 The first parameter is the datetime to format and the second is the format string; as a convenience various default formats are exposed to your templates to save constructing format strings for the common cases.

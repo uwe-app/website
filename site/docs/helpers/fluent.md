@@ -4,6 +4,8 @@ description = "Fluent message helper"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 Once you have configured the [fluent settings]({{link "/docs/settings/fluent/"}}) you can access the `fluent` helper in your templates.
 
 This helper resolves messages using the current language. Let's say we put a greeting in `locales/en/main.ftl` such as:

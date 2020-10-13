@@ -20,6 +20,19 @@ The `lang` field sets the default language and the `host` field is the domain na
 
 An optional `version` field may specify a [semver][] for the website which will be added as a `meta` element to each page so you can easily see which version of the website is the published version.
 
+### Page Data
+
+You can set the data inherited by all pages which is useful to set default meta data:
+
+```toml
+[page]
+description = "Brief website description"
+keywords = "Website, Project, Keywords"
+authors = [{ name = "Author Name", url = "https://example.com" }]
+```
+
+See the [pages]({{ link "/docs/pages/" }}) documentation for detailed information on the available fields.
+
 {{> next-page menu="getting-started-idx"}}
 
 [semver]: https://semver.org/

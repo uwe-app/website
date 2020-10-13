@@ -4,16 +4,28 @@ description = "Create valid, relative links"
 
 {{> crumbtrail}}
 
-The link helper generates links relative to the current page. You pass it an absolute path and it will return a URL relative to the current page with the correct amount of `../` references. 
+## {{title}}
+
+The link helper generates links relative to the current page. You pass it an absolute path and it will return a URL relative to the current page with the correct amount of `../` references; it also does the important job of checking links exist at compile time!
 
 ```handlebars
-[Home](\{{link "/"}})
+[Contact](\{{link "/contact/"}})
 ```
 
-If the above link were located at `/docs/helpers/link.md` it would correspond to the output URL (assuming [index rewrites]({{link "/docs/rewrite-index/"}})) `/docs/helpers/link/index.html` a URL of `../../../` would be generated.
+Yields: 
 
-It also does the important job of throwing an error when a destination URL does not exist which helps to prevent stale links!
+```markdown
+[Contact]({{link "/contact/"}})
+```
 
-If you pass a relative path without a leading slash or use the `http:` or `https:` schemes it will be not be modified.
+If you pass a relative path without a leading slash or use the `http:` or `https:` schemes it will not be modified.
+
+### Absolute
+
+Sometimes, for example when rendering error pages, it is better to use absolute paths. Use the `abs` parameter for an absolute path:
+
+```handlebars
+\{{link "/contact/" abs=true}})
+```
 
 {{> back}}
