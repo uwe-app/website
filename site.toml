@@ -66,6 +66,7 @@ pages = [
   "/docs/getting-started/layouts/",
   "/docs/getting-started/debugging/",
   "/docs/getting-started/conventions/",
+  "/docs/getting-started/directory-index/",
 ]
 
 [page.menu.other-idx]
