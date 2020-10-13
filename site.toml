@@ -80,6 +80,7 @@ pages = [
   "/docs/other/ignores/",
   "/docs/other/commands/",
   "/docs/other/error-page/",
+  "/docs/other/strict-mode/",
 ]
 
 [page.menu.design-patterns-idx]

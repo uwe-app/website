@@ -8,7 +8,7 @@ description = "Link to page content"
 
 For pages with a lot of content it can be helpful to provide links to each section of the page using a *table of contents*.
 
-To enable support for generating table of contents add this to your site settings:
+To generate table of contents enable the transform in your site settings:
 
 ```toml
 [transform.html]
