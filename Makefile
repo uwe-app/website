@@ -15,8 +15,8 @@ release: help
 
 dist:
 	@ht --release --profile=dist
-	@rm -f build/hypertext-preview.zip
-	@(cd build && zip -r hypertext-preview.zip dist/*)
+	@rm -f build/uwe-preview.zip
+	@(cd build && zip -r uwe-preview.zip dist/*)
 
 help:
 	for cmd in $(COMMAND_DOCS); do \

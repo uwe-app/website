@@ -1,5 +1,5 @@
 +++
-title = "Universal Web Editor"
+title = "Home"
 +++
 
 Universal web editor is a suite of tools for collaborating on content-driven websites.
