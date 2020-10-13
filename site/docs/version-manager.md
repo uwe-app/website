@@ -54,6 +54,16 @@ Or use `prune` to remove all versions older than the current version:
 uvm prune
 ```
 
+### Runtime
+
+Our tools rely on some runtime assets which are fetched on demand to resolve available plugins and syntax highlighting definitions. If you need to manually update the runtime repository run this command:
+
+```text
+uvm runtime
+```
+
+Normally this should not be necessary but perhaps some new syntax language definitions have been released and you want to try them.
+
 ### Uninstall
 
 To uninstall the software run:

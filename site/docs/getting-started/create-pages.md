@@ -14,7 +14,7 @@ To create a new page add a Markdown file with a `.md` extension to the project `
 To get in touch with us please email ...
 ```
 
-Now run the live reload server `uwe --live` and navigate to the `/contact/` page so see your changes in  the browser as you edit the file.
+Now run the live reload server `uwe --live` and navigate to the `/contact/` URL to see your changes update the browser as you edit the file.
 
 ## Page Data
 

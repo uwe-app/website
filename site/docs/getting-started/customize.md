@@ -1,20 +1,18 @@
 +++
-description = "Add styles and scripts to your pages"
+description = "Add favicon, styles and scripts to your pages"
 +++
 
 {{> crumbtrail}}
 
 ## {{title}}
 
+### Favicon
+
+Adding a favicon to your site is easy, just create an `assets/favicon.png` file; the [favicon helper]({{ link "/docs/helpers/favicon/" }}) page has more information.
+
 ### Styles
 
-To add a custom stylesheet to your pages create the file:
-
-```text
-mkdir -p site/assets/css && touch site/assets/css/style.css
-```
-
-And set it as the `main` stylesheet in your [settings]({{ link "/docs/settings/" }}) by adding the `styles` table to `site.toml`:
+To add a custom stylesheet to your pages create a `style.css` file in the `assets/css` folder and set it as the `main` stylesheet in your [settings]({{ link "/docs/settings/" }}) by adding the `styles` table to `site.toml`:
 
 ```toml
 [styles]

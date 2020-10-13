@@ -50,5 +50,5 @@ Which will perform the following tasks:
     
 You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
-Next read more about [getting started]({{ link "/docs/getting-started/" }}) or how to use the [version manager]({{ link "/docs/version-manager/" }}).
+Next read more about [getting started]({{ link "/docs/getting-started/" }}) or learn how to use the [version manager]({{ link "/docs/version-manager/" }}) to upgrade.
 

@@ -6,11 +6,22 @@ description = "Compile a project to static pages"
 
 ## {{title}}
 
-Use the `uwe` command line tool to compile your website; run `uwe` in the project working directory or pass a project path:
+Building a project will use the source files in `site` and compile them to a build folder such as `build/debug`.
+
+Use the `uwe` tool to compile your website; run `uwe` in the project working directory:
+
+```text
+cd /path/to/project
+uwe
+```
+
+Or pass a project folder path:
 
 ```text
 uwe /path/to/project
 ```
+
+### Live Reload
 
 The typical workflow is to run with live reload enabled:
 
