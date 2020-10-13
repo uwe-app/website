@@ -8,13 +8,13 @@ clean:
 	@rm -rf ./build
 
 site:
-	@ht
+	@uwe
 
 release: help
-	@ht --release
+	@uwe --release
 
 dist:
-	@ht --release --profile=dist
+	@uwe --release --profile=dist
 	@rm -f build/uwe-preview.zip
 	@(cd build && zip -r uwe-preview.zip dist/*)
 
@@ -24,7 +24,7 @@ help:
 	done;
 
 docs:
-	@ht --release --profile=docs
+	@uwe --release --profile=docs
 	@rm -rf $(DOCS_ROOT)/docs
 	@cp -rf build/docs $(DOCS_ROOT)
 	@rm $(DOCS_ROOT)/docs/files
