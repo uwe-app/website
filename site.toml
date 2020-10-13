@@ -72,6 +72,7 @@ pages = [
 [page.menu.other-idx]
 description = true
 pages = [
+  "/docs/other/feeds/",
   "/docs/other/ignores/",
   "/docs/other/commands/",
   "/docs/other/error-page/",
