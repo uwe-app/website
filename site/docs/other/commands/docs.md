@@ -4,6 +4,8 @@ description = "Browse the documentation"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 To browse the documentation run:
 
 ```text
@@ -19,7 +21,7 @@ uvm runtime
 ### Usage
 
 ```text
-{{include ../../includes/help/uwe/docs.txt}}
+{{include ../../../includes/help/uwe/docs.txt}}
 ```
 
 {{> back}}

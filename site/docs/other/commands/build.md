@@ -4,11 +4,13 @@ description = "Compile a website"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 The `build` command take source files in the `site` folder and compiles them to a build directory; it is the default command.
 
 It reads `site.toml` from a project directory and uses the [settings]({{ link "/docs/settings/" }}) for the build. If the `site.toml` file declares a [workspace]({{ link "/docs/settings/workspace/" }}) then all projects in the workspace are compiled.
 
-When no project directory is specified then the current working directory is used so to compile a website just run:
+When no project directory is specified then the current working directory is used to compile a website just run:
 
 ```text
 uwe
@@ -53,7 +55,7 @@ uwe . site/docs
 ### Usage
 
 ```text
-{{include ../../includes/help/uwe/build.txt}}
+{{include ../../../includes/help/uwe/build.txt}}
 ```
 
 {{> back}}

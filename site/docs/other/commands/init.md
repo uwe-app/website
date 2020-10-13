@@ -4,6 +4,8 @@ description = "Create a project"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 The `init` command creates a new project from a [blueprint]({{ link "/docs/getting-started/new-project/" }}), folder or repository URL.
 
 To create a new project using the default blueprint pass the project name:
@@ -63,7 +65,7 @@ uwe init new-project git@github.com:uwe-app/blog.git
 ### Usage
 
 ```text
-{{include ../../includes/help/uws/init.txt}}
+{{include ../../../includes/help/uws/init.txt}}
 ```
 
 {{> back}}

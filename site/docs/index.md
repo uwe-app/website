@@ -13,6 +13,10 @@ description = "Documentation and developer reference"
 
 {{menu "design-patterns-idx"}}
 
+## Other Topics
+
+{{menu "other-idx"}}
+
 ---
 
 {{> listing}}

@@ -4,6 +4,8 @@ description = "Serve a website"
 
 {{> crumbtrail}}
 
+## {{title}}
+
 The run command serves website files in a directory:
 
 ```text
@@ -17,7 +19,7 @@ The server does not list directory content; it is expected that an `index.html` 
 ### Usage
 
 ```text
-{{include ../../includes/help/uwe/run.txt}}
+{{include ../../../includes/help/uwe/run.txt}}
 ```
 
 {{> back}}

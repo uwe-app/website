@@ -65,6 +65,15 @@ pages = [
   "/docs/getting-started/customize/",
   "/docs/getting-started/layouts/",
   "/docs/getting-started/debugging/",
+  "/docs/getting-started/conventions/",
+]
+
+[page.menu.other-idx]
+description = true
+pages = [
+  "/docs/other/ignores/",
+  "/docs/other/commands/",
+  "/docs/other/error-page/",
 ]
 
 [page.menu.design-patterns-idx]
