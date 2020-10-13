@@ -41,7 +41,7 @@ When using this object style notation for script assets you can use any attribut
 
 <!-- TODO: make this a note -->
 
-Because your styles and scripts are in the [assets]({{ link "/docs/assets/" }}) folder when you edit the file with live reload enabled (`uwe --live`) then all your pages will be compiled.
+Because your styles and scripts use the assets folder convention when you edit the file with live reload enabled (`uwe --live`) then all your pages will be compiled.
 
 {{> next-page menu="getting-started-idx"}}
 
