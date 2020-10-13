@@ -21,4 +21,6 @@ rewrite-index = false
 
 Note that we disable `rewrite-index` otherwise the file could be written to `404/index.html`!
 
+{{> next-page menu="other-idx"}}
+
 [404.md]: https://github.com/uwe-app/runtime/blob/master/blueprint/default/site/404.md
