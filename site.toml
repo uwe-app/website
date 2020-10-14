@@ -30,10 +30,13 @@ path = "../../plugins/std/book"
 version = "~1"
 apply = { styles = [ "/docs/plugins/**" ], scripts = [ "/docs/plugins/**" ], layouts = { main = [ "/docs/plugins/**" ] } }
 
-[dependencies."lib::highlight"]
-path = "../../plugins/lib/highlight"
-version = "~10"
-apply = { scripts = [ "/docs/**/**" ], styles = [ "/docs/**/**" ] }
+#[dependencies."lib::highlight"]
+#path = "../../plugins/lib/highlight"
+#version = "~10"
+#apply = { scripts = [ "/docs/**/**" ], styles = [ "/docs/**/**" ] }
+
+[syntax]
+inline = true
 
 [styles]
 main = ["/assets/css/style.css"]
@@ -76,6 +79,7 @@ pages = [
 description = true
 pages = [
   "/docs/content/feeds/",
+  "/docs/content/syntax-highlight/",
 ]
 
 [page.menu.other-idx]
