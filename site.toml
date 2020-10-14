@@ -18,22 +18,22 @@ features = ["regular"]
 [dependencies."font::awesome"]
 path = "../../plugins/font/awesome"
 version = "~5"
-apply = { styles = [ "/test-book/**" ] }
+apply = { styles = [ "/docs/plugins/**" ] }
 
 [dependencies."font::source-code-pro"]
 path = "../../plugins/font/source-code-pro"
 version = "~1"
-apply = { styles = [ "/test-book/**" ] }
+apply = { styles = [ "/docs/plugins/**" ] }
 
 [dependencies."std::book"]
 path = "../../plugins/std/book"
 version = "~1"
-apply = { styles = [ "/test-book/**" ], scripts = [ "/test-book/**" ], layouts = { main = [ "/test-book/**" ] } }
+apply = { styles = [ "/docs/plugins/**" ], scripts = [ "/docs/plugins/**" ], layouts = { main = [ "/docs/plugins/**" ] } }
 
 [dependencies."lib::highlight"]
 path = "../../plugins/lib/highlight"
 version = "~10"
-apply = { scripts = [ "/docs/**/**", "/test-book/**" ], styles = [ "/docs/**/**", "/test-book/**" ] }
+apply = { scripts = [ "/docs/**/**" ], styles = [ "/docs/**/**" ] }
 
 [styles]
 main = ["/assets/css/style.css"]
@@ -81,6 +81,7 @@ pages = [
   "/docs/other/commands/",
   "/docs/other/error-page/",
   "/docs/other/strict-mode/",
+  "/docs/other/parallel-builds/",
 ]
 
 [page.menu.design-patterns-idx]

@@ -19,7 +19,7 @@ layout = "std::core::error"
 rewrite-index = false
 ```
 
-Note that we disable `rewrite-index` otherwise the file could be written to `404/index.html`!
+Note that we disable `rewrite-index` otherwise the file would be written to `404/index.html`!
 
 {{> next-page menu="other-idx"}}
 
