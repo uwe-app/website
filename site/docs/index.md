@@ -17,6 +17,10 @@ description = "Documentation and developer reference"
 
 {{menu "design-patterns-idx"}}
 
+## Search Engines
+
+{{menu "seo-idx"}}
+
 ## Other Topics
 
 {{menu "other-idx"}}
