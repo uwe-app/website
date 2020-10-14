@@ -53,7 +53,7 @@ If you design your source to avoid these naming conflicts then index rewrites sh
 Sometimes you want index rewrites for the majority of the website but some pages should be rendered directly, you can use the `rewrite-index` option for the page to override for a single page. A good example of this is for error pages, for example:
 
 ```toml
-["404.html"]
+[page."404.html"]
 rewrite-index = false
 ```
 

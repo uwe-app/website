@@ -90,6 +90,7 @@ description = true
 pages = [
   "/docs/search-engines/no-index/",
   "/docs/search-engines/robots/",
+  "/docs/search-engines/site-maps/",
 ]
 
 [page.menu.other-idx]

@@ -4,7 +4,7 @@ description = "Pages and page data"
 
 {{> crumbtrail}}
 
-Markdown documents are parsed as page templates; they are rendered using a [layout]({{ link "/docs/layout/" }}) unless configured to be [standalone]({{ link "/docs/standalone/" }}).
+Markdown documents are parsed as page templates; they are rendered using a layout unless configured to be standalone.
 
 Like layouts they can include [partials]({{ link "/docs/partials/" }}) and may use all the handlebars features including [helpers]({{ link "/docs/helpers/" }}).
 
@@ -69,7 +69,7 @@ TODO: update this list
 * `title` Document title.
 * `description` Document description.
 * `keywords` Document keywords.
-* `standalone` Document is standalone (see [standalone][]).
+* `standalone` Document is standalone.
 * `draft` Document has draft status (see [drafts][]).
 * `rewrite-index` Disable or enable [index rewrites][].
 
@@ -99,5 +99,4 @@ These fields are read-only and you should **not use these keywords**; if you do 
 {{> back}}
 
 [index rewrites]: {{ link "/docs/rewrite-index/" }}
-[standalone]: {{ link "/docs/standalone/" }}
 [drafts]: {{ link "/docs/drafts/" }}
