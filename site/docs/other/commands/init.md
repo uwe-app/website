@@ -44,7 +44,7 @@ uws init new-project --locales=fr,de,zh
 
 Which will create the skeleton structure in the `site/locales` directory and update the [fluent settings]({{ link "/docs/settings/fluent/" }}).
 
-When creating a multi-lingual project a [redirect]({{ link "/docs/settings/redirect/" }}) is configured for the default locale. The default locale is the `--language` option when it is given otherwise the first locale in the list is used.
+When creating a multi-lingual project a [redirect]({{ link "/docs/other/redirects/" }}) is configured for the default locale. The default locale is the `--language` option when it is given otherwise the first locale in the list is used.
 
 When `--language` is combined with `--locales` the given language must exist in the list of locales.
 

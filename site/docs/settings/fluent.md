@@ -56,7 +56,7 @@ locales = "i18n"
 
 ### Redirect
 
-Once you have configured multi-lingual support the target build directory now contains a folder for each locale. To redirect to a specific locale by default use a [redirect]({{ link "/docs/settings/redirect/" }}):
+Once you have configured multi-lingual support the target build directory now contains a folder for each locale. To redirect to a specific locale by default use a [redirect]({{ link "/docs/other/redirects/" }}):
 
 ```toml
 [redirect]

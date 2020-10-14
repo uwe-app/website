@@ -9,6 +9,10 @@ description = "Documentation and developer reference"
 
 {{menu "getting-started-idx"}}
 
+## Content
+
+{{menu "content-idx"}}
+
 ## Design Patterns
 
 {{menu "design-patterns-idx"}}

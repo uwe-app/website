@@ -4,7 +4,9 @@ description = "Redirect to new locations"
 
 {{> crumbtrail}}
 
-Redirects are useful if you have moved a page and want the old page to redirect to the new location. To define a redirect just map the old path to the new path:
+## {{title}}
+
+Redirects are useful if you have moved a page and want the old page to redirect to the new location. To define a redirect just map the old path to the new path in your site settings:
 
 ```toml
 [redirect]
@@ -22,12 +24,12 @@ write-redirects = true
 
 Then trigger the profile with the command:
 
-```
-ht --release
+```text
+uwe --release
 ```
 
 When redirect pages are written if the source path ends with a slash (`/`) then it will be treated as a directory and the redirect file will be written to `index.html` within the location.
 
 See [profiles]({{ link "/docs/profiles/" }}) for more information.
 
-{{> back}}
+{{> next-page menu="other-idx"}}

@@ -72,10 +72,16 @@ pages = [
   "/docs/getting-started/directory-index/",
 ]
 
+[page.menu.content-idx]
+description = true
+pages = [
+  "/docs/content/feeds/",
+]
+
 [page.menu.other-idx]
 description = true
 pages = [
-  "/docs/other/feeds/",
+  "/docs/other/redirects/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
   "/docs/other/commands/",
