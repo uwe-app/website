@@ -27,3 +27,5 @@ By default the path is relative but if you need it to be absolute (for example w
 ```handlebars
 \{{favicon abs=true}}
 ```
+
+{{> back}}
