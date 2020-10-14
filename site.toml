@@ -51,6 +51,7 @@ toc = true
 
 [build]
 rewrite-index = true
+sitemap = {}
 
 [page]
 description = "Universal Web Editor"

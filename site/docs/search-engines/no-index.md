@@ -16,7 +16,7 @@ noindex = true
 ## Page Heading
 ```
 
-This technique is particularly useful when combining pages in to a single page for print media but do not want to be penalized by search engines for duplicate content.
+This technique is particularly useful to avoid being penalized by search engines for duplicate content when combining pages in to a single page for print.
 
 {{> next-page menu="seo-idx"}}
 
