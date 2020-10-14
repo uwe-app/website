@@ -37,9 +37,11 @@ apply = { styles = [ "/docs/plugins/**" ], scripts = [ "/docs/plugins/**" ], lay
 
 [syntax]
 inline = true
+theme = "Solarized (light)"
+#profiles = ["release"]
 
 [styles]
-main = ["/assets/css/style.css"]
+main = ["/assets/css/style.css", "/assets/plugins/lib::rainbow/styles/github.css"]
 
 #[scripts]
 #main = ["/assets/highlight.pack.js"]
