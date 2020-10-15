@@ -17,7 +17,7 @@ Let's say you want a folder for documentation, create the `docs/index.md` file a
 description = "Documentation"
 +++
 
-## \{{title}}
+# \{{title}}
 
 \{{> listing}}
 ```
@@ -27,5 +27,7 @@ Which will generate an unordered list of links to the pages in the `docs` folder
 ```handlebars
 \{{> listing class="index-list"}}
 ```
+
+{{> next-page menu="getting-started-idx"}}
 
 [std::core]: https://github.com/uwe-app/plugins/blob/master/std/core

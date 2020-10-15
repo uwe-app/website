@@ -1,17 +1,17 @@
 +++
-description = "Output with index pages"
+title = "Clean URLs"
+description = "Search engine friendly URLs"
 +++
 
 {{> crumbtrail}}
 
-Rewriting to index files lets us have a shallow source tree whilst easily supporting clean URLs. To enable index rewriting configure the settings:
+# {{title}}
 
-```toml
-[build]
-rewrite-index = true
-```
+Clean URLs are known to be preferred by search engines and are also easier for people to read so we enable them by default.
 
-Now the file `about.md` will be written to `about/index.html` instead of `about.html`.
+When clean URLs are enabled the file `about.md` will be written to `about/index.html` instead of `about.html`.
+
+## Avoiding Collisions
 
 The caveat to be aware of when using index rewrites is that there are more chances for paths to collide so it is a little harder to reason about and you should take more care of your source files.
 
@@ -50,11 +50,27 @@ build/debug
 
 If you design your source to avoid these naming conflicts then index rewrites should work just fine!
 
-Sometimes you want index rewrites for the majority of the website but some pages should be rendered directly, you can use the `rewrite-index` option for the page to override for a single page. A good example of this is for error pages, for example:
+## Disable for a Page
+
+Sometimes you want clean URLs for the majority of the website but some pages should be rendered directly, you can use the `rewrite-index` option for the page to override for a single page. A good example of this is for [error pages]({{ link "/docs/other/error-page/" }}) which must be written to `404.html`:
+
+```markdown
++++
+title = "Error: Page Not Found (404)"
+layout = "std::core::error"
+rewrite-index = false
++++
+
+# Page Not Found
+```
+
+## Disable Index Rewriting
+
+If you would like to disable clean URLs set `rewrite-index` for a build profile in your site settings:
 
 ```toml
-[page."404.html"]
+[build]
 rewrite-index = false
 ```
 
-{{> back}}
+{{> next-page menu="pages-idx"}}

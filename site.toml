@@ -6,6 +6,7 @@ version = "1.0.0"
 #"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
 #"std::core" = { version = "~1" }
 "std::core" = { path = "../../plugins/std/core", version = "~1" }
+"std::note" = { version = "~1", apply = { styles = [ "/**/**" ] } }
 "std::crumbtrail" = { version = "~1", apply = { styles = [ "/**/**" ] } }
 "css::new" = { version = "~1", apply = { styles = [ "/**/**" ] } }
 
@@ -82,7 +83,10 @@ pages = [
 description = true
 pages = [
   "/docs/pages/create/",
+  "/docs/pages/remove/",
   "/docs/pages/redirects/",
+  "/docs/pages/clean-urls/",
+  "/docs/pages/trailing-slash/",
 ]
 
 [page.menu.content-idx]
@@ -116,6 +120,7 @@ description = true
 pages = [
   "/docs/design-patterns/crumbtrails/",
   "/docs/design-patterns/table-of-contents/",
+  "/docs/design-patterns/notes/",
 ]
 
 #[profile.inc]
