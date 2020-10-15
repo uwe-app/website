@@ -2,6 +2,9 @@ lang = "en"
 host = "uwe.app"
 version = "1.0.0"
 
+#[sitemap]
+#profiles = true
+
 [dependencies]
 #"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
 #"std::core" = { version = "~1" }
@@ -49,9 +52,6 @@ main = ["/assets/css/style.css"]
 
 [transform.html]
 toc = true
-
-[build]
-sitemap = {}
 
 [page]
 image = "/assets/img/social.jpg"
