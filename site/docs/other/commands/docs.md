@@ -4,7 +4,7 @@ description = "Browse the documentation"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 To browse the documentation run:
 
@@ -18,7 +18,7 @@ Which will open a cached version of the documentation in your browser; if you wa
 uvm runtime
 ```
 
-### Usage
+## Usage
 
 ```text
 {{include ../../../includes/help/uwe/docs.txt}}

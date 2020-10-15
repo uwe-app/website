@@ -4,7 +4,7 @@ description = "Create a project"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The `init` command creates a new project from a [blueprint]({{ link "/docs/getting-started/new-project/" }}), folder or repository URL.
 
@@ -26,7 +26,7 @@ If you want to use a particular blueprint it can be a submodule path such as `ta
 uws init new-project tailwind
 ```
 
-### List
+## List
 
 To print a list of available blueprints run:
 
@@ -34,7 +34,7 @@ To print a list of available blueprints run:
 uws ls
 ```
 
-### Multi Lingual
+## Multi Lingual
 
 For multi-lingual sites you can pass the locales option to create the structure for multiple languages. The locales is a comma-delimited list of Unicode language identifiers:
 
@@ -48,7 +48,7 @@ When creating a multi-lingual project a [redirect]({{ link "/docs/pages/redirect
 
 When `--language` is combined with `--locales` the given language must exist in the list of locales.
 
-### Repositories
+## Repositories
 
 To use an alternative blueprint repository pass a URL such as:
 
@@ -62,7 +62,7 @@ If you clone via SSH the key agent is used:
 uwe init new-project git@github.com:uwe-app/blog.git
 ```
 
-### Usage
+## Usage
 
 ```text
 {{include ../../../includes/help/uws/init.txt}}

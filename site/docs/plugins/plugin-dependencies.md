@@ -2,7 +2,7 @@
 description = "Adding plugins to a project"
 +++
 
-## Plugin Dependencies
+# Plugin Dependencies
 
 To add plugins to a project you specify them in the `[dependencies]` section of the site settings:
 

@@ -4,7 +4,7 @@ description = "Design patterns"
 
 {{> crumbtrail}}
 
-## Design Patterns
+# Design Patterns
 
 Common patterns for website design.
 

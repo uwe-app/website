@@ -4,7 +4,7 @@ description = "Installing, upgrading and managing software versions"
 
 {{> crumbtrail}}
 
-## Installation
+# Installation
 
 Learn how to install the tools; we use a [version manager]({{ link "/docs/version-manager/" }}) to manage multiple releases.
 
@@ -13,7 +13,7 @@ Learn how to install the tools; we use a [version manager]({{ link "/docs/versio
 * `upm`: Plugin manger; extra commands for plugin authors.
 * `uvm`: Version manager for installation and upgrading.
 
-### Install
+## Install
 
 Currently we support the Linux and MacOS operating systems; use our [quick install script](https://release.uwe.app/install.sh) to download `uvm` which will install all the required components:
 
@@ -33,7 +33,7 @@ Then check the installation succeeded:
 which uwe
 ```
 
-### Test Drive
+## Test Drive
 
 Once the installation completes use this one-liner to take a test drive:
 

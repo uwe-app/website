@@ -4,7 +4,7 @@ description = "More information"
 
 {{> crumbtrail}}
 
-## Other Topics
+# Other Topics
 
 More useful information for your reference.
 

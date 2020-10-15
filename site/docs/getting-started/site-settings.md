@@ -4,7 +4,7 @@ description = "Settings for the project"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The project settings in `site.toml` configures various information for the project;  this page describes the required settings for a project. See the [settings documentation]({{ link "/docs/settings/" }}) for detailed information. 
 
@@ -20,7 +20,7 @@ The `lang` field sets the default language and the `host` field is the domain na
 
 An optional `version` field may specify a [semver][] for the website which will be added as a `meta` element to each page so you can easily see which version of the website is the published version.
 
-### Page Data
+## Page Data
 
 You can set the data inherited by all pages which is useful to set default meta data:
 

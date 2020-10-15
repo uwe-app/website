@@ -4,7 +4,7 @@ description = "Manage your links in a catalog"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 A link catalog lets you manage your Markdown links in a single location which makes it easier to update links and prevents duplication.
 

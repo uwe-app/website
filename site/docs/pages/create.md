@@ -5,7 +5,7 @@ description = "How to create pages and define meta data"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 {{> table-of-contents}}
 
@@ -18,7 +18,7 @@ File names correspond to the links for your pages so you should follow some simp
 
 This will make your website links easy to understand and is considered best practices for *Search Engine Optimization* (SEO).
 
-### Using HTML
+## Using HTML
 
 If you want to also use plain HTML files with the `.html` extension then you can add this to your site settings:
 
@@ -31,11 +31,11 @@ extend = ["html"]
 HTML files are not parsed as Markdown but you can use the [Markdown helper]({{link "/docs/helpers/markdown/"}}) if you need it.
 {{/note}}
 
-### Front Matter
+## Front Matter
 
 Front matter is used to set page data; it must be at the beginning of the file. Markdown pages use the `+++` delimiter whilst for HTML documents a comment is used. The page data must be valid [TOML][].
 
-#### Markdown
+### Markdown
 
 ```markdown
 +++
@@ -44,7 +44,7 @@ title = "Document title"
 ## \{{title}}
 ```
 
-#### HTML
+### HTML
 
 ```html
 <!--
@@ -53,7 +53,7 @@ title = "Document title"
 <h2>\{{title}}</h2>
 ```
 
-### Title
+## Title
 
 A page title is inferred from the file name and assigned to the page template data unless a specific title has been defined; when a page is an index file the name of the parent directory is used instead.
 

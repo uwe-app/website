@@ -5,11 +5,11 @@ content = "This is some *Markdown* content."
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The `md` helper is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
 
-### Usage
+## Usage
 
 The examples assume we have a snippet of Markdown in `site/partials/snippet.hbs`:
 
@@ -49,7 +49,7 @@ Will yield this markup:
 {{#md render=true ~}}This is some *Markdown* content.{{/md}}{{md content render=true ~}}
 ```
 
-### Render
+## Render
 
 This helper knows the file context so when you are in HTML files there is no need to use the `render` parameter:
 
@@ -63,8 +63,8 @@ This helper knows the file context so when you are in HTML files there is no nee
 The only time you should use `render` is in HTML *inside a Markdown document*.
 {{/note}}
 
-### Notes
-
+{{#> note type="warn" label="warn"}}
 Be careful using the block syntax `\{{#md}}` in HTML documents as leading whitespace can be mistakenly interpreted as fenced code blocks.
+{{/note}}
 
 {{> back}}

@@ -4,7 +4,7 @@ description = "Debug your page data"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 A useful helper to pretty print data as JSON.
 

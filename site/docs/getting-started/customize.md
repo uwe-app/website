@@ -4,15 +4,15 @@ description = "Add favicon, styles and scripts to your pages"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 {{> table-of-contents}}
 
-### Favicon
+## Favicon
 
 Adding a favicon to your site is easy, just create an `assets/favicon.png` file; the [favicon helper]({{ link "/docs/helpers/favicon/" }}) page has more information.
 
-### Styles
+## Styles
 
 To add a custom stylesheet to your pages create a `style.css` file in the `assets/css` folder and set it as the `main` stylesheet in your [settings]({{ link "/docs/settings/" }}) by adding the `styles` table to `site.toml`:
 
@@ -23,7 +23,7 @@ main = ["/assets/css/style.css"]
 
 The stylesheet will automatically be included in your pages, just run `uwe --live` and make changes to the `style.css` file to see your updates in the browser.
 
-### Scripts
+## Scripts
 
 To add a custom script to your pages create a `main.js` file in the `assets/js` folder and set it as the `main` script in your [settings]({{ link "/docs/settings/" }}) by adding the `scripts` table to `site.toml`:
 

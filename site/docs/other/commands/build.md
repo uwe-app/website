@@ -4,7 +4,7 @@ description = "Compile a website"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The `build` command take source files in the `site` folder and compiles them to a build directory; it is the default command.
 
@@ -18,7 +18,7 @@ uwe
 
 The compiled site is now in `build/debug`.
 
-### Live Reload
+## Live Reload
 
 To live reload files in the browser as you work pass the `--live` option:
 
@@ -28,7 +28,7 @@ uwe --live
 
 If you need to override the host or port used for live reload set the `--host` and `--port` options.
 
-### Release
+## Release
 
 To make a release build pass the `--release` option:
 
@@ -44,7 +44,7 @@ uwe --release --profile=v3.1.0
 
 You can set more compiler options by using a [profile]({{ link "/docs/profiles/" }}).
 
-### Filters
+## Filters
 
 After the project path you can pass specific folders and files to compile; for example to only build files in the `site/docs` directory:
 
@@ -52,7 +52,7 @@ After the project path you can pass specific folders and files to compile; for e
 uwe . site/docs
 ```
 
-### Usage
+## Usage
 
 ```text
 {{include ../../../includes/help/uwe/build.txt}}

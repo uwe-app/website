@@ -4,7 +4,9 @@ description = "Publish a site to Amazon Web Services"
 
 {{> crumbtrail}}
 
-### Credentials
+# {{title}}
+
+## Credentials
 
 Before you can publish using [Amazon Web Services][] you must configure credentials. We use the standard profile credentials to publish so if you have used the `aws` command line tools this should be familiar.
 
@@ -18,7 +20,7 @@ aws_secret_access_key = XXXX
 
 We recommend that the credentials you assign have access to S3 and Cloudfront.
 
-### Settings
+## Settings
 
 Now you can configure the publish settings in `site.toml` to reference those credentials:
 
@@ -46,7 +48,7 @@ It is not required to have a `stage` environment but is recommended so you can c
 ht publish production
 ```
 
-### Prefix
+## Prefix
 
 If no bucket is given then the top-level `host` is used and you can set a `prefix` to publish into different locations in the bucket:
 

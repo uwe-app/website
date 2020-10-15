@@ -4,7 +4,7 @@ description = "Enhance your content presentation"
 
 {{> crumbtrail}}
 
-## Content
+# Content
 
 Useful techniques to enhance your content presenatation and distribution.
 

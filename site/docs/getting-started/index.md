@@ -4,7 +4,7 @@ description = "Getting started guide"
 
 {{> crumbtrail}}
 
-## Getting Started
+# Getting Started
 
 Get up and running with the fundamental concepts.
 

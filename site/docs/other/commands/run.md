@@ -4,7 +4,7 @@ description = "Serve a website"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The run command serves website files in a directory:
 
@@ -16,7 +16,7 @@ Now you can visit the site at `http:://localhost:8888`.
 
 The server does not list directory content; it is expected that an `index.html` file exists for each directory.
 
-### Usage
+## Usage
 
 ```text
 {{include ../../../includes/help/uwe/run.txt}}

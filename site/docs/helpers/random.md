@@ -4,7 +4,7 @@ description = "Choose a random array entry"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Select a random element from an array and assign it to the scope for the template block:
 

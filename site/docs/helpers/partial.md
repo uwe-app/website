@@ -4,7 +4,7 @@ description = "Render a page"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The `partial` helper is a special helper for rendering an entire page. Usually it is used in a layout to render the current page but can also be called with a specific page which is useful when combining multiple pages into a single page, for example to generate a page that is convenient for printing.
 

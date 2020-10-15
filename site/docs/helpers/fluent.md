@@ -4,7 +4,7 @@ description = "Fluent message helper"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Once you have configured the [fluent settings]({{link "/docs/settings/fluent/"}}) you can access the `fluent` helper in your templates.
 

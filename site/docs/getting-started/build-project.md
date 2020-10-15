@@ -4,7 +4,7 @@ description = "Compile a project to static pages"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Building a project will use the source files in `site` and compile them to a build folder such as `build/debug`.
 
@@ -21,7 +21,7 @@ Or pass a project folder path:
 uwe /path/to/project
 ```
 
-### Live Reload
+## Live Reload
 
 The typical workflow is to run with live reload enabled:
 
@@ -31,7 +31,7 @@ uwe --live
 
 Then edit your pages using your preferred text editor and observe the changes in your browser.
 
-### Release
+## Release
 
 To compile a release build run with the `--release` option:
 

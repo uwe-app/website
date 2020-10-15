@@ -4,7 +4,7 @@ description = "Format the date and time"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The `date` helper can be used to format date and time values.
 
@@ -32,7 +32,7 @@ Next we look at the built-in convenience formats; see the [list of format specif
 
 You may configure format specifiers, see [settings]({{ link "/docs/settings/" }}) for more information.
 
-### Local
+## Local
 
 All datetime values are UTC if you want to account for the local time zone use the `local` hash parameter:
 
@@ -40,7 +40,7 @@ All datetime values are UTC if you want to account for the local time zone use t
 \{{date file.modified @root/date.formats.date-medium local=true}}
 ```
 
-### Date
+## Date
 
 Here are all the built-in formats for date:
 
@@ -48,7 +48,7 @@ Here are all the built-in formats for date:
 * `date-formats.date-medium`: {{date file.modified @root/date.formats.date-medium}}
 * `date-formats.date-long`: {{date file.modified @root/date.formats.date-long}}
 
-### Time
+## Time
 
 Here are all the built-in formats for time:
 
@@ -58,7 +58,7 @@ Here are all the built-in formats for time:
 
 Both `time-short` and `time-medium` are the 24-hour clock; `time-long` is the 12-hour clock.
 
-### Date & Time
+## Date & Time
 
 Here are all the built-in formats for date and time:
 

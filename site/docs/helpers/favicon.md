@@ -4,7 +4,7 @@ description = "Link to a site favicon"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The `favicon` helper links to the `assets/favicon.png` file when it exists otherwise it embeds a transparent PNG; it should be used in the document head.
 

@@ -4,6 +4,8 @@ description = "Release profiles"
 
 {{> crumbtrail}}
 
+# {{title}}
+
 The default release profile is `debug` and the `--release` option will generate a release build into `build/release`.
 
 You may want to output to a different build directory for certain versions in which case you can use the tag option:
@@ -20,7 +22,7 @@ ht --profile=v3.1.0-alpha1 --release
 
 Profiles may assign options to the current build.
 
-### Profile Settings
+## Profile Settings
 
 Profiles are useful for combining options into groups; sometimes we want to zip up this website and send if for review so we create a `dist` profile so we add a profile to the [site settings]({{ link "/docs/settings/" }}):
 
@@ -54,7 +56,7 @@ ht --profile=docs
 
 And the `build/docs` directory now includes a standalone website with just the documentation!
 
-### Profile Options
+## Profile Options
 
 These are the options that can be configured in a profile:
 

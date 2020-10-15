@@ -2,7 +2,7 @@
 description = "Introduction to the plugin system"
 +++
 
-## Introduction
+# Introduction
 
 Plugins allow us to share styles, scripts, assets and other files between projects.
 

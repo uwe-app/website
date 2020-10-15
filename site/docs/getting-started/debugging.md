@@ -4,7 +4,7 @@ description = "Inspect page data"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 It is often useful to know the shape of the data passed to your page templates; to print the data inline use the [json helper]({{ link "/docs/helpers/json/" }}):
 

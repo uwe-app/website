@@ -4,7 +4,7 @@ description = "Strict mode and how to disable it"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Templates are parsed with strict mode enabled so it is an error if a variable does not exist; it is possible to disable strict mode in the [settings]({{ link "/docs/settings/" }}) however it is not recommended.
 

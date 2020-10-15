@@ -4,7 +4,7 @@ description = "Syndicate your content"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Feeds are integrated with the compiler but are optional so they need to be enabled.
 

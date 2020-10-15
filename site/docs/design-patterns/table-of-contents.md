@@ -4,7 +4,7 @@ description = "Link to page content"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 For pages with a lot of content it can be helpful to provide links to each section of the page using a *table of contents*.
 

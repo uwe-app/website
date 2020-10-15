@@ -4,7 +4,7 @@ description = "Create a slug from a name"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Generate a friendly *slug* from a value:
 

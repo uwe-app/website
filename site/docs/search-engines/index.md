@@ -4,7 +4,7 @@ description = "Search engine best practices"
 
 {{> crumbtrail}}
 
-## Search Engines
+# Search Engines
 
 Best practices for good organize search engine rankings.
 

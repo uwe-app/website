@@ -5,6 +5,8 @@ description = "Documentation and developer reference"
 
 {{> crumbtrail}}
 
+# {{title}}
+
 ## Getting Started
 
 {{menu "getting-started-idx"}}

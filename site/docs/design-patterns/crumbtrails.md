@@ -4,7 +4,7 @@ description = "Guide visitors with links to parent folders"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The *crumbtrail* pattern is very useful to orientate visitors when navigating deep folder hierarchies; you can see an example above ^^.
 

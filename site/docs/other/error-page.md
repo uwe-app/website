@@ -4,7 +4,7 @@ description = "Custom error page"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 When you create a new project from a blueprint a [404.md][] file will be included which will compile to a `404.html` page at the root of the site.
 

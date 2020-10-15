@@ -4,7 +4,7 @@ description = "Adds scripts to a page"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 The scripts helper is called automatically to include scripts in a page by the [std::core layout][]. If you are designing your own layout you should call this helper just before the end of the document body.
 

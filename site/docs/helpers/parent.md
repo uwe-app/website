@@ -4,7 +4,7 @@ description = "Get data for parent pages"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Get the data for a parent directory:
 

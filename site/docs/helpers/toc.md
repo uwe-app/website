@@ -4,7 +4,7 @@ description = "Render a table of contents list"
 
 {{> crumbtrail}}
 
-## {{title}}
+# {{title}}
 
 Render a table of contents list:
 
