@@ -51,7 +51,6 @@ main = ["/assets/css/style.css"]
 toc = true
 
 [build]
-rewrite-index = true
 sitemap = {}
 
 [page]
@@ -63,12 +62,12 @@ authors = [ { name = "Muji", link = "https://tmpfs.org" } ]
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
 
-[page.menu]
+[menu]
 #sidebar = { file = "MENU.md" }
 main = { pages = ["/docs/", "/faq/"], description = true }
 docs = { directory = "/docs/" }
 
-[page.menu.getting-started-idx]
+[menu.getting-started-idx]
 description = true
 pages = [
   "/docs/getting-started/new-project/",
@@ -83,7 +82,7 @@ pages = [
   "/docs/getting-started/directory-index/",
 ]
 
-[page.menu.pages-idx]
+[menu.pages-idx]
 description = true
 pages = [
   "/docs/pages/create/",
@@ -94,14 +93,14 @@ pages = [
   "/docs/pages/trailing-slash/",
 ]
 
-[page.menu.content-idx]
+[menu.content-idx]
 description = true
 pages = [
   "/docs/content/feeds/",
   "/docs/content/syntax-highlight/",
 ]
 
-[page.menu.seo-idx]
+[menu.seo-idx]
 description = true
 pages = [
   "/docs/search-engines/no-index/",
@@ -109,7 +108,7 @@ pages = [
   "/docs/search-engines/site-maps/",
 ]
 
-[page.menu.other-idx]
+[menu.other-idx]
 description = true
 pages = [
   "/docs/other/hooks/",
@@ -121,7 +120,7 @@ pages = [
   "/docs/other/parallel-builds/",
 ]
 
-[page.menu.design-patterns-idx]
+[menu.design-patterns-idx]
 description = true
 pages = [
   "/docs/design-patterns/crumbtrails/",
