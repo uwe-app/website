@@ -6,17 +6,19 @@ description = "Rules for web crawlers"
 
 # {{title}}
 
-Adding a robots.txt file to a site can be useful to instruct bots which pages they are allowed to crawl and index. The compiler will generate a `robots.txt` file if you configure the `[build.robots]` section or if site maps are enabled. To generate a default robots file:
+Adding a robots.txt file to a site can be useful to instruct bots which pages they are allowed to crawl and index. The compiler will generate a `robots.txt` file automatically for the release profile or if site maps are enabled.
+
+You can add your own rules to the `[robots]` section and they will be used:
 
 ```toml
-[build.robots."*"]
+[robots."*"]
 allow = ["*"]
 ```
 
 Or you might want to deny certain pages to a particular bot:
 
 ```toml
-[build.robots."*"]
+[robots."*"]
 allow = ["*"]
 [build.robots."googlebot"]
 disallow = ["/posts"]
