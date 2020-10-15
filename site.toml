@@ -78,6 +78,12 @@ pages = [
   "/docs/getting-started/directory-index/",
 ]
 
+[page.menu.pages-idx]
+description = true
+pages = [
+  "/docs/pages/create/",
+]
+
 [page.menu.content-idx]
 description = true
 pages = [
