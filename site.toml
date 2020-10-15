@@ -60,6 +60,9 @@ description = "Universal Web Editor"
 keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
 authors = [ { name = "Muji", link = "https://tmpfs.org" } ]
 
+[page.open-graph]
+site_name = "UWE / Universal Web Editor"
+
 [page.menu]
 #sidebar = { file = "MENU.md" }
 main = { pages = ["/docs/", "/faq/"], description = true }

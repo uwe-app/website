@@ -154,6 +154,13 @@ Renders to:
 The `og:` prefix is not required the [open graph partial](https://github.com/uwe-app/plugins/blob/master/std/core/partials/open-graph.hbs) will insert it and the `og:url` property is always created automatically.
 {{/note}}
 
+If you want to set the `og:site_name` for all pages you can add this to your site settings:
+
+```toml
+[page.open-graph]
+site_name = "UWE / Universal Web Editor"
+```
+
 {{> next-page menu="pages-idx"}}
 
 [TOML]: https://toml.io
