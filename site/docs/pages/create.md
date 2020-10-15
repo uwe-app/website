@@ -33,7 +33,7 @@ HTML files are not parsed as Markdown but you can use the [Markdown helper]({{li
 
 ### Front Matter
 
-Front matter is used to set page data; it must be at the beginning of the file; for HTML documents a comment is used for Markdown the `+++` delimiter is used.
+Front matter is used to set page data; it must be at the beginning of the file. Markdown pages use the `+++` delimiter whilst for HTML documents a comment is used. The page data must be valid [TOML][].
 
 #### Markdown
 
@@ -59,4 +59,4 @@ A page title is inferred from the file name and assigned to the page template da
 
 {{> next-page menu="pages-idx"}}
 
-
+[TOML]: https://toml.io

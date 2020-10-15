@@ -69,7 +69,7 @@ pages = [
   "/docs/getting-started/new-project/",
   "/docs/getting-started/build-project/",
   "/docs/getting-started/site-settings/",
-  "/docs/getting-started/create-pages/",
+  "/docs/getting-started/adding-pages/",
   "/docs/getting-started/create-links/",
   "/docs/getting-started/customize/",
   "/docs/getting-started/layouts/",
@@ -82,6 +82,7 @@ pages = [
 description = true
 pages = [
   "/docs/pages/create/",
+  "/docs/pages/redirects/",
 ]
 
 [page.menu.content-idx]
@@ -102,7 +103,6 @@ pages = [
 [page.menu.other-idx]
 description = true
 pages = [
-  "/docs/other/redirects/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
   "/docs/other/commands/",
