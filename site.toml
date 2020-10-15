@@ -42,7 +42,7 @@ theme = "Solarized (light)"
 #profiles = ["release"]
 
 [styles]
-main = ["/assets/css/style.css", "/assets/plugins/lib::rainbow/styles/github.css"]
+main = ["/assets/css/style.css"]
 
 #[scripts]
 #main = ["/assets/highlight.pack.js"]
@@ -55,6 +55,7 @@ rewrite-index = true
 sitemap = {}
 
 [page]
+image = "/assets/img/social.jpg"
 description = "Universal Web Editor"
 keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
 authors = [ { name = "Muji", link = "https://tmpfs.org" } ]
@@ -84,6 +85,7 @@ description = true
 pages = [
   "/docs/pages/create/",
   "/docs/pages/remove/",
+  "/docs/pages/drafts/",
   "/docs/pages/redirects/",
   "/docs/pages/clean-urls/",
   "/docs/pages/trailing-slash/",
@@ -107,6 +109,7 @@ pages = [
 [page.menu.other-idx]
 description = true
 pages = [
+  "/docs/other/hooks/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
   "/docs/other/commands/",

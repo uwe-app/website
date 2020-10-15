@@ -1,5 +1,5 @@
 +++
-description = "Parallel builds"
+description = "Disable parallel builds for debugging"
 +++
 
 {{> crumbtrail}}

@@ -1,5 +1,5 @@
 +++
-title = "Removing pages"
+title = "Removing Pages"
 description = "How to remove pages"
 +++
 

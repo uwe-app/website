@@ -6,7 +6,7 @@ description = "Installing, upgrading and managing software versions"
 
 # Installation
 
-Learn how to install the tools; we use a [version manager]({{ link "/docs/version-manager/" }}) to manage multiple releases.
+Learn how to install the tools; we use a [version manager]({{ link "/docs/installation/version-manager/" }}) to manage multiple releases.
 
 * `uwe`: Compile, live preview and publish websites.
 * `uws`: Utility for creating and syncing projects.
@@ -50,5 +50,5 @@ Which will perform the following tasks:
     
 You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
-Next read more about [getting started]({{ link "/docs/getting-started/" }}) or learn how to use the [version manager]({{ link "/docs/version-manager/" }}) to upgrade.
+Next read more about [getting started]({{ link "/docs/getting-started/" }}) or learn how to use the [version manager]({{ link "/docs/installation/version-manager/" }}) to upgrade.
 

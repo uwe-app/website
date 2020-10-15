@@ -11,13 +11,13 @@ The default release profile is `debug` and the `--release` option will generate 
 You may want to output to a different build directory for certain versions in which case you can use the tag option:
 
 ```
-ht --profile=v3.1.0-alpha1
+uwe --profile=v3.1.0-alpha1
 ```
 
 Which will generate a debug build in `build/v3.1.0-alpha1`; if you want a release version in the target directory you can combine `--profile` with `--release`.
 
 ```
-ht --profile=v3.1.0-alpha1 --release
+uwe --profile=v3.1.0-alpha1 --release
 ```
 
 Profiles may assign options to the current build.
@@ -34,7 +34,7 @@ include-index = true
 Then we can build using the `dist` profile like this:
 
 ```
-ht --profile=dist
+uwe --profile=dist
 ```
 
 Because we use the [link helper]({{ link "/docs/helpers/link/" }}) exclusively all we need to do is instruct the compiler to include `index.html` for directory links and we have a build that will work using the `file:` scheme!
@@ -51,7 +51,7 @@ paths = ["assets", "docs"]
 Which says strip the `docs` base from links, use a custom `layout` and only build the `assets` and `docs` path. We then trigger this profile in the same way:
 
 ```toml
-ht --profile=docs
+uwe --profile=docs
 ```
 
 And the `build/docs` directory now includes a standalone website with just the documentation!

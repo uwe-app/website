@@ -1,5 +1,5 @@
 +++
-title = "Creating pages"
+title = "Creating Pages"
 description = "How to create pages and define meta data"
 +++
 
@@ -95,6 +95,30 @@ An article about the basic data that can be assigned to pages using [TOML][].
 
 By using the `summary` like this you can generate menus with rich text introductions.
 
+## Image
+
+Set the `image` path for an image preview to use when your page is shared on social sites a good practice is to set a default in the site settings:
+
+```toml
+[page]
+image = "/assets/img/social.jpg"
+```
+
+Then you can override it for particular pages:
+
+```markdown
++++
+title = "Article Title"
+image = "/assets/img/article-banner.jpg"
++++
+
+# \{{title}}
+```
+
+{{#> note label="note"}}
+Images must be relative paths they are automatically make absolute when rendering.
+{{/note}}
+
 ## Meta Data
 
 To add custom meta data such as keywords to your pages use the `[meta]` table:
@@ -112,22 +136,22 @@ Renders to:
 
 ## Open Graph
 
-We automatically create default open graph meta data from the title and description, you can customize these values in the `[open-graph]` table:
+We automatically create default open graph meta data from the title, description and image. You can customize these values in the `[open-graph]` table:
 
 
 ```toml
 [open-graph]
-title = "Creating pages using the UWE system"
+title = "Title to use when shared on social websites"
 ```
 
 Renders to:
 
 ```html
-<meta property="og:title" content="Creating pages using the UWE system">
+<meta property="og:title" content="Title to use when shared on social websites">
 ```
 
 {{#> note label="note"}}
-The `og:` prefix is not required the [open graph partial](https://github.com/uwe-app/plugins/blob/master/std/core/partials/open-graph.hbs) will insert it.
+The `og:` prefix is not required the [open graph partial](https://github.com/uwe-app/plugins/blob/master/std/core/partials/open-graph.hbs) will insert it and the `og:url` property is always created automatically.
 {{/note}}
 
 {{> next-page menu="pages-idx"}}
