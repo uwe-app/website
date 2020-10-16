@@ -57,7 +57,7 @@ toc = true
 image = "/assets/img/social.jpg"
 description = "Universal Web Editor"
 keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
-authors = [ { name = "Muji", link = "https://tmpfs.org" } ]
+authors = [ { name = "Muji", url = "https://tmpfs.org" } ]
 
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
