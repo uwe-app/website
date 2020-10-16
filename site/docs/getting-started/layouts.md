@@ -8,9 +8,24 @@ description = "Create a custom layout"
 
 When you create a new project from a blueprint it will use the layout and partials from the [std::core][] plugin which is good to get up and running quickly but you may want to change the default layout.
 
-To set a custom layout for your project create a `layout.hbs` file in the `site` directory; a good starting point would be to copy the [default layout][].
+To set a custom layout for your project create a `main.hbs` file in the `site/layouts` directory; a good starting point would be to copy the [default layout][].
 
-Note that you should keep the [std::core][] dependency so you don't have to import all the partials too.
+{{#> note label="info"}}
+You should keep the [std::core][] dependency so you don't have to import all the partials too.
+{{/note}}
+
+## Custom Layouts
+
+If your site needs separate layouts for certain sections you can create more files in the `layouts` folder and they can then be assigned to your pages using the `layout` parameter.
+
+Imagine you need a different layout for the documentation section on your website; you could create a new layout in `site/layout/docs.hbs` and then apply it to specific pages in the front matter like this:
+
+```markdown
++++
+title = "Documentation"
+layout = "docs"
++++
+```
 
 ## Standalone
 

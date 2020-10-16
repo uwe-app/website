@@ -115,7 +115,7 @@ image = "/assets/img/article-banner.jpg"
 # \{{title}}
 ```
 
-{{#> note label="note"}}
+{{#> note label="info"}}
 Images must be relative paths they are automatically make absolute when rendering.
 {{/note}}
 
@@ -150,7 +150,7 @@ Renders to:
 <meta property="og:title" content="Title to use when shared on social websites">
 ```
 
-{{#> note label="note"}}
+{{#> note label="info"}}
 The `og:` prefix is not required the [open graph partial](https://github.com/uwe-app/plugins/blob/master/std/core/partials/open-graph.hbs) will insert it and the `og:url` property is always created automatically.
 {{/note}}
 

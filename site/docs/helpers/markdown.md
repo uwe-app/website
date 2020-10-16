@@ -59,7 +59,7 @@ This helper knows the file context so when you are in HTML files there is no nee
 </section>
 ```
 
-{{#> note label="note"}}
+{{#> note label="info"}}
 The only time you should use `render` is in HTML *inside a Markdown document*.
 {{/note}}
 
