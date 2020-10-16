@@ -10,7 +10,15 @@ description = "Add favicon, styles and scripts to your pages"
 
 ## Favicon
 
-Adding a favicon to your site is easy, just create an `assets/favicon.png` file; the [favicon helper]({{ link "/docs/helpers/favicon/" }}) page has more information.
+Adding a favicon to your site is easy, just create an `assets/favicon.png` file; if you want to use a different path set `favicon` in the site settings.
+
+```toml
+favicon = "assets/favicon.ico"
+```
+
+{{#> note label="info"}}
+The [favicon helper]({{ link "/docs/helpers/favicon/" }}) page has more information about how favicons are managed.
+{{/note}}
 
 ## Styles
 
