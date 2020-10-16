@@ -161,6 +161,19 @@ If you want to set the `og:site_name` for all pages you can add this to your sit
 site_name = "UWE / Universal Web Editor"
 ```
 
+## Permalinks
+
+Permalinks let you share a permanent link that will always redirect to the page location which makes it easier to rename and move pages. To configure a permalink redirect just add the absolute path to the front matter:
+
+```markdown
++++
+title = "Article Title"
+permalink = "/posts/article-link"
++++
+
+# \{{title}}
+```
+
 {{> next-page menu="pages-idx"}}
 
 [TOML]: https://toml.io
