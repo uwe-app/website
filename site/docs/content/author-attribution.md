@@ -14,13 +14,17 @@ name = "Muji"
 url = "https://tmpfs.org"
 ```
 
-Afterwards authors can be referenced by identifier which in this example is `tmpfs`.
+Afterwards authors can be referenced by their alias which in this example is `tmpfs`.
 
 Each author entry supports these fields:
 
-* `name`: The author name.
-* `url`: Link to a website for the author.
-* `avatar`: Link to an image for the author.
+* `name`: The author name (required).
+* `url`: Link to a website for the author (optional).
+* `avatar`: Link to an image for the author (optional).
+
+{{#> note label="info"}}
+The url and avatar must be absolute URLs.
+{{/note}}
 
 ## Global Authors
 
