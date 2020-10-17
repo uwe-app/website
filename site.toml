@@ -54,11 +54,15 @@ main = ["/assets/css/style.css"]
 [transform.html]
 toc = true
 
+[authors.tmpfs]
+name = "Muji"
+url = "https://tmpfs.org"
+
 [page]
 image = "/assets/img/social.jpg"
 description = "Universal Web Editor"
 keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
-authors = [ { name = "Muji", url = "https://tmpfs.org" } ]
+authors = [ "tmpfs" ]
 
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
@@ -97,6 +101,7 @@ pages = [
 [menu.content-idx]
 description = true
 pages = [
+  "/docs/content/author-attribution/",
   "/docs/content/feeds/",
   "/docs/content/syntax-highlight/",
 ]
