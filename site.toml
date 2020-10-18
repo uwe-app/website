@@ -13,6 +13,7 @@ edit-path = "edit/site/"
 #"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
 #"std::core" = { version = "~1" }
 "std::core" = { path = "../../plugins/std/core", version = "~1" }
+"std::link" = { path = "../../plugins/std/link", version = "~1", features = ["github"] }
 "std::listing" = { version = "~1" }
 "std::note" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::crumbtrail" = { version = "~1", apply = { styles = [ "**" ] } }
