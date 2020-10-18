@@ -1,0 +1,5 @@
+{{#if (and repository.url repository.edit-path)}}
+<a class="github-edit"
+  href="{{repository.url}}{{repository.edit-path}}{{file.path}}"
+  title="{{#if title}}{{title}}{{else}}Edit on Github{{/if}}">{{#if text}}{{text}}{{else}}Edit on Github{{/if}}</a>
+{{/if}}

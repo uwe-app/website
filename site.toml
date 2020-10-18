@@ -2,6 +2,10 @@ lang = "en"
 host = "uwe.app"
 version = "1.0.0"
 
+[repository]
+url = "https://github.com/uwe-app/website/"
+edit-path = "edit/site/"
+
 #[sitemap]
 #profiles = true
 
