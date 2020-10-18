@@ -109,6 +109,7 @@ pages = [
   "/docs/content/author-attribution/",
   "/docs/content/feeds/",
   "/docs/content/syntax-highlight/",
+  "/docs/content/edit-on-github/",
 ]
 
 [menu.seo-idx]
