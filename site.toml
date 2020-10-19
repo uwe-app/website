@@ -51,7 +51,7 @@ theme = "Solarized (light)"
 #profiles = ["release"]
 
 [styles]
-main = ["/assets/css/style.css"]
+main = ["/assets/styles/main.css"]
 
 #[scripts]
 #main = ["/assets/highlight.pack.js"]
