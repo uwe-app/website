@@ -50,7 +50,7 @@ If you would prefer to use Javascript to highlight your code samples at runtime 
 ```toml
 [dependencies."lib::highlight"]
 version = "~10"
-apply = { scripts = [ "/**/**" ], styles = [ "/**/**" ] }
+apply = { scripts = [ "**" ], styles = [ "**" ] }
 ```
 
 {{> next-page menu="content-idx"}}

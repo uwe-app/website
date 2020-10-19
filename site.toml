@@ -72,6 +72,11 @@ authors = [ "tmpfs" ]
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
 
+#[[page.links]]
+#as = "audio"
+#href = "/my-audio-file.mp3"
+#rel = "preload"
+
 [menu]
 #sidebar = { file = "MENU.md" }
 main = { pages = ["/docs/", "/faq/"], description = true }

@@ -14,7 +14,7 @@ To use the crumbtrail system first add a dependency on the [std::crumbtrail][] p
 
 ```toml
 [dependencies]
-"std::crumbtrail" = { version = "~1", apply = { styles = [ "/**/**" ] } }
+"std::crumbtrail" = { version = "~1", apply = { styles = [ "**" ] } }
 ```
 
 Then call the partial supplied by the plugin wherever you want to render a crumbtrail:
