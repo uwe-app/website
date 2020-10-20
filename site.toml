@@ -12,7 +12,7 @@ edit-path = "edit/site/"
 [dependencies]
 #"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
 #"std::core" = { version = "~1" }
-"std::core" = { path = "../../plugins/std/core", version = "~1" }
+"std::core" = { path = "../../plugins/std/core", version = "~2" }
 "std::link" = { path = "../../plugins/std/link", version = "~1", features = ["github"] }
 "std::listing" = { version = "~1" }
 "std::note" = { version = "~1", apply = { styles = [ "**" ] } }
@@ -25,20 +25,20 @@ version = "~3"
 apply = { styles = [ "**" ] }
 features = ["regular"]
 
-[dependencies."font::awesome"]
-path = "../../plugins/font/awesome"
-version = "~5"
-apply = { styles = [ "/docs/plugins/**" ] }
+#[dependencies."font::awesome"]
+#path = "../../plugins/font/awesome"
+#version = "~5"
+#apply = { styles = [ "/docs/plugins/**" ] }
 
-[dependencies."font::source-code-pro"]
-path = "../../plugins/font/source-code-pro"
-version = "~1"
-apply = { styles = [ "/docs/plugins/**" ] }
+#[dependencies."font::source-code-pro"]
+#path = "../../plugins/font/source-code-pro"
+#version = "~1"
+#apply = { styles = [ "/docs/plugins/**" ] }
 
-[dependencies."std::book"]
-path = "../../plugins/std/book"
-version = "~1"
-apply = { styles = [ "/docs/plugins/**" ], scripts = [ "/docs/plugins/**" ], layouts = { main = [ "/docs/plugins/**" ] } }
+#[dependencies."std::book"]
+#path = "../../plugins/std/book"
+#version = "~1"
+#apply = { styles = [ "/docs/plugins/**" ], scripts = [ "/docs/plugins/**" ], layouts = { main = [ "/docs/plugins/**" ] } }
 
 #[dependencies."lib::highlight"]
 #path = "../../plugins/lib/highlight"
@@ -50,8 +50,8 @@ inline = true
 theme = "Solarized (light)"
 #profiles = ["release"]
 
-[styles]
-main = ["/assets/styles/main.css"]
+#[styles]
+#main = ["/assets/styles/main.css"]
 
 #[scripts]
 #main = ["/assets/highlight.pack.js"]
