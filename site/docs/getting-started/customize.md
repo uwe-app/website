@@ -89,6 +89,16 @@ To add a `<noscript>` element create some content in the `partials/noscript.hbs`
 <noscript>For an improved experience please enable Javascript.</noscript>
 ```
 
+## Header and Footer
+
+To customize the header and footer for the website change the content in the [partials/header.hbs](https://github.com/uwe-app/plugins/blob/master/std/core/partials/header.hbs) and [partials/footer.hbs](https://github.com/uwe-app/plugins/blob/master/std/core/partials/footer.hbs) files; the default templates are placeholders.
+
+When you use a blueprint to create a new project these files already exist.
+
+## Content Area
+
+The [partials/content.hbs](https://github.com/uwe-app/plugins/blob/master/std/core/partials/content.hbs) template just wraps each page in a `<main>` element; if you want to change this part of the default layout create a `partials/content.hbs` file to override the default.
+
 {{> next-page menu="getting-started-idx"}}
 
 [script element]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
