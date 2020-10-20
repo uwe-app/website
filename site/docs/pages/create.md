@@ -32,7 +32,7 @@ HTML files are not parsed as Markdown but you can use the [Markdown helper]({{li
 {{/note}}
 
 {{#> note type="warn" label="warn"}}
-Mixing HTML with Markdown makes naming collisions more likely, see [clean URLS]({{ link "/docs/pages/clean-urls/" }}) for more information.
+Mixing HTML with Markdown makes naming collisions more likely, see [clean URLs]({{ link "/docs/pages/clean-urls/" }}) for more information.
 {{/note}}
 
 ## Front Matter
@@ -163,16 +163,26 @@ site_name = "UWE / Universal Web Editor"
 
 ## Permalinks
 
-Permalinks let you share a permanent link that will always redirect to the page location which makes it easier to rename and move pages. To configure a permalink redirect just add the absolute path to the front matter:
+A `permalink` variable is available to all pages; to provide a permalink for any page is easy:
+
+```html
+<a href="\{{permalink}}" title="\{{title}}">Permalink</a>
+```
+
+Set the permalink path so you can share a permanent link that will always redirect to the page location making it safer to rename and move pages whilst keeping visitor's bookmarks intact. To configure a permalink redirect just add the path to the front matter:
 
 ```markdown
 +++
 title = "Article Title"
-permalink = "/posts/article-link"
+permalink = "/posts/article-link/"
 +++
 
 # \{{title}}
 ```
+
+{{#> note label="info"}}
+The `permalink` variable will use the redirect path for the page when `permalink` is set otherwise the page URL is used; the value is always an absolute URI.
+{{/note}}
 
 {{> next-page menu="pages-idx"}}
 
