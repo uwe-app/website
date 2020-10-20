@@ -22,12 +22,7 @@ The [favicon helper]({{ link "/docs/helpers/favicon/" }}) page has more informat
 
 ## Styles
 
-To add a custom stylesheet to your pages create a `main.css` file in the `assets/styles` folder and set it as the `main` stylesheet in your [settings]({{ link "/docs/settings/" }}) by adding the `styles` table to `site.toml`:
-
-```toml
-[styles]
-main = ["/assets/styles/main.css"]
-```
+To add a custom stylesheet to your pages create a `main.css` file in the `assets/styles` folder.
 
 The stylesheet will automatically be included in your pages, just run `uwe --live` and make changes to the `main.css` file to see your updates in the browser.
 
