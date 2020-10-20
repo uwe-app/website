@@ -10,39 +10,74 @@ description = "Add favicon, styles and scripts to your pages"
 
 ## Favicon
 
-Adding a favicon to your site is easy, just create an `assets/favicon.png` file; if you want to use a different path set `favicon` in the site settings.
+Adding a favicon to your site is easy, just create an `assets/favicon.png` file; if you want to use a different path set `icon` in the site settings.
 
 ```toml
-favicon = "assets/favicon.ico"
+icon = "assets/favicon.ico"
 ```
 
 {{#> note label="info"}}
-The [favicon helper]({{ link "/docs/helpers/favicon/" }}) page has more information about how favicons are managed.
+The [favicon notes]({{ link "/docs/notes/favicon/" }}) has more details about how icons are managed.
 {{/note}}
 
 ## Styles
 
-To add a custom stylesheet to your pages create a `main.css` file in the `assets/styles` folder.
+To add a custom stylesheet to *all your pages* create a `main.css` file in the `assets/styles` folder; or if you want to use a different file for your main style sheet:
 
-The stylesheet will automatically be included in your pages, just run `uwe --live` and make changes to the `main.css` file to see your updates in the browser.
+```toml
+[style]
+src = "assets/styles/site.css"
+```
+
+To add another style sheet to all pages, perhaps for print media, you can use the global page data:
+
+```toml
+[[page.styles]]
+src = "assets/styles/print.css"
+media = "print"
+```
+
+To assign style sheets to particular pages use front matter:
+
+```markdown
++++
+[[styles]]
+src = "assets/styles/custom.css"
++++
+
+# \{{title}}
+```
 
 ## Scripts
 
-To add a custom script to your pages create a `main.js` file in the `assets/scripts` folder and set it as the `main` script in your [settings]({{ link "/docs/settings/" }}) by adding the `scripts` table to `site.toml`:
+To add a custom script to *all your pages* create a `main.js` file in the `assets/scripts` folder. If you want to customize the `script` you can configure the site settings, for example to use modern ES6 imports you can set the `type` to `module`:
 
 ```toml
-[scripts]
-main = ["/assets/scripts/main.js"]
-```
-
-If you are using modern ES6 imports (which we recommend) you can set the `type` to `module`:
-
-```toml
-[scripts]
-main = [{src = "/assets/scripts/main.js", type = "module"}]
+[script]
+src = "assets/scripts/main.js"
+type = "module"
 ```
 
 When using this object style notation for script assets you can use any attributes of the [script element][].
+
+Scripts follow the same convention as style sheets; to add scripts to all pages:
+
+```toml
+[[page.scripts]]
+src = "assets/scripts/lib.js"
+type = "module"
+```
+
+Or for an individual page:
+
+```markdown
++++
+[[scripts]]
+src = "assets/scripts/custom.js"
++++
+
+# \{{title}}
+```
 
 {{#> note label="info"}}
 Because your styles and scripts use the assets folder convention when you edit the file with live reload enabled (`uwe --live`) then all your pages will be compiled.

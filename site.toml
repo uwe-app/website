@@ -6,6 +6,9 @@ version = "1.0.0"
 url = "https://github.com/uwe-app/website/"
 edit-path = "edit/site/"
 
+#[script]
+#src = "assets/scripts/global.js"
+
 #[sitemap]
 #profiles = true
 

@@ -10,9 +10,7 @@ A conventional project structure helps everyone get up and running quickly and m
 
 ## Assets
 
-Assets give us a hint that certain files are global assets for the site; all you need to do is put the files in an `assets` folder.
-
-These files are logos, stylesheets, fonts, scripts, icons and any other files that you use across all pages.
+Assets give us a hint that certain files are global assets for the site; all you need to do is put the files in an `assets` folder; these files are logos, stylesheets, fonts, scripts, icons and any other files that you use across all pages.
 
 Using the `assets` folder convention is optional but it will help us do the right thing when live reload is enabled.
 
@@ -23,5 +21,13 @@ Many websites include other files (such as code samples); put these files in the
 ## Partials
 
 Partials are templates or snippets that you can include anywhere in your pages; they should be placed in the `partials` folder.
+
+## Script
+
+If the file `assets/scripts/main.js` exists it is applied to all pages automatically, see [customize]({{ link "/docs/getting-started/customize/" }}) for more information on using scripts.
+
+## Style
+
+If the file `assets/styles/main.css` exists it is applied to all pages automatically, see [customize]({{ link "/docs/getting-started/customize/" }}) for more information on applying style sheets.
 
 {{> next-page menu="getting-started-idx"}}
