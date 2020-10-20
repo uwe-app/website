@@ -92,7 +92,8 @@ pages = [
   "/docs/getting-started/build-project/",
   "/docs/getting-started/site-settings/",
   "/docs/getting-started/adding-pages/",
-  "/docs/getting-started/create-links/",
+  "/docs/getting-started/front-matter/",
+  "/docs/getting-started/link-pages/",
   "/docs/getting-started/customize/",
   "/docs/getting-started/layouts/",
   "/docs/getting-started/debugging/",
@@ -103,7 +104,6 @@ pages = [
 [menu.pages-idx]
 description = true
 pages = [
-  "/docs/pages/create/",
   "/docs/pages/remove/",
   "/docs/pages/drafts/",
   "/docs/pages/redirects/",

@@ -6,10 +6,19 @@ description = "Add and edit pages"
 
 # {{title}}
 
+Pages are Markdown documents that use a template engine for rendering; to add a new page to your website create a file with a `.md` extension in the `site` folder.
+
+File names correspond to the links for your pages so you should follow some simple conventions when naming files:
+
+* Use lowercase characters
+* Use hyphens to delimit words (avoid spaces and underscores)
+
+This will make your website links easy to understand and is considered best practices for *Search Engine Optimization* (SEO).
+
 To create a new page add a Markdown file with a `.md` extension to the project `site` directory, let's call it `contact.md`.
 
 ```markdown
-## Contact
+# Contact
 
 To get in touch with us please email ...
 ```
@@ -18,7 +27,7 @@ Now run the live reload server `uwe --live` and navigate to the `/contact/` URL;
 
 ## Defining Page Data
 
-Page data is defined as [TOML][]; it is loaded first from the `[page]` [settings]({{ link "/docs/settings/" }}) then from a `[pages]` table if it exists and finally from the file front matter which takes precedence.
+Page data is defined as [TOML][]; it is loaded first from the global page data in [settings]({{ link "/docs/settings/" }}) then from a `[pages]` table if it exists and finally from the file front matter which takes precedence.
 
 ### Global Data
 
@@ -49,9 +58,26 @@ We think front matter makes the project easier to understand so we recommend usi
 Be sure to quote the path to prevent a [TOML][] error; paths are resolved relative to the source directory and it is an error if the file does not exist. So that paths are platform independent you should always use a forward slash.
 {{/note}}
 
-## Front Matter
+## Using HTML
 
-Defining page specific data in front matter is described later in [creating pages]({{ link "/docs/pages/create/" }}).
+If you want to also use plain HTML files with the `.html` extension then you can add this to your site settings:
+
+```toml
+[build]
+extend = ["html"]
+```
+
+{{#> note type="tip" label="tip"}}
+HTML files are not parsed as Markdown but you can use the [Markdown helper]({{link "/docs/helpers/markdown/"}}) if you need it.
+{{/note}}
+
+{{#> note type="warn" label="warn"}}
+Mixing HTML with Markdown makes naming collisions more likely, see [clean URLs]({{ link "/docs/pages/clean-urls/" }}) for more information.
+{{/note}}
+
+---
+
+The next section looks at defining data for individual pages using [front matter]({{ link "/docs/getting-started/front-matter/" }}) and the meta data typically assigned to pages.
 
 {{> next-page menu="getting-started-idx"}}
 

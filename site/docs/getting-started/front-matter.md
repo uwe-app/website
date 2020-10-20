@@ -1,6 +1,6 @@
 +++
-title = "Creating Pages"
-description = "How to create pages and define meta data"
+title = "Front Matter"
+description = "Define page data in front matter"
 +++
 
 {{> crumbtrail}}
@@ -8,34 +8,6 @@ description = "How to create pages and define meta data"
 # {{title}}
 
 {{> table-of-contents}}
-
-Pages are Markdown documents that use a template engine for rendering; to add a new page to your website create a file with a `.md` extension in the `site` folder.
-
-File names correspond to the links for your pages so you should follow some simple conventions when naming files:
-
-* Use lowercase characters
-* Use hyphens to delimit words (avoid spaces and underscores)
-
-This will make your website links easy to understand and is considered best practices for *Search Engine Optimization* (SEO).
-
-## Using HTML
-
-If you want to also use plain HTML files with the `.html` extension then you can add this to your site settings:
-
-```toml
-[build]
-extend = ["html"]
-```
-
-{{#> note type="tip" label="tip"}}
-HTML files are not parsed as Markdown but you can use the [Markdown helper]({{link "/docs/helpers/markdown/"}}) if you need it.
-{{/note}}
-
-{{#> note type="warn" label="warn"}}
-Mixing HTML with Markdown makes naming collisions more likely, see [clean URLs]({{ link "/docs/pages/clean-urls/" }}) for more information.
-{{/note}}
-
-## Front Matter
 
 Front matter is used to set page data; it must be at the beginning of the file. Markdown pages use the `+++` delimiter whilst for HTML documents a comment is used. The page data must be valid [TOML][].
 
@@ -184,7 +156,7 @@ permalink = "/posts/article-link/"
 The `permalink` variable will use the redirect path for the page when `permalink` is set otherwise the page URL is used; the value is always an absolute URI.
 {{/note}}
 
-{{> next-page menu="pages-idx"}}
+{{> next-page menu="getting-started-idx"}}
 
 [TOML]: https://toml.io
 [Open Graph]: https://ogp.me/
