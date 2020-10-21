@@ -6,10 +6,10 @@ description = "Serve a website"
 
 # {{title}}
 
-The run command serves website files in a directory:
+The server command serves website files in a directory:
 
 ```text
-uwe run build/release
+uwe server build/release
 ```
 
 Now you can visit the site at `http:://localhost:8888`.
@@ -19,7 +19,7 @@ The server does not list directory content; it is expected that an `index.html` 
 ## Usage
 
 ```text
-{{include ../../../includes/help/uwe/run.txt}}
+{{include ../../../includes/help/uwe/server.txt}}
 ```
 
 {{> back}}

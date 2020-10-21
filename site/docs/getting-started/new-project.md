@@ -9,7 +9,7 @@ description = "Create a new project from blueprints, folders or repositories"
 Once you have an [installation]({{ link "/docs/installation/" }}) the quickest way to create a new project is to use the default project blueprint using the `uws` program:
 
 ```text
-uws init project-name
+uwe new project-name
 ```
 
 Which will create a new website in the `project-name` folder using the `default` blueprint.
@@ -17,14 +17,14 @@ Which will create a new website in the `project-name` folder using the `default`
 To get a list of available blueprints use the `ls` command:
 
 ```text
-uws ls
+uwe ls --blueprints
 ```
 
 Then you can create a new project using a specific blueprint like this:
 
 
 ```text
-uws init project-name tailwind
+uwe new project-name tailwind
 ```
 
 ## Custom Blueprints
@@ -34,14 +34,14 @@ You can create and distribute your own project blueprints easily as the `init` c
 If you have created a private blueprint use a local folder path:
 
 ```text
-uws init project-name /path/to/my/blueprint
+uwe new project-name /path/to/my/blueprint
 ```
 
 Or to easily share blueprints use a repository URL:
 
 
 ```text
-uws init project-name https://github.com/uwe-app/blog
+uwe new project-name https://github.com/uwe-app/blog
 ```
 
 {{> next-page menu="getting-started-idx"}}

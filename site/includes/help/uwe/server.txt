@@ -1,8 +1,8 @@
-uwe-run 0.40.1
+uwe-server 0.40.5
 Serve static files
 
 USAGE:
-    uwe run [OPTIONS] <target>
+    uwe server [OPTIONS] <target>
 
 FLAGS:
         --help       Prints help information

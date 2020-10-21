@@ -1,8 +1,8 @@
-uws-init 0.40.1
+uwe-new 0.40.5
 Create a new project
 
 USAGE:
-    uws init [OPTIONS] <target> [source]
+    uwe new [OPTIONS] <target> [source]
 
 FLAGS:
         --help       Prints help information

@@ -1,4 +1,4 @@
-uvm-list 0.40.1
+uvm-list 0.40.5
 List release versions
 
 USAGE:

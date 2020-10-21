@@ -9,7 +9,6 @@ description = "Installing, upgrading and managing software versions"
 Learn how to install the tools; we use a [version manager]({{ link "/docs/installation/version-manager/" }}) to manage multiple releases.
 
 * `uwe`: Compile, live preview and publish websites.
-* `uws`: Utility for creating and syncing projects.
 * `upm`: Plugin manger; extra commands for plugin authors.
 * `uvm`: Version manager for installation and upgrading.
 
@@ -38,7 +37,7 @@ which uwe
 Once the installation completes use this one-liner to take a test drive:
 
 ```text
-uws init project && (cd project && uwe --live)
+uwe new project && (cd project && uwe --live)
 ```
 
 Which will perform the following tasks:
@@ -47,7 +46,7 @@ Which will perform the following tasks:
 * Compile the files in `project/site` to `project/build/debug`
 * Launch the site in a browser
 * Watch the `project/site` directory for changes
-    
+
 You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
 Next read more about [getting started]({{ link "/docs/getting-started/" }}) or learn how to use the [version manager]({{ link "/docs/installation/version-manager/" }}) to upgrade.
