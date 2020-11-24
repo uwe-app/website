@@ -18,6 +18,10 @@ Using the `assets` folder convention is optional but it will help us do the righ
 
 Many websites include other files (such as code samples); put these files in the `includes` folder and they will automatically be ignored.
 
+## Layouts
+
+Layouts provide the structure for your pages; they should be placed in the `layouts` folder. If you create a `layouts/main.hbs` file it becomes the default layout for all pages.
+
 ## Partials
 
 Partials are templates or snippets that you can include anywhere in your pages; they should be placed in the `partials` folder.
