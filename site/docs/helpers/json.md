@@ -9,11 +9,11 @@ description = "Debug your page data"
 A useful helper to pretty print data as JSON.
 
 ```handlebars
-\{{json}}
+\{{json this}}
 ```
 
 ```json
-{{json}}
+{{json this}}
 ```
 
 If a parameter is passed it prints only the given variable:

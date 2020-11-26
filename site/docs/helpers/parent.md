@@ -11,14 +11,14 @@ Get the data for a parent directory:
 ```handlebars
 {{{{raw}}}}
 {{#parent}}
-{{json}}
+{{json this}}
 {{/parent}}{{{{/raw}}}}
 ```
 
 Which for this page shows us:
 
 ```json
-{{#parent}}{{json}}{{/parent}}
+{{#parent}}{{json this}}{{/parent}}
 ```
 
 {{> back}}
