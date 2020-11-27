@@ -41,9 +41,9 @@ content = "This is some *Markdown* content."
 Will yield this markup:
 
 ```html
-\{{md snippet render=true ~}}
+{{md snippet render=true ~}}
 <section class="section-style">
-\{{md snippet render=true ~}}
+{{md snippet render=true ~}}
 </section>
 {{md "This is some *Markdown* content." render=true ~}}
 {{#md render=true ~}}This is some *Markdown* content.{{/md}}{{md content render=true ~}}
