@@ -1,5 +1,6 @@
 +++
 description = "Installing, upgrading and managing software versions"
+label = "installation"
 +++
 
 {{> crumbtrail}}

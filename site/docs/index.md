@@ -1,6 +1,7 @@
 +++
 title = "Documentation"
 description = "Documentation and developer reference"
+label = "documentation"
 +++
 
 {{> crumbtrail}}

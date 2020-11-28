@@ -1,5 +1,6 @@
 +++
 description = "Getting started guide"
+label = "getting started"
 +++
 
 {{> crumbtrail}}

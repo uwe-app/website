@@ -1,5 +1,6 @@
 +++
 description = "Template rendering helpers"
+label = "helpers"
 +++
 
 {{> crumbtrail}}
