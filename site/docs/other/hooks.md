@@ -11,7 +11,7 @@ Commands are executed with the current working directory set to the project fold
 Hooks are [settings]({{ link "/docs/settings/" }}) in `site.toml` named using the `hooks.run` notation, so the simplest hook would be:
 
 ```toml
-[[hooks.run]]
+\[[hooks.run]]
 path = "./compile-css"
 ```
 
@@ -20,7 +20,7 @@ When a command path begins with a period (`.`) it is resolved relative to the pr
 Arguments can be passed using the `args` field:
 
 ```toml
-[[hooks.run]]
+\[[hooks.run]]
 path = "./compile-css"
 args = ["param1", "param2"]
 ```
@@ -28,7 +28,7 @@ args = ["param1", "param2"]
 To indicate ownership of files relative to `site` use the `files` field in combination with the `watch` flag and your hook will be executed when those files are changed:
 
 ```toml
-[[hooks.run]]
+\[[hooks.run]]
 path = "./compile-css"
 files = [ "assets/css/style.css" ]
 watch = true
@@ -39,7 +39,7 @@ When live reload is enabled changes to the files will trigger your the hook.
 Once your script is working you might want to use the `stdout` and `stderr` flags to suppress program output:
 
 ```toml
-[[hooks.run]]
+\[[hooks.run]]
 path = "./compile-css"
 stdout = false
 ```
@@ -47,7 +47,7 @@ stdout = false
 By default hooks are run before a build, if you need to run a hook afterwards use the `after` flag:
 
 ```toml
-[[hooks.run]]
+\[[hooks.run]]
 path = "node"
 args = ["optimize.js"]
 after = true

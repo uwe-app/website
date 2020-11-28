@@ -32,7 +32,7 @@ src = "assets/styles/site.css"
 To add another style sheet to all pages, perhaps for print media, you can use the global page data:
 
 ```toml
-[[page.styles]]
+\[[page.styles]]
 src = "assets/styles/print.css"
 media = "print"
 ```
@@ -41,7 +41,7 @@ To assign style sheets to particular pages use front matter:
 
 ```markdown
 +++
-[[styles]]
+\[[styles]]
 src = "assets/styles/custom.css"
 +++
 
@@ -63,7 +63,7 @@ When using this object style notation for script assets you can use any attribut
 Scripts follow the same convention as style sheets; to add scripts to all pages:
 
 ```toml
-[[page.scripts]]
+\[[page.scripts]]
 src = "assets/scripts/lib.js"
 type = "module"
 ```
@@ -72,7 +72,7 @@ Or for an individual page:
 
 ```markdown
 +++
-[[scripts]]
+\[[scripts]]
 src = "assets/scripts/custom.js"
 +++
 
