@@ -31,7 +31,7 @@ Use a combination of Markdown and your preferred web technology for complete fre
   </li>
   <li>
     <h5>Flexible templates</h5>
-    <small>By <a href="https://handlebarsjs.com/">Handlebars</a> with some [[docs/helpers/]]</small>
+    <small>By <a href="https://handlebarsjs.com/">Handlebars</a> with some [[docs/helpers]]</small>
   </li>
   <li>
     <h5>Live reload</h5>
@@ -47,7 +47,7 @@ Use a combination of Markdown and your preferred web technology for complete fre
 
 Alpha testing is running for the rest of 2020 and a public beta will be available in Q1 of 2021.
 
-Interested? Head over to [[docs/installation/]] then learn more in the [[docs/getting-started/]] guide and read the [[docs/]] for more information.
+Interested? Head over to [[docs/installation]] then learn more in the [[docs/getting-started]] guide and read the [[docs]] for more information.
 
 [pulldown-cmark]: https://github.com/raphlinus/pulldown-cmark
 [handlebars]: https://github.com/sunng87/handlebars-rust
