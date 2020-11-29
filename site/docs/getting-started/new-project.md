@@ -6,7 +6,7 @@ description = "Create a new project from blueprints, folders or repositories"
 
 # {{title}}
 
-Once you have an [installation]({{ link "/docs/installation/" }}) the quickest way to create a new project is to use the default project blueprint using the `uws` program:
+Once you have an [[docs/installation]] the quickest way to create a new project is to use the default project blueprint using the `uws` program:
 
 ```text
 uwe new project-name
@@ -29,7 +29,7 @@ uwe new project-name tailwind
 
 ## Custom Blueprints
 
-You can create and distribute your own project blueprints easily as the `init` command will also accept a folder path or repository URL; the only requirement is that it has valid [settings]({{ link "/docs/settings/" }}).
+You can create and distribute your own project blueprints easily as the `init` command will also accept a folder path or repository URL; the only requirement is that it has valid [[docs/settings]].
 
 If you have created a private blueprint use a local folder path:
 

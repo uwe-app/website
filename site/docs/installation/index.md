@@ -7,7 +7,7 @@ label = "installation"
 
 # Installation
 
-Learn how to install the tools; we use a [version manager]({{ link "/docs/installation/version-manager/" }}) to manage multiple releases.
+Learn how to install the tools; we use a [[docs/installation/version-manager]] to manage multiple releases.
 
 * `uwe`: Compile, live preview and publish websites.
 * `upm`: Plugin manger; extra commands for plugin authors.
@@ -15,7 +15,7 @@ Learn how to install the tools; we use a [version manager]({{ link "/docs/instal
 
 ## Install
 
-Currently we support the Linux and MacOS operating systems; use our [quick install script](https://release.uwe.app/install.sh) to download `uvm` which will install all the required components:
+Currently we support the Linux and MacOS operating systems; use our [[https://release.uwe.app/install.sh|quick install script]] to download `uvm` which will install all the required components:
 
 ```text
 curl https://release.uwe.app/install.sh | sh
@@ -50,5 +50,5 @@ Which will perform the following tasks:
 
 You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
-Next read more about [getting started]({{ link "/docs/getting-started/" }}) or learn how to use the [version manager]({{ link "/docs/installation/version-manager/" }}) to upgrade.
+Next read more about [[docs/getting-started]] or learn how to use the [[docs/installation/version-manager]] to upgrade.
 

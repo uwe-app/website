@@ -1,5 +1,6 @@
 +++
 description = "Configure the site settings"
+label = "settings"
 +++
 
 {{> crumbtrail}}

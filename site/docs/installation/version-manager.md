@@ -1,5 +1,6 @@
 +++
 description = "Upgrading and managing software versions"
+label = "version manager"
 +++
 
 {{> crumbtrail}}

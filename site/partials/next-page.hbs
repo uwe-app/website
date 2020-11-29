@@ -1,7 +1,7 @@
 {{#with (lookup @root/menus menu)}}
 {{#next this @root/href}}
 {{#page this}}
-{{#if prefix}}{{prefix}}{{else}}Next: {{/if}}<a class="next" href="{{ link href }}">{{title}}</a>
+{{#if prefix}}{{prefix}}{{else}}Next: {{/if}}<a class="next" href="{{ link href }}" title="{{title}}">{{title}}</a>
 {{/page}}
 {{/next}}
 {{/with}}
