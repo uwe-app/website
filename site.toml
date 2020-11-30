@@ -138,6 +138,7 @@ pages = [
   "/docs/other/error-page/",
   "/docs/other/strict-mode/",
   "/docs/other/parallel-builds/",
+  "/docs/other/ssl-certificates/",
 ]
 
 [menu.design-patterns-idx]
