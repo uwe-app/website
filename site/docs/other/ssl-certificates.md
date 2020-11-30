@@ -1,6 +1,6 @@
 +++
 title = "SSL Certificates"
-description = "Generate certifiactes and configure the web server for SSL"
+description = "Generate certificates and configure the web server for SSL"
 +++
 
 {{> crumbtrail}}
@@ -32,7 +32,7 @@ mkcert -install
 mkcert *.loopback.space loopback.space localhost 127.0.0.1 ::1
 ```
 
-To configure the web server you can use the `--ssl-` options on the command line (see `uwe help server`) or set environment variables to always run over SSL.
+To configure the web server use the `--ssl-` options on the command line (see `uwe help server`) or set environment variables to always run over SSL.
 
 We recommend taking the environment variable approach, just configure your shell with the `SSL_CERT` and `SSL_KEY` variables. For example for the ZSH shell:
 
@@ -43,6 +43,12 @@ export SSL_KEY="$MKCERT/certs/_wildcard.loopback.space+4-key.pem"
 ```
 
 Now when you use `uwe --live` and `uwe server` your certificate will be used and the site served over HTTPS!
+
+If you have configured an SSL certificate via the environment and want to temporarily run over HTTP set the variables to the empty string:
+
+```text
+SSL_KEY= SSL_CERT= uwe --live
+```
 
 {{> next-page menu="other-idx"}}
 
