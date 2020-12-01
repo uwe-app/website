@@ -149,6 +149,14 @@ pages = [
   "/docs/design-patterns/notes/",
 ]
 
+[menu.translate-idx]
+description = true
+pages = [
+  "/docs/translate/introduction/",
+  "/docs/translate/languages/",
+  "/docs/translate/messages/",
+]
+
 #[profile.inc]
 #incremental = true
 #pristine = false

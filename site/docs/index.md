@@ -28,6 +28,10 @@ label = "documentation"
 
 {{menu "seo-idx"}}
 
+## Translate
+
+{{menu "translate-idx"}}
+
 ## Other Topics
 
 {{menu "other-idx"}}
