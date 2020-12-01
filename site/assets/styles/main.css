@@ -5,6 +5,23 @@
   --error: #dc322f;
 }
 
+body {
+  display: flex;
+  max-width: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+main {
+  /* Important so that pre elements do not overflow the width
+   * and therefore will respect overflow and scroll properly */
+  min-width: 0;
+}
+
+main > header + section {
+  padding: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   font-weight: normal;
@@ -59,32 +76,6 @@ ul.features > li > :first-child:before {
   background-size:contain;
   background-repeat:no-repeat;
 }
-
-/*
-div.note {
-  border-left: 2px solid var(--info);
-  padding-left: 1rem;
-}
-
-div.note.tip {
-  border-color: var(--tip);
-}
-
-div.note.warn {
-  border-color: var(--warn);
-}
-
-div.note.error {
-  border-color: var(--error);
-}
-
-div.note > span.label {
-  display: block;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-*/
 
 footer {
   font-size: 0.9rem;

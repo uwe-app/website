@@ -58,7 +58,7 @@ Page authors override global authors.
 Pages can access the entire authors list and also those attributed for the current page via `authors`:
 
 ```json
-{{json authors}}
+{{json authors pretty=true}}
 ```
 
 {{> next-page menu="content-idx"}}
