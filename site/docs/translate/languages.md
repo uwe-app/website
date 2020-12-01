@@ -1,5 +1,6 @@
 +++
 description = "Create language definitions"
+label = "languages"
 +++
 
 {{> crumbtrail}}
@@ -17,16 +18,14 @@ Which would create translation files for English, French and Spanish and set Fre
 For existing projects the `lang` sub-command can add new languages to the `site/locales` folder:
 
 ```text
-uwe lang new /path/to/project fr es
+uwe lang new project-name fr es
 ```
 
 If you are updating to a multi-lingual project remember to set a redirect for the default language in the site settings:
 
 ```toml
 [redirect]
-"/" = "/en/"
+"/" = "/fr/"
 ```
 
 {{> next-page menu="translate-idx"}}
-
-[project fluent]: https://www.projectfluent.org/

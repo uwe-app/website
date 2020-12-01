@@ -155,6 +155,7 @@ pages = [
   "/docs/translate/introduction/",
   "/docs/translate/languages/",
   "/docs/translate/messages/",
+  "/docs/translate/pages/",
 ]
 
 #[profile.inc]

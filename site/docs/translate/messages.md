@@ -1,5 +1,6 @@
 +++
 description = "Defining and using messages"
+label = "messages"
 +++
 
 {{> crumbtrail}}
@@ -26,7 +27,7 @@ If a message does not exist then an unknown localization message is rendered:
 {{fluent "missing-key"}}
 ```
 
-{{#> note}}
+{{#> note label="info"}}
 See [project fluent][] for more information on the syntax used in `.ftl` files.
 {{/note}}
 
@@ -41,7 +42,25 @@ welcome = Bonjour { $name }!
 We can pass the variable value like this:
 
 ```handlebars
-\{{fluent "welcome" name="Chloe"}}
+\{{fluent "welcome" name="Emma"}}
+```
+
+## Parameters
+
+If you need to pass a multi-line message as a variable there is an alternative block syntax which uses a child `fluentparam` block.
+
+For example to pass a `greeting` variable:
+
+```handlebars
+{{{{raw~}}}}
+{{#fluent "welcome"}}
+{{#fluentparam "greeting"}}
+This is a long variable that may need to span
+several lines; it will be passed as the "greeting"
+variable to the "welcome" message.
+{{/fluentparam}}
+{{/fluent}}
+{{{{~/raw}}}}
 ```
 
 {{> next-page menu="translate-idx"}}
