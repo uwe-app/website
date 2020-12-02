@@ -45,7 +45,7 @@ Use a combination of Markdown and your preferred web technology for complete fre
 
 ---
 
-Alpha testing is running for the rest of 2020 and a public beta will be available in Q1 of 2021.
+Alpha testing is running for the rest of 2020 and a public beta will be available in Q2 of 2021.
 
 Interested? Head over to [[docs/installation]] then learn more in the [[docs/getting-started]] guide and read the [[docs]] for more information.
 
