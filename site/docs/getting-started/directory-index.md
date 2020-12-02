@@ -35,6 +35,16 @@ Which will generate an unordered list of links to the pages in the `docs` folder
 \{{> listing class="index-list"}}
 ```
 
+By default all files will be included in a directory listing but somtimes certain files such as error pages should be ignored, to omit a page from a directory listing disable the listing flag. For example, we do this for the `404.md` files:
+
+```markdown
++++
+listing = false
++++
+```
+
+So that when a listing is generated for the root of the website the error page is not included.
+
 {{> next-page menu="getting-started-idx"}}
 
 [std::listing]: https://github.com/uwe-app/plugins/blob/master/std/listing
