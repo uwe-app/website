@@ -145,6 +145,7 @@ pages = [
 [menu.design-patterns-idx]
 description = true
 pages = [
+  "/docs/design-patterns/sidebar/",
   "/docs/design-patterns/crumbtrails/",
   "/docs/design-patterns/table-of-contents/",
   "/docs/design-patterns/notes/",

@@ -3,12 +3,17 @@
   --tip: #859900;
   --warn: #cb4b16;
   --error: #dc322f;
+  --sidebar-width: 320px;
+  --sidebar-offset: -320px;
+  --header-height: 96px;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 body {
   display: flex;
-  max-width: none;
-  border-radius: 0;
   overflow: hidden;
   /* Fix for the new.css shenanigans */
   max-width: none;
@@ -29,8 +34,9 @@ main {
 main header {
   /* Fix for the new.css header shenanigans */
   margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
+
+  height: var(--header-height);
 
   position: sticky;
   top: 0;
@@ -40,6 +46,15 @@ main > header + section {
   padding: 2rem 1rem;
   max-width: 760px;
   margin: 0 auto;
+}
+
+
+[id] {
+  scroll-margin-top: var(--header-height);
+}
+
+#sidebar {
+  background: white;
 }
 
 body > aside > section {
