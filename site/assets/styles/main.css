@@ -9,13 +9,31 @@ body {
   display: flex;
   max-width: none;
   border-radius: 0;
+  overflow: hidden;
+  /* Fix for the new.css shenanigans */
+  max-width: none;
   padding: 0;
+  border-radius: 0;
 }
 
 main {
+  flex: 1;
+  overflow-y: scroll;
+  height: 100vh;
+
   /* Important so that pre elements do not overflow the width
    * and therefore will respect overflow and scroll properly */
   min-width: 0;
+}
+
+main header {
+  /* Fix for the new.css header shenanigans */
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+  position: sticky;
+  top: 0;
 }
 
 main > header + section {
@@ -32,6 +50,11 @@ body > aside ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+body > aside > section:first-child {
+  display: flex;
+  border-bottom: 1px solid grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
