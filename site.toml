@@ -16,7 +16,7 @@ edit-path = "edit/site/"
 #"std::core" = { git = "https://github.com/uwe-app/plugins", version = "~1" }
 #"std::core" = { version = "~1" }
 "std::core" = { path = "../../plugins/std/core", version = "~2" }
-"std::sidebar" = { path = "../../plugins/std/sidebar", version = "~1", apply = { styles = [ "**" ] }}
+"std::sidebar" = { path = "../../plugins/std/sidebar", version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
 "std::link" = { path = "../../plugins/std/link", version = "~1", features = ["github"] }
 "std::listing" = { path = "../../plugins/std/listing", version = "~1" }
 "std::note" = { path = "../../plugins/std/note", version = "~1", apply = { styles = [ "**" ] } }
