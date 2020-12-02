@@ -35,7 +35,7 @@ Which will generate an unordered list of links to the pages in the `docs` folder
 \{{> listing class="index-list"}}
 ```
 
-By default all files will be included in a directory listing but somtimes certain files such as error pages should be ignored, to omit a page from a directory listing disable the listing flag. For example, we do this for the `404.md` files:
+By default all files will be included in a directory listing but sometimes certain files such as error pages should be ignored, to omit a page from a directory listing disable the listing flag. For example, we do this for the `404.md` files:
 
 ```markdown
 +++

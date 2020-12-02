@@ -21,13 +21,13 @@ If you want to output to a terminal window use the `log` helper:
 Narrow it down if you need to, for example:
 
 ```html
-<pre>\{{json scripts pretty=true}}</pre>
+<pre>\{{json authors pretty=true}}</pre>
 ```
 
 Will output:
 
 ```json
-{{json scripts pretty=true}}
+{{json authors pretty=true}}
 ```
 
 {{> next-page menu="getting-started-idx"}}

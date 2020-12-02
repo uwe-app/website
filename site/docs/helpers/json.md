@@ -8,30 +8,40 @@ description = "Debug your page data"
 
 A useful helper to pretty print data as JSON.
 
+Pass a parameter of the data to print and optionally the `pretty` hash parameter:
+
 ```handlebars
-\{{json this}}
+\{{json authors pretty=true}}
 ```
+
+Which renders to:
 
 ```json
-{{json this}}
+{{json authors pretty=true}}
 ```
 
-If a parameter is passed it prints only the given variable:
+Assuming the statement is at the top scope of a template you can print the entire page data using:
 
 ```handlebars
-\{{json authors}}
+\{{json this pretty=true}}
 ```
+
+When iterating using the `each` helper the `this` keyword will print the current scope:
+
+```handlebars
+{{{{raw~}}}}
+{{#each authors.all}}
+{{json this pretty=true}}
+{{/each}}
+{{{{~/raw}}}}
+```
+
+Which renders to:
 
 ```json
-{{json authors}}
-```
-
-When you are in an iterator (using `each`) the keyword `this` will print the current context.
-
-To create compact JSON output without indentation pass a boolean for the second parameter:
-
-```handlebars
-\{{json this true}}
+{{#each authors.all}}
+{{~json this pretty=true}}
+{{~/each}}
 ```
 
 {{> back}}
