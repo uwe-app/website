@@ -89,8 +89,8 @@ site_name = "UWE / Universal Web Editor"
 
 [menu]
 #sidebar = { file = "MENU.md" }
-main = { pages = ["/docs/", "/faq/"], description = true }
-docs = { directory = "/docs/" }
+primary = { pages = ["/docs/", "/faq/", "/contact/"] }
+#docs = { directory = "/docs/" }
 
 [menu.getting-started-idx]
 description = true
