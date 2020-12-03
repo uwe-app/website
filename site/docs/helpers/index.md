@@ -1,5 +1,5 @@
 +++
-description = "Template rendering helpers"
+description = "Helper reference guide"
 label = "helpers"
 +++
 

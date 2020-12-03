@@ -138,6 +138,7 @@ pages = [
 [menu.other-idx]
 description = true
 pages = [
+  "/docs/helpers/",
   "/docs/other/hooks/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
