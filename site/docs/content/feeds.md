@@ -37,6 +37,8 @@ Now when you compile your project the feeds will automatically be generated usin
 
 We also add `<link rel="alternate">` elements to help readers find your feeds <3.
 
-{{> next-page menu="content-idx"}}
+{{import "footer"}}
+
+\{{> next-page menu="content-idx"}}
 
 [std::feed]: https://github.com/uwe-app/plugins/tree/master/std/feed

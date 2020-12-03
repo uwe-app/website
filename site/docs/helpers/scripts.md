@@ -16,6 +16,6 @@ The scripts helper is called automatically to include scripts in a page by the [
 If you fail to call this helper then live reload will not work.
 {{/note}}
 
-{{> back}}
+{{import "footer"}}
 
 [body partial]: https://github.com/uwe-app/plugins/blob/master/std/core/partials/body.hbs

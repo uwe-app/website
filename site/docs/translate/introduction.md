@@ -60,6 +60,6 @@ Which means that multi-lingual projects need to add a redirect in the project si
 "/" = "/fr/"
 ```
 
-{{> next-page menu="translate-idx"}}
+{{import "footer"}}
 
 [project fluent]: https://www.projectfluent.org/

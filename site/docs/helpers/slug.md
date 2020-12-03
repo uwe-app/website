@@ -20,4 +20,4 @@ Will output:
 
 This is particularly useful when building links to documents created using [data sources]({{ link "/docs/data-sources/" }}).
 
-{{> back}}
+{{import "footer"}}

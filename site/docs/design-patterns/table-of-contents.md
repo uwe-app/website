@@ -25,7 +25,7 @@ Now for pages that need a table of contents you just call the [toc helper][] lik
 
 Using the [details element][] as a wrapper for the table of contents allows the visitor to collapse the menu; see this [example partial][] for markup and a [working example is here]({{ link "/docs/getting-started/customize/" }}).
 
-{{> next-page menu="design-patterns-idx"}}
+{{import "footer"}}
 
 [toc helper]: {{ link "/docs/helpers/toc/" }}
 [details element]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details

@@ -73,4 +73,4 @@ If you would like to disable clean URLs set `rewrite-index` for a build profile 
 rewrite-index = false
 ```
 
-{{> next-page menu="pages-idx"}}
+{{import "footer"}}

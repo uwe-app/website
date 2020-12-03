@@ -41,4 +41,4 @@ uwe --release
 
 Your website files are now in `build/release`.
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}

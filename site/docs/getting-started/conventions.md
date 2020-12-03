@@ -34,4 +34,4 @@ If the file `assets/scripts/main.js` exists it is applied to all pages automatic
 
 If the file `assets/styles/main.css` exists it is applied to all pages automatically, see [customize]({{ link "/docs/getting-started/customize/" }}) for more information on applying style sheets.
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}

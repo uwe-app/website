@@ -12,7 +12,7 @@ The link helper generates links relative to the current page. You pass it an abs
 [Contact](\{{link "/contact/"}})
 ```
 
-Yields: 
+Yields:
 
 ```markdown
 [Contact]({{link "/contact/"}})
@@ -28,4 +28,5 @@ Sometimes, for example when rendering error pages, it is better to use absolute 
 \{{link "/contact/" abs=true}})
 ```
 
-{{> back}}
+{{import "footer"}}
+

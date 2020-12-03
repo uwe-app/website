@@ -55,4 +55,4 @@ There is an alternative syntax for passing parameters which is useful if you are
 {{/fluent}}{{{{/raw}}}}
 ```
 
-{{> back}}
+{{import "footer"}}

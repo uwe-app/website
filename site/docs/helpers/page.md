@@ -25,5 +25,4 @@ This helper is particularly useful in conjunction with menus which expose the UR
 {{/each}}{{{{/raw}}}}
 ```
 
-{{> back}}
-
+{{import "footer"}}

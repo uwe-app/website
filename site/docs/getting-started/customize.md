@@ -99,6 +99,6 @@ When you use a blueprint to create a new project these files already exist.
 
 The [partials/content.hbs](https://github.com/uwe-app/plugins/blob/master/std/core/partials/content.hbs) template just wraps each page in a `<main>` element; if you want to change this part of the default layout create a `partials/content.hbs` file to override the default.
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}
 
 [script element]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script

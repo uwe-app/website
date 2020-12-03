@@ -80,4 +80,4 @@ fallback = true
 
 By adding the `fallback` flag to the page data we are saying *use the content from the fallback language* for this page.
 
-{{> next-page menu="translate-idx"}}
+{{import "footer"}}

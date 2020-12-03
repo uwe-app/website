@@ -15,4 +15,4 @@ Select a random element from an array and assign it to the scope for the templat
 {{/random}}{{{{/raw}}}}
 ```
 
-{{> back}}
+{{import "footer"}}

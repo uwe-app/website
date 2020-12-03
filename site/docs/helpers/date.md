@@ -66,4 +66,4 @@ Here are all the built-in formats for date and time:
 * `date-formats.datetime-medium`: {{date file.modified @root/date.formats.datetime-medium}}
 * `date-formats.datetime-long`: {{date file.modified @root/date.formats.datetime-long}}
 
-{{> back}}
+{{import "footer"}}

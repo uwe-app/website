@@ -53,7 +53,9 @@ version = "~10"
 apply = { scripts = [ "**" ], styles = [ "**" ] }
 ```
 
-{{> next-page menu="content-idx"}}
+{{import "footer"}}
+
+\{{> next-page menu="content-idx"}}
 
 [syntax theme]: https://github.com/uwe-app/runtime/tree/master/syntax/themes
 [highlight.js]: https://highlightjs.org/

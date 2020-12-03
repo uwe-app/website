@@ -44,4 +44,4 @@ Or to easily share blueprints use a repository URL:
 uwe new project-name https://github.com/uwe-app/blog
 ```
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}

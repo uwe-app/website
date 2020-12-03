@@ -61,5 +61,4 @@ Pages can access the entire authors list and also those attributed for the curre
 {{json authors pretty=true}}
 ```
 
-{{> next-page menu="content-idx"}}
-
+{{import "footer"}}

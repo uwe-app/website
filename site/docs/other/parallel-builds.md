@@ -15,5 +15,4 @@ If you need to debug compiler errors it can be useful to disable parallel builds
 parallel = false
 ```
 
-{{> next-page menu="other-idx"}}
-
+{{import "footer"}}

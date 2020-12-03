@@ -21,4 +21,4 @@ Which for this page shows us:
 {{#parent}}{{json this pretty=true}}{{/parent}}
 ```
 
-{{> back}}
+{{import "footer"}}

@@ -37,6 +37,8 @@ You can set the link `text` and pass a `tooltip` to set the title attribute:
 \{{> github-edit text="Github editor" tooltip="Edit this page on Github"}}
 ```
 
-{{> next-page menu="content-idx"}}
+{{import "footer"}}
+
+\{{> next-page menu="content-idx"}}
 
 [std::link]: https://github.com/uwe-app/plugins/tree/master/std/link

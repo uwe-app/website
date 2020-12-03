@@ -134,7 +134,7 @@ To remedy this you can add the tiny [sidebar.js][] script to all your pages by c
 "std::sidebar" = { version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] } }
 ```
 
-{{> next-page menu="design-patterns-idx"}}
+{{import "footer"}}
 
 [std::sidebar]: https://github.com/uwe-app/plugins/tree/master/std/sidebar
 [std::core]: https://github.com/uwe-app/plugins/tree/master/std/core

@@ -18,5 +18,4 @@ draft = true
 # {{title}}
 ```
 
-{{> next-page menu="pages-idx"}}
-
+{{import "footer"}}

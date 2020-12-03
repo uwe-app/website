@@ -26,7 +26,7 @@ disallow = ["/posts"]
 
 To learn more about the rules in `robots.txt` see the [robots.txt specification][].
 
-{{> next-page menu="seo-idx"}}
+{{import "footer"}}
 
 [robots.txt specification]: https://developers.google.com/search/reference/robots_txt
 

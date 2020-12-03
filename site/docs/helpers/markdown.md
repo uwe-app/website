@@ -67,4 +67,4 @@ The only time you should use `render` is in HTML *inside a Markdown document*.
 Be careful using the block syntax `\{{#md}}` in HTML documents as leading whitespace can be mistakenly interpreted as fenced code blocks.
 {{/note}}
 
-{{> back}}
+{{import "footer"}}

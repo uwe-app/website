@@ -30,4 +30,4 @@ Will output:
 {{json authors pretty=true}}
 ```
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}

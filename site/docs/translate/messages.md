@@ -63,6 +63,6 @@ variable to the "welcome" message.
 {{{{~/raw}}}}
 ```
 
-{{> next-page menu="translate-idx"}}
+{{import "footer"}}
 
 [project fluent]: https://www.projectfluent.org/

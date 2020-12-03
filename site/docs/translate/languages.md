@@ -28,4 +28,4 @@ If you are updating to a multi-lingual project remember to set a redirect for th
 "/" = "/fr/"
 ```
 
-{{> next-page menu="translate-idx"}}
+{{import "footer"}}

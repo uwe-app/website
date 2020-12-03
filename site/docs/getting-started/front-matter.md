@@ -156,7 +156,7 @@ permalink = "/posts/article-link/"
 The `permalink` variable will use the redirect path for the page when `permalink` is set otherwise the page URL is used; the value is always an absolute URI.
 {{/note}}
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}
 
 [TOML]: https://toml.io
 [Open Graph]: https://ogp.me/

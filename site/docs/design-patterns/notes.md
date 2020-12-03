@@ -77,5 +77,5 @@ If you want to use the default [styles](https://github.com/uwe-app/plugins/blob/
 "std::note" = { version = "~1", apply = { styles = [ "**" ] } }
 ```
 
-{{> next-page menu="design-patterns-idx"}}
+{{import "footer"}}
 

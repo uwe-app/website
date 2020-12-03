@@ -15,4 +15,4 @@ It is a build setting so if you want to disable it use:
 strict = false
 ```
 
-{{> next-page menu="other-idx"}}
+{{import "footer"}}

@@ -41,7 +41,7 @@ rewrite-index = false
 
 Be aware if you set the `standalone` field globally no layouts will be applied!
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}
 
 [std::core]: https://github.com/uwe-app/plugins/tree/master/std/core
 [default layout]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs

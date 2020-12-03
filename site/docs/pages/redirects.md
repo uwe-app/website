@@ -32,4 +32,4 @@ When redirect pages are written if the source path ends with a slash (`/`) then 
 
 See [profiles]({{ link "/docs/profiles/" }}) for more information.
 
-{{> next-page menu="pages-idx"}}
+{{import "footer"}}

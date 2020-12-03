@@ -16,4 +16,4 @@ Each iteration is passed the data for the target and some extra fields:
 
 The `@first` field is useful if you want to skip the home page.
 
-{{> back}}
+{{import "footer"}}

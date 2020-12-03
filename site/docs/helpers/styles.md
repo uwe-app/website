@@ -18,6 +18,6 @@ By default paths are relative but sometimes absolute paths may be necessary (in 
 \{{styles abs=true}}
 ```
 
-{{> back}}
+{{import "footer"}}
 
-[std::core layout]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs 
+[std::core layout]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs

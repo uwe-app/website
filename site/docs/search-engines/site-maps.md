@@ -31,6 +31,4 @@ entries = 20000
 When site maps are enabled a [robots]({{ link "/docs/search-engines/robots/" }}) file is always generated so we can let bots know where to find the site maps.
 {{/note}}
 
-{{> next-page menu="seo-idx"}}
-
-
+{{import "footer"}}

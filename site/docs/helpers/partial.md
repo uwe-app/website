@@ -25,7 +25,7 @@ Alternatively you can pass the path of a specific page to render:
 
 An example of iterating a menu and rendering each page in the list can be seen in the [print page][] of the [std::book][] plugin.
 
-{{> back}}
+{{import "footer"}}
 
 [default main layout]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs
 [print page]: https://github.com/uwe-app/plugins/blob/master/std/book/pages/print.md

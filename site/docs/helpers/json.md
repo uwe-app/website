@@ -44,4 +44,4 @@ Which renders to:
 {{~/each}}
 ```
 
-{{> back}}
+{{import "footer"}}

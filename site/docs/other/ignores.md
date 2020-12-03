@@ -39,4 +39,4 @@ Then override the pattern in `.ignore`:
 
 Job done!
 
-{{> next-page menu="other-idx"}}
+{{import "footer"}}

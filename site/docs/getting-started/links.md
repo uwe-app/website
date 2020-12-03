@@ -73,4 +73,4 @@ Which when rendered would create a relative link to the resource:
 
 You pass an absolute path to the link helper and it will check the link exists so that if you move the page you will need to update all the links to the page which helps to ensure your site has no broken links!
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}

@@ -21,4 +21,4 @@ But if we add a trailing slash (`https://example.com/docs/`) then it resolves to
 
 When publishing your website you should ensure your web server is configured to redirect folders without a slash to include the slash so that relative paths are resolved correctly.
 
-{{> next-page menu="pages-idx"}}
+{{import "footer"}}

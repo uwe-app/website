@@ -33,4 +33,4 @@ The hash parameter `exact` can be used to request an exact match:
   <a {{match "/docs/" "class='selected'" exact=true}} href="{{ link "/docs/" }}" title="Docs">Docs</a>{{{{/raw}}}}
 ```
 
-{{> back}}
+{{import "footer"}}

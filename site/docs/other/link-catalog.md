@@ -31,4 +31,4 @@ Check out the [uwe][] project!
 
 To prevent creating a page for `links.md` you should add an ignore pattern `/links.md` to an `.ignore` file.
 
-{{> next-page menu="other-idx"}}
+{{import "footer"}}

@@ -79,6 +79,6 @@ Mixing HTML with Markdown makes naming collisions more likely, see [clean URLs](
 
 The next section looks at defining data for individual pages using [front matter]({{ link "/docs/getting-started/front-matter/" }}) and the meta data typically assigned to pages.
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}
 
 [TOML]: https://toml.io

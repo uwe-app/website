@@ -16,4 +16,4 @@ Include paths are resolved relative to the page calling the `include` helper:
 \{{include "../../includes/example.txt"}}
 ```
 
-{{> back}}
+{{import "footer"}}

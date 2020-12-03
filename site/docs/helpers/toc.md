@@ -19,4 +19,4 @@ Render a table of contents list:
 
 This helper is only available when the `toc` transform is enabled, see [table of contents]({{link "/docs/design-patterns/table-of-contents/"}}) for more detail.
 
-{{> back}}
+{{import "footer"}}

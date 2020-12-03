@@ -24,4 +24,4 @@ The context for the iterator is set to the page for each item in the current dir
 {{/menu}}{{{{/raw}}}}
 ```
 
-{{> back}}
+{{import "footer"}}

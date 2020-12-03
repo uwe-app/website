@@ -35,6 +35,6 @@ The [plugin styles](https://github.com/uwe-app/plugins/blob/master/std/crumbtrai
 "std::crumbtrail" = { version = "~1" }
 ```
 
-{{> next-page menu="design-patterns-idx"}}
+{{import "footer"}}
 
 [std::crumbtrail]: https://github.com/uwe-app/plugins/tree/master/std/crumbtrail

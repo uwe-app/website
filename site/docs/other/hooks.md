@@ -79,4 +79,4 @@ release = "prod"
 
 The execution order of hooks is not guaranteed.
 
-{{> back}}
+{{import "footer"}}

@@ -50,6 +50,6 @@ If you have configured an SSL certificate via the environment and want to tempor
 SSL_KEY= SSL_CERT= uwe --live
 ```
 
-{{> next-page menu="other-idx"}}
+{{import "footer"}}
 
 [mkcert]: https://github.com/FiloSottile/mkcert

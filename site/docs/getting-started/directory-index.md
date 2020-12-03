@@ -45,6 +45,6 @@ listing = false
 
 So that when a listing is generated for the root of the website the error page is not included.
 
-{{> next-page menu="getting-started-idx"}}
+{{import "footer"}}
 
 [std::listing]: https://github.com/uwe-app/plugins/blob/master/std/listing
