@@ -48,7 +48,6 @@ main > header + section {
   margin: 0 auto;
 }
 
-
 [id] {
   scroll-margin-top: var(--header-height);
 }
@@ -67,9 +66,14 @@ body > aside ul {
   padding: 0;
 }
 
-body > aside > section:first-child {
+body > aside > header {
   display: flex;
   border-bottom: 1px solid grey;
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 1rem;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,22 +81,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-header {
+main > header {
   text-align: center;
 }
 
-header > nav {
+main > header > nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
-header nav a:not(:last-child) {
+main > header nav a:not(:last-child) {
   display: inline-block;
   margin-right: 0.5rem;
 }
 
-header a.main {
+main > header a.main {
   color: inherit;
   text-decoration: none;
 }

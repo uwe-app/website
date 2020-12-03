@@ -155,6 +155,7 @@ pages = [
   "/docs/design-patterns/sidebar/",
   "/docs/design-patterns/crumbtrails/",
   "/docs/design-patterns/table-of-contents/",
+  "/docs/design-patterns/sticky-header/",
   "/docs/design-patterns/notes/",
 ]
 

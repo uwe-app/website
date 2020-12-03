@@ -114,15 +114,6 @@ main > header + section {
 It is important that scrolling is done on the `main` element not the `body` otherwise the sidebar sticky positioning has some subtle issues.
 {{/note}}
 
-If you want a sticky header in the main content area add this style rule:
-
-```css
-main header {
-  position: sticky;
-  top: 0;
-}
-```
-
 ## Script
 
 You should have a working sidebar by now but there is one small issue; as we toggle the sidebar menu visibility and navigate around the site the *open* state for the sidebar is not remembered.
