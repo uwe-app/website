@@ -9,4 +9,4 @@ label = "getting started"
 
 Get up and running with the fundamental concepts.
 
-{{menu "getting-started"}}
+{{menu "getting-started-idx"}}
