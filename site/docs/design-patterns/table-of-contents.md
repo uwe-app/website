@@ -25,6 +25,10 @@ Now for pages that need a table of contents you just call the [toc helper][] lik
 
 Using the [details element][] as a wrapper for the table of contents allows the visitor to collapse the menu; see this [example partial][] for markup and a [working example is here]({{ link "/docs/getting-started/customize/" }}).
 
+{{#> note label="warn" type="warn"}}
+Be careful where you put headings otherwise you may get too many entries in your table of contents. For example, if you are using a sidebar navigation with sections it is tempting to use headings to delimit the sections but these would also appear in the table of contents which is probably not what you want!
+{{/note}}
+
 {{import "footer"}}
 
 [toc helper]: {{ link "/docs/helpers/toc/" }}
