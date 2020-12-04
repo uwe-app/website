@@ -1,6 +1,7 @@
 lang = "en"
 host = "uwe.app"
 version = "1.0.0"
+#powered = { display = "hidden" }
 
 [repository]
 url = "https://github.com/uwe-app/website/"
