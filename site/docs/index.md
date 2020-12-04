@@ -35,7 +35,3 @@ label = "documentation"
 ## Other Topics
 
 {{menu "other-idx"}}
-
----
-
-{{!-- {{> listing}} --}}

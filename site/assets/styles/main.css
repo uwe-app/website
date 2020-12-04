@@ -5,7 +5,7 @@
   --error: #dc322f;
   --sidebar-width: 320px;
   --sidebar-offset: -320px;
-  --header-height: 96px;
+  --header-height: 64px;
 }
 
 html {
@@ -34,7 +34,13 @@ main {
 main header {
   /* Fix for the new.css header shenanigans */
   margin: 0;
-  padding: 0;
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid gray;
 
   height: var(--header-height);
 
@@ -68,12 +74,16 @@ body > aside ul {
 
 body > aside > header {
   display: flex;
-  border-bottom: 1px solid grey;
+  height: var(--header-height);
+  border-bottom: 1px solid gray;
   position: sticky;
   top: 0;
   background: white;
-  padding: 1rem;
+  padding: 0 1rem;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
