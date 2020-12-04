@@ -89,12 +89,10 @@ site_name = "UWE / Universal Web Editor"
 #rel = "preload"
 
 [menu]
-#sidebar = { file = "MENU.md" }
+variants = [{ description = true, suffix = "-idx" }]
 primary = { pages = ["/docs/", "/faq/", "/contact/"] }
-#docs = { directory = "/docs/" }
 
-[menu.getting-started-idx]
-description = true
+[menu.getting-started]
 pages = [
   "/docs/getting-started/new-project/",
   "/docs/getting-started/build-project/",
@@ -109,8 +107,7 @@ pages = [
   "/docs/getting-started/directory-index/",
 ]
 
-[menu.pages-idx]
-description = true
+[menu.pages]
 pages = [
   "/docs/pages/remove/",
   "/docs/pages/drafts/",
@@ -119,8 +116,7 @@ pages = [
   "/docs/pages/trailing-slash/",
 ]
 
-[menu.content-idx]
-description = true
+[menu.content]
 pages = [
   "/docs/content/author-attribution/",
   "/docs/content/feeds/",
@@ -128,16 +124,14 @@ pages = [
   "/docs/content/edit-on-github/",
 ]
 
-[menu.seo-idx]
-description = true
+[menu.seo]
 pages = [
   "/docs/search-engines/no-index/",
   "/docs/search-engines/robots/",
   "/docs/search-engines/site-maps/",
 ]
 
-[menu.other-idx]
-description = true
+[menu.other]
 pages = [
   "/docs/helpers/",
   "/docs/other/hooks/",
@@ -150,8 +144,7 @@ pages = [
   "/docs/other/ssl-certificates/",
 ]
 
-[menu.design-patterns-idx]
-description = true
+[menu.design-patterns]
 pages = [
   "/docs/design-patterns/sidebar/",
   "/docs/design-patterns/crumbtrails/",
@@ -160,8 +153,7 @@ pages = [
   "/docs/design-patterns/notes/",
 ]
 
-[menu.translate-idx]
-description = true
+[menu.translate]
 pages = [
   "/docs/translate/introduction/",
   "/docs/translate/languages/",
