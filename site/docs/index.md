@@ -30,6 +30,10 @@ label = "documentation"
 
 {{menu "translate-idx"}}
 
+## Publish
+
+{{menu "publish-idx"}}
+
 ## Other Topics
 
 {{menu "other-idx"}}

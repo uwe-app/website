@@ -106,6 +106,7 @@ pages = [
   "/docs/getting-started/debugging/",
   "/docs/getting-started/conventions/",
   "/docs/getting-started/directory-index/",
+  "/docs/getting-started/publish/",
 ]
 
 [menu.pages]
@@ -160,6 +161,11 @@ pages = [
   "/docs/translate/languages/",
   "/docs/translate/messages/",
   "/docs/translate/pages/",
+]
+
+[menu.publish]
+pages = [
+  "/docs/publish/amazon-web-services/",
 ]
 
 #[profile.inc]

@@ -1,5 +1,6 @@
 +++
 description = "Redirect to new locations"
+label = "redirects"
 +++
 
 {{import "header"}}

@@ -1,6 +1,7 @@
 +++
 title = "SSL Certificates"
 description = "Generate certificates and configure the web server for SSL"
+label = "SSL certificates"
 +++
 
 {{import "header"}}

@@ -1,10 +1,11 @@
 +++
 description = "Publish the site"
+label = "publish"
 +++
 
 {{import "header"}}
 
-How to publish the website.
+Information about supported hosting providers compatible with the `publish` command.
 
 {{> listing}}
 

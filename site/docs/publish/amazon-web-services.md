@@ -37,18 +37,22 @@ bucket = "example.com"
 You need to ensure that the region matches where your buckets are located and the buckets must already exist then you can publish an environment like this:
 
 ```
-ht publish stage
+uwe publish stage
 ```
 
 It is not required to have a `stage` environment but is recommended so you can check the published site before going live. Once you have verified the staging site; to publish to production just specify the `production` environment:
 
 ```
-ht publish production
+uwe publish production
 ```
 
 ## Prefix
 
-If no bucket is given then the top-level `host` is used and you can set a `prefix` to publish into different locations in the bucket:
+If no bucket is given then the top-level `host` is used and you can set a `prefix` to publish into different locations in the bucket.
+
+{{#> note label="warn" type="warn"}}
+Be aware that this configuration has issues with trailing slash redirects when proxied via Cloudfront so we recommend a separate bucket per environment.
+{{/note}}
 
 ```toml
 host = "example.com"
@@ -63,8 +67,6 @@ prefix = "stage"
 [publish.aws.environments.production]
 prefix = "production"
 ```
-
-However, be aware that this configuration has issues with trailing slash redirects when proxied via Cloudfront so we recommend a separate bucket per environment.
 
 {{> back}}
 
