@@ -76,14 +76,24 @@ main > header + article {
   background: white;
 }
 
-body > aside > nav {
-  padding: 1rem;
+body > aside > nav > ul > li {
+  padding: 0 1rem;
+}
+
+.listing .selected {
+  background: #eeeeee;
 }
 
 body > aside ul {
   list-style-type: none;
-  margin: 0;
+  margin: 1rem 0 0 0;
   padding: 0;
+}
+
+body > aside > nav > p {
+  margin: 1rem;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 body > aside > header {

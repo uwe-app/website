@@ -18,7 +18,7 @@ edit-path = "edit/site/"
 "std::menu" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::sidebar" = { path = "../../plugins/std/sidebar", version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
 "std::link" = { version = "~1", features = ["github"] }
-"std::listing" = { version = "~1" }
+"std::listing" = { path = "../../plugins/std/listing", version = "~1" }
 "std::note" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::crumbtrail" = { version = "~1", apply = { styles = [ "**" ] } }
 "css::new" = { version = "~1", apply = { styles = [ "**" ] } }
