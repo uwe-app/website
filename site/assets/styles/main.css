@@ -58,6 +58,20 @@ main > header + section {
   scroll-margin-top: var(--header-height);
 }
 
+[for="sidebar-toggle"] {
+  cursor: pointer;
+}
+
+[for="sidebar-toggle"] > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+[for="sidebar-toggle"] > img {
+  margin: 0;
+  max-width: none;
+}
+
 #sidebar {
   background: white;
 }
