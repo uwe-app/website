@@ -3,7 +3,7 @@ description = "Configure the site settings"
 label = "settings"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 The settings for a website are put in `site.toml`; these are the minimum required fields:
 

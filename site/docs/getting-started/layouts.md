@@ -2,9 +2,7 @@
 description = "Create a custom layout"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 When you create a new project from a blueprint it will use the layout and partials from the [std::core][] plugin which is good to get up and running quickly but you may want to change the default layout.
 

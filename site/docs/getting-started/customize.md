@@ -2,9 +2,7 @@
 description = "Add favicon, styles and scripts to your pages"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 {{> table-of-contents}}
 

@@ -2,9 +2,7 @@
 description = "Design patterns"
 +++
 
-{{> crumbtrail}}
-
-# Design Patterns
+{{import "header"}}
 
 Common patterns for website design.
 

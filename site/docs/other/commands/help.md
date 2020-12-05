@@ -2,9 +2,7 @@
 description = "Get command help"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 To get help for a command run `uwe help <cmd>`; for example:
 

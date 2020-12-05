@@ -3,9 +3,7 @@ title = "Clean URLs"
 description = "Search engine friendly URLs"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Clean URLs are known to be preferred by search engines and are also easier for people to read so we enable them by default.
 

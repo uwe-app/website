@@ -2,9 +2,7 @@
 description = "Select the previous item in a list"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Use the `previous` helper to select the previous item in a list; you must pass an array as the first argument and the current item as the second item. It is an error if the current item does not exist in the list.
 

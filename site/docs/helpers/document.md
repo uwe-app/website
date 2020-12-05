@@ -2,9 +2,7 @@
 description = "Render the content for the current page"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The `document` helper renders the content for the current page.
 

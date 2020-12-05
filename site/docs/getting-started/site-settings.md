@@ -2,9 +2,7 @@
 description = "Settings for the project"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The project settings in `site.toml` configures various information for the project;  this page describes the required settings for a project. See the [settings documentation]({{ link "/docs/settings/" }}) for detailed information.
 

@@ -2,9 +2,7 @@
 description = "Project conventions"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 A conventional project structure helps everyone get up and running quickly and makes sharing projects easier. These conventions can be modified via [settings]({{ link "/docs/settings/" }}) if you need to however this is not recommended.
 

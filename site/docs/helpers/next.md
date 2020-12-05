@@ -2,9 +2,7 @@
 description = "Select the next item in a list"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Use the `next` helper to select the next item in a list; you must pass an array as the first argument and the current item as the second item. It is an error if the current item does not exist in the list.
 

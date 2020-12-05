@@ -2,9 +2,7 @@
 description = "Generate site maps for web crawlers"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Site maps enable web crawlers to easily find your pages to index. Site maps are enabled for release builds only by default, you can enable for all build profiles like this:
 

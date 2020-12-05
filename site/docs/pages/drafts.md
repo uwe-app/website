@@ -2,9 +2,7 @@
 description = "Mark work in progress as drafts"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Drafts allow you to work on pages but exclude them from release builds.
 

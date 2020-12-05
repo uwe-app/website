@@ -2,7 +2,7 @@
 description = "Publish the site"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 How to publish the website.
 

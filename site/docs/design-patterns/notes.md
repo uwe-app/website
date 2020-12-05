@@ -2,9 +2,7 @@
 description = "Show tips, warnings and other notes"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 {{> table-of-contents}}
 

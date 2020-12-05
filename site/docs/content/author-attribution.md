@@ -2,9 +2,7 @@
 description = "Attribute content to authors"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 To attribute content to author(s) first define some authors in the site settings:
 

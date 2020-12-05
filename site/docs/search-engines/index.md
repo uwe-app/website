@@ -2,9 +2,7 @@
 description = "Search engine best practices"
 +++
 
-{{> crumbtrail}}
-
-# Search Engines
+{{import "header"}}
 
 Best practices for good organize search engine rankings.
 

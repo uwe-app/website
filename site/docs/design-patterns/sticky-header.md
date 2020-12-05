@@ -2,9 +2,7 @@
 description = "Stick the site header to the top"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 For some websites it may be desirable to *stick* the main page header to the top of the browser viewport. This is trivial with this style rule:
 

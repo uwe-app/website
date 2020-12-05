@@ -3,9 +3,7 @@ description = "Defining and using messages"
 label = "messages"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Messages are referred to by name, here is an example defining a message and then referencing it using the `fluent` helper.
 

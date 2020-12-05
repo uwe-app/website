@@ -2,9 +2,7 @@
 description = "Guide to creating page content"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 This section looks in-depth at techniques and best practices for creating page content.
 

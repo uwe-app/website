@@ -48,7 +48,7 @@ main header {
   top: 0;
 }
 
-main > header + section {
+main > header + article {
   padding: 2rem 1rem;
   max-width: 760px;
   margin: 0 auto;
@@ -76,7 +76,7 @@ main > header + section {
   background: white;
 }
 
-body > aside > section {
+body > aside > nav {
   padding: 1rem;
 }
 

@@ -3,9 +3,7 @@ description = "Installing, upgrading and managing software versions"
 label = "installation"
 +++
 
-{{> crumbtrail}}
-
-# Installation
+{{import "header"}}
 
 Learn how to install the tools; we use a [[docs/installation/version-manager]] to manage multiple releases.
 

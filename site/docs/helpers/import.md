@@ -2,9 +2,7 @@
 description = "Import templates"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The `import` helper can be used to render templates; it is always an error if the template for an import cannot be found.
 

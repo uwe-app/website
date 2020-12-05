@@ -2,9 +2,7 @@
 description = "Create valid, relative links"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The link helper generates links relative to the current page. You pass it an absolute path and it will return a URL relative to the current page with the correct amount of `../` references; it also does the important job of checking links exist at compile time!
 

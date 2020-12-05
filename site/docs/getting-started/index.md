@@ -3,9 +3,7 @@ description = "Getting started guide"
 label = "getting started"
 +++
 
-{{> crumbtrail}}
-
-# Getting Started
+{{import "header"}}
 
 Get up and running with the fundamental concepts.
 

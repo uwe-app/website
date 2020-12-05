@@ -2,9 +2,7 @@
 description = "Render a table of contents list"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Render a table of contents list:
 

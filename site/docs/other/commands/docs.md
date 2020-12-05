@@ -2,9 +2,7 @@
 description = "Browse the documentation"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 To browse the documentation run:
 

@@ -3,7 +3,7 @@ description = "Helper reference guide"
 label = "helpers"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 Helpers are here to make life easier.
 

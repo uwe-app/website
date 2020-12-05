@@ -2,7 +2,7 @@
 description = "Fetch data from an index"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 Queries extract data from the generator indices and expose them to page templates. To define a query set the `query` field for a page in `data.toml`; it may be a single object or array of objects when you need multiple queries for a page.
 
@@ -39,7 +39,7 @@ Use the `include_docs` flag to also included the documents referenced by the ind
 query = {name = "quotes", index = "all", include_docs = true}
 ```
 
-Now the returned data has a `value` field containing the `document` and it's `id`: 
+Now the returned data has a `value` field containing the `document` and it's `id`:
 
 ```json
 {

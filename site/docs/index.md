@@ -4,9 +4,7 @@ description = "Documentation and developer reference"
 label = "documentation"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 ## Getting Started
 

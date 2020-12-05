@@ -3,9 +3,7 @@ title = "Sidebar Menu"
 description = "Add navigation to a sidebar"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The *sidebar* pattern is so common that we decided to support it out of the box.
 

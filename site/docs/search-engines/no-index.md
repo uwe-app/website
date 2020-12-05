@@ -2,9 +2,7 @@
 description = "Deny indexing to web crawlers"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 To prevent a specific page from being indexed by web crawlers add the `noindex` flag to the frontmatter for a page:
 

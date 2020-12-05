@@ -3,9 +3,7 @@ title = "SSL Certificates"
 description = "Generate certificates and configure the web server for SSL"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 When a site is published we think it *must* run over SSL to protect against man-in-the-middle attacks, prevent ad injection by intrusive ISPs and other hijacking of web traffic.
 

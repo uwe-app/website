@@ -2,9 +2,7 @@
 description = "Debug your page data"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 A useful helper to pretty print data as JSON.
 

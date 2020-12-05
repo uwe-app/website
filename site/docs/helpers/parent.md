@@ -2,9 +2,7 @@
 description = "Get data for parent pages"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Get the data for a parent directory:
 

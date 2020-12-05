@@ -2,9 +2,7 @@
 description = "Compile a website"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The `build` command take source files in the `site` folder and compiles them to a build directory; it is the default command.
 

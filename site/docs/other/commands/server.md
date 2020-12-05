@@ -2,9 +2,7 @@
 description = "Serve a website"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The server command serves website files in a directory:
 

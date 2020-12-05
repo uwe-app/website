@@ -2,9 +2,7 @@
 description = "How favicons are managed"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 By convention site icons should be placed in `assets/favicon.png`, if you want to change the path you can configure `icon` in the site settings:
 

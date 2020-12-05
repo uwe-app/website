@@ -2,7 +2,7 @@
 description = "Create a page template"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 Once we have a [configuration]({{ link "/docs/data-sources/configuration/" }}) and some documents for our generator we can create a template and assign the index to the template.
 

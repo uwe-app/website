@@ -2,9 +2,7 @@
 description = "Include example files"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The `include` helper can be used to include files into your pages; normally it is used for examples.
 

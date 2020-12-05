@@ -2,10 +2,8 @@
 description = "Enhance your content presentation"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
-# Content
-
-Useful techniques to enhance your content presenatation and distribution.
+Useful techniques to enhance your content presentation and distribution.
 
 {{menu "content-idx"}}

@@ -2,9 +2,7 @@
 description = "Rules for web crawlers"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Adding a robots.txt file to a site can be useful to instruct bots which pages they are allowed to crawl and index. The compiler will generate a `robots.txt` file automatically for the release profile or if site maps are enabled.
 

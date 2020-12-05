@@ -3,9 +3,7 @@ title = "Trailing Slash"
 description = "Why we should always use trailing slashes"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Whether to use a trailing slash for folders is an old problem in web development but we think the answer is clear; browsers will only resolve relative paths correctly *when a trailing slash is present*. For this reason we always create canonical URLs to folders including a trailing slash.
 

@@ -2,9 +2,7 @@
 description = "Compile a project to static pages"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Building a project will use the source files in `site` and compile them to a build folder such as `build/debug`.
 

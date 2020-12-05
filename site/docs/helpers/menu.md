@@ -2,9 +2,7 @@
 description = "Generate navigation menus"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Use the `menu` helper to iterate the destinations for the current location:
 

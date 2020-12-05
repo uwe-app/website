@@ -3,13 +3,11 @@ description = "Upgrading and managing software versions"
 label = "version manager"
 +++
 
-{{> crumbtrail}}
-
-## Version Manager
+{{import "header"}}
 
 Learn how to upgrade and manage versions using `uvm`.
 
-### List
+## List
 
 List versions to see if a newer release version is available:
 
@@ -17,7 +15,7 @@ List versions to see if a newer release version is available:
 uvm ls
 ```
 
-### Upgrade
+## Upgrade
 
 To upgrade to the latest version run:
 
@@ -25,7 +23,7 @@ To upgrade to the latest version run:
 uvm latest
 ```
 
-### Downgrade
+## Downgrade
 
 We try our best to ensure you never need to downgrade by planning for backwards compatibility but we do make mistakes so if you need it the `use` command will install and select a specific version:
 
@@ -33,7 +31,7 @@ We try our best to ensure you never need to downgrade by planning for backwards 
 uvm use 0.30.0
 ```
 
-### Update
+## Update
 
 The version manager program (`uvm`) is considered stable and is not included when upgrading to a new release; however if you want to use a newer version run the `update` command:
 
@@ -41,7 +39,7 @@ The version manager program (`uvm`) is considered stable and is not included whe
 uvm update
 ```
 
-### Remove & Prune
+## Remove & Prune
 
 Reclaim some disc space by removing unused versions; use the `rm` command to remove a specific version (it cannot be the current version!):
 
@@ -55,7 +53,7 @@ Or use `prune` to remove all versions older than the current version:
 uvm prune
 ```
 
-### Runtime
+## Runtime
 
 Our tools rely on some runtime assets which are fetched on demand to resolve available plugins and syntax highlighting definitions. If you need to manually update the runtime repository run this command:
 
@@ -65,7 +63,7 @@ uvm runtime
 
 Normally this should not be necessary but perhaps some new syntax language definitions have been released and you want to try them.
 
-### Uninstall
+## Uninstall
 
 To uninstall the software run:
 

@@ -3,9 +3,7 @@ description = "Best practices for creating links"
 label = "links"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 A powerful feature of our system is the *compile-time link checking* which verifies that your links are valid.
 

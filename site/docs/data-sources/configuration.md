@@ -2,7 +2,7 @@
 description = "Folder structure and configuration"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 Data sources are a folder in `site/data-sources` containing a configuration file and JSON data documents. When data sources are found an `all` index is created containing all the documents and you can [create additional indices]({{ link "/docs/data-sources/create-indices/" }}) if you need to.
 
@@ -30,7 +30,7 @@ Documents are assigned an `id` *slug* derived from the file name so `empty-your-
 
 We use a *slug* so links are URL friendly but it does mean that document identifiers can collide. For this reason we recommend using file names that are already safe to use as a slug.
 
-If a collision is detected it is an error and you must update your file names to unique slugs. 
+If a collision is detected it is an error and you must update your file names to unique slugs.
 
 Next: [Page Template]({{ link "/docs/data-sources/page-template/" }})
 

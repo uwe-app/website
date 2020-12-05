@@ -2,7 +2,7 @@
 description = "Create an index for generated pages"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 By now we should have a [configuration]({{ link "/docs/data-sources/configuration/" }}) and a [page template]({{ link "/docs/data-sources/page-template/" }}); next let's add an index for the generated pages.
 

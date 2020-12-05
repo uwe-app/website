@@ -2,7 +2,7 @@
 description = "Change file extensions"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 If you need finer control over how file extensions map to pages the `types` setting allows full control and is given sensible default values:
 
@@ -21,7 +21,7 @@ If you wanted to parse Markdown documents using the templating system and output
 types = {md: {}}
 ```
 
-### Extend
+## Extend
 
 Often you may just wish to add some types to be render as templates in which case use the `extend` keyword:
 

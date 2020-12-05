@@ -1,10 +1,9 @@
 +++
+title = "Other Topics"
 description = "More information"
 +++
 
-{{> crumbtrail}}
-
-# Other Topics
+{{import "header"}}
 
 More useful information for your reference.
 

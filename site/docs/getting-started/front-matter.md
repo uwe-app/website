@@ -3,9 +3,7 @@ title = "Front Matter"
 description = "Define page data in front matter"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 {{> table-of-contents}}
 

@@ -2,9 +2,7 @@
 description = "Create translated pages"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 For long-form content it can be easier to create an alternate page for a language; to do this append the language identifier before the file extension.
 

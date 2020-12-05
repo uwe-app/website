@@ -2,9 +2,7 @@
 description = "How to ignore files"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Hidden files and certain folders are ignored by convention along with any patterns in `.gitignore` files; to add custom ignore patterns create `.ignore` files.
 

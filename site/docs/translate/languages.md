@@ -3,9 +3,7 @@ description = "Create language definitions"
 label = "languages"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 If you are creating a new project and know that you want multiple languages the `new` command will accept a comma delimited list of locales and create the files in the `site/locales` folder:
 

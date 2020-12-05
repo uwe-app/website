@@ -2,7 +2,7 @@
 description = "Notes and details"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 More details about the UWE system.
 

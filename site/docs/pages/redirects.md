@@ -2,9 +2,7 @@
 description = "Redirect to new locations"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Redirects are useful if you have moved a page and want the old page to redirect to the new location. To define a redirect just map the old path to the new path in your site settings:
 

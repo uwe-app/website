@@ -1,7 +1,6 @@
 <header>
   <a href="{{link "/"}}" title="Home">Home</a>
-  {{#> sidebar-label}}Close{{/sidebar-label}}
-</header>
-<section>
-{{import "sidebar"}}
-</section>
+  {{#> sidebar-label~}}
+  <img width="24" height="24" src="{{link "/assets/svg/close.svg"}}" alt="Close Menu">
+  {{~/sidebar-label~}}</header>
+{{import "sidebar"~}}

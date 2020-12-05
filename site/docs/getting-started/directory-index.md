@@ -2,9 +2,7 @@
 description = "Directory index listings"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 As you start to design the structure for your website it is useful to quickly create a list of links for the pages in a folder.
 

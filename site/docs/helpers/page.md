@@ -2,9 +2,7 @@
 description = "Get page data"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The page helper gets the data for a specific page by URL path and assigns it as the context for the inner block template. It is an error if the page does not exist.
 

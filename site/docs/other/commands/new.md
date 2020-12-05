@@ -2,9 +2,7 @@
 description = "Create a project"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The `new` command creates a new project from a [blueprint]({{ link "/docs/getting-started/new-project/" }}), folder or repository URL.
 

@@ -2,9 +2,7 @@
 description = "Publish a site to Amazon Web Services"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 ## Credentials
 

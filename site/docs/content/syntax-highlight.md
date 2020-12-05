@@ -2,9 +2,7 @@
 description = "Highlight code samples"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 {{> table-of-contents}}
 

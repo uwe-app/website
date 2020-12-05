@@ -2,9 +2,7 @@
 description = "Create crumbtrails"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The `crumbtrail` helper can be used to create links to parent folders like the one above ^^.
 

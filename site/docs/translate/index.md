@@ -2,8 +2,6 @@
 description = "Translate your content"
 +++
 
-{{> crumbtrail}}
-
-# Translate
+{{import "header"}}
 
 {{menu "translate-idx"}}

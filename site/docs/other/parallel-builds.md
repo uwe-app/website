@@ -2,9 +2,7 @@
 description = "Disable parallel builds for debugging"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The compiler has parallel builds enabled by default and we recommend they stay enabled as it makes build times significantly faster.
 

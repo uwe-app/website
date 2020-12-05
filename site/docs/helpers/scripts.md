@@ -2,9 +2,7 @@
 description = "Adds scripts to a page"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The scripts helper is called automatically to include scripts in a page by the [main layout][]. If you are designing your own layout you should call this helper just before the end of the document body.
 

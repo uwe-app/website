@@ -2,11 +2,9 @@
 description = "Create a new project from blueprints, folders or repositories"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
-# {{title}}
-
-Once you have an [[docs/installation]] the quickest way to create a new project is to use the default project blueprint using the `uws` program:
+Once you have an [[docs/installation]] the quickest way to create a new project is to use the default project blueprint using the `uwe` program:
 
 ```text
 uwe new project-name

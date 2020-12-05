@@ -2,7 +2,7 @@
 description = "Configure the build"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 Settings for the build process, for example:
 

@@ -2,9 +2,7 @@
 description = "Link to Github editor"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 To create a link to edit pages using Github first define the repository `url` and `edit-path` in your site settings:
 

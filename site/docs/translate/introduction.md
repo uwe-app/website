@@ -2,9 +2,7 @@
 description = "Translation concepts"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 Our system was designed with multi-lingual support from the start but we understand that not everyone needs multiple languages or that translations may need to be integrated later.
 
