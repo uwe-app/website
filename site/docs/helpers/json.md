@@ -4,7 +4,17 @@ description = "Debug your page data"
 
 {{import "header"}}
 
-A useful helper to pretty print data as JSON.
+The `json` helper is used to convert a value to a JSON string; it is useful for debugging page data but can also be used to create JSON documents that can be loaded at runtime using Javascript.
+
+## Arguments
+
+* `Any` The data to convert to a JSON string.
+
+## Parameters
+
+* `pretty` Pretty formatting of the string.
+
+## Example
 
 Pass a parameter of the data to print and optionally the `pretty` hash parameter:
 

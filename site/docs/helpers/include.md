@@ -6,12 +6,20 @@ description = "Include example files"
 
 The `include` helper can be used to include files into your pages; normally it is used for examples.
 
-We recommend using the *includes* folder [convention]({{ link "/docs/getting-started/conventions/" }}) so that included files are automatically ignored by the compiler.
+Include paths are resolved relative to the page calling the `include` helper.
 
-Include paths are resolved relative to the page calling the `include` helper:
+## Arguments
+
+* `String|Path` The file system path to include.
+
+{{#> note label="info"}}
+We recommend using the *includes* folder [[docs/getting-started/conventions]] so that included files are automatically ignored by the compiler.
+{{/note}}
+
+## Example
 
 ```handlebars
-\{{include "../../includes/example.txt"}}
+\{{include ../../includes/example.txt}}
 ```
 
 {{import "footer"}}

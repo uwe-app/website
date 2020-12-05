@@ -1,5 +1,5 @@
 +++
-description = "Fluent message helper"
+description = "Render translations"
 +++
 
 {{import "header"}}

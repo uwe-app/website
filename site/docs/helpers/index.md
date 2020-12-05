@@ -7,6 +7,6 @@ label = "helpers"
 
 Helpers are here to make life easier.
 
-{{> listing}}
+{{> listing with-description=true}}
 
 {{> back}}

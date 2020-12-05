@@ -136,6 +136,7 @@ pages = [
 [menu.other]
 pages = [
   "/docs/helpers/",
+  "/docs/other/generate-json/",
   "/docs/other/hooks/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
