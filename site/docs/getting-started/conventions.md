@@ -1,6 +1,5 @@
 +++
 description = "Project conventions"
-label = "conventions"
 +++
 
 {{import "header"}}

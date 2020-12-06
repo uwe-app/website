@@ -1,6 +1,5 @@
 +++
 description = "Helper reference guide"
-label = "helpers"
 +++
 
 {{import "header"}}

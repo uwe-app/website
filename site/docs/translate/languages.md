@@ -1,6 +1,5 @@
 +++
 description = "Create language definitions"
-label = "languages"
 +++
 
 {{import "header"}}

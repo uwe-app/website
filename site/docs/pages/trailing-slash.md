@@ -1,7 +1,5 @@
 +++
-title = "Trailing Slash"
 description = "Why we should always use trailing slashes"
-label = "trailing slash"
 +++
 
 {{import "header"}}

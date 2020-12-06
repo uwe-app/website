@@ -1,6 +1,5 @@
 +++
 description = "Best practices for creating links"
-label = "links"
 +++
 
 {{import "header"}}

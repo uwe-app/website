@@ -1,6 +1,5 @@
 +++
 description = "Guide visitors with links to parent folders"
-label = "crumbtrails"
 +++
 
 {{import "header"}}

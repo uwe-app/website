@@ -1,6 +1,5 @@
 +++
 description = "Installing, upgrading and managing software versions"
-label = "installation"
 +++
 
 {{import "header"}}

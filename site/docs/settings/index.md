@@ -1,6 +1,5 @@
 +++
 description = "Configure the site settings"
-label = "settings"
 +++
 
 {{import "header"}}

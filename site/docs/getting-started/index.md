@@ -1,6 +1,5 @@
 +++
 description = "Getting started guide"
-label = "getting started"
 +++
 
 {{import "header"}}

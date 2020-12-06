@@ -1,6 +1,5 @@
 +++
 description = "Publish the site"
-label = "publish"
 +++
 
 {{import "header"}}

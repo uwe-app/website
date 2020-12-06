@@ -1,6 +1,5 @@
 +++
 description = "Defining and using messages"
-label = "messages"
 +++
 
 {{import "header"}}
