@@ -23,17 +23,3 @@ Then you can upload the files in `build/release` to your preferred hosting provi
 
 You can publish to supported hosting providers using the `publish` command please see [[docs/publish]] for more information.
 
-## Self Hosting
-
-We include a production-grade web server so it is easy to host your site on private infrastructure.
-
-You can use the `server` command to compile and serve a release build; for example:
-
-```text
-uwe server /path/to/project
-```
-
-It is strongly recommended that you configure [[docs/other/ssl-certificates]] when self-hosting.
-
-Of course, you can do SSL termination using another web server and configure a reverse proxy to the UWE server which may be easier if you are already using another web server.
-

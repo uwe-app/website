@@ -39,4 +39,10 @@ uwe --release
 
 Your website files are now in `build/release`.
 
+Use the `server` command to compile a release and launch it in the browser using the `--open` option:
+
+```text
+uwe server --open
+```
+
 {{import "footer"}}
