@@ -17,7 +17,7 @@ edit-path = "edit/main/"
 "std::core" = { version = "~4" }
 "std::menu" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::sidebar" = { version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
-"std::link" = { path = "../../plugins/std/link", version = "~1", features = ["github"] }
+"std::link" = { version = "~1", features = ["github"] }
 "std::listing" = { version = "~1" }
 "std::note" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::crumbtrail" = { version = "~1", apply = { styles = [ "**" ] } }
@@ -32,7 +32,7 @@ edit-path = "edit/main/"
 #"css::new" = { path = "../../plugins/css/new", version = "~1", apply = { styles = [ "**" ] } }
 
 [dependencies."font::inter"]
-path = "../../plugins/font/inter"
+#path = "../../plugins/font/inter"
 version = "~3"
 apply = { styles = [ "**" ] }
 features = ["regular"]
