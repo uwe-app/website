@@ -13,7 +13,7 @@ The `listing` partial is part of the [std::listing][] plugin so you should add i
 "std::listing" = { version = "~1" }
 ```
 
-It will render links to all the pages in the current folder *except the current page* so is ideal for `index.md` files.
+It will render links to all the pages in the current folder *except the index page* so is ideal for `index.md` files.
 
 Let's say you want a folder for documentation, create the `docs/index.md` file and add this content:
 

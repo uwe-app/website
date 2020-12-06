@@ -27,7 +27,7 @@ uwe new project-name tailwind
 
 ## Custom Blueprints
 
-You can create and distribute your own project blueprints easily as the `init` command will also accept a folder path or repository URL; the only requirement is that it has valid [[docs/settings]].
+You can create and distribute your own project blueprints easily as the `new` command will also accept a folder path or repository URL; the only requirement is that it has valid [[docs/getting-started/site-settings]].
 
 If you have created a private blueprint use a local folder path:
 

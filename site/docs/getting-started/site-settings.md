@@ -1,5 +1,6 @@
 +++
 description = "Settings for the project"
+label = "site settings"
 +++
 
 {{import "header"}}
