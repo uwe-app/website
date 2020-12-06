@@ -27,11 +27,10 @@ You can publish to supported hosting providers using the `publish` command pleas
 
 We include a production-grade web server so it is easy to host your site on private infrastructure.
 
-You can use the `server` command to serve a release build; for example:
+You can use the `server` command to compile and serve a release build; for example:
 
 ```text
-uwe /path/to/project --release
-uwe server /path/to/project/build/release
+uwe server /path/to/project
 ```
 
 It is strongly recommended that you configure [[docs/other/ssl-certificates]] when self-hosting.
