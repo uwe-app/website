@@ -13,7 +13,7 @@ edit-path = "edit/<branch-name>/"
 ```
 
 {{#> note label="info"}}
-Replace `<branch-name>` with your preferred branch name, eg: `master`.
+Replace `<branch-name>` with your preferred branch name, eg: `main`.
 {{/note}}
 
 Then add a dependency on the [std::link][] plugin and enable the `github` feature:
@@ -26,13 +26,7 @@ Then add a dependency on the [std::link][] plugin and enable the `github` featur
 Afterwards you can use the `github-edit` partial wherever you want to show the *Edit on Github* link:
 
 ```handlebars
-\{{> github-edit}}
-```
-
-You can set the link `text` and pass a `tooltip` to set the title attribute:
-
-```handlebars
-\{{> github-edit text="Github editor" tooltip="Edit this page on Github"}}
+\{{> github-edit label="Edit on Github" title="Edit on Github"}}
 ```
 
 {{import "footer"}}
