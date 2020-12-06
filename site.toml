@@ -5,7 +5,7 @@ version = "1.0.0"
 
 [repository]
 url = "https://github.com/uwe-app/website/"
-edit-path = "edit/site/"
+edit-path = "edit/main/"
 
 #[script]
 #src = "assets/scripts/global.js"

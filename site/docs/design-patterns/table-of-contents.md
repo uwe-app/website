@@ -13,9 +13,9 @@ To generate table of contents enable the transform in your site settings:
 toc = true
 ```
 
-Which will make the compiler generate anchors for every heading and enable support for the [toc helper][].
+Which will make the compiler generate anchors for every heading and enable support for the [[docs/helpers/toc|toc helper]].
 
-Now for pages that need a table of contents you just call the [toc helper][] like this:
+Now for pages that need a table of contents you just call the [[docs/helpers/toc|toc helper]] like this:
 
 ```handlebars
 \{{toc}}
@@ -29,6 +29,5 @@ Be careful where you put headings otherwise you may get too many entries in your
 
 {{import "footer"}}
 
-[toc helper]: {{ link "/docs/helpers/toc/" }}
 [details element]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
-[example partial]: https://github.com/uwe-app/website/blob/site/site/partials/table-of-contents.hbs
+[example partial]: https://github.com/uwe-app/website/blob/main/site/partials/table-of-contents.hbs
