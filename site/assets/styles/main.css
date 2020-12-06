@@ -96,6 +96,11 @@ body > aside > nav > p {
   font-size: 14px;
 }
 
+body > aside > nav > p > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body > aside > header {
   display: flex;
   height: var(--header-height);

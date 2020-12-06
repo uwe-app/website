@@ -91,7 +91,20 @@ site_name = "UWE / Universal Web Editor"
 
 [menu]
 variants = [{ description = true, suffix = "-idx" }]
-primary = { pages = ["/docs/", "/faq/", "/contact/"] }
+#primary = { pages = ["/docs/", "/faq/", "/contact/"] }
+primary-footer = { pages = ["/faq/", "/contact/"] }
+
+[menu.docs]
+pages = [
+  "/docs/getting-started/",
+  "/docs/pages/",
+  "/docs/content/",
+  "/docs/design-patterns/",
+  "/docs/search-engines/",
+  "/docs/translate/",
+  "/docs/publish/",
+  "/docs/other/",
+]
 
 [menu.getting-started]
 pages = [
@@ -136,7 +149,7 @@ pages = [
 [menu.other]
 pages = [
   "/docs/helpers/",
-  "/docs/other/generate-json/",
+  "/docs/other/json-templates/",
   "/docs/other/hooks/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
