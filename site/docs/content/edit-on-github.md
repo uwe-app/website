@@ -31,6 +31,4 @@ Afterwards you can use the `github-edit` partial wherever you want to show the *
 
 {{import "footer"}}
 
-\{{> next-page menu="content-idx"}}
-
 [std::link]: https://github.com/uwe-app/plugins/tree/master/std/link
