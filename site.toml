@@ -124,7 +124,8 @@ pages = [
 
 [menu.pages]
 pages = [
-  "/docs/pages/remove/",
+  "/docs/pages/combining-pages/",
+  "/docs/pages/removing-pages/",
   "/docs/pages/drafts/",
   "/docs/pages/redirects/",
   "/docs/pages/clean-urls/",
