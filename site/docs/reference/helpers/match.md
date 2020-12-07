@@ -8,7 +8,7 @@ Use the `match` helper to render when a page matches a path.
 
 ## Arguments
 
-* `String` The absolute path to match against.
+* `String` The target path to match against.
 * `String` The string to output when a match is found.
 
 ## Parameters
@@ -17,26 +17,32 @@ Use the `match` helper to render when a page matches a path.
 
 ## Example
 
-It is considered good practice to highlight the navigation items for a user's current location. The `match` helper tests whether a target URL matches and outputs a value if the match succeeds.
+When the render output is passed as the second argument it is used:
+
+```handlebars
+{{{{raw~}}}}
+<a {{match "/docs/" "class='selected'"}}>Documentation</a>
+{{{{~/raw}}}}
+```
+
+Or alternatively use the block syntax:
+
+```handlebars
+{{{{raw~}}}}
+{{#match "/docs/"}}
+<!-- This content is only rendered when the path starts with /docs/ -->
+{{/match}}
+{{{{~/raw}}}}
+```
 
 By default *matching is not exact* so that navigating to child directories would also be considered a match on a parent navigation item.
 
-Here is a real-world example for a simple navigation:
+Use the hash parameter `exact` to match exactly:
 
 ```handlebars
-{{{{raw}}}}
-<nav>
-  <a {{match "/" "class='selected'"}} href="{{ link "/" }}" title="Home">Home</a>
-  <a {{match "/work/" "class='selected'"}} href="{{ link "/work/" }}" title="Work">Work</a>
-  <a {{match "/about/" "class='selected'"}} href="{{ link "/about/" }}" title="About">About</a>
-</nav>{{{{/raw}}}}
-```
-
-The hash parameter `exact` can be used to request an exact match:
-
-```handlebars
-{{{{raw}}}}
-  <a {{match "/docs/" "class='selected'" exact=true}} href="{{ link "/docs/" }}" title="Docs">Docs</a>{{{{/raw}}}}
+{{{{~raw}}}}
+<a {{match "/docs/" "class='selected'" exact=true}}>Documentation</a>
+{{{{~/raw}}}}
 ```
 
 {{import "footer"}}

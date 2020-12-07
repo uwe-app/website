@@ -4,19 +4,26 @@ description = "Get data for parent pages"
 
 {{import "header"}}
 
-Get the data for a parent directory:
+The `parent` helper sets the scope of the inner block to the page data for the parent; if a parent does not exist the block is not rendered.
+
+## Example
+
+This is typically used to render a link up to a parent folder:
 
 ```handlebars
-{{{{raw}}}}
-{{#parent}}
-{{json this pretty=true}}
-{{/parent}}{{{{/raw}}}}
+{{{{raw~}}}}
+{{#parent~}}
+<a href=".." title="{{title}}">Back to {{title}}</a>
+{{~/parent}}
+{{{{~/raw}}}}
 ```
 
-Which for this page shows us:
+Which renders this markup:
 
-```json
-{{#parent}}{{json this pretty=true}}{{/parent}}
+```html
+{{#parent~}}
+<a href=".." title="{{title}}">Back to {{title}}</a>
+{{~/parent}}
 ```
 
 {{import "footer"}}
