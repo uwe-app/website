@@ -6,7 +6,13 @@ description = "Import templates"
 
 The `import` helper can be used to render templates; it is always an error if the template for an import cannot be found.
 
-This is useful when you have shared content for all the pages in a folder; for example you might want the same *footer* content for all the pages in a folder to add page related navigation.
+## Arguments
+
+* `String|Path` The template name or file path.
+
+## Example
+
+This helper is useful when you have shared content for all the pages in a folder; for example you might want the same *footer* content for all the pages in a folder to add page related navigation.
 
 First create a `footer.hbs` file in the folder and then each page can *import* it like this:
 

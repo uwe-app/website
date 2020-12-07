@@ -4,11 +4,11 @@ description = "Conditional rendering"
 
 {{import "header"}}
 
-Use the `match` helper to render when a page matches a URL path.
+Use the `match` helper to render when a page matches a path.
 
 ## Arguments
 
-* `String` The absolute URL to match against.
+* `String` The absolute path to match against.
 * `String` The string to output when a match is found.
 
 ## Parameters

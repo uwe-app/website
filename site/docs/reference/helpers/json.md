@@ -12,7 +12,7 @@ The `json` helper is used to convert a value to a JSON string; it is useful for 
 
 ## Parameters
 
-* `pretty` Pretty formatting of the string.
+* `pretty` Format the string with indentation and newlines.
 
 ## Example
 

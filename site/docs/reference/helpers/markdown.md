@@ -7,7 +7,15 @@ content = "This is some *Markdown* content."
 
 The `md` helper is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
 
-## Usage
+## Arguments
+
+* `String|Path` Literal markdown string value or name of a partial.
+
+## Parameters
+
+* `render` Force render inside an HTML context.
+
+## Example
 
 The examples assume we have a snippet of Markdown in `site/partials/snippet.hbs`:
 
@@ -18,7 +26,7 @@ This is some *Markdown* content.
 Then in a Markdown document these examples:
 
 ```handlebars
-{{{{raw}}}}
+{{{{~raw}}}}
 +++
 content = "This is some *Markdown* content."
 +++
@@ -33,7 +41,8 @@ content = "This is some *Markdown* content."
 <!-- Render using a string literal -->
 {{md "This is some *Markdown* content."}}
 <!-- Render a variable from the front matter -->
-{{md content}}{{{{/raw}}}}
+{{md content}}
+{{{{~/raw}}}}
 ```
 
 Will yield this markup:
