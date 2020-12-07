@@ -4,7 +4,7 @@ description = "Folder structure and configuration"
 
 {{import "header"}}
 
-Data sources are a folder in `site/data-sources` containing a configuration file and JSON data documents. When data sources are found an `all` index is created containing all the documents and you can [create additional indices]({{ link "/docs/data-sources/create-indices/" }}) if you need to.
+Data sources are a folder in `site/data-sources` containing a configuration file and JSON data documents. When data sources are found an `all` index is created containing all the documents and you can [[docs/data-sources/create-indices|create additional indices]] if you need to.
 
 Imagine we are creating pages from a collection of quotes; the filesystem layout looks like this:
 
@@ -16,7 +16,7 @@ site/data-sources
     └── datasource.toml
 ```
 
-Until you need to create your own [custom indices]({{link "/docs/data-sources/create-indices/"}}) the `datasource.toml` file can be empty because the `all` index is created automatically and that is what we will use in these examples.
+Until you need to create your own [[docs/data-sources/create-indices|custom indices]] the `datasource.toml` file can be empty because the `all` index is created automatically and that is what we will use in these examples.
 
 Documents for the data source go in the `data-sources/quotes/documents` folder, for example `empty-your-mind.json` might look like this:
 
@@ -32,6 +32,6 @@ We use a *slug* so links are URL friendly but it does mean that document identif
 
 If a collision is detected it is an error and you must update your file names to unique slugs.
 
-Next: [Page Template]({{ link "/docs/data-sources/page-template/" }})
+Next: [[docs/data-sources/page-template]]
 
 {{> back}}

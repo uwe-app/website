@@ -27,10 +27,16 @@ description = "Documentation"
 \{{> listing}}
 ```
 
-Which will generate an unordered list of links to the pages in the `docs` folder including the page descriptions when available. The list is given a `class` of `listing` you can pass an alternative class name if you like:
+Which will generate an unordered list of links to the pages in the `docs` folder. The list is given a `class` of `listing` you can pass an alternative class name if you like:
 
 ```handlebars
 \{{> listing class="index-list"}}
+```
+
+If you also want to include page descriptions as a paragraph below each link use the `with-description` parameter:
+
+```handlebars
+\{{> listing with-description=true}}
 ```
 
 By default all files will be included in a directory listing but sometimes certain files such as error pages should be ignored, to omit a page from a directory listing disable the listing flag. For example, we do this for the `404.md` files:

@@ -40,7 +40,7 @@ description  = "Brief description of the page content"
 ```
 
 {{#> note type="tip" label="tip"}}
-A page title is inferred from the file name unless a specific title has been defined; when a page is an index file the name of the parent directory is used instead. Use this feature with [directory index listings]({{ link "/docs/getting-started/directory-index/" }}) to rapidly sketch your site pages.
+A page title is inferred from the file name unless a specific title has been defined; when a page is an index file the name of the parent directory is used instead. Use this feature with [[docs/getting-started/directory-index|directory index listings]] to rapidly sketch your site pages.
 {{/note}}
 
 ## Summary
