@@ -16,7 +16,7 @@ members = [
 ]
 ```
 
-You should not configure any other [settings]({{ link "/docs/settings/" }}) here as they will be ignored.
+You should not configure any other [[docs/reference/settings]] here as they will be ignored.
 
 When live reload is enabled for a workspace it will serve the last workspace member.
 

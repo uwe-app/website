@@ -166,6 +166,7 @@ pages = [
 [menu.reference]
 pages = [
   "/docs/reference/helpers/",
+  "/docs/reference/settings/",
 ]
 
 [menu.design-patterns]

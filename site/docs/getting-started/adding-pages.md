@@ -25,7 +25,7 @@ Now run the live reload server `uwe --live` and navigate to the `/contact/` URL;
 
 ## Defining Page Data
 
-Page data is defined as [TOML][]; it is loaded first from the global page data in [settings]({{ link "/docs/settings/" }}) then from a `[pages]` table if it exists and finally from the file front matter which takes precedence.
+Page data is defined as [TOML][]; it is loaded first from the global page data in the [[docs/reference/settings]] then from a `[pages]` table if it exists and finally from the file front matter which takes precedence.
 
 ### Global Data
 

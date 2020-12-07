@@ -28,7 +28,7 @@ Which is equivalent to the explicit format example above.
 
 Next we look at the built-in convenience formats; see the [list of format specifiers](https://docs.rs/chrono/latest/chrono/format/strftime/index.html#specifiers) for more information on creating your own formats.
 
-You may configure format specifiers, see [settings]({{ link "/docs/settings/" }}) for more information.
+You may configure format specifiers, see [[docs/reference/settings]] for more information.
 
 ## Local
 

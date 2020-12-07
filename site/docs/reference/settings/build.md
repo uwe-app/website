@@ -26,7 +26,7 @@ Relative paths are resolved using `source` so partials should go in `site/partia
 
 ### Extend
 
-The `extend` list can define extra file extensions to treat as page templates; these values are appended to `render` in the [extension settings]({{ link "/docs/settings/extension/" }}).
+The `extend` list can define extra file extensions to treat as page templates; these values are appended to `render` in the [[docs/reference/settings/extension|extension settings]].
 
 To support parsing HTML pages as well as markdown documents:
 

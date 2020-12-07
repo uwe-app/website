@@ -6,7 +6,7 @@ description = "Compile a website"
 
 The `build` command take source files in the `site` folder and compiles them to a build directory; it is the default command.
 
-It reads `site.toml` from a project directory and uses the [settings]({{ link "/docs/settings/" }}) for the build. If the `site.toml` file declares a [workspace]({{ link "/docs/settings/workspace/" }}) then all projects in the workspace are compiled.
+It reads `site.toml` from a project directory and uses the [[docs/reference/settings]] for the build. If the `site.toml` file declares a [[docs/reference/settings/workspace]] then all projects in the workspace are compiled.
 
 When no project directory is specified then the current working directory is used to compile a website just run:
 
@@ -40,7 +40,7 @@ In this case the site is now in `build/release`. Use the `--profile` option to c
 uwe --release --profile=v3.1.0
 ```
 
-You can set more compiler options by using a [profile]({{ link "/docs/profiles/" }}).
+You can set more compiler options using a [[docs/profiles|profile]].
 
 ## Filters
 

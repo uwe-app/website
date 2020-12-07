@@ -10,7 +10,7 @@ This is achieved by rendering JSON files as templates which gives them full acce
 
 ### Settings
 
-First, we should update the [site settings]({{ link "/docs/settings/" }}) to render `json` files as templates; in the `site.toml` settings add the configuration:
+First, we should update the [[docs/reference/settings]] to render `json` files as templates; in the `site.toml` settings add the configuration:
 
 ```toml
 [extension]

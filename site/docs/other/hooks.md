@@ -8,7 +8,7 @@ Hooks allow us to run commands before or after a build which means you can easil
 
 Commands are executed with the current working directory set to the project folder.
 
-Hooks are [settings]({{ link "/docs/settings/" }}) in `site.toml` named using the `hooks.run` notation, so the simplest hook would be:
+Hooks are [[docs/reference/settings]] in `site.toml` named using the `hooks.run` notation, so the simplest hook would be:
 
 ```toml
 \[[hooks.run]]

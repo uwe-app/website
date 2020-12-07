@@ -10,9 +10,9 @@ Our web server will redirect to use a trailing slash for folders and we recommen
 
 ## Example
 
-Consider you have a folder `docs` with an index page and in that page is a relative link to `./settings/`; if the browser address is `https://example.com/docs` then the relative link resolves incorrectly to `/settings/`.
+Consider you have a folder `docs` with an index page and in that page is a relative link to `./reference/`; if the browser address is `https://example.com/docs` then the relative link resolves incorrectly to `/reference/`.
 
-But if we add a trailing slash (`https://example.com/docs/`) then it resolves to `/docs/settings/` which is what we intended!
+But if we add a trailing slash (`https://example.com/docs/`) then it resolves to `/docs/reference/` which is what we intended!
 
 ## Server Configuration
 

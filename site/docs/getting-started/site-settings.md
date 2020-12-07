@@ -4,7 +4,7 @@ description = "Settings for the project"
 
 {{import "header"}}
 
-The project settings in `site.toml` configures various information for the project;  this page describes the required settings for a project. See the [settings documentation]({{ link "/docs/settings/" }}) for detailed information.
+The project settings in `site.toml` configures various information for the project;  this page describes the required settings for a project. See the [[docs/reference/settings|settings reference]] for detailed information.
 
 The minimum required settings for a project are shown below:
 
@@ -29,7 +29,7 @@ keywords = "Website, Project, Keywords"
 authors = [{ name = "Author Name", url = "https://example.com" }]
 ```
 
-See the [pages]({{ link "/docs/pages/" }}) documentation for detailed information on the available fields.
+See the [[docs/pages]] documentation for detailed information on the available fields.
 
 {{import "footer"}}
 

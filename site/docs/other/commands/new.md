@@ -4,7 +4,7 @@ description = "Create a project"
 
 {{import "header"}}
 
-The `new` command creates a new project from a [blueprint]({{ link "/docs/getting-started/new-project/" }}), folder or repository URL.
+The `new` command creates a new project from a [[docs/getting-started/new-project|blueprint]], folder or repository URL.
 
 To create a new project using the default blueprint pass the project name:
 
@@ -40,9 +40,9 @@ For multi-lingual sites you can pass the locales option to create the structure 
 uwe new project-name --locales=fr,de,zh
 ```
 
-Which will create the skeleton structure in the `site/locales` directory and update the [fluent settings]({{ link "/docs/settings/fluent/" }}).
+Which will create the skeleton structure in the `site/locales` directory and update the [[docs/reference/settings/fluent|fluent settings]].
 
-When creating a multi-lingual project a [redirect]({{ link "/docs/pages/redirects/" }}) is configured for the default locale. The default locale is the `--language` option when it is given otherwise the first locale in the list is used.
+When creating a multi-lingual project a [[docs/pages/redirects|redirect]] is configured for the default locale. The default locale is the `--language` option when it is given otherwise the first locale in the list is used.
 
 When `--language` is combined with `--locales` the given language must exist in the list of locales.
 

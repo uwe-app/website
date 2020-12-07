@@ -1,5 +1,5 @@
 +++
-description = "Configure the site settings"
+description = "Complete guide to the site settings"
 +++
 
 {{import "header"}}
@@ -20,6 +20,6 @@ If you do not have a host name use `localhost` as a placeholder.
 
 For more information on customizing the settings see the relevant section:
 
-{{> listing}}
+{{> listing with-description=true}}
 
 {{> back}}

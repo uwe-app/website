@@ -24,7 +24,7 @@ Profiles may assign options to the current build.
 
 ## Profile Settings
 
-Profiles are useful for combining options into groups; sometimes we want to zip up this website and send if for review so we create a `dist` profile so we add a profile to the [site settings]({{ link "/docs/settings/" }}):
+Profiles are useful for combining options into groups; sometimes we want to zip up this website and send if for review so we create a `dist` profile so we add a profile to the [[docs/reference/settings]]:
 
 ```toml
 [profile.dist]

@@ -20,6 +20,14 @@ When a favicon file exists and the build is not a release a random query string 
 When no icon is available a transparent image is used so that the browser network inspector does not show spurious 404 errors for the network requests that browsers automatically generate for favicons.
 {{/note}}
 
+## Partials
+
+To create custom partials for your website just add templates to the `site/partials` directory using a `.hbs` file extension and they are automatically registered using the file name. So the partial template file `site/partials/header.hbs` can be included with:
+
+```handlebars
+{{{{raw}}}}{{> header}}{{{{/raw}}}}
+```
+
 ## Header and Footer
 
 To customize the header and footer for the website change the content in the `partials/header.hbs` and `partials/footer.hbs` files; the default templates are placeholders.
