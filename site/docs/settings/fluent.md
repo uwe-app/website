@@ -13,7 +13,7 @@ fallback = "en"
 
 Which will read your [fluent](https://www.projectfluent.org/) language files from `site/locales` and configure the build for multi-lingual output.
 
-To learn how to get your messages into your page templates see [fluent messages]({{ link "/docs/helpers/fluent/" }}).
+To learn how to get your messages into your page templates see the [[docs/reference/helpers/fluent|fluent helper]].
 
 Your locales directory should have a `main.ftl` file in each language directory. An example layout:
 

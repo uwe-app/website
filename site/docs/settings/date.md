@@ -11,7 +11,7 @@ The `date` settings allow adding custom data format specifiers:
 timestamp = "%s"
 ```
 
-You can then reference the custom format using `date-formats.timestamp`, see the [date helper]({{ link "/docs/helpers/date/" }}) for examples.
+You can then reference the custom format using `date-formats.timestamp`, see the [[docs/reference/helpers/date|date helper]] for examples.
 
 Note that you can overwrite the built-in formats if you wish to, for example:
 

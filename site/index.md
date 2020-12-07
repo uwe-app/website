@@ -31,7 +31,7 @@ Use a combination of Markdown and your preferred web technology for complete fre
   </li>
   <li>
     <h5>Flexible templates</h5>
-    <small>By <a href="https://handlebarsjs.com/">Handlebars</a> with some [[docs/helpers]]</small>
+    <small>By <a href="https://handlebarsjs.com/">Handlebars</a> with some [[docs/reference/helpers]]</small>
   </li>
   <li>
     <h5>Live reload</h5>

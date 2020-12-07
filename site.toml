@@ -114,7 +114,9 @@ pages = [
   "/docs/getting-started/adding-pages/",
   "/docs/getting-started/front-matter/",
   "/docs/getting-started/links/",
-  "/docs/getting-started/customize/",
+  "/docs/getting-started/content/",
+  "/docs/getting-started/styles/",
+  "/docs/getting-started/scripts/",
   "/docs/getting-started/layouts/",
   "/docs/getting-started/debugging/",
   "/docs/getting-started/conventions/",
@@ -149,7 +151,6 @@ pages = [
 
 [menu.other]
 pages = [
-  "/docs/helpers/",
   "/docs/other/json-templates/",
   "/docs/other/hooks/",
   "/docs/other/link-catalog/",
@@ -159,6 +160,11 @@ pages = [
   "/docs/other/strict-mode/",
   "/docs/other/parallel-builds/",
   "/docs/other/ssl-certificates/",
+]
+
+[menu.reference]
+pages = [
+  "/docs/reference/helpers/",
 ]
 
 [menu.design-patterns]

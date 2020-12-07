@@ -4,7 +4,7 @@ description = "Control link behavior"
 
 {{import "header"}}
 
-The `link` settings apply to the [link helper]({{ link "/docs/helpers/link/" }}) which we encourage you to use for all site links.
+The `link` settings apply to the [[docs/reference/helpers/link|link helper]] which we encourage you to use for all site links.
 
 ```toml
 [link]

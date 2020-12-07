@@ -66,7 +66,7 @@ extend = ["html"]
 ```
 
 {{#> note type="tip" label="tip"}}
-HTML files are not parsed as Markdown but you can use the [Markdown helper]({{link "/docs/helpers/markdown/"}}) if you need it.
+HTML files are not parsed as Markdown but you can use the [[docs/reference/helpers/markdown|markdown helper]] if you need it.
 {{/note}}
 
 {{#> note type="warn" label="warn"}}
@@ -75,7 +75,7 @@ Mixing HTML with Markdown makes naming collisions more likely, see [clean URLs](
 
 ---
 
-The next section looks at defining data for individual pages using [front matter]({{ link "/docs/getting-started/front-matter/" }}) and the meta data typically assigned to pages.
+The next section looks at defining data for individual pages using [[docs/getting-started/front-matter]] and the meta data typically assigned to pages.
 
 {{import "footer"}}
 

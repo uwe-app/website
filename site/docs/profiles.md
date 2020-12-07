@@ -37,7 +37,7 @@ Then we can build using the `dist` profile like this:
 uwe --profile=dist
 ```
 
-Because we use the [link helper]({{ link "/docs/helpers/link/" }}) exclusively all we need to do is instruct the compiler to include `index.html` for directory links and we have a build that will work using the `file:` scheme!
+Because we use the [[docs/reference/helpers/link]] exclusively all we need to do is instruct the compiler to include `index.html` for directory links and we have a build that will work using the `file:` scheme!
 
 For the `ht docs` command we deliver the documentation as a standalone website, in order to do that we configure a profile like this:
 

@@ -26,10 +26,10 @@ Partials are templates or snippets that you can include anywhere in your pages; 
 
 ## Script
 
-If the file `assets/scripts/main.js` exists it is applied to all pages automatically, see [customize]({{ link "/docs/getting-started/customize/" }}) for more information on using scripts.
+If the file `assets/scripts/main.js` exists it is applied to all pages automatically, see [[docs/getting-started/scripts]] for more information on using scripts.
 
 ## Style
 
-If the file `assets/styles/main.css` exists it is applied to all pages automatically, see [customize]({{ link "/docs/getting-started/customize/" }}) for more information on applying style sheets.
+If the file `assets/styles/main.css` exists it is applied to all pages automatically, see [[docs/getting-started/styles]] for more information on applying style sheets.
 
 {{import "footer"}}

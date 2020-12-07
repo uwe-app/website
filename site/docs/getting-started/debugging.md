@@ -4,7 +4,7 @@ description = "Inspect page data"
 
 {{import "header"}}
 
-It is often useful to know the shape of the data passed to your page templates; to print the data inline use the [[docs/helpers/json|json helper]].
+It is often useful to know the shape of the data passed to your page templates; to print the data inline use the [[docs/reference/helpers/json|json helper]].
 
 ```html
 <pre>\{{json this pretty=true}}</pre>

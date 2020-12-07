@@ -56,7 +56,7 @@ Which will render like this: [[docs/getting-started/links|Links \| More Informat
 
 ## Link Helper
 
-For finer control the [link helper]({{ link "/docs/helpers/link/" }}) can be used to link to a page, asset or resource; it verifies and prints the resource URL relative to the current page.
+For finer control the [[docs/reference/helpers/link|link helper]] can be used to link to a page, asset or resource; it verifies and prints the resource URL relative to the current page.
 
 ```handlebars
 [Contact](\{{ link "contact" }})

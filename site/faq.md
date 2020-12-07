@@ -8,7 +8,7 @@ Some frequently asked questions and relevant answers!
 
 ### Why not use one of the myriad other tools?
 
-Universal web editor is incredibly fast and predicated on the idea that not every website needs to be a huge bundle of Javascript; many people still appreciate simple, clean pages with a focus on the content. 
+Universal web editor is incredibly fast and predicated on the idea that not every website needs to be a huge bundle of Javascript; many people still appreciate simple, clean pages with a focus on the content.
 
 ### Do you support Javascript frameworks?
 
@@ -20,7 +20,7 @@ Yes, we maintain a plugin for [Tailwind][] and plugins for [PostCSS][] and [Sass
 
 ### Can I bring my own template language?
 
-No. It's just [handlebars][] with some useful [helpers]({{ link "/docs/helpers/" }}).
+No. It's just [handlebars][] with some useful [[docs/reference/helpers]].
 
 ### What flavor of Markdown is supported?
 
@@ -40,7 +40,7 @@ Yes, if you have created a useful plugin please submit it to the [plugins reposi
 
 ### How did you make it so fast?
 
-The speed is thanks to [rust][] and the projects listed in the [credits]({{ link "/credits/" }}).
+The speed is thanks to [rust][] and the projects listed in the [[credits]].
 
 [handlebars]: https://handlebarsjs.com/
 [commonmark]: https://commonmark.org/
