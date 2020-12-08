@@ -2,13 +2,11 @@
 description = "Release profiles"
 +++
 
-{{> crumbtrail}}
-
-# {{title}}
+{{import "header"}}
 
 The default release profile is `debug` and the `--release` option will generate a release build into `build/release`.
 
-You may want to output to a different build directory for certain versions in which case you can use the tag option:
+You may want to output to a different build directory for certain versions in which case you can use the profile option:
 
 ```
 uwe --profile=v3.1.0-alpha1
@@ -39,23 +37,6 @@ uwe --profile=dist
 
 Because we use the [[docs/reference/helpers/link]] exclusively all we need to do is instruct the compiler to include `index.html` for directory links and we have a build that will work using the `file:` scheme!
 
-For the `ht docs` command we deliver the documentation as a standalone website, in order to do that we configure a profile like this:
-
-```toml
-[profile.docs]
-base = "docs"
-layout = "partials/docs-layout.hbs"
-paths = ["assets", "docs"]
-```
-
-Which says strip the `docs` base from links, use a custom `layout` and only build the `assets` and `docs` path. We then trigger this profile in the same way:
-
-```toml
-uwe --profile=docs
-```
-
-And the `build/docs` directory now includes a standalone website with just the documentation!
-
 ## Profile Options
 
 These are the options that can be configured in a profile:
@@ -71,4 +52,4 @@ These are the options that can be configured in a profile:
 * `layout` Custom layout to use for the build (default `null`).
 * `paths` Array of specific paths relative to `site` to compile (default `null`).
 
-{{> back}}
+{{import "footer"}}

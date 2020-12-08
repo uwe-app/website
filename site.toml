@@ -152,8 +152,9 @@ pages = [
 
 [menu.other]
 pages = [
-  "/docs/other/json-templates/",
+  "/docs/other/profiles/",
   "/docs/other/hooks/",
+  "/docs/other/json-templates/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
   "/docs/other/commands/",

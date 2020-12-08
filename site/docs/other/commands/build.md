@@ -40,7 +40,7 @@ In this case the site is now in `build/release`. Use the `--profile` option to c
 uwe --release --profile=v3.1.0
 ```
 
-You can set more compiler options using a [[docs/profiles|profile]].
+You can set more compiler options using a [[docs/other/profiles|profile]].
 
 ## Filters
 

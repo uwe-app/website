@@ -28,6 +28,6 @@ uwe --release
 
 When redirect pages are written if the source path ends with a slash (`/`) then it will be treated as a directory and the redirect file will be written to `index.html` within the location.
 
-See [[docs/profiles]] for more information.
+See [[docs/other/profiles]] for more information.
 
 {{import "footer"}}
