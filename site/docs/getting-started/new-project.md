@@ -22,7 +22,7 @@ Then you can create a new project using a specific blueprint like this:
 
 
 ```text
-uwe new project-name tailwind
+uwe new project-name blog
 ```
 
 ## Custom Blueprints

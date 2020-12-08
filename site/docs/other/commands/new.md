@@ -18,12 +18,6 @@ If you know the language or host you can set them when creating the project:
 uwe new project-name --language=fr --host=docs.example.com
 ```
 
-If you want to use a particular blueprint it can be a submodule path such as `tailwind`:
-
-```text
-uwe new project-name tailwind
-```
-
 ## List
 
 To print a list of available blueprints run:
