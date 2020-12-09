@@ -5,7 +5,7 @@ description = "Add navigation to a sidebar"
 
 {{import "header"}}
 
-The *sidebar* pattern is so common that we decided to support it out of the box.
+Using a *sidebar* as a navigation menu is a common use case so we decided to support it out of the box.
 
 {{> table-of-contents}}
 
@@ -60,7 +60,7 @@ A toggle element can also be used to add a close button inside the sidebar conte
 
 ```handlebars
 {{{{raw~}}}}
-<section>{{#> sidebar-label}}Close{{/sidebar-label}}</section>
+<nav>{{#> sidebar-label}}Close{{/sidebar-label}}</nav>
 {{> listing}}
 {{{{~/raw}}}}
 ```
@@ -101,11 +101,6 @@ main > header + section {
   max-width: 760px;
   margin: 0 auto;
 }
-
-/* Customize the sidebar */
-#sidebar {
-  background: white;
-}
 ```
 
 {{#> note label="info"}}
@@ -122,6 +117,25 @@ To remedy this you can add the tiny [sidebar.js][] script to all your pages by c
 [dependencies]
 "std::sidebar" = { version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] } }
 ```
+
+## Custom
+
+Sidebar navigation menus will need to change depending upon the location; we can use the [[docs/reference/helpers/import|import helper]] to achieve this as it walks parent folders to find the nearest template. First create a `sidebar.hbs` file in the `site` folder and put your default sidebar navigation menu inside.
+
+Then update `site/partials/sidebar-content.hbs` removing the directory listing:
+
+```handlebars
+\{{> listing}}
+```
+
+And replace it with an `import` statement:
+
+```handlebars
+\{{import "sidebar"}}
+```
+
+Now you can add a `sidebar.hbs` file to any folder within `site` and it will be used for the sidebar content!
+
 
 {{import "footer"}}
 
