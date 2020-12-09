@@ -53,7 +53,7 @@ We think front matter makes the project easier to understand so we recommend usi
 {{/note}}
 
 {{#> note type="warn" label="warn"}}
-Be sure to quote the path to prevent a [TOML][] error; paths are resolved relative to the source directory and it is an error if the file does not exist. So that paths are platform independent you should always use a forward slash.
+Be sure to quote the path to prevent a [TOML][] error; paths are resolved relative to the `site` directory and it is an error if the file does not exist. So that paths are platform independent you should always use a forward slash.
 {{/note}}
 
 ## Using HTML

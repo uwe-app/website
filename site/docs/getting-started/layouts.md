@@ -9,7 +9,7 @@ When you create a new project from a blueprint it will use the layout and partia
 To set a custom layout for your project create a `main.hbs` file in the `site/layouts` directory; a good starting point would be to copy the [default layout][].
 
 {{#> note label="info"}}
-You should keep the [std::core][] dependency so you don't have to import all the partials too.
+Keep the [std::core][] dependency so you don't have to import all the partials too.
 {{/note}}
 
 ## Custom Layouts

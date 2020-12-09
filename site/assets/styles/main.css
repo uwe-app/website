@@ -6,6 +6,7 @@
   --sidebar-width: 320px;
   --sidebar-offset: -320px;
   --header-height: 64px;
+  --std-max-width: none;
 }
 
 html, * {
@@ -15,10 +16,7 @@ html, * {
 body {
   display: flex;
   overflow: hidden;
-  /* Fix for the new.css shenanigans */
-  max-width: none;
   padding: 0;
-  border-radius: 0;
 }
 
 main {
@@ -39,8 +37,8 @@ main header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
-  border-bottom: 1px solid gray;
+  background: var(--std-background);
+  border-bottom: 1px solid var(--std-color);
 
   height: var(--header-height);
 
@@ -72,9 +70,9 @@ main > header + article {
   max-width: none;
 }
 
-#sidebar {
-  background: white;
-}
+/*#sidebar {*/
+  /*background: white;*/
+/*}*/
 
 body > aside > nav > ul > li {
   padding: 0 1rem;
@@ -104,10 +102,10 @@ body > aside > nav > p > a {
 body > aside > header {
   display: flex;
   height: var(--header-height);
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid var(--std-color);
   position: sticky;
   top: 0;
-  background: white;
+  background: var(--std-background);
   padding: 0 1rem;
   margin: 0;
   display: flex;
@@ -165,9 +163,9 @@ ul.features > li > :first-child:before {
   width: 16px;
   height: 16px;
   margin-right: 0.5rem;
-  background-image: url("../svg/check.svg");
-  background-size:contain;
-  background-repeat:no-repeat;
+  mask: url("../svg/check.svg");
+  background: var(--std-color);
+  mask-size: cover;
 }
 
 footer {
@@ -242,6 +240,7 @@ li ol > li:before {
 }
 
 li > p:first-child, li > p:last-child {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -249,12 +248,30 @@ li > a + p:last-child {
   font-size: 0.9rem;
 }
 
+/*
 .center {
   text-align: center;
 }
+*/
 
 @media screen and (max-width: 480px) {
   ul.features {
     columns: 1;
   }
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: var(--std-color);
+  mask-size: cover;
+}
+
+.icon-menu {
+  mask: url(../svg/menu.svg);
+}
+
+.icon-close {
+  mask: url(../svg/close.svg);
 }
