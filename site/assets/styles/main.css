@@ -6,6 +6,8 @@
   --sidebar-width: 320px;
   --sidebar-offset: -320px;
   --header-height: 64px;
+
+  --std-font-sans: Inter, helvetica, arial, sans-serif;
   --std-max-width: none;
 }
 
