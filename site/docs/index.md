@@ -10,6 +10,10 @@ label = "documentation"
 
 {{menu "getting-started-idx"}}
 
+## Navigation
+
+{{menu "navigation-idx"}}
+
 ## Pages
 
 {{menu "pages-idx"}}
