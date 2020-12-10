@@ -4,22 +4,46 @@ description = "Generate navigation menus"
 
 {{import "header"}}
 
-Use the `menu` helper to iterate the destinations for the current location:
+Use the `menu` helper to render [[docs/navigation/defining-menus|menus]].
+
+## Arguments
+
+* `String` The menu identifier.
+
+## Parameters
+
+* `list` Flag to list directory content (default: `false`).
+
+## Variables
+
+* `@self`: Set to `true` when a path matches the current page.
+
+## Example
+
+To render a named menu:
 
 ```handlebars
-{{{{raw}}}}{{#menu}}
-* [{{title}}]({{href}})
-{{/menu}}{{{{/raw}}}}
+{{{{raw~}}}}
+{{menu "docs"}}
+{{{{~/raw}}}}
 ```
 
-The context for the iterator is set to the page for each item in the current directory; use the `@self` flag to ignore the current page:
+To render the direct descendants of the current folder excluding the index page:
 
 ```handlebars
-{{{{raw}}}}{{#menu}}
-{{#unless @self}}
-* [{{title}}]({{href}})
-{{/unless}}
-{{/menu}}{{{{/raw}}}}
+{{{{raw~}}}}
+{{menu list=true}}
+{{{{~/raw}}}}
+```
+
+To iterate the pages in a menu and exclude the current page:
+
+```handlebars
+{{{{raw~}}}}
+{{#menu "docs"}}
+{{#unless @self}}{{title}}{{/unless}}
+{{/menu}}
+{{{{~/raw}}}}
 ```
 
 {{import "footer"}}

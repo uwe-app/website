@@ -72,6 +72,9 @@ description = "Universal Web Editor"
 keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
 authors = [ "tmpfs" ]
 
+[page.http-equiv]
+content-security-policy = "default-src 'self'; style-src 'self' 'unsafe-inline';"
+
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
 
@@ -162,6 +165,7 @@ pages = [
 pages = [
   "/docs/other/profiles/",
   "/docs/other/hooks/",
+  "/docs/other/content-security-policy/",
   "/docs/other/json-templates/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
