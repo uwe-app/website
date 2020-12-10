@@ -14,20 +14,13 @@ edit-path = "edit/main/"
 #profiles = true
 
 [dependencies]
-"std::core" = { version = "~4.1.3", apply = { styles = ["**"] } }
+"std::core" = { path = "../../plugins/std/core", version = "~4.1.3", apply = { styles = ["**"] } }
 "std::menu" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::sidebar" = { version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
 "std::link" = { version = "~1", features = ["github"] }
 "std::listing" = { version = "~1" }
 "std::note" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::crumbtrail" = { version = "~1", apply = { styles = [ "**" ] } }
-
-#"std::core" = { path = "../../plugins/std/core", version = "~2" }
-#"std::sidebar" = { path = "../../plugins/std/sidebar", version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
-#"std::link" = { path = "../../plugins/std/link", version = "~1", features = ["github"] }
-#"std::listing" = { path = "../../plugins/std/listing", version = "~1" }
-#"std::note" = { path = "../../plugins/std/note", version = "~1", apply = { styles = [ "**" ] } }
-#"std::crumbtrail" = { path = "../../plugins/std/crumbtrail", version = "~1", apply = { styles = [ "**" ] } }
 
 [dependencies."font::inter"]
 #path = "../../plugins/font/inter"
@@ -119,7 +112,7 @@ pages = [
   "/docs/getting-started/layouts/",
   "/docs/getting-started/debugging/",
   "/docs/getting-started/conventions/",
-  "/docs/getting-started/directory-index/",
+  "/docs/getting-started/directory-listing/",
   "/docs/getting-started/publish/",
 ]
 

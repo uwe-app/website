@@ -22,6 +22,6 @@ Will output:
 {{slug "Title With Spaces"}}
 ```
 
-This is particularly useful when building links to documents created using [[docs/data-sources]].
+This is particularly useful when building links to documents created using [[docs/collections]].
 
 {{import "footer"}}

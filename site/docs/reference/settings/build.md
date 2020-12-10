@@ -17,7 +17,7 @@ target = "build"
 * `strict` Error when an unknown template variable is detected (default: `true`).
 * `assets` Path to use for finding assets (default: `assets`).
 * `partials` Path to use for finding partials (default: `partials`).
-* `data-sources` Path to use for finding data sources(default: `data-sources`).
+* `collections` Path to use for finding data sources(default: `collections`).
 * `resources` Path to use for finding resources (default: `resources`).
 * `rewrite-index` Rewrite to directory with index.html (default: `false`).
 * `render` List of additional file extensions to render as pages (default: `[]`).

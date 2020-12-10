@@ -32,7 +32,6 @@ main {
 }
 
 main header {
-  /* Fix for the new.css header shenanigans */
   margin: 0;
   padding: 0 2rem;
 
@@ -150,9 +149,9 @@ ul.features {
 
 li {
   margin-top: 0;
--webkit-column-break-inside: avoid;
-          page-break-inside: avoid;
-               break-inside: avoid;
+  /*-webkit-column-break-inside: avoid;*/
+            /*page-break-inside: avoid;*/
+                 /*break-inside: avoid;*/
 }
 
 ul.features > li :first-child {
@@ -177,7 +176,6 @@ footer {
 
 footer > :last-child {
   text-align: center;
-  opacity: .65;
 }
 
 footer > nav:first-child {
@@ -207,12 +205,6 @@ footer > nav:first-child span:not(:last-child):after {
   content: "|";
   margin: 0 .2rem;
 }
-
-/*
-ol { counter-reset: item }
-li{ display: block }
-li:before { content: counters(item, ".") " "; counter-increment: item }
-*/
 
 ol {
   list-style-type: none;
