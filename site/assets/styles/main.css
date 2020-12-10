@@ -80,7 +80,7 @@ body > aside > nav > ul > li {
 }
 
 .listing .selected {
-  background: #eeeeee;
+  background: var(--std-background-active);
 }
 
 body > aside ul {
