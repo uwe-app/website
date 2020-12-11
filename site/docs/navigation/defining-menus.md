@@ -29,17 +29,6 @@ pages = [
 ]
 ```
 
-## File
-
-For complete control over the rendering of the menu use the `file` option and the menu will be rendered using the file template content:
-
-```toml
-[menu.custom]
-file = "custom-menu.md"
-```
-
-Files are resolved relative to the `site` directory.
-
 ## Variants
 
 These menus will render using links but sometimes we want to also include a paragraph with the description for each page; for example in the index page for a folder it is good practice to show more detail about the page.
