@@ -42,8 +42,4 @@ variants = [{ description = true, suffix = "-idx" }]
 
 Which will create additional menu definitions that include the description for each page; if your menu is called `docs` you can refer to the variant as `docs-idx`.
 
-{{#> note label="note"}}
-Variants are not created for `file` menus.
-{{/note}}
-
 {{import "footer"}}
