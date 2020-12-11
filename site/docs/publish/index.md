@@ -6,6 +6,4 @@ description = "Publish the site"
 
 Information about supported hosting providers compatible with the `publish` command.
 
-{{> listing}}
-
-{{> back}}
+{{menu "publish-idx"}}

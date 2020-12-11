@@ -201,6 +201,7 @@ pages = [
 
 [menu.publish]
 pages = [
+  "/docs/publish/self-hosting/",
   "/docs/publish/amazon-web-services/",
 ]
 
