@@ -122,14 +122,6 @@ watch = true
 * [Sass][sass-example]: Compile styles using [sass][].
 * [Tailwind w/ PostCSS][tailwind-postcss-example]: Compile styles using the [tailwind][] framework.
 
-## Test
-
-To run a smoke test of all the integrations:
-
-```
-make test
-```
-
 ## Notes
 
 The compiler uses certain conventions for the live reload functionality. One of these conventions is that all files in the `assets` folder are considered part of the chrome for the entire website so when a file changes in the `assets` folder the entire site is re-compiled including executing any hooks. This means that if a hook command writes to `site/assets` an infinite loop is created! For this reason we advise that build tool integrations always write directly to `BUILD_TARGET`.
