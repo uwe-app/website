@@ -4,7 +4,7 @@ description = "Conditional rendering"
 
 {{import "header"}}
 
-Use the `match` helper to render when a page matches a path.
+Use the `match` helper to render when a page matches a path; this is useful to highlight the current page in navigation menus.
 
 ## Arguments
 

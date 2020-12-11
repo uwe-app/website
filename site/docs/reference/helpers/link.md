@@ -6,25 +6,46 @@ description = "Create valid, relative links"
 
 The link helper generates links relative to the current page. You pass it an absolute path and it will return a URL relative to the current page with the correct amount of `../` references; it also does the important job of checking links exist at compile time!
 
+Prefer using wiki-style [[docs/getting-started/links]] wherever possible.
+
+{{#> note label="info"}}
+If you pass a relative path starting with a period or use the `http:` or `https:` schemes it will not be modified.
+
+If the current page has set `absolute` then this helper will render an absolute path.
+{{/note}}
+
+{{#> note label="warn" type="warn"}}
+Relative paths are not verified so should be avoided.
+{{/note}}
+
+## Arguments
+
+* `String` Path to the resource to link to.
+
+## Example
+
+Link to a page:
+
 ```handlebars
-[Contact](\{{link "/contact/"}})
+[Contact](\{{link "contact"}})
 ```
 
-Yields:
+Renders as:
 
 ```markdown
-[Contact]({{link "/contact/"}})
+[Contact]({{link "contact/"}})
 ```
 
-If you pass a relative path without a leading slash or use the `http:` or `https:` schemes it will not be modified.
-
-## Absolute
-
-Sometimes, for example when rendering error pages, it is better to use absolute paths. Use the `abs` parameter for an absolute path:
+Link to a resource:
 
 ```handlebars
-\{{link "/contact/" abs=true}})
+<img src="\{{link "assets/svg/menu.svg"}}">
+```
+
+Renders as:
+
+```html
+<img src="{{link "assets/svg/menu.svg"}}">
 ```
 
 {{import "footer"}}
-

@@ -1,5 +1,5 @@
 +++
-description = "Render the content for the current page"
+description = "Render the current page content"
 +++
 
 {{import "header"}}

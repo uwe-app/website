@@ -16,7 +16,7 @@ Generate a friendly *slug* from a value.
 \{{slug "Title With Spaces"}}
 ```
 
-Will output:
+Renders as:
 
 ```
 {{slug "Title With Spaces"}}

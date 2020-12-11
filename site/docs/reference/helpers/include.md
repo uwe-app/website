@@ -1,10 +1,14 @@
 +++
-description = "Include example files"
+description = "Include files"
 +++
 
 {{import "header"}}
 
 The `include` helper can be used to include files into your pages; normally it is used for examples. Include paths are resolved relative to the page calling the `include` helper.
+
+{{#> note label="info"}}
+Use the *includes* folder [[docs/getting-started/conventions]] to automatically ignore included files.
+{{/note}}
 
 ## Arguments
 
@@ -12,13 +16,20 @@ The `include` helper can be used to include files into your pages; normally it i
 
 ## Example
 
-```handlebars
-\{{include ../../includes/example.txt}}
+A common technique is to put the `include` inside a fenced code block for examples:
+
+````markdown
+```markdown
+\{{include ../../../partials/snippet.hbs~}}
 ```
+````
 
-{{#> note label="info"}}
-Use the *includes* folder [[docs/getting-started/conventions]] to automatically ignore included files.
-{{/note}}
+Renders as:
 
+````markdown
+```markdown
+{{include ../../../partials/snippet.hbs~}}
+```
+````
 
 {{import "footer"}}

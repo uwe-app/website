@@ -1,5 +1,5 @@
 +++
-description = "Adds scripts to a page"
+description = "Render a page"
 +++
 
 {{import "header"}}

@@ -15,9 +15,13 @@ Use the `menu` helper to render [[docs/navigation/defining-menus|menus]].
 * `list` Flag to list directory content (default: `false`).
 * `include-index` Include the index file when listing directory content (default: `false`).
 * `depth` Maximum depth when listing directory content (default: `1`).
-* `path` Optional specific page path to list.
+* `path` Optional directory to list.
 
-## Variables
+{{#> note label="info"}}
+Use `depth=0` to get all the descendants of a folder; the listing will use the default maximum folder depth for traversal which is 64.
+{{/note}}
+
+## Local Variables
 
 * `@self`: Set to `true` when a path matches the current page.
 
@@ -31,7 +35,7 @@ Render a named menu:
 {{{{~/raw}}}}
 ```
 
-Render pages in the current folder excluding the index page:
+Render a menu of pages in the current folder excluding the index page:
 
 ```handlebars
 {{{{raw~}}}}
@@ -39,7 +43,7 @@ Render pages in the current folder excluding the index page:
 {{{{~/raw}}}}
 ```
 
-Render pages and include the index page:
+Render a menu of pages in the current folder and include the index page:
 
 ```handlebars
 {{{{raw~}}}}
@@ -47,7 +51,7 @@ Render pages and include the index page:
 {{{{~/raw}}}}
 ```
 
-Render all descendants of the current folder upto the the maximum depth (64):
+Render a menu including all the descendants of the current folder upto the the maximum depth:
 
 ```handlebars
 {{{{raw~}}}}
@@ -65,7 +69,7 @@ Iterate the pages in a menu and exclude the current page:
 {{{{~/raw}}}}
 ```
 
-To iterate the pages in the current folder as if `list=true` omit the menu name:
+Iterate the pages in the current folder (`list=true` is inferred):
 
 ```handlebars
 {{{{raw~}}}}
@@ -75,7 +79,7 @@ To iterate the pages in the current folder as if `list=true` omit the menu name:
 {{{{~/raw}}}}
 ```
 
-Iterate all the pages in a folder upto the maximum folder depth:
+Iterate all the pages in a specific folder upto the maximum folder depth:
 
 ```handlebars
 {{{{raw~}}}}

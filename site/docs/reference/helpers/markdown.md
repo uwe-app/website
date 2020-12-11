@@ -1,11 +1,11 @@
 +++
-description = "Markdown snippets"
+description = "Render markdown"
 content = "This is some *Markdown* content."
 +++
 
 {{import "header"}}
 
-The `md` helper is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
+The `md` helper renders Markdown content and is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
 
 ## Arguments
 
@@ -45,7 +45,7 @@ content = "This is some *Markdown* content."
 {{{{~/raw}}}}
 ```
 
-Will yield this markup:
+Renders to this markup:
 
 ```html
 {{md snippet render=true ~}}

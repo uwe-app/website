@@ -1,5 +1,5 @@
 +++
-description = "Get data for parent pages"
+description = "Get page data for the parent folder"
 +++
 
 {{import "header"}}
@@ -18,7 +18,7 @@ This is typically used to render a link up to a parent folder:
 {{{{~/raw}}}}
 ```
 
-Which renders this markup:
+Renders as:
 
 ```html
 {{#parent~}}

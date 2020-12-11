@@ -1,5 +1,5 @@
 +++
-description = "Adds scripts to a page"
+description = "Render script tags"
 +++
 
 {{import "header"}}
@@ -11,7 +11,7 @@ The scripts helper is called automatically to include scripts in a page by the [
 ```
 
 {{#> note type="warn" label="warn"}}
-If you fail to call this helper then live reload will not work.
+If you do not call this helper in a custom layout then live reload will not work.
 {{/note}}
 
 {{import "footer"}}

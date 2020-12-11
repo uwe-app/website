@@ -1,5 +1,5 @@
 +++
-description = "Render document links"
+description = "Render link tags"
 +++
 
 {{import "header"}}

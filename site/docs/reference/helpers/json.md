@@ -19,13 +19,13 @@ The `json` helper is used to convert a value to a JSON string; it is useful for 
 Pass a parameter of the data to print and optionally the `pretty` hash parameter:
 
 ```handlebars
-\{{json authors pretty=true}}
+\{{json authors.attributed pretty=true}}
 ```
 
 Which renders to:
 
 ```json
-{{json authors pretty=true}}
+{{json authors.attributed pretty=true}}
 ```
 
 Assuming the statement is at the top scope of a template you can print the entire page data using:
@@ -42,14 +42,6 @@ When iterating using the `each` helper the `this` keyword will print the current
 {{json this pretty=true}}
 {{/each}}
 {{{{~/raw}}}}
-```
-
-Which renders to:
-
-```json
-{{#each authors.all}}
-{{~json this pretty=true}}
-{{~/each}}
 ```
 
 {{import "footer"}}

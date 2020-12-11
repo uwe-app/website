@@ -24,9 +24,9 @@ First create a `footer.hbs` file in the folder and then each page can *import* i
 Do not specify a file extension when importing files using this syntax.
 {{/note}}
 
-When importing files using a string name the helper will walk the parent hierarchy to find the first template that matches the given name.
+When importing files using a name the helper will walk the parent hierarchy to find the first template that matches the given name.
 
-It is recommended to use a named template using a string value whenever possible but sometimes you may need to reference a template outside of the parent folder hierarchy. The `import` helper will also accept a path to the template but in this case you must specify the file extension:
+It is recommended to use a named template whenever possible but sometimes you may need to reference a template outside of the parent folder hierarchy. The `import` helper will also accept a path to the template but in this case you must specify the file extension:
 
 ```handlebars
 \{{import ../../docs/footer.hbs}}
