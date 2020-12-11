@@ -13,6 +13,9 @@ Use the `menu` helper to render [[docs/navigation/defining-menus|menus]].
 ## Parameters
 
 * `list` Flag to list directory content (default: `false`).
+* `include-index` Include the index file when listing directory content (default: `false`).
+* `depth` Maximum depth when listing directory content (default: `1`).
+* `path` Optional specific page path to list.
 
 ## Variables
 
@@ -68,6 +71,16 @@ To iterate the pages in the current folder as if `list=true` omit the menu name:
 {{{{raw~}}}}
 {{#menu}}
 {{#unless @self}}{{title}}{{/unless}}
+{{/menu}}
+{{{{~/raw}}}}
+```
+
+Iterate all the pages in a folder upto the maximum folder depth:
+
+```handlebars
+{{{{raw~}}}}
+{{#menu path="/docs/" list=true include-index=true depth=0}}
+{{title}}
 {{/menu}}
 {{{{~/raw}}}}
 ```
