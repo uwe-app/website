@@ -43,7 +43,7 @@ Do **not write build products** to the `site` directory otherwise you may **crea
 
 Configuration files for build tools should go in the project root outside of the `site` directory unless they should trigger a live reload.
 
-If a configuration file should trigger a hook to be run when files change it can go in the `site` directory; for example the [tailwind][] integration needs to rebuild the stylesheet when the configuration file changes (see the [tailwind-postcss][] integration).
+If a configuration file should trigger a hook to be run when files change it can go in the `site` directory; for example the [tailwind][] integration needs to rebuild the stylesheet when the configuration file changes (see the [tailwind-postcss][tailwind-postcss-example] integration).
 
 ## Site Settings
 
@@ -107,28 +107,6 @@ profiles = ["release"]
 files = ["src/main.js"]
 watch = true
 ```
-
-## Run
-
-To test any of the integrations, clone this repository and change into the directory containing the integration. If it has a `package.json` file run `yarn install` then you can preview the site with live reload:
-
-```
-uwe --live
-```
-
-To test a production build (equivalent to `NODE_ENV=production`) run:
-
-```
-uwe server --open
-```
-
-Each integration should show a check mark if it is working, for example, if you launch the [swc][swc-example] integration with `uwe --live` you should expect to see on the web page:
-
-```text
-swc ✓
-```
-
-If you do not see the check mark then it is not working; [please raise an issue](https://github.com/uwe-app/integrations/issues).
 
 ## Examples
 
