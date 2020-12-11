@@ -79,7 +79,7 @@ body > aside > nav > ul > li {
   padding: 0 1rem;
 }
 
-.listing .selected {
+li.selected {
   background: var(--std-background-active);
 }
 
