@@ -123,6 +123,7 @@ pages = [
   "/docs/getting-started/styles/",
   "/docs/getting-started/scripts/",
   "/docs/getting-started/layouts/",
+  "/docs/getting-started/integrations/",
   "/docs/getting-started/debugging/",
   "/docs/getting-started/conventions/",
   "/docs/getting-started/directory-listing/",
