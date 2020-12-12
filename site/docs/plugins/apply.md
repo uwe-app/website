@@ -28,7 +28,7 @@ Or for all pages in the `docs` folder:
 
 ## Scripts
 
-To add scripts to our pages we apply patterns in `scripts`. For example the `std::sidebar` plugin has a tiny script to recall the open state of the sidebar as we navigate. To use the script in all our pages we apply it like this:
+To add scripts to our pages we apply patterns in `scripts`. For example the [std::sidebar][] plugin has a tiny script to recall the open state of the sidebar as we navigate. To use the script in all our pages we apply it like this:
 
 ```toml
 [dependencies."std::sidebar"]
