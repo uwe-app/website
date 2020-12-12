@@ -6,6 +6,10 @@ description = "Add and edit pages"
 
 Pages are Markdown documents that use a template engine for rendering; to add a new page to your website create a file with a `.md` extension in the `site` folder.
 
+{{#> note label="info"}}
+For brevity this documentation will omit the `site` prefix when specifying source file paths; unless otherwise specified you should assume file paths refer to documents in the `site` directory.
+{{/note}}
+
 File names correspond to the links for your pages so you should follow some simple conventions when naming files:
 
 * Use lowercase characters
@@ -37,9 +41,9 @@ description = "Description of the project"
 keywords = "Vanilla, Static, Website"
 ```
 
-### Page Data
+### Pages Table
 
-You can assign data to specific pages by source path using the `[pages]` table if necessary. This example shows how to avoid embedding front matter in a file to yet still apply page data:
+You can assign data to specific pages by source path using the `[pages]` table if necessary. This example shows how to avoid embedding front matter in a file yet still apply page data:
 
 ```toml
 [pages."google17a6906a04e2c5e4.html"]

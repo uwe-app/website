@@ -86,7 +86,7 @@ image = "/assets/img/article-banner.jpg"
 ```
 
 {{#> note label="info"}}
-Images must be relative paths they are automatically make absolute when rendering.
+Images must be relative paths; they are automatically made absolute when rendering.
 {{/note}}
 
 ## Meta Data
@@ -151,7 +151,7 @@ permalink = "/posts/article-link/"
 ```
 
 {{#> note label="info"}}
-The `permalink` variable will use the redirect path for the page when `permalink` is set otherwise the page URL is used; the value is always an absolute URI.
+The `permalink` variable will use the redirect path for the page when `permalink` is set otherwise the page URL is used; the value is guaranteed to be an absolute URI once it is passed to a template.
 {{/note}}
 
 {{import "footer"}}
