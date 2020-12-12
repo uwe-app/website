@@ -85,12 +85,12 @@ li.selected {
 
 body > aside ul {
   list-style-type: none;
-  margin: 1rem 0 0 0;
+  margin: 0;
   padding: 0;
 }
 
 body > aside > nav > p {
-  margin: 1rem;
+  margin: 1em 1em 0.5em 1em;
   text-transform: uppercase;
   font-size: 14px;
 }

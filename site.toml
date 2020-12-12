@@ -104,6 +104,7 @@ pages = [
   "/docs/navigation/",
   "/docs/pages/",
   "/docs/content/",
+  "/docs/plugins/",
   "/docs/design-patterns/",
   "/docs/search-engines/",
   "/docs/translate/",
@@ -157,11 +158,39 @@ pages = [
   "/docs/content/edit-on-github/",
 ]
 
+[menu.plugins]
+pages = [
+  "/docs/plugins/dependencies/",
+]
+
+[menu.design-patterns]
+pages = [
+  "/docs/design-patterns/sidebar/",
+  "/docs/design-patterns/crumbtrails/",
+  "/docs/design-patterns/table-of-contents/",
+  "/docs/design-patterns/sticky-header/",
+  "/docs/design-patterns/notes/",
+]
+
 [menu.seo]
 pages = [
   "/docs/search-engines/no-index/",
   "/docs/search-engines/robots/",
   "/docs/search-engines/site-maps/",
+]
+
+[menu.translate]
+pages = [
+  "/docs/translate/introduction/",
+  "/docs/translate/languages/",
+  "/docs/translate/messages/",
+  "/docs/translate/pages/",
+]
+
+[menu.publish]
+pages = [
+  "/docs/publish/self-hosting/",
+  "/docs/publish/amazon-web-services/",
 ]
 
 [menu.other]
@@ -183,29 +212,6 @@ pages = [
 pages = [
   "/docs/reference/helpers/",
   "/docs/reference/settings/",
-]
-
-[menu.design-patterns]
-pages = [
-  "/docs/design-patterns/sidebar/",
-  "/docs/design-patterns/crumbtrails/",
-  "/docs/design-patterns/table-of-contents/",
-  "/docs/design-patterns/sticky-header/",
-  "/docs/design-patterns/notes/",
-]
-
-[menu.translate]
-pages = [
-  "/docs/translate/introduction/",
-  "/docs/translate/languages/",
-  "/docs/translate/messages/",
-  "/docs/translate/pages/",
-]
-
-[menu.publish]
-pages = [
-  "/docs/publish/self-hosting/",
-  "/docs/publish/amazon-web-services/",
 ]
 
 #[profile.inc]

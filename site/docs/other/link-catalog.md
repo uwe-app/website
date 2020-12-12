@@ -16,13 +16,13 @@ catalog = "links.md"
 Then create the `site/links.md` file to contain your links, for example:
 
 ```markdown
-[uwe]: https://uwe.app
+[UWE]: https://uwe.app
 ```
 
 Now you can reference those links in any Markdown document as you would normally:
 
 ```markdown
-Check out the [uwe][] project!
+Check out the [UWE][] app!
 ```
 
 <!-- NOTE: make this a note -->

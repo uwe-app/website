@@ -120,6 +120,7 @@ watch = true
 ### Stylesheets
 
 * [Sass][sass-example]: Compile styles using [sass][].
+* [PostCSS][postcss-example]: Compile styles using [postcss][].
 * [Tailwind w/ PostCSS][tailwind-postcss-example]: Compile styles using the [tailwind][] framework.
 
 ## Notes
@@ -136,6 +137,7 @@ The compiler uses certain conventions for the live reload functionality. One of 
 [webpack-example]: https://github.com/uwe-app/integrations/tree/main/webpack
 
 [sass-example]: https://github.com/uwe-app/integrations/tree/main/sass
+[postcss-example]: https://github.com/uwe-app/integrations/tree/main/postcss
 [tailwind-postcss-example]: https://github.com/uwe-app/integrations/tree/main/tailwind-postcss
 
 [postcss.config.js]: https://github.com/uwe-app/integrations/tree/main/tailwind-postcss/postcss.config.js
@@ -148,3 +150,4 @@ The compiler uses certain conventions for the live reload functionality. One of 
 [Webpack]: https://webpack.js.org/
 [tailwind]: https://tailwindcss.com/
 [sass]: https://sass-lang.com/
+[postcss]: https://postcss.org/
