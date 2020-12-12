@@ -161,6 +161,8 @@ pages = [
 [menu.plugins]
 pages = [
   "/docs/plugins/dependencies/",
+  "/docs/plugins/apply/",
+  "/docs/plugins/using-templates/",
 ]
 
 [menu.design-patterns]

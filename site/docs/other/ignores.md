@@ -32,6 +32,4 @@ Then override the pattern in `.ignore`:
 !windows
 ```
 
-Job done!
-
 {{import "footer"}}
