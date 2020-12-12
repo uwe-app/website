@@ -61,6 +61,7 @@ theme = "Solarized (light)"
 
 [transform.html]
 toc = true
+words = true
 
 [authors.tmpfs]
 name = "Muji"
@@ -150,6 +151,7 @@ pages = [
 [menu.content]
 pages = [
   "/docs/content/author-attribution/",
+  "/docs/content/reading-time/",
   "/docs/content/feeds/",
   "/docs/content/syntax-highlight/",
   "/docs/content/edit-on-github/",
