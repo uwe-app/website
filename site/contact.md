@@ -10,4 +10,4 @@ To contact us by email send a message to `support` at the domain name `uwe.app`;
 
 [discussions]: https://github.com/uwe-app/community/discussions "Community Discussions"
 [issues]: https://github.com/uwe-app/community/issues "Community Issues"
-[disord]: https://discord.gg/gmhWetv2fE "Discord Chat"
+[discord]: https://discord.gg/gmhWetv2fE "Discord Chat"
