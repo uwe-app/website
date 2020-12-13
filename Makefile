@@ -3,7 +3,7 @@ all: release
 RUNTIME_ROOT = ../runtime
 DOCS_ROOT = $(RUNTIME_ROOT)/documentation
 
-UWE_COMMAND_DOCS = build docs new publish server site
+UWE_COMMAND_DOCS = build clean docs lang new publish server site
 UPM_COMMAND_DOCS = lint pack publish
 UVM_COMMAND_DOCS = install latest list prune remove runtime uninstall update use
 

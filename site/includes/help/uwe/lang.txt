@@ -1,0 +1,14 @@
+uwe-lang 0.40.9
+Manage languages
+
+USAGE:
+    uwe lang <SUBCOMMAND>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+SUBCOMMANDS:
+    help    Prints this message or the help of the given subcommand(s)
+    list    List languages for a project
+    new     Create new translations

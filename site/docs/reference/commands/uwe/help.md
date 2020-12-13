@@ -1,5 +1,6 @@
 +++
-description = "Get command help"
+title = "help"
+description = "Print help"
 +++
 
 {{import "header"}}

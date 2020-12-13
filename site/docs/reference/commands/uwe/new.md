@@ -1,4 +1,5 @@
 +++
+title = "new"
 description = "Create a project"
 +++
 
@@ -57,7 +58,7 @@ uwe new project-name git@github.com:uwe-app/blog.git
 ## Usage
 
 ```text
-{{include ../../../includes/help/uwe/new.txt}}
+{{include ../../../../includes/help/uwe/new.txt}}
 ```
 
 {{> back}}

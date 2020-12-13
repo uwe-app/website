@@ -1,4 +1,5 @@
 +++
+title = "build"
 description = "Compile a website"
 +++
 
@@ -53,7 +54,7 @@ uwe . site/docs
 ## Usage
 
 ```text
-{{include ../../../includes/help/uwe/build.txt}}
+{{include ../../../../includes/help/uwe/build.txt}}
 ```
 
 {{> back}}

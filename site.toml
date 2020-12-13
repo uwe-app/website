@@ -203,7 +203,6 @@ pages = [
   "/docs/other/json-templates/",
   "/docs/other/link-catalog/",
   "/docs/other/ignores/",
-  "/docs/other/commands/",
   "/docs/other/error-page/",
   "/docs/other/strict-mode/",
   "/docs/other/parallel-builds/",
@@ -214,6 +213,7 @@ pages = [
 pages = [
   "/docs/reference/helpers/",
   "/docs/reference/settings/",
+  "/docs/reference/commands/",
 ]
 
 #[profile.inc]

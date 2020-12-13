@@ -1,4 +1,4 @@
-uvm-update 0.40.5
+uvm-update 0.40.9
 Update the version manager (uvm)
 
 USAGE:

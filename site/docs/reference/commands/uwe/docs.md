@@ -1,4 +1,5 @@
 +++
+title = "docs"
 description = "Browse the documentation"
 +++
 
@@ -19,7 +20,7 @@ uvm runtime
 ## Usage
 
 ```text
-{{include ../../../includes/help/uwe/docs.txt}}
+{{include ../../../../includes/help/uwe/docs.txt}}
 ```
 
 {{> back}}

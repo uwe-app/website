@@ -1,12 +1,14 @@
-uwe-server 0.40.5
+uwe-server 0.40.9
 Serve static files
 
 USAGE:
-    uwe server [OPTIONS] <target>
+    uwe server [FLAGS] [OPTIONS] [target]
 
 FLAGS:
-        --help       Prints help information
-    -V, --version    Prints version information
+        --help          Prints help information
+    -o, --open          Launch a web browser
+    -s, --skip-build    Do not create a release build for projects
+    -V, --version       Prints version information
 
 OPTIONS:
     -h, --host <host>            The name of the host
@@ -16,4 +18,4 @@ OPTIONS:
         --ssl-port <ssl-port>    The port number for SSL
 
 ARGS:
-    <target>    Directory to serve files from
+    <target>    Project or directory to serve files from [default: .]

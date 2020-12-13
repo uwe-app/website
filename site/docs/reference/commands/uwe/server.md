@@ -1,4 +1,5 @@
 +++
+title = "server"
 description = "Serve a website"
 +++
 
@@ -17,7 +18,7 @@ The server does not list directory content; it is expected that an `index.html` 
 ## Usage
 
 ```text
-{{include ../../../includes/help/uwe/server.txt}}
+{{include ../../../../includes/help/uwe/server.txt}}
 ```
 
 {{> back}}

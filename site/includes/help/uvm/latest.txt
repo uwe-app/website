@@ -1,4 +1,4 @@
-uvm-latest 0.40.5
+uvm-latest 0.40.9
 Upgrade to latest release
 
 USAGE:

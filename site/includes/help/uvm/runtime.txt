@@ -1,4 +1,4 @@
-uvm-runtime 0.40.5
+uvm-runtime 0.40.9
 Update the runtime assets
 
 USAGE:

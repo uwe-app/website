@@ -1,0 +1,12 @@
+uwe-clean 0.40.9
+Remove the build directory
+
+USAGE:
+    uwe clean [project]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <project>    Read config from directory [default: .]

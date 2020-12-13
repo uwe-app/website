@@ -1,4 +1,4 @@
-uwe-site 0.40.5
+uwe-site 0.40.9
 Manage project source files
 
 USAGE:
