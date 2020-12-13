@@ -1,6 +1,6 @@
 +++
 title = "uwe"
-description = "Commands for uwe(1)"
+description = "Build, serve and publish projects"
 +++
 
 {{import "header"}}

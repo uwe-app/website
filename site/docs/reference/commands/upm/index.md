@@ -1,6 +1,6 @@
 +++
 title = "upm"
-description = "Commands for upm(1)"
+description = "Plugin authoring tool"
 +++
 
 {{import "header"}}
