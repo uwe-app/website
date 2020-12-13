@@ -1,4 +1,4 @@
-uwe-lang 0.40.9
+uwe-lang 0.40.10
 Manage languages
 
 USAGE:

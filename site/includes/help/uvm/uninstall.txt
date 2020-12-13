@@ -1,4 +1,4 @@
-uvm-uninstall 0.40.9
+uvm-uninstall 0.40.10
 Uninstall the program
 
 USAGE:

@@ -1,4 +1,4 @@
-uvm-remove 0.40.9
+uvm-remove 0.40.10
 Delete a release version
 
 USAGE:

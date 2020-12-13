@@ -1,4 +1,4 @@
-uwe-publish 0.40.9
+uwe-publish 0.40.10
 Publish a site
 
 USAGE:

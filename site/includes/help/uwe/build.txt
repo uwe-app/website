@@ -1,4 +1,4 @@
-uwe-build 0.40.9
+uwe-build 0.40.10
 Compile a site
 
 USAGE:
