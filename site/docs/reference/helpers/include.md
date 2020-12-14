@@ -6,6 +6,8 @@ description = "Include files"
 
 The `include` helper can be used to include files into your pages; normally it is used for examples. Include paths are resolved relative to the page calling the `include` helper.
 
+Include files must exist within the project folder which contains the [[docs/getting-started/site-settings]] (`site.toml`).
+
 {{#> note label="info"}}
 Use the *includes* folder [[docs/getting-started/conventions]] to automatically ignore included files.
 {{/note}}
