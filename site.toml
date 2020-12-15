@@ -82,6 +82,13 @@ content-security-policy = "default-src 'self'; style-src 'self' 'unsafe-inline';
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
 
+[[page.styles]]
+src = "assets/styles/print.css"
+media = "print"
+
+[[page.scripts]]
+src = "assets/scripts/foo.js"
+
 #[[page.links]]
 #as = "audio"
 #href = "/my-audio-file.mp3"
