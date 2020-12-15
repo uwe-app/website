@@ -86,9 +86,6 @@ site_name = "UWE / Universal Web Editor"
 src = "assets/styles/print.css"
 media = "print"
 
-[[page.scripts]]
-src = "assets/scripts/foo.js"
-
 #[[page.links]]
 #as = "audio"
 #href = "/my-audio-file.mp3"

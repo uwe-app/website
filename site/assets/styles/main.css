@@ -164,9 +164,9 @@ ul.features > li > :first-child:before {
   width: 16px;
   height: 16px;
   margin-right: 0.5rem;
-  mask: url("../svg/check.svg");
-  background: var(--std-color);
-  mask-size: cover;
+  background-image: url(../svg/check.svg);
+  filter: var(--std-color-filter);
+  background-size: cover;
 }
 
 footer {
@@ -242,12 +242,6 @@ li > a + p:last-child {
   font-size: 0.9rem;
 }
 
-/*
-.center {
-  text-align: center;
-}
-*/
-
 @media screen and (max-width: 480px) {
   ul.features {
     columns: 1;
@@ -258,14 +252,14 @@ li > a + p:last-child {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background: var(--std-color);
-  mask-size: cover;
+  filter: var(--std-color-filter);
+  background-size: cover;
 }
 
 .icon-menu {
-  mask: url(../svg/menu.svg);
+  background-image: url(../svg/menu.svg);
 }
 
 .icon-close {
-  mask: url(../svg/close.svg);
+  background-image: url(../svg/close.svg);
 }
