@@ -7,6 +7,9 @@ version = "1.0.0"
 url = "https://github.com/uwe-app/website/"
 edit-path = "edit/main/"
 
+[livereload]
+follow-edits = true
+
 #[script]
 #src = "assets/scripts/global.js"
 
@@ -118,6 +121,7 @@ pages = [
   "/docs/getting-started/new-project/",
   "/docs/getting-started/build-project/",
   "/docs/getting-started/site-settings/",
+  "/docs/getting-started/live-reload/",
   "/docs/getting-started/adding-pages/",
   "/docs/getting-started/front-matter/",
   "/docs/getting-started/links/",
