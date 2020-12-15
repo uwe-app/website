@@ -15,4 +15,10 @@ follow-edits = true
 
 Now when you edit a file the browser will navigate to the corresponding page; for example, if you edit `site/contact.md` the browser will navigate to `/contact/`.
 
+If you want to set the initial page when launching the browser use the `--launch` option; for example, to launch the `docs` page:
+
+```text
+uwe --live --launch=docs/
+```
+
 {{import "footer"}}
