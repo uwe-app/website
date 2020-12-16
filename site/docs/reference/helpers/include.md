@@ -4,11 +4,19 @@ description = "Include files"
 
 {{import "header"}}
 
-The `include` helper can be used to include files into your pages; normally it is used for examples. Include paths are resolved relative to the page calling the `include` helper. Include files must exist within the `site` source folder.
+The `include` helper can be used to include files into your pages; normally it is used for examples but can also be useful to embed assets. Relative paths are resolved from the file calling the `include` helper unless they start with a `/` which resolves the path from the `site` folder.
+
+It is an error attempting to include a file outside the `site` source folder.
 
 {{#> note label="info"}}
 Use the *includes* folder [[docs/getting-started/conventions]] to automatically ignore included files.
 {{/note}}
+
+
+{{#> note label="warn" type="warn"}}
+If you use this helper inside a partial loaded from a plugin relative paths are resolved from the plugin partial file which is probably not what you want; instead use an absolute path to resolve from the project `site` folder.
+{{/note}}
+
 
 ## Arguments
 
@@ -16,19 +24,24 @@ Use the *includes* folder [[docs/getting-started/conventions]] to automatically 
 
 ## Example
 
-A common technique is to put the `include` inside a fenced code block for examples:
+Use an absolute path to resolve from the `site` folder:
 
-````markdown
-```markdown
-\{{include ../../../partials/snippet.hbs~}}
+
+```handlebars
+\{{include /assets/svg/menu.svg}}
 ```
-````
 
-Renders as:
+Use a quoted string to include characters disallowed in paths:
+
+```handlebars
+\{{include "%file.txt"}}
+```
+
+A common technique for examples is to put the `include` inside a fenced code block:
 
 ````markdown
 ```markdown
-{{include ../../../partials/snippet.hbs~}}
+\{{include ../../../includes/uwe/new.txt~}}
 ```
 ````
 
