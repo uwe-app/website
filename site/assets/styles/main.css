@@ -79,6 +79,10 @@ body > aside > nav > ul > li {
   padding: 0 1rem;
 }
 
+svg {
+  fill: currentColor;
+}
+
 li.selected {
   background: var(--std-background-active);
 }
@@ -158,15 +162,13 @@ ul.features > li :first-child {
   margin-bottom: 0;
 }
 
-ul.features > li > :first-child:before {
-  content: '';
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 0.5rem;
-  background-image: url(../svg/check.svg);
-  filter: var(--std-color-filter);
-  background-size: cover;
+ul.features > li :first-child > * {
+  vertical-align: middle;
+}
+
+ul.features > li :first-child > svg {
+  position: relative;
+  margin-top: -4px;
 }
 
 footer {
@@ -246,20 +248,4 @@ li > a + p:last-child {
   ul.features {
     columns: 1;
   }
-}
-
-.icon {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  filter: var(--std-color-filter);
-  background-size: cover;
-}
-
-.icon-menu {
-  background-image: url(../svg/menu.svg);
-}
-
-.icon-close {
-  background-image: url(../svg/close.svg);
 }
