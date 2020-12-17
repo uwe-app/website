@@ -21,6 +21,11 @@ If you use this helper inside a partial loaded from a plugin relative paths are 
 ## Arguments
 
 * `String|Path` The file system path to include.
+*
+## Parameters
+
+* `binary`: Read the file as binary rather than a UTF-8 encoded string.
+* `base64`: Encode the file to base64.
 
 ## Example
 
@@ -44,5 +49,17 @@ A common technique for examples is to put the `include` inside a fenced code blo
 \{{include ../../../includes/uwe/new.txt~}}
 ```
 ````
+
+Embed an SVG file using a `data:` URI:
+
+```html
+<img src="data:image/svg+xml;base64,\{{include /assets/svg/menu.svg base64=true}}" />
+```
+
+Use the `binary` parameter to embed a PNG file:
+
+```html
+<img src="data:image/png;base64,\{{include /assets/icon.png base64=true binary=true}}" />
+```
 
 {{import "footer"}}

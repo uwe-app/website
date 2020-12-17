@@ -77,7 +77,7 @@ keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust
 authors = [ "tmpfs" ]
 
 [page.http-equiv]
-content-security-policy = "default-src 'self'; style-src 'self' 'unsafe-inline';"
+content-security-policy = "default-src data: 'self'; style-src 'self' 'unsafe-inline';"
 
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
