@@ -21,7 +21,7 @@ If you use this helper inside a partial loaded from a plugin relative paths are 
 ## Arguments
 
 * `String|Path` The file system path to include.
-*
+
 ## Parameters
 
 * `binary`: Read the file as binary rather than a UTF-8 encoded string.
