@@ -24,7 +24,7 @@ args = ["Hello", ", world!"]
 ```
 
 {{#> note label="info"}}
-When a command `path` begins with a period (`.`) it is resolved relative to the project folder.
+When a command `path` begins with a period (eg: `./build.sh`) it is resolved relative to the project folder which is useful if you have executable programs inside the project.
 {{/note}}
 
 ## Environment
@@ -43,16 +43,17 @@ The `BUILD_FILE` variable will only be set when live reload is watching files an
 
 ## Watch
 
-To indicate ownership of files relative to `site` use the `files` glob patterns in combination with the `watch` flag and your hook will be executed when matched files change:
+To indicate ownership of files relative to `site` use the `files` glob patterns in combination with the `watch` flag and your hook will be executed when matched files change. File glob patterns are resolved relative to the `site` directory.
+
+For example, when live reload is enabled changes to CSS files in `site/src` will trigger the hook:
 
 ```toml
 \[[hooks.run]]
-path = "./compile-css"
+path = "npm"
+args = ["run", "build"]
 files = [ "src/*.css" ]
 watch = true
 ```
-
-When live reload is enabled changes to CSS files in `src` will trigger the hook.
 
 ## After
 
