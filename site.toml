@@ -10,6 +10,9 @@ edit-path = "edit/main/"
 [livereload]
 follow-edits = true
 
+#[build]
+#layout = "test"
+
 #[script]
 #src = "assets/scripts/global.js"
 

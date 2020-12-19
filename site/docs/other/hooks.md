@@ -8,41 +8,53 @@ Hooks allow us to run commands before or after a build which means you can easil
 
 Commands are executed with the current working directory set to the project folder.
 
-Hooks are [[docs/reference/settings]] in `site.toml` named using the `hooks.run` notation, so the simplest hook would be:
+Hooks are [[docs/getting-started/site-settings]] named using the `hooks.run` notation, so the simplest hook would be:
 
 ```toml
 \[[hooks.run]]
-path = "./compile-css"
+path = "echo"
 ```
-
-When a command path begins with a period (`.`) it is resolved relative to the project folder.
 
 Arguments can be passed using the `args` field:
 
 ```toml
 \[[hooks.run]]
-path = "./compile-css"
-args = ["param1", "param2"]
+path = "echo"
+args = ["Hello", ", world!"]
 ```
 
-To indicate ownership of files relative to `site` use the `files` field in combination with the `watch` flag and your hook will be executed when those files are changed:
+{{#> note label="info"}}
+When a command `path` begins with a period (`.`) it is resolved relative to the project folder.
+{{/note}}
+
+## Environment
+
+Hooks are passed the following environment variables; paths are canonical absolute paths.
+
+* `BUILD_SOURCE` The project source directory, eg: `site`.
+* `BUILD_TARGET` The target build directory, eg: `build/debug`.
+* `BUILD_PROJECT` The project root directory containing `site.toml`.
+* `BUILD_FILE` The file that triggered the hook to be executed when watching files.
+* `NODE_ENV` The current environment.
+
+{{#> note label="info"}}
+The `BUILD_FILE` variable will only be set when live reload is watching files and a matched file has changed.
+{{/note}}
+
+## Watch
+
+To indicate ownership of files relative to `site` use the `files` glob patterns in combination with the `watch` flag and your hook will be executed when matched files change:
 
 ```toml
 \[[hooks.run]]
 path = "./compile-css"
-files = [ "assets/css/style.css" ]
+files = [ "src/*.css" ]
 watch = true
 ```
 
-When live reload is enabled changes to the files will trigger your the hook.
+When live reload is enabled changes to CSS files in `src` will trigger the hook.
 
-Once your script is working you might want to use the `stdout` and `stderr` flags to suppress program output:
-
-```toml
-\[[hooks.run]]
-path = "./compile-css"
-stdout = false
-```
+## After
 
 By default hooks are run before a build, if you need to run a hook afterwards use the `after` flag:
 
@@ -55,17 +67,17 @@ after = true
 
 This is particularly useful if you need custom optimizations for the build files.
 
-### Environment
+## Output
 
-Your scripts are passed these environment variables:
+Once your script is working you might want to use the `stdout` and `stderr` flags to suppress program output:
 
-* `BUILD_SOURCE` The project source directory, eg: `site`.
-* `BUILD_TARGET` The target build directory, eg: `build/debug`.
-* `BUILD_PROJECT` The project root directory containing `site.toml`.
-* `BUILD_HOOK` The directory where the hook is defined; either the project or a plugin.
-* `NODE_ENV` The current environment.
+```toml
+\[[hooks.run]]
+path = "./compile-css"
+stdout = false
+```
 
-All paths passed to the hook are canonical absolute paths and the `BUILD_HOOK` directory is set as the current working directory for the command.
+## Node Environment
 
 The `NODE_ENV` variable is set to `development` for debug builds and `production` for release builds; you can change these settings if you need to:
 
@@ -75,7 +87,7 @@ debug = "devel"
 release = "prod"
 ```
 
-### Notes
+## Notes
 
 The execution order of hooks is not guaranteed.
 
