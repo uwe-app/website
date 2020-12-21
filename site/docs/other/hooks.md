@@ -6,6 +6,12 @@ description = "Run commands before or after a build"
 
 Hooks allow us to run commands before or after a build which means you can easily integrate with your favourite CSS pre-processor, Javascript bundler or perform custom optimizations.
 
+Hook command execution requires that the `--exec` capability is granted on the command line, for example:
+
+```text
+uwe --live --exec
+```
+
 Commands are executed with the current working directory set to the project folder.
 
 Hooks are [[docs/getting-started/site-settings]] named using the `hooks.run` notation, so the simplest hook would be:
