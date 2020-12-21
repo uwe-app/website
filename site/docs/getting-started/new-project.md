@@ -15,7 +15,7 @@ Which will create a new website in the `project-name` folder using the `default`
 To get a list of available blueprints use the `ls` command:
 
 ```text
-uwe ls --blueprints
+uwe task list-blueprints
 ```
 
 Then you can create a new project using a specific blueprint like this:

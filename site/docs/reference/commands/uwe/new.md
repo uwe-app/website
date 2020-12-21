@@ -24,7 +24,7 @@ uwe new project-name --language=fr --host=docs.example.com
 To print a list of available blueprints run:
 
 ```text
-uwe ls --blueprints
+uwe task list-blueprints
 ```
 
 ## Multi Lingual
