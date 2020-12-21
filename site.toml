@@ -20,7 +20,7 @@ follow-edits = true
 #profiles = true
 
 [dependencies]
-"std::core" = { version = "~4.1.11", apply = { styles = ["**"] } }
+"std::core" = { path = "../../plugins/std/core", version = "~4.1.11", apply = { styles = ["**"] } }
 "std::menu" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::sidebar" = { version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
 "std::link" = { version = "~1", features = ["github"] }
