@@ -1,4 +1,4 @@
-uvm-runtime 0.40.10
+uvm-runtime 0.40.19
 Update the runtime assets
 
 USAGE:

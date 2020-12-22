@@ -1,0 +1,18 @@
+uwe-sync 0.40.19
+Sync project source files
+
+USAGE:
+    uwe sync [FLAGS] [OPTIONS] [project]
+
+FLAGS:
+    -a, --add        Add untracked files
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -b, --branch <branch>      Branch for the sync operation
+    -m, --message <message>    Commit message
+    -r, --remote <remote>      Remote for the sync operation
+
+ARGS:
+    <project>    Project path [default: .]

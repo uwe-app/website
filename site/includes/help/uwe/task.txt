@@ -1,0 +1,14 @@
+uwe-task 0.40.19
+Utility tasks
+
+USAGE:
+    uwe task <SUBCOMMAND>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+SUBCOMMANDS:
+    check-deps         Check project for local dependencies
+    help               Prints this message or the help of the given subcommand(s)
+    list-blueprints    List blueprints

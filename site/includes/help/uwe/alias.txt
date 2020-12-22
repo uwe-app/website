@@ -1,0 +1,15 @@
+uwe-alias 0.40.19
+Manage site aliases
+
+USAGE:
+    uwe alias <SUBCOMMAND>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+SUBCOMMANDS:
+    add       Add an alias
+    help      Prints this message or the help of the given subcommand(s)
+    list      List aliases
+    remove    Remove an alias

@@ -1,4 +1,4 @@
-uwe-clean 0.40.10
+uwe-clean 0.40.19
 Remove the build directory
 
 USAGE:
@@ -9,4 +9,4 @@ FLAGS:
     -V, --version    Prints version information
 
 ARGS:
-    <project>    Read config from directory [default: .]
+    <project>    Project path [default: .]

@@ -1,10 +1,11 @@
-uwe-build 0.40.10
+uwe-build 0.40.19
 Compile a site
 
 USAGE:
     uwe build [FLAGS] [OPTIONS] [ARGS]
 
 FLAGS:
+    -e, --exec       Allow hook command execution
         --help       Prints help information
     -l, --live       Enable live reload
     -o, --offline    Offline mode, do not attempt plugin installation
@@ -12,7 +13,8 @@ FLAGS:
     -V, --version    Prints version information
 
 OPTIONS:
-    -h, --host <host>            The name of the host
+    -h, --host <host>            Bind address for the web server
+        --launch <launch>        Launch path for a page URL (live reload)
     -p, --port <port>            The port number
         --profile <profile>      Build profile name
         --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]

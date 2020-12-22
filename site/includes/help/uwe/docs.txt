@@ -1,4 +1,4 @@
-uwe-docs 0.40.10
+uwe-docs 0.40.19
 Browse the documentation
 
 USAGE:
@@ -9,7 +9,7 @@ FLAGS:
     -V, --version    Prints version information
 
 OPTIONS:
-    -h, --host <host>            The name of the host
+    -h, --host <host>            Bind address for the web server
     -p, --port <port>            The port number
         --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
         --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]

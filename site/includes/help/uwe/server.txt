@@ -1,17 +1,18 @@
-uwe-server 0.40.10
+uwe-server 0.40.19
 Serve static files
 
 USAGE:
     uwe server [FLAGS] [OPTIONS] [target]
 
 FLAGS:
+    -e, --exec          Allow hook command execution
         --help          Prints help information
     -o, --open          Launch a web browser
     -s, --skip-build    Do not create a release build for projects
     -V, --version       Prints version information
 
 OPTIONS:
-    -h, --host <host>            The name of the host
+    -h, --host <host>            Bind address for the web server
     -p, --port <port>            The port number
         --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
         --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]

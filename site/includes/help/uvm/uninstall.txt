@@ -1,5 +1,5 @@
-uvm-uninstall 0.40.10
-Uninstall the program
+uvm-uninstall 0.40.19
+Uninstall the toolchain
 
 USAGE:
     uvm uninstall

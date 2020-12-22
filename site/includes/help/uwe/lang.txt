@@ -1,5 +1,5 @@
-uwe-lang 0.40.10
-Manage languages
+uwe-lang 0.40.19
+Manage translations
 
 USAGE:
     uwe lang <SUBCOMMAND>

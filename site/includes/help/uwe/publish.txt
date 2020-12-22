@@ -1,10 +1,11 @@
-uwe-publish 0.40.10
-Publish a site
+uwe-publish 0.40.19
+Publish a website
 
 USAGE:
-    uwe publish <env> [project]
+    uwe publish [FLAGS] <env> [project]
 
 FLAGS:
+    -e, --exec       Allow hook command execution
     -h, --help       Prints help information
     -V, --version    Prints version information
 
