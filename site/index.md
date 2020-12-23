@@ -47,4 +47,5 @@ Alpha testing is running for the rest of 2020 and a public beta will be availabl
 
 Interested? Head over to [[docs/installation]] then learn more in the [[docs/getting-started]] guide and read the [[docs]] for more information.
 
+[pulldown-cmark]: https://github.com/raphlinus/pulldown-cmark
 [handlebars]: https://github.com/sunng87/handlebars-rust
