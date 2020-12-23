@@ -2,11 +2,9 @@
 title = "Home"
 +++
 
-Universal web editor is a suite of tools for collaborating on content-driven websites.
+Universal web editor is a platform for anyone who wants to create a website that is fast and secure unlike other alternatives such as Wordpress.
 
-We enable anyone to easily create and edit beautiful pages for websites of any size; our process lets developers and designers use their preferred tools and seamlessly collaborate with content editors.
-
-Use a combination of Markdown and your preferred web technology for complete freedom; we like simplicity so lean towards pure HTML, CSS and Javascript but you can easily integrate with your favourite build tool or framework.
+Our software let's developers and designers use their preferred tools and seamlessly collaborate with content editors using a combination of Markdown and standard web technology.
 
 <ul class="features">
   <li>
