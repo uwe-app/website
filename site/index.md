@@ -4,7 +4,7 @@ title = "Home"
 
 Universal web editor is a platform for anyone who wants to create a website that is fast and secure unlike other alternatives such as Wordpress.
 
-Our software let's developers and designers use their preferred tools and seamlessly collaborate with content editors using a combination of Markdown and standard web technology.
+Our software let's developers and designers use industry standard tools to seamlessly collaborate with content editors using a combination of Markdown and standard web technology.
 
 <ul class="features">
   <li>
