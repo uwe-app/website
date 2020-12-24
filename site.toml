@@ -141,6 +141,7 @@ pages = [
   "/docs/getting-started/conventions/",
   "/docs/getting-started/directory-listing/",
   "/docs/getting-started/publish/",
+  "/docs/getting-started/powered-by/",
 ]
 
 [menu.navigation]

@@ -43,7 +43,7 @@ Our software let's developers and designers use industry standard tools to seaml
 
 ---
 
-Alpha testing is running for the rest of 2020 and a public beta will be available in 2021.
+Alpha testing is in progress and a public beta will be available in 2021.
 
 Interested? Head over to [[docs/installation]] then learn more in the [[docs/getting-started]] guide and read the [[docs]] for more information.
 
