@@ -238,7 +238,7 @@ include-index = true
 [profile.docs]
 base = "docs"
 base-href = "docs"
-layout = "partials/docs-layout.hbs"
+layout = "docs"
 paths = ["assets", "docs"]
 
 [publish.aws]
