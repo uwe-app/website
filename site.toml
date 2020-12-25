@@ -1,7 +1,6 @@
 lang = "en"
 host = "uwe.app"
 version = "1.0.0"
-#powered = { display = "hidden" }
 
 [repository]
 url = "https://github.com/uwe-app/website/"
@@ -137,6 +136,7 @@ pages = [
   "/docs/getting-started/scripts/",
   "/docs/getting-started/layouts/",
   "/docs/getting-started/integrations/",
+  "/docs/getting-started/web-manifest/",
   "/docs/getting-started/debugging/",
   "/docs/getting-started/conventions/",
   "/docs/getting-started/directory-listing/",

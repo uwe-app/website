@@ -45,7 +45,6 @@ docs:
 	@uwe --release --profile=docs
 	@rm -rf $(DOCS_ROOT)/docs
 	@cp -rf build/docs $(DOCS_ROOT)
-	@rm $(DOCS_ROOT)/docs/files
 	@(cd $(RUNTIME_ROOT) && git add . && git commit -m "Update docs." && git push origin main)
 
 .PHONY: all help site release
