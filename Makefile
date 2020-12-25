@@ -1,9 +1,9 @@
 all: release
 
-RUNTIME_ROOT = ../runtime
+RUNTIME_ROOT = ../../runtime
 DOCS_ROOT = $(RUNTIME_ROOT)/documentation
 
-UWE_COMMAND_DOCS = alias build clean docs lang new publish server sync task 
+UWE_COMMAND_DOCS = build clean docs lang new publish server sync task
 UPM_COMMAND_DOCS = lint pack publish
 UVM_COMMAND_DOCS = install latest list prune remove runtime uninstall update use
 
@@ -46,6 +46,6 @@ docs:
 	@rm -rf $(DOCS_ROOT)/docs
 	@cp -rf build/docs $(DOCS_ROOT)
 	@rm $(DOCS_ROOT)/docs/files
-	@(cd $(RUNTIME_ROOT) && git add . && git commit -m "Update docs." && git push origin master)
+	@(cd $(RUNTIME_ROOT) && git add . && git commit -m "Update docs." && git push origin main)
 
 .PHONY: all help site release
