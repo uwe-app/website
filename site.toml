@@ -209,6 +209,7 @@ pages = [
 
 [menu.other]
 pages = [
+  "/docs/other/workspaces/",
   "/docs/other/profiles/",
   "/docs/other/hooks/",
   "/docs/other/content-security-policy/",
