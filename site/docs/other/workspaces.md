@@ -4,19 +4,23 @@ description = "Group related projects"
 
 {{import "header"}}
 
-Workspaces let us group multiple related projects together so we can build them at the same time. This is particularly useful when deploying to separate sub-domains. Perhaps you want your main website at `example.com`, your blog at `blog.example.com` and your documentation at `docs.example.com`.
+Workspaces let us group multiple related projects together so we can build them at the same time; they are useful when deploying projects to separate sub-domains. Perhaps you want your main website at `example.com`, your blog at `blog.example.com` and your documentation at `docs.example.com`.
 
-To create a workspace put the projects in the same folder and add a `site.toml` file to represent the workspace; the folders looks like this:
+{{#> note label="info"}}
+Remember to replace `example.com` with your website domain name if you plan to use the workspace.
+{{/note}}
 
-```text
-example.com
-├── blog
-├── docs
-├── site.toml
-└── website
+To follow along with this guide run these commands to create a workspace with multiple projects:
+
+```
+mkdir example.com
+uwe new example.com/website
+uwe new example.com/blog
+uwe new example.com/docs
+touch example.com/site.toml
 ```
 
-In the workspace `site.toml` file define the workspace members:
+Then in the `example.com/site.toml` file define the workspace members:
 
 ```toml
 [workspace]
@@ -27,18 +31,36 @@ members = [
 ]
 ```
 
-Remember each workspace member must have it's own project-level settings in `site.toml` too, for example:
+Now each project should be given a different host name so we can create virtual hosts.
+
+In `example.com/website/site.toml` change the `host` to the domain name you want to use, for example:
 
 ```toml
-lang = "en"
 host = "example.com"
 ```
 
-Now when you compile in the workspace folder (`example.com`) it will build all of the projects.
+Then update `example.com/blog/site.toml` to use a sub-domain:
+
+```toml
+host = "blog.example.com"
+```
+
+And update `example.com/docs/site.toml` too:
+
+```toml
+host = "docs.example.com"
+```
+
+Now when you compile in the workspace folder it will build all of the projects, for example:
+
+```
+cd example.com
+uwe
+```
 
 When you use live reload (`uwe --live`) in a workspace all of the projects are available but only the first project in the list will be launched.
 
-The projects are available via the following URLs (assuming SSL is enabled):
+Assuming [[docs/other/ssl-certificates|SSL certificates]] are enabled the projects are available via the following URLs 
 
 * `https://example-com.loopback.space:8843/`
 * `https://blog-example-com.loopback.space:8843/`
