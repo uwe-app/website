@@ -70,4 +70,14 @@ Assuming [[docs/other/ssl-certificates|SSL certificates]] are enabled the projec
 We use the `loopback.space` domain to resolve to the `127.0.0.1` loopback address and each host name is converted to a slug and used as the sub-domain for the virtual host.
 {{/note}}
 
+To link to workspace projects in your templates you can use the `projects` map which references an absolute URL for each project in the workspace. During development the value is a URL like the ones listed above but for release builds it will be a schemeless URL to the host such as `//blog.example.com/`.
+
+For example to link to the `blog` workspace project:
+
+```handlebars
+<a href="\{{projects.blog}}" title="Blog">Blog</a>
+```
+
+Linking workspace projects like this enables links to work during development and also when published online.
+
 {{import "footer"}}
