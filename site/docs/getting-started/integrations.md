@@ -37,7 +37,7 @@ Source files should go in the `site` directory so they can trigger a live reload
 
 Build tools executed via hooks should write build products to the `BUILD_TARGET` environment variable which is automatically exposed to the command when a hook executes and points to the output directory for the current build. The [[docs/other/hooks]] documentation has more information about the environment variables available to build tools.
 
-Do **not write build products** to the `site` directory otherwise you may **create an infinite loop** executing the hook! See the [notes](#notes) for more detail.
+Do **not write build products** to the `site` directory otherwise you may **create an infinite loop** executing the hook!
 
 ### Configuration
 
@@ -122,10 +122,6 @@ watch = true
 * [Sass][sass-example]: Compile styles using [sass][].
 * [PostCSS][postcss-example]: Compile styles using [postcss][].
 * [Tailwind w/ PostCSS][tailwind-postcss-example]: Compile styles using the [tailwind][] framework.
-
-## Notes
-
-The compiler uses certain conventions for the live reload functionality. One of these conventions is that all files in the `assets` folder are considered part of the chrome for the entire website so when a file changes in the `assets` folder the entire site is re-compiled including executing any hooks. This means that if a hook command writes to `site/assets` an infinite loop is created! For this reason we advise that build tool integrations always write directly to `BUILD_TARGET`.
 
 {{import "footer"}}
 
