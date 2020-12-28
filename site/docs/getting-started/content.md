@@ -8,11 +8,13 @@ description = "Set a favicon, header and footer"
 
 ## Favicon
 
-Adding a favicon to your site is easy, just create an `assets/favicon.png` file; if you want to use a different path set `icon` in the site settings.
+Adding a favicon to your site is easy, just create a `favicon.ico` file in the `site` folder; if you want to use a different path set `icon` in the site settings.
 
 ```toml
-icon = "assets/favicon.ico"
+icon = "favicon.svg"
 ```
+
+However, we recommend using the default location as some applications like RSS readers will load the file by convention. If you have a PNG file for the icon rename it to `.ico` and it will work; a good size is 32x32 pixels.
 
 {{#> note label="info"}}
 When a favicon file exists and the build is not a release a random query string is appended to bypass the browser favicon cache.

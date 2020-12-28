@@ -21,7 +21,7 @@ For example a blog normally stores it's articles in a `posts` folder, to configu
 [feed.posts]
 title = "Feed title"
 description = "Feed description"
-favicon = "/assets/favicon.png"
+favicon = "/favicon.ico"
 target = "posts"
 includes = ["/posts/**"]
 excludes = ["/posts/[0-9]*/", "/posts/"]
