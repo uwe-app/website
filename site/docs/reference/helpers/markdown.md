@@ -5,7 +5,7 @@ content = "This is some *Markdown* content."
 
 {{import "header"}}
 
-The `md` helper renders Markdown content and is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
+The `markdown` helper renders Markdown content and is designed to be used in Markdown or HTML documents; it provides several ways to evaluate Markdown so we can seamlessly mix HTML and Markdown.
 
 ## Arguments
 
@@ -31,29 +31,30 @@ Then in a Markdown document these examples:
 content = "This is some *Markdown* content."
 +++
 <!-- Render a partial from the site/partials/snippet.hbs file -->
-{{md snippet}}
+{{markdown snippet}}
 <!-- Force render inside HTML content -->
 <section class="section-style">
-{{md snippet render=true}}
+{{markdown snippet render=true}}
 </section>
 <!-- Render with an inner block template -->
-{{#md}}This is some *Markdown* content.{{/md}}
+{{#markdown}}This is some *Markdown* content.{{/markdown}}
 <!-- Render using a string literal -->
-{{md "This is some *Markdown* content."}}
+{{markdown "This is some *Markdown* content."}}
 <!-- Render a variable from the front matter -->
-{{md content}}
+{{~markdown content}}
 {{{{~/raw}}}}
 ```
 
 Renders to this markup:
 
 ```html
-{{md snippet render=true ~}}
+{{markdown snippet render=true ~}}
 <section class="section-style">
-{{md snippet render=true ~}}
+{{markdown snippet render=true ~}}
 </section>
-{{md "This is some *Markdown* content." render=true ~}}
-{{#md render=true ~}}This is some *Markdown* content.{{/md}}{{md content render=true ~}}
+{{markdown "This is some *Markdown* content." render=true ~}}
+{{#markdown render=true ~}}This is some *Markdown* content.{{/markdown}}
+{{~markdown content render=true~}}
 ```
 
 ## Render
@@ -62,7 +63,7 @@ This helper knows the file context so when you are in HTML files there is no nee
 
 ```handlebars
 <section class="section-style">
-  \{{md snippet}}
+  \{{markdown snippet}}
 </section>
 ```
 
@@ -71,7 +72,7 @@ The only time you should use `render` is in HTML *inside a Markdown document*.
 {{/note}}
 
 {{#> note type="warn" label="warn"}}
-Be careful using the block syntax `\{{#md}}` in HTML documents as leading whitespace can be mistakenly interpreted as fenced code blocks.
+Be careful using the block syntax `\{{#markdown}}` in HTML documents as leading whitespace can be mistakenly interpreted as fenced code blocks.
 {{/note}}
 
 {{import "footer"}}
