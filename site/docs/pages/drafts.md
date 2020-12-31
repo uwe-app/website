@@ -4,7 +4,7 @@ description = "Mark work in progress as drafts"
 
 {{import "header"}}
 
-Drafts allow you to work on pages but exclude them from release builds.
+Drafts let us work on pages but exclude them from release builds.
 
 To mark a page as a draft set the `draft` flag in the page front matter:
 
@@ -12,8 +12,12 @@ To mark a page as a draft set the `draft` flag in the page front matter:
 +++
 draft = true
 +++
+```
 
-# {{title}}
+If you are creating a release and want to include drafts then you can use the `--include-drafts` option:
+
+```text
+uwe --release --include-drafts
 ```
 
 {{import "footer"}}

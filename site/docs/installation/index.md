@@ -4,15 +4,9 @@ description = "Installing, upgrading and managing software versions"
 
 {{import "header"}}
 
-Learn how to install the tools; we use a [[docs/installation/version-manager]] to manage multiple releases.
-
-* `uwe`: Compile, live preview and publish websites.
-* `upm`: Plugin manger; extra commands for plugin authors.
-* `uvm`: Version manager for installation and upgrading.
-
 ## Install
 
-Currently we support the Linux and MacOS operating systems; use our [[https://release.uwe.app/install.sh|quick install script]] to download `uvm` which will install all the required components:
+Currently we support the Linux and MacOS operating systems; use our [[https://release.uwe.app/install.sh|quick install script]] to download the [[docs/installation/version-manager]] which will install all the required components:
 
 ```text
 curl https://release.uwe.app/install.sh | sh
@@ -28,6 +22,18 @@ Then check the installation succeeded:
 
 ```text
 which uwe
+```
+
+After installation these are the installed programs:
+
+* [[docs/reference/commands/uwe]] Compile, live preview and publish websites.
+* [[docs/reference/commands/uvm]] Version manager for installation and upgrading.
+* [[docs/reference/commands/upm]] Plugin manger; extra commands for plugin authors.
+
+We bundle our documentation with the installation which you can browse with:
+
+```text
+uwe docs
 ```
 
 ## Test Drive

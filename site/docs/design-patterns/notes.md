@@ -20,10 +20,11 @@ You should add the dependency to your site settings to use it:
 Use the note partial like this:
 
 ```handlebars
-{{{{raw}}}}
+{{{{~raw}}}}
 {{#> note}}
 This is a note with *seamless* Markdown handling.
-{{/note}}{{{{/raw}}}}
+{{/note}}
+{{{{~/raw}}}}
 ```
 
 Renders to:
@@ -37,10 +38,11 @@ This is a note with *seamless* Markdown handling.
 Add a `type` which is appended to the `class`:
 
 ```handlebars
-{{{{raw}}}}
+{{{{~raw}}}}
 {{#> note type="warn"}}
 This is a warning.
-{{/note}}{{{{/raw}}}}
+{{/note}}
+{{{{~/raw}}}}
 ```
 
 Renders to:
@@ -54,10 +56,11 @@ This is a warning.
 Add a `label` to render a span inside:
 
 ```handlebars
-{{{{raw}}}}
+{{{{~raw}}}}
 {{#> note type="error" label="error"}}
 This is an error.
-{{/note}}{{{{/raw}}}}
+{{/note}}
+{{{{~/raw}}}}
 ```
 
 Renders to:
