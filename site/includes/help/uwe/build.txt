@@ -1,26 +1,20 @@
-uwe-build 0.40.19
+uwe-build 0.41.0
 Compile a site
 
 USAGE:
-    uwe build [FLAGS] [OPTIONS] [ARGS]
+    uwe build [FLAGS] [OPTIONS] [--] [ARGS]
 
 FLAGS:
-    -e, --exec       Allow hook command execution
-        --help       Prints help information
-    -l, --live       Enable live reload
-    -o, --offline    Offline mode, do not attempt plugin installation
-    -r, --release    Generate a release build
-    -V, --version    Prints version information
+    -e, --exec              Allow hook command execution
+    -h, --help              Prints help information
+    -i, --include-drafts    Include drafts
+    -o, --offline           Offline mode, do not attempt plugin installation
+    -V, --version           Prints version information
 
 OPTIONS:
-    -h, --host <host>            Bind address for the web server
-        --launch <launch>        Launch path for a page URL (live reload)
-    -p, --port <port>            The port number
-        --profile <profile>      Build profile name
-        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
-        --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
-        --ssl-port <ssl-port>    The port number for SSL
+    -m, --member <member>...    Filter on workspace members
+        --profile <profile>     Build profile name
 
 ARGS:
-    <project>     Read config from directory [default: .]
+    <project>     Project path [default: .]
     <paths>...    Compile only these paths

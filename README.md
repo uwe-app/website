@@ -2,7 +2,7 @@
 
 UWE project website source; the first website created using `uwe(1)`.
 
-For development run `uwe --live` for a release build run `uwe --release`.
+For development run `uwe dev` for a release build run `uwe build`.
 
 The content we wrote is our copyright and all rights are reserved.
 

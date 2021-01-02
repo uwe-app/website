@@ -1,25 +1,26 @@
-uwe-server 0.41.0
-Serve static files
+uwe-dev 0.41.0
+Live reload server
 
 USAGE:
-    uwe server [FLAGS] [OPTIONS] [--] [target]
+    uwe dev [FLAGS] [OPTIONS] [--] [ARGS]
 
 FLAGS:
     -e, --exec              Allow hook command execution
         --help              Prints help information
     -i, --include-drafts    Include drafts
     -o, --offline           Offline mode, do not attempt plugin installation
-    -O, --open              Launch a web browser
-    -s, --skip-build        Do not create a release build for projects
     -V, --version           Prints version information
 
 OPTIONS:
     -h, --host <host>            Bind address for the web server
+        --launch <launch>        Launch page URL
     -m, --member <member>...     Filter on workspace members
     -p, --port <port>            The port number
+        --profile <profile>      Build profile name
         --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
         --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
         --ssl-port <ssl-port>    The port number for SSL
 
 ARGS:
-    <target>    Project or directory to serve files from [default: .]
+    <project>     Project path [default: .]
+    <paths>...    Compile only these paths

@@ -1,4 +1,4 @@
-uwe-new 0.40.19
+uwe-new 0.41.0
 Create a new project
 
 USAGE:
@@ -9,10 +9,12 @@ FLAGS:
     -V, --version    Prints version information
 
 OPTIONS:
-    -h, --host <host>            Host name for the new project
-    -l, --language <language>    Language for the new project
-    -L, --locales <locales>      Set multiple languages (comma delimited)
-    -m, --message <message>      Commit message
+    -h, --host <host>                  Host name for the new project
+    -l, --language <language>          Language for the new project
+    -L, --locales <locales>            Create translation locales (comma delimited)
+    -m, --message <message>            Initial commit message
+        --remote-name <remote-name>    Remote name [default: origin]
+    -r, --remote-url <remote-url>      Remote repository URL
 
 ARGS:
     <target>    Output directory for the new project

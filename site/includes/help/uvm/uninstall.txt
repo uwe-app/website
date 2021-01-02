@@ -1,4 +1,4 @@
-uvm-uninstall 0.40.19
+uvm-uninstall 0.41.0
 Uninstall the toolchain
 
 USAGE:

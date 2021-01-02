@@ -1,9 +1,10 @@
-uvm-update 0.40.19
-Update the version manager (uvm)
+uvm-update 0.41.0
+Update the platform tools
 
 USAGE:
-    uvm update
+    uvm update [FLAGS]
 
 FLAGS:
     -h, --help       Prints help information
+    -s, --self       Update the version manager (uvm)
     -V, --version    Prints version information

@@ -1,4 +1,4 @@
-uvm-install 0.40.19
+uvm-install 0.41.0
 Install a release version
 
 USAGE:

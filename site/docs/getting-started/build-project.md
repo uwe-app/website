@@ -4,53 +4,42 @@ description = "Compile a project to static pages"
 
 {{import "header"}}
 
-Building a project will use the source files in `site` and compile them to a build folder such as `build/debug`.
+Building a project will use the source files in `site` and compile them to a build folder such as `build/release`.
 
-Use the `uwe` tool to compile your website; run `uwe` in the project working directory:
-
-```text
-cd /path/to/project
-uwe
-```
-
-Or pass a project folder path:
-
-```text
-uwe /path/to/project
-```
+Commands take a path to a project otherwise the current directory is used as the target project; the project should contain site settings in a `site.toml` file. For clarity, in these examples we use a period `.` to explicitly use the current directory but it is not required.
 
 ## Live Reload
 
-The typical workflow is to run with live reload enabled:
+The typical workflow is to run a development server with live reload enabled:
 
 ```text
-uwe --live
+uwe dev .
 ```
 
-Then edit your pages using your preferred text editor and observe the changes in your browser.
+Then you can edit the pages using your preferred text editor and observe the changes in the browser.
 
 ## Release
 
-To compile a release build run with the `--release` option:
+To compile a release use the `build` command:
 
 ```text
-uwe --release
+uwe build .
 ```
 
 Your website files are now in `build/release`.
 
 ## Server
 
-Use the `server` command to compile a release and serve the static files:
+To preview a release build in the browser run:
 
 ```text
-uwe server
+uwe server . --open
 ```
 
-To launch it in the browser use the `--open` option:
+Or omit the `--open` flag to just run the server:
 
 ```text
-uwe server --open
+uwe server .
 ```
 
 {{import "footer"}}

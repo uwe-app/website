@@ -5,10 +5,16 @@ description = "Update the version manager"
 
 {{import "header"}}
 
-Update the version manager:
+Update to the latest version of the platform tools:
 
 ```text
 uvm update
+```
+
+To update the version manager:
+
+```text
+uvm update --self
 ```
 
 ## Usage

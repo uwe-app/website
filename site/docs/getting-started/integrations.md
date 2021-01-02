@@ -23,7 +23,7 @@ For the best performance compiling Javascript/Typescript we recommend using the 
 
 ## Integration Steps
 
-To integrate with an external build tool add a [[docs/other/hooks|hook]] which runs whenever a website is compiled; each integration also runs the hook when build source files are changed and live reload is enabled (`uwe --live --exec`).
+To integrate with an external build tool add a [[docs/other/hooks|hook]] which runs whenever a website is compiled; each integration also runs the hook when build source files are changed and live reload is enabled (`uwe dev --exec`).
 
 ### Modules
 

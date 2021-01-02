@@ -41,7 +41,7 @@ uwe docs
 Once the installation completes use this one-liner to take a test drive:
 
 ```text
-uwe new project && (cd project && uwe --live)
+uwe new project && (cd project && uwe dev)
 ```
 
 Which will perform the following tasks:
@@ -54,4 +54,14 @@ Which will perform the following tasks:
 You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
 Next read more about [[docs/getting-started]] or learn how to use the [[docs/installation/version-manager]] to upgrade.
+
+## Runtime Assets
+
+Our tools rely on some runtime assets for project blueprints, syntax highlighting definitions and offline documentation. If you need to manually update the runtime assets run this command:
+
+```text
+uwe task update-runtime
+```
+
+Normally this should not be necessary but perhaps some new syntax language definitions have been released or you want to update the offline documentation.
 

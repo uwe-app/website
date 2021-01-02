@@ -1,4 +1,4 @@
-uwe-task 0.40.19
+uwe-task 0.41.0
 Utility tasks
 
 USAGE:
@@ -9,6 +9,8 @@ FLAGS:
     -V, --version    Prints version information
 
 SUBCOMMANDS:
+    alias              Manage site aliases (symbolic links)
     check-deps         Check project for local dependencies
     help               Prints this message or the help of the given subcommand(s)
     list-blueprints    List blueprints
+    update-runtime     Update runtime assets
