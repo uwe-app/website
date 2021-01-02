@@ -41,12 +41,12 @@ export SSL_CERT="$MKCERT/certs/_wildcard.loopback.space+4.pem"
 export SSL_KEY="$MKCERT/certs/_wildcard.loopback.space+4-key.pem"
 ```
 
-Now when you use `uwe --live` and `uwe server` your certificate will be used and the site served over HTTPS!
+Now when you use `uwe dev` and `uwe server` your certificate will be used and the site served over HTTPS!
 
 If you have configured an SSL certificate via the environment and want to temporarily run over HTTP set the variables to the empty string:
 
 ```text
-SSL_KEY= SSL_CERT= uwe --live
+SSL_KEY= SSL_CERT= uwe dev
 ```
 
 {{import "footer"}}

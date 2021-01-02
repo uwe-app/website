@@ -9,7 +9,7 @@ Hooks allow us to run commands before or after a build which means you can easil
 Hook command execution requires that the `--exec` capability is granted on the command line, for example:
 
 ```text
-uwe --live --exec
+uwe dev --exec
 ```
 
 Commands are executed with the current working directory set to the project folder.

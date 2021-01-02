@@ -36,7 +36,7 @@ src = "assets/scripts/custom.js"
 ```
 
 {{#> note label="info"}}
-Because your styles and scripts use the assets folder convention when you edit the file with live reload enabled (`uwe --live`) then all your pages will be compiled.
+Because your styles and scripts use the assets folder convention when you edit the file with live reload enabled (`uwe dev`) then all your pages will be compiled.
 {{/note}}
 
 To add a `<noscript>` element create some content in the `partials/noscript.hbs` file, for example:
