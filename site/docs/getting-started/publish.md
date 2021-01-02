@@ -9,7 +9,7 @@ Once you are happy with your website to share it with the world it needs to be p
 First create a release build of your project:
 
 ```text
-uwe --release
+uwe build .
 ```
 
 Then you can upload the files in `build/release` to your preferred hosting provider.

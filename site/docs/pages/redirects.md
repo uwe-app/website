@@ -23,7 +23,7 @@ write-redirects = true
 Then trigger the profile with the command:
 
 ```text
-uwe --release
+uwe build .
 ```
 
 When redirect pages are written if the source path ends with a slash (`/`) then it will be treated as a directory and the redirect file will be written to `index.html` within the location.

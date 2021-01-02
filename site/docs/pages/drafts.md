@@ -17,7 +17,7 @@ draft = true
 If you are creating a release and want to include drafts then you can use the `--include-drafts` option:
 
 ```text
-uwe --release --include-drafts
+uwe build --include-drafts
 ```
 
 {{import "footer"}}
