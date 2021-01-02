@@ -6,7 +6,7 @@ description = "Installing, upgrading and managing software versions"
 
 ## Install
 
-Currently we support the Linux and MacOS operating systems; use our [[https://release.uwe.app/install.sh|quick install script]] to download the [[docs/installation/version-manager]] which will install all the required components:
+Currently we support the Linux and MacOS operating systems; use our [quick install script][] to download the [[docs/installation/version-manager]] which will install all the required components:
 
 ```text
 curl https://release.uwe.app/install.sh | sh
@@ -65,3 +65,4 @@ uwe task update-runtime
 
 Normally this should not be necessary but perhaps some new syntax language definitions have been released or you want to update the offline documentation.
 
+[quick install script]: https://github.com/uwe-app/releases/blob/main/install.sh
