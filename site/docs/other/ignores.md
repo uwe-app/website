@@ -10,6 +10,7 @@ These folders are ignored by convention:
 
 * `collections` Location for data collections (eg: JSON documents).
 * `includes` Location for include files (eg: example files).
+* `layouts` Location for site layouts.
 * `partials` Location for template partials.
 
 ## Force Include
