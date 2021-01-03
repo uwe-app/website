@@ -60,9 +60,9 @@ Next read more about [[docs/getting-started]] or learn how to use the [[docs/ins
 Our tools rely on some runtime assets for project blueprints, syntax highlighting definitions and offline documentation. If you need to manually update the runtime assets run this command:
 
 ```text
-uwe task update-runtime
+uwe task update-runtime-assets
 ```
 
-Normally this should not be necessary but perhaps some new syntax language definitions have been released or you want to update the offline documentation.
+Normally this should not be necessary but perhaps some project blueprints have been updated, new syntax language definitions are available or you want to update the offline documentation.
 
 [quick install script]: https://github.com/uwe-app/releases/blob/main/install.sh

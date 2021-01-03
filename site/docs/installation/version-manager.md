@@ -22,7 +22,7 @@ To upgrade to the latest version run:
 uvm update
 ```
 
-The version manager program (`uvm`) is considered stable and is not included when upgrading to a new release; however if you want to use a newer version run the `update` command:
+The version manager program (`uvm`) is considered stable and is not included when upgrading to a new release; however if you want to use a newer version use the `--self` option:
 
 ```text
 uvm update --self

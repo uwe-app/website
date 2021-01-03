@@ -11,10 +11,10 @@ To browse the documentation run:
 uwe docs
 ```
 
-Which will open a cached version of the documentation in your browser; if you want to update the documentation you can update the runtime assets using `uwe task update-runtime`:
+Which will open a cached version of the documentation in your browser; if you want to update the documentation you can update the runtime assets using `uwe task update-runtime-assets`:
 
 ```text
-uwe task update-runtime
+uwe task update-runtime-assets
 ```
 
 ## Usage
