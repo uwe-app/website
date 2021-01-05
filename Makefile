@@ -1,20 +1,8 @@
-all: release
-
-RUNTIME_ROOT = ../../runtime
-DOCS_ROOT = $(RUNTIME_ROOT)/documentation
-
 UWE_COMMAND_DOCS = build clean dev docs lang new publish server sync task
 UPM_COMMAND_DOCS = lint pack publish
 UVM_COMMAND_DOCS = install list prune remove uninstall update use
 
-clean:
-	@rm -rf ./build
-
-site:
-	@uwe dev
-
-release: help
-	@uwe build
+all: help dist
 
 dist:
 	@uwe build --profile=dist
@@ -41,10 +29,4 @@ help-uvm:
 
 help: help-uwe help-upm help-uvm
 
-docs:
-	@uwe build --profile=docs
-	@rm -rf $(DOCS_ROOT)/docs
-	@cp -rf build/docs $(DOCS_ROOT)
-	@(cd $(RUNTIME_ROOT) && git add . && git commit -m "Update docs." && git push origin main)
-
-.PHONY: all help site release
+.PHONY: all help dist 

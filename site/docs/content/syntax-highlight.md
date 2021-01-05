@@ -20,13 +20,13 @@ When the `inline` option is set then the styles are embedded into the markup; it
 
 List of available theme names and corresponding stylesheets.
 
-* [InspiredGithub](https://github.com/uwe-app/runtime/blob/master/syntax/themes/inspired-git-hub.css)
-* [Solarized (dark)](https://github.com/uwe-app/runtime/blob/master/syntax/themes/solarized-dark.css)
-* [Solarized (light)](https://github.com/uwe-app/runtime/blob/master/syntax/themes/solarized-light.css)
-* [base16-eighties.dark](https://github.com/uwe-app/runtime/blob/master/syntax/themes/base16-eighties-dark.css)
-* [base16-mocha.dark](https://github.com/uwe-app/runtime/blob/master/syntax/themes/base16-mocha-dark.css)
-* [base16-ocean.dark](https://github.com/uwe-app/runtime/blob/master/syntax/themes/base16-ocean-dark.css)
-* [base16-ocean.light](https://github.com/uwe-app/runtime/blob/master/syntax/themes/base16-ocean-light.css)
+* [InspiredGithub](https://github.com/uwe-app/syntax/blob/master/themes/inspired-git-hub.css)
+* [Solarized (dark)](https://github.com/uwe-app/syntax/blob/master/themes/solarized-dark.css)
+* [Solarized (light)](https://github.com/uwe-app/syntax/blob/master/themes/solarized-light.css)
+* [base16-eighties.dark](https://github.com/uwe-app/syntax/blob/master/themes/base16-eighties-dark.css)
+* [base16-mocha.dark](https://github.com/uwe-app/syntax/blob/master/themes/base16-mocha-dark.css)
+* [base16-ocean.dark](https://github.com/uwe-app/syntax/blob/master/themes/base16-ocean-dark.css)
+* [base16-ocean.light](https://github.com/uwe-app/syntax/blob/master/themes/base16-ocean-light.css)
 
 ## Profiles
 
