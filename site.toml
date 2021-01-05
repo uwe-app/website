@@ -233,10 +233,6 @@ pages = [
 #incremental = true
 #pristine = false
 
-[profile.dist]
-release = true
-include-index = true
-
 [profile.docs]
 release = true
 base = "docs"
