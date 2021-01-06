@@ -6,12 +6,15 @@ description = "Highlight code samples"
 
 {{> table-of-contents}}
 
-To highlight code samples at compile time enable `syntax` in your site settings:
+To highlight code samples at compile time enable `syntax` in your site settings and add the `std::syntax` plugin to the project dependencies:
 
 ```toml
 [syntax]
 inline = true
 theme = "Solarized (light)"
+
+[dependencies]
+"std::syntax" = { version = "^1" }
 ```
 
 When the `inline` option is set then the styles are embedded into the markup; it you prefer to use a stylesheet then omit the `inline` option and add a [syntax theme][] to your site styles.

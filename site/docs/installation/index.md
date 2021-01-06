@@ -55,14 +55,12 @@ You can get going right away; edit the files in `project/site` and check your ch
 
 Next read more about [[docs/getting-started]] or learn how to use the [[docs/installation/version-manager]] to upgrade.
 
-## Runtime Assets
+## Plugin Registry
 
-Our tools rely on some runtime assets for project blueprints, syntax highlighting definitions and offline documentation. If you need to manually update the runtime assets run this command:
+Features such as syntax highlighting and the offline documentation require files that are bundled using plugins; sometimes you may need to manually update the plugin registry to get newer versions of these plugins. To update the plugin registry cache run:
 
 ```text
-uwe task update-runtime-assets
+uwe task update-registry
 ```
-
-Normally this should not be necessary but perhaps some project blueprints have been updated, new syntax language definitions are available or you want to update the offline documentation.
 
 [quick install script]: https://github.com/uwe-app/releases/blob/main/install.sh
