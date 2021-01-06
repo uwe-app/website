@@ -20,6 +20,7 @@ follow-edits = true
 
 [dependencies]
 "std::core" = { version = "~4.1.11", apply = { styles = ["**"] } }
+"std::syntax" = { version = "~1" }
 "std::menu" = { version = "~1", apply = { styles = [ "**" ] } }
 "std::sidebar" = { version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
 "std::link" = { version = "~1", features = ["github"] }
