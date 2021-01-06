@@ -9,7 +9,7 @@ description = "Installing, upgrading and managing software versions"
 Currently we support the Linux and MacOS operating systems; use our [quick install script][] to download the [[docs/installation/version-manager]] which will install all the required components:
 
 ```text
-curl https://release.uwe.app/install.sh | sh
+curl https://releases.uwe.app/install.sh | sh
 ```
 
 Once the installation is complete you can start a new shell session or update the `PATH` for the current shell session:
