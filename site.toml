@@ -234,7 +234,6 @@ pages = [
 #pristine = false
 
 [profile.docs]
-release = true
 base = "docs"
 base-href = "docs"
 layout = "docs"
