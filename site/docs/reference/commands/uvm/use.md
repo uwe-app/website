@@ -14,7 +14,7 @@ uvm use 0.40.11
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uvm/use.txt}}
+{{include ../../../../includes/help/uvm/use.txt~}}
 ```
 
 {{> back}}

@@ -16,7 +16,7 @@ This does not set the currently selected version; to select it you must also `us
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uvm/install.txt}}
+{{include ../../../../includes/help/uvm/install.txt~}}
 ```
 
 {{> back}}

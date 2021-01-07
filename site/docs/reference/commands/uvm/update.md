@@ -20,7 +20,7 @@ uvm update --self
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uvm/update.txt}}
+{{include ../../../../includes/help/uvm/update.txt~}}
 ```
 
 {{> back}}

@@ -14,7 +14,7 @@ uwe publish stage
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uwe/publish.txt}}
+{{include ../../../../includes/help/uwe/publish.txt~}}
 ```
 
 {{> back}}

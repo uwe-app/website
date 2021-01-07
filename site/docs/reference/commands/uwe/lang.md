@@ -20,7 +20,7 @@ uwe lang ls
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uwe/clean.txt}}
+{{include ../../../../includes/help/uwe/clean.txt~}}
 ```
 
 {{> back}}

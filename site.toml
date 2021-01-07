@@ -127,8 +127,10 @@ pages = [
 [menu.installation]
 pages = [
   "/docs/installation/quick-install/",
-  "/docs/installation/version-manager/",
+  "/docs/installation/upgrade/",
+  "/docs/installation/project-versioning/",
   "/docs/installation/offline-documentation/",
+  "/docs/installation/uninstall/",
 ]
 
 [menu.getting-started]

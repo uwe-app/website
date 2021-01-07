@@ -38,7 +38,7 @@ uwe build . site/docs
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uwe/build.txt}}
+{{include ../../../../includes/help/uwe/build.txt~}}
 ```
 
 {{> back}}

@@ -4,6 +4,6 @@ description = "Installing the platform tools"
 
 {{import "header"}}
 
-How to install the platform tools and manage multiple installed versions.
+Learn how to install the platform tools, upgrade to newer versions and use a specific release version for your projects.
 
 {{menu "installation-idx"}}

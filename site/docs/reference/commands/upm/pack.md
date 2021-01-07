@@ -16,7 +16,7 @@ The file will be named `package.tar.xz`.
 ## Usage
 
 ```text
-{{include ../../../../includes/help/upm/pack.txt}}
+{{include ../../../../includes/help/upm/pack.txt~}}
 ```
 
 {{> back}}

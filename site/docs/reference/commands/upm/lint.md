@@ -22,7 +22,7 @@ upm lint ../../plugins/std/core -i
 ## Usage
 
 ```text
-{{include ../../../../includes/help/upm/lint.txt}}
+{{include ../../../../includes/help/upm/lint.txt~}}
 ```
 
 {{> back}}

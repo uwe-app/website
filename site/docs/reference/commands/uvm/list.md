@@ -14,7 +14,7 @@ uvm ls
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uvm/list.txt}}
+{{include ../../../../includes/help/uvm/list.txt~}}
 ```
 
 {{> back}}

@@ -14,7 +14,7 @@ uvm prune
 ## Usage
 
 ```text
-{{include ../../../../includes/help/uvm/prune.txt}}
+{{include ../../../../includes/help/uvm/prune.txt~}}
 ```
 
 {{> back}}

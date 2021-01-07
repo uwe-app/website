@@ -1,10 +1,10 @@
 +++
-description = "Installing, upgrading and managing software versions"
+description = "Install the platform tools"
 +++
 
 {{import "header"}}
 
-Currently we support the Linux and MacOS operating systems; use our [quick install script][] to download the [[docs/installation/version-manager]] which will install all the required components:
+Currently we support the Linux and MacOS operating systems; use our [quick install script][] to install all the required components:
 
 ```text
 curl https://releases.uwe.app/install.sh | sh
@@ -19,7 +19,7 @@ source $HOME/.uwe/env
 Then check the installation succeeded:
 
 ```text
-which uwe
+uwe --version
 ```
 
 After installation these are the installed programs:
@@ -45,6 +45,8 @@ Which will perform the following tasks:
 
 You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
-Next read more about [[docs/getting-started]] or learn how to use the [[docs/installation/version-manager]] to upgrade.
+To learn more about the platform head over to [[docs/getting-started]] or read on to learn how to upgrade and manage release versions.
+
+{{import "footer"}}
 
 [quick install script]: https://github.com/uwe-app/releases/blob/main/install.sh
