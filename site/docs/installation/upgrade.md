@@ -16,6 +16,20 @@ If a new release is available you can upgrade by running the `update` command:
 uvm update
 ```
 
+If you want to restrict the upgrade to a specific version range:
+
+```
+uvm update ^1
+```
+
+Which can be enforced using the `UVM_INSTALL_VERSION_RANGE` environment variable:
+
+```
+export UVM_INSTALL_VERSION_RANGE="^1"
+```
+
+Afterwards running `uvm update` without any options will restrict upgrades to `>= 1.0.0` and `< 2.0.0`.
+
 The version manager program (`uvm`) is considered stable and is not included when upgrading to a new release; if you need to upgrade the version manager use the `--self` option:
 
 ```text
