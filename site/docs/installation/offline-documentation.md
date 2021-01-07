@@ -1,5 +1,5 @@
 +++
-description = "How to open and update the offline documentation"
+description = "Install and update the offline documentation"
 +++
 
 {{import "header"}}

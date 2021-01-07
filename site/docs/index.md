@@ -6,6 +6,10 @@ label = "documentation"
 
 {{import "header"}}
 
+## Installation
+
+{{menu "installation-idx"}}
+
 ## Getting Started
 
 {{menu "getting-started-idx"}}
