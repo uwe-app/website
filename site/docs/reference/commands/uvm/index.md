@@ -1,6 +1,6 @@
 +++
 title = "uvm"
-description = "Upgrade and manage versions"
+description = "Upgrade and manage the platform tools"
 +++
 
 {{import "header"}}
