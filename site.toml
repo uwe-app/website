@@ -227,4 +227,9 @@ paths = ["assets", "docs"]
 [publish.aws]
 region = "ap-southeast-1"
 credentials = "tmpfs"
-environments = {stage = {prefix = "stage"}, production = {prefix = "production"}}
+
+[publish.aws.environments.stage]
+bucket = "stage.uwe.app"
+
+[publish.aws.environments.production]
+bucket = "uwe.app"
