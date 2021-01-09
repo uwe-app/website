@@ -15,7 +15,7 @@ Afterwards when you run `uwe docs` again the documentation is cached and will be
 Sometimes you may want to update to a newer version of the documentation; whilst connected to the internet update the registry of plugins:
 
 ```text
-uwe task update-registry
+upm update
 ```
 
 Then if a newer version of the documentation is available it will be downloaded the next time you run `uwe docs`.
