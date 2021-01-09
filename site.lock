@@ -1,52 +1,7 @@
 [[package]]
-name = "std::menu"
-version = "1.0.0"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "075cc5d0658114fed6c0e119921fde17ad9babee4bc21467c395961add969374"
-
-[[package]]
-name = "std::link::github"
-version = "1.0.2"
-
-[[package]]
-name = "font::inter"
-version = "3.15.0"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "77356d9427581b1fa040547b9305a9252aafc8623b1a8b2684fe05ff81ae904c"
-
-[[package]]
-name = "std::sidebar"
-version = "1.0.1"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "597f794a90d1f9fe6b07f6d87a25c5c3898facdd1d4fd37c80e78f795fb5b7c6"
-
-[[package]]
-name = "std::syntax"
-version = "1.0.0"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "323fcd0611640b1577065c00a89672a16dc541f0920d3e50f289c28e73d66f01"
-
-[[package]]
-name = "std::note"
-version = "1.0.1"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "b31ed866ed6790c0657d2db077a57f8efcbdcbb77f7a28ab6430af2e2cc8e61b"
-
-[[package]]
 name = "std::crumbtrail"
 version = "1.0.1"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 checksum = "514506312de05e62ab21c85280347432e595742b9634d7cc05411ffd5a288d7d"
-
-[[package]]
-name = "font::inter::regular"
-version = "3.15.0"
-
-[[package]]
-name = "std::link"
-version = "1.0.2"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "1536bfd96ecadc4cd2fb339b5bdb45a7540116f938621b29ae60db5144f7b50c"
 
 [[package]]
 name = "std::core"
@@ -55,7 +10,44 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 checksum = "927cc884bd2fcbc4cb5b11112ce6fb525359b6738f1ca475dc6baec39ff3199b"
 
 [[package]]
+name = "std::sidebar"
+version = "1.0.1"
+checksum = "597f794a90d1f9fe6b07f6d87a25c5c3898facdd1d4fd37c80e78f795fb5b7c6"
+
+[[package]]
+name = "std::note"
+version = "1.0.1"
+checksum = "b31ed866ed6790c0657d2db077a57f8efcbdcbb77f7a28ab6430af2e2cc8e61b"
+
+[[package]]
+name = "std::link::github"
+version = "1.0.2"
+
+[[package]]
+name = "std::syntax"
+version = "1.0.0"
+checksum = "323fcd0611640b1577065c00a89672a16dc541f0920d3e50f289c28e73d66f01"
+
+[[package]]
+name = "std::menu"
+version = "1.0.0"
+checksum = "075cc5d0658114fed6c0e119921fde17ad9babee4bc21467c395961add969374"
+
+[[package]]
+name = "font::inter"
+version = "3.15.0"
+checksum = "77356d9427581b1fa040547b9305a9252aafc8623b1a8b2684fe05ff81ae904c"
+
+[[package]]
+name = "std::link"
+version = "1.0.2"
+checksum = "1536bfd96ecadc4cd2fb339b5bdb45a7540116f938621b29ae60db5144f7b50c"
+
+[[package]]
 name = "std::listing"
 version = "1.0.2"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 checksum = "9c1ec8f2a0a785bad0191c4b75b026d13dcef3120340b381d8e9cb0fcd65a8fb"
+
+[[package]]
+name = "font::inter::regular"
+version = "3.15.0"
