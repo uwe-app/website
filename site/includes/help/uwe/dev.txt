@@ -1,5 +1,8 @@
-uwe-dev 0.41.0
+uwe-dev 0.42.22
 Live reload server
+
+Compiles a debug build of the website into the `build/debug` folder and starts a web server with
+live reload enabled watching for changes to the source files in the `site` folder.
 
 USAGE:
     uwe dev [FLAGS] [OPTIONS] [--] [ARGS]

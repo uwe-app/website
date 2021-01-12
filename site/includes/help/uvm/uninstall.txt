@@ -1,5 +1,5 @@
-uvm-uninstall 0.41.0
-Uninstall the toolchain
+uvm-uninstall 0.42.22
+Uninstall the platform tools
 
 USAGE:
     uvm uninstall

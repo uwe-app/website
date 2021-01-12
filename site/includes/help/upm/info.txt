@@ -1,0 +1,18 @@
+upm-info 0.42.22
+Show plugin information
+
+USAGE:
+    upm info <target>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <target>    
+
+EXAMPLES:
+    Print plugin information: 
+        upm info std::core
+    Print plugin information for a specific version: 
+        upm info std::core@4.1.12

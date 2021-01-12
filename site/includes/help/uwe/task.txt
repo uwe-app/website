@@ -1,4 +1,4 @@
-uwe-task 0.41.0
+uwe-task 0.42.22
 Utility tasks
 
 USAGE:
@@ -12,5 +12,4 @@ SUBCOMMANDS:
     alias              Manage site aliases (symbolic links)
     check-deps         Check project for local dependencies
     help               Prints this message or the help of the given subcommand(s)
-    list-blueprints    List blueprints
-    update-runtime     Update runtime assets
+    list-blueprints    List project blueprints

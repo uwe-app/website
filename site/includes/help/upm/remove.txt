@@ -1,0 +1,20 @@
+upm-remove 0.42.22
+Remove installed plugin(s)
+
+USAGE:
+    upm remove <target>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <target>    
+
+EXAMPLES:
+    Remove all versions of a plugin: 
+        upm rm std::core
+    Remove a specific version: 
+        upm rm std::core@=4.1.12
+    Remove all versions with major version 4: 
+        upm rm std::core@^4

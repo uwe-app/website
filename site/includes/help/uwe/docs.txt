@@ -1,8 +1,8 @@
-uwe-docs 0.41.0
+uwe-docs 0.42.22
 Browse the documentation
 
 USAGE:
-    uwe docs [OPTIONS]
+    uwe docs [OPTIONS] [version-range]
 
 FLAGS:
         --help       Prints help information
@@ -14,3 +14,7 @@ OPTIONS:
         --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
         --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
         --ssl-port <ssl-port>    The port number for SSL
+
+ARGS:
+    <version-range>    Version range for the documentation plugin [env:
+                       UWE_DOCS_VERSION_RANGE]

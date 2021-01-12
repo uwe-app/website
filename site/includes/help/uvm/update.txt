@@ -1,10 +1,13 @@
-uvm-update 0.41.0
+uvm-update 0.42.22
 Update the platform tools
 
 USAGE:
-    uvm update [FLAGS]
+    uvm update [FLAGS] [version-range]
 
 FLAGS:
     -h, --help       Prints help information
     -s, --self       Update the version manager (uvm)
     -V, --version    Prints version information
+
+ARGS:
+    <version-range>    Semver range filter [env: UVM_INSTALL_VERSION_RANGE]
