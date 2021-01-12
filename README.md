@@ -8,12 +8,6 @@ The content we wrote is our copyright and all rights are reserved.
 
 ### Tasks
 
-To rebuild the documentation site run:
-
-```
-make docs
-```
-
 To update the command help files run:
 
 ```
