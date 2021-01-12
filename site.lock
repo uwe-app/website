@@ -1,8 +1,20 @@
 [[package]]
-name = "std::menu"
-version = "1.0.0"
+name = "std::link"
+version = "1.0.3"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "075cc5d0658114fed6c0e119921fde17ad9babee4bc21467c395961add969374"
+checksum = "f32b8251b42f87c0e9e62928e178797863f8565c501f97c212fb0fa2d6f1673e"
+
+[[package]]
+name = "std::crumbtrail"
+version = "1.0.1"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+checksum = "514506312de05e62ab21c85280347432e595742b9634d7cc05411ffd5a288d7d"
+
+[[package]]
+name = "std::core"
+version = "4.1.12"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+checksum = "927cc884bd2fcbc4cb5b11112ce6fb525359b6738f1ca475dc6baec39ff3199b"
 
 [[package]]
 name = "std::sidebar"
@@ -15,45 +27,35 @@ name = "std::link::github"
 version = "1.0.3"
 
 [[package]]
-name = "std::link"
-version = "1.0.3"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "f32b8251b42f87c0e9e62928e178797863f8565c501f97c212fb0fa2d6f1673e"
-
-[[package]]
-name = "std::crumbtrail"
-version = "1.0.1"
-checksum = "514506312de05e62ab21c85280347432e595742b9634d7cc05411ffd5a288d7d"
-
-[[package]]
-name = "font::inter::regular"
-version = "3.15.0"
-
-[[package]]
-name = "font::inter"
-version = "3.15.0"
-checksum = "1647a2fd9d8c480a93422cd48d690c5fdd5872c68aca891894d1f2687499f112"
-
-[[package]]
-name = "std::core"
-version = "4.1.12"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "927cc884bd2fcbc4cb5b11112ce6fb525359b6738f1ca475dc6baec39ff3199b"
-
-[[package]]
 name = "std::note"
 version = "1.0.1"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 checksum = "b31ed866ed6790c0657d2db077a57f8efcbdcbb77f7a28ab6430af2e2cc8e61b"
 
 [[package]]
-name = "std::syntax"
+name = "font::inter"
+version = "3.15.0"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+checksum = "1647a2fd9d8c480a93422cd48d690c5fdd5872c68aca891894d1f2687499f112"
+
+[[package]]
+name = "std::menu"
 version = "1.0.0"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-checksum = "323fcd0611640b1577065c00a89672a16dc541f0920d3e50f289c28e73d66f01"
+checksum = "075cc5d0658114fed6c0e119921fde17ad9babee4bc21467c395961add969374"
+
+[[package]]
+name = "font::inter::regular"
+version = "3.15.0"
 
 [[package]]
 name = "std::listing"
 version = "1.0.2"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 checksum = "9c1ec8f2a0a785bad0191c4b75b026d13dcef3120340b381d8e9cb0fcd65a8fb"
+
+[[package]]
+name = "std::syntax"
+version = "1.0.0"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+checksum = "323fcd0611640b1577065c00a89672a16dc541f0920d3e50f289c28e73d66f01"

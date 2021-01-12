@@ -11,7 +11,7 @@ The `info` command prints information about a plugin.
 upm info std::core
 ```
 
-Or use a version range to remove matched versions:
+If a specific version is given it must exist in the plugin registry:
 
 ```text
 upm info std::core@4.1.12
