@@ -1,26 +1,26 @@
 +++
-title = "info"
+title = "show"
 description = "Show plugin information"
 +++
 
 {{import "header"}}
 
-The `info` command prints information about a plugin.
+The `show` command prints information about a plugin.
 
 ```text
-upm info std::core
+upm show std::core
 ```
 
 If a specific version is given it must exist in the plugin registry:
 
 ```text
-upm info std::core@4.1.12
+upm show std::core@4.1.12
 ```
 
 ## Usage
 
 ```text
-{{include ../../../../includes/help/upm/info.txt~}}
+{{include ../../../../includes/help/upm/show.txt~}}
 ```
 
 {{> back}}

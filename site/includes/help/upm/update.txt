@@ -1,9 +1,0 @@
-upm-update 0.42.22
-Update the local plugin registry
-
-USAGE:
-    upm update
-
-FLAGS:
-    -h, --help       Prints help information
-    -V, --version    Prints version information

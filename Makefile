@@ -1,5 +1,5 @@
 UWE_COMMAND_DOCS = build clean dev docs lang new publish server sync task
-UPM_COMMAND_DOCS = install info remove lint pack publish update
+UPM_COMMAND_DOCS = install list add show remove lint pack publish registry
 UVM_COMMAND_DOCS = install list remove uninstall update use prune
 
 all: help dist

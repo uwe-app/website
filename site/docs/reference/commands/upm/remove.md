@@ -5,7 +5,7 @@ description = "Remove an installed plugin"
 
 {{import "header"}}
 
-The `remove` command is a utility for plugin authors that removes plugins from the installation directory; see [[docs/reference/commands/upm/install]] for information about the plugin installation location.
+The `remove` command is a utility for plugin authors that removes plugins from the installation directory; see [[docs/reference/commands/upm/add]] for information about the plugin installation location.
 
 Remove all installed versions of a plugin:
 
