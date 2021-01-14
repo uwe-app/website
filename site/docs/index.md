@@ -50,6 +50,6 @@ label = "documentation"
 
 {{menu "other-idx"}}
 
-## Refererence
+## Reference
 
 {{menu "reference-idx"}}
