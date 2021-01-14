@@ -26,7 +26,7 @@ After installation these are the installed programs:
 
 * [[docs/reference/commands/uwe]] Compile, live preview and publish websites.
 * [[docs/reference/commands/uvm]] Version manager for installation and upgrading.
-* [[docs/reference/commands/upm]] Plugin manager; commands for authoring, finding and inspecting plugins.
+* [[docs/reference/commands/upm]] Plugin discovery and authoring tools.
 
 ## Test Drive
 
