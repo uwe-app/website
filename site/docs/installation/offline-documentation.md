@@ -1,29 +1,24 @@
 +++
-description = "Install and update the offline documentation"
+description = "About the offline documentation"
 +++
 
 {{import "header"}}
 
-To browse the documentation whilst offline first it needs to be downloaded; whilst connected to the internet run this command to fetch the documentation plugin:
+The offline documentation is downloaded when the platform tools are installed; to open the documentation run:
 
 ```text
 uwe docs
 ```
 
-Afterwards when you run `uwe docs` again the documentation is cached and will be available offline.
+The documentation is distributed as a static website bundled in a plugin so it is possible to remove the documentation using our tools; if the plugin has been removed then running `uwe docs` will try to download and install the documentation again.
 
-Sometimes you may want to update to a newer version of the documentation; whilst connected to the internet update the registry of plugins:
+To see this behavior in action:
 
 ```text
-upm registry update
-```
-
-Then if a newer version of the documentation is available it will be downloaded the next time you run `uwe docs`.
-
-The `docs` command also accepts a [semver][] version range if you need to view a specific version of the documentation, for example:
-
-```
-uwe docs 0.42.8
+# Remove the documentation plugin
+upm rm std::documentation
+# Open the docs
+uwe docs
 ```
 
 {{import "footer"}}

@@ -9,8 +9,8 @@ edit-path = "edit/main/"
 [livereload]
 follow-edits = true
 
-#[build]
-#layout = "test"
+[build]
+include-commit = true
 
 #[script]
 #src = "assets/scripts/global.js"
@@ -104,6 +104,7 @@ pages = [
   "/docs/installation/upgrade/",
   "/docs/installation/project-versioning/",
   "/docs/installation/offline-documentation/",
+  "/docs/installation/clean-install/",
   "/docs/installation/uninstall/",
 ]
 
