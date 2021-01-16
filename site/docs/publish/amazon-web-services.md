@@ -4,9 +4,11 @@ description = "Publish a site to Amazon Web Services"
 
 {{import "header"}}
 
+Before publishing to an S3 bucket be aware that the default behavior for publishing is a *sync operation* which means that files in the bucket which do not exist in the local build directory **will be deleted**; for more information on how to change this see [how to keep remote files](#keep-remote).
+
 ## Credentials
 
-Before you can publish using [Amazon Web Services][] you must configure credentials. We use the standard profile credentials to publish so if you have used the `aws` command line tools this should be familiar.
+Before you can publish using [Amazon Web Services][] you must configure credentials; we use the standard profile credentials to publish so if you have used the `aws` command line tools this should be familiar.
 
 Edit the `~/.aws/credentials` file to set the access key and secret access key:
 
@@ -34,7 +36,13 @@ bucket = "stage.example.com"
 bucket = "example.com"
 ```
 
-You need to ensure that the region matches where your buckets are located and the buckets must already exist then you can publish an environment like this:
+You need to ensure that the region matches where your buckets are located and the buckets must already exist, have public read permissions and configured for static website hosting using `index.html` for the index page and `404.html` for the error page.
+
+{{#>note}}
+If no bucket is given for an environment it inherits the value from the `host` setting.
+{{/note}}
+
+Afterwards you can publish an environment like this:
 
 ```
 uwe publish stage
@@ -62,7 +70,7 @@ An example of this is the [releases web page](https://releases.uwe.app) which is
 
 ## Prefix
 
-If no bucket is given then the top-level `host` is used and you can set a `prefix` to publish into different locations in the bucket.
+You can set a `prefix` to publish into a particular location in the bucket.
 
 {{#> note label="warn" type="warn"}}
 Be aware that this configuration has issues with trailing slash redirects when proxied via Cloudfront so we recommend a separate bucket per environment.
@@ -80,6 +88,20 @@ prefix = "stage"
 
 [publish.aws.environments.production]
 prefix = "production"
+```
+
+## Redirects
+
+An exception to the default *sync* behavior is the handling of redirects which is a merge operation that attempts to preserve older redirects in the bucket. The reason for preserving redirects is that as you update your site and change `permalink` values it is better that people's bookmarks (using previous permalinks) are still respected whenever possible.
+
+Consider a page that has a `permalink` of`/article-name/` and a destination of `/posts/article-name/`; when the site is published a redirect will be created from the permalink to the destination URL.
+
+Any person that visits the page and creates a bookmark will be using the permalink which redirects to the article URL. Now if you decide to change the permalink to `/new-article-name/` and publish a new version of the site the old redirect will continue to work!
+
+If you want to remove old redirects from the bucket use the `--sync-redirects` option (`keep-remote` should not be enabled) and the redirects will mirror the local copy, for example:
+
+```text
+uwe publish --sync-redirects stage
 ```
 
 {{> back}}
