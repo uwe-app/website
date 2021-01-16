@@ -36,7 +36,7 @@ bucket = "stage.example.com"
 bucket = "example.com"
 ```
 
-You need to ensure that the region matches where your buckets are located and the buckets must already exist, have public read permissions and configured for static website hosting using `index.html` for the index page and `404.html` for the error page.
+You need to ensure that the region matches where your buckets are located and the buckets must already exist, have public read permissions and be configured for static website hosting using `index.html` for the index page and `404.html` for the error page.
 
 {{#>note}}
 If no bucket is given for an environment it inherits the value from the `host` setting.
@@ -92,9 +92,9 @@ prefix = "production"
 
 ## Redirects
 
-An exception to the default *sync* behavior is the handling of redirects which is a merge operation that attempts to preserve older redirects in the bucket. The reason for preserving redirects is that as you update your site and change `permalink` values it is better that people's bookmarks (using previous permalinks) are still respected whenever possible.
+An exception to the default sync behavior is the handling of redirects which is a merge operation that attempts to preserve older redirects in the bucket. The reason for preserving redirects is that as you update your site and change `permalink` values it is better that people's bookmarks are still respected whenever possible.
 
-Consider a page that has a `permalink` of`/article-name/` and a destination of `/posts/article-name/`; when the site is published a redirect will be created from the permalink to the destination URL.
+Consider a page that has a `permalink` of `/article-name/` and a destination of `/posts/article-name/`; when the site is published a redirect will be created from the permalink to the destination URL.
 
 Any person that visits the page and creates a bookmark will be using the permalink which redirects to the article URL. Now if you decide to change the permalink to `/new-article-name/` and publish a new version of the site the old redirect will continue to work!
 
