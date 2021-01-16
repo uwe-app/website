@@ -23,7 +23,7 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 [[package]]
 name = "std::link"
 version = "1.0.4"
-checksum = "75361210887b8b45ecae744271d16ef4d67dbeca8239d5e7f606ef82ae92c2a6"
+checksum = "44d49f353e6e05359cf97d9f3fab2aa51b0c072eb3dbe21e35ec0928ed118889"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
