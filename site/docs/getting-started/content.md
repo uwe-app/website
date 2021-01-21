@@ -30,6 +30,8 @@ To create custom partials for your website just add templates to the `site/parti
 {{{{raw}}}}{{> header}}{{{{/raw}}}}
 ```
 
+This follows the standard syntax for calling partials when using Handlebars. See the <a href="https://handlebarsjs.com/guide/partials.html">Handlebars documentation on partials</a> for more details.
+
 ## Header and Footer
 
 To customize the header and footer for the website change the content in the `partials/header.hbs` and `partials/footer.hbs` files; the default templates are placeholders.
