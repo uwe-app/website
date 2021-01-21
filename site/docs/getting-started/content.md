@@ -30,7 +30,7 @@ To create custom partials for your website just add templates to the `site/parti
 {{{{raw}}}}{{> header}}{{{{/raw}}}}
 ```
 
-This follows the standard syntax for calling partials when using Handlebars. See the <a href="https://handlebarsjs.com/guide/partials.html">Handlebars documentation on partials</a> for more details.
+This follows the standard syntax for calling partials when using Handlebars. See the [Handlebars documentation on partials](https://handlebarsjs.com/guide/partials.html) for more details.
 
 ## Header and Footer
 
