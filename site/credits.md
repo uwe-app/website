@@ -1,6 +1,6 @@
 ## Credits
 
-Uniseral web editor draws inspiration from [mdbook][]; much respect and credit to the authors along with the creators of these brilliant projects:
+Universal web editor draws inspiration from [mdbook][]; much respect and credit to the authors along with the creators of these brilliant projects:
 
 * [handlebars](https://docs.rs/handlebars/) (MIT)
 * [pulldown-cmark](https://docs.rs/pulldown-cmark/) (MIT)

@@ -59,3 +59,9 @@ name = "std::syntax"
 version = "1.0.0"
 checksum = "323fcd0611640b1577065c00a89672a16dc541f0920d3e50f289c28e73d66f01"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::syntax"
+version = "1.0.0"
+checksum = "e45d22b1cd6faffe075c53679dc73daf0394e593478f18b84b69778e36e06d2d"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
