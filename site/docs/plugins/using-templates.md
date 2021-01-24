@@ -26,8 +26,8 @@ layout = "std::core::main"
 
 Replace `std::core` with the plugin name and `main` with the name of the layout.
 
-{{#> note label="info"}}
-The `std::core::main` layout is the default layout so you should never explicitly apply it to a page.
+{{#> note}}
+The `std::core::main` layout is the default layout so you should never need to explicitly apply it to a page.
 {{/note}}
 
 {{import "footer"}}

@@ -1,7 +1,7 @@
 [[package]]
 name = "font::inter"
 version = "3.15.0"
-checksum = "1647a2fd9d8c480a93422cd48d690c5fdd5872c68aca891894d1f2687499f112"
+checksum = "3792da1f121690e657d8e3f1fe6d7e8c64dfe84b190257e19cf42ac493107c0f"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
@@ -11,19 +11,19 @@ version = "3.15.0"
 [[package]]
 name = "std::core"
 version = "4.1.12"
-checksum = "927cc884bd2fcbc4cb5b11112ce6fb525359b6738f1ca475dc6baec39ff3199b"
+checksum = "1b1e4596717fd860afbe125659483bb33f264b6a92b66d2f2e2b824a2a41fef4"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::crumbtrail"
 version = "1.0.1"
-checksum = "514506312de05e62ab21c85280347432e595742b9634d7cc05411ffd5a288d7d"
+checksum = "c6fb2b970d2627957de820c875af78e2560984d1d96ef5fd96a1fe0b228cb05a"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::link"
 version = "1.0.4"
-checksum = "44d49f353e6e05359cf97d9f3fab2aa51b0c072eb3dbe21e35ec0928ed118889"
+checksum = "dcaf1d3b45801e846fd5130ee89597214bb83134c0ddf3538832cb1f33876a74"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
@@ -33,31 +33,25 @@ version = "1.0.4"
 [[package]]
 name = "std::listing"
 version = "1.0.2"
-checksum = "9c1ec8f2a0a785bad0191c4b75b026d13dcef3120340b381d8e9cb0fcd65a8fb"
+checksum = "322722d7c497afe01cc8b5147b9ba585bb6da3d16d98e36536052a4bb54e00bf"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::menu"
 version = "1.0.0"
-checksum = "075cc5d0658114fed6c0e119921fde17ad9babee4bc21467c395961add969374"
+checksum = "567fc490700c08e820c7d9d73150037a75464ffd814e5beb36ec202856ed5195"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::note"
 version = "1.0.1"
-checksum = "b31ed866ed6790c0657d2db077a57f8efcbdcbb77f7a28ab6430af2e2cc8e61b"
+checksum = "bbcdd66ab34fc50467cb69a804f3887441f834b231dc9b6e67d89913bf0d1d0f"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::sidebar"
 version = "1.0.1"
-checksum = "597f794a90d1f9fe6b07f6d87a25c5c3898facdd1d4fd37c80e78f795fb5b7c6"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-
-[[package]]
-name = "std::syntax"
-version = "1.0.0"
-checksum = "323fcd0611640b1577065c00a89672a16dc541f0920d3e50f289c28e73d66f01"
+checksum = "59cb1aae475b0ce987d7b6b8bda49d997a12906aea16f454437e7d6a67317376"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
