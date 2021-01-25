@@ -38,6 +38,20 @@ apply = { styles = [ "**" ], scripts = [ "**" ] }}
 
 Notice plugins can supply stylesheets and scripts and we can choose how to apply them to our pages.
 
+## Filters
+
+Applying styles or scripts will apply *all the files a plugin defines* but sometimes it is preferable to choose from variations that a plugin offers.
+
+An alternative syntax lets us apply `to` pages using a `filter` match against each file name, for example:
+
+```toml
+[dependencies."std::syntax"]
+version =  "~1"
+apply = { styles = [ { to = "**", filter = "base16-*.css" } ] }
+```
+
+Will include all the style sheets in the `std::syntax` plugin whose name begins with `base16-` and applies them to every page.
+
 {{import "footer"}}
 
 [semver]: https://semver.org/
