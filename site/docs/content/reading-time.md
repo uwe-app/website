@@ -27,4 +27,4 @@ A partial we use on our blog that also includes a permalink can be see in [words
 
 {{import "footer"}}
 
-[words.hbs]: https://github.com/uwe-app/blog/blob/main/site/partials/words.hbs
+[words.hbs]: https://github.com/uwe-app/blueprints/blob/main/blog/site/partials/words.hbs
