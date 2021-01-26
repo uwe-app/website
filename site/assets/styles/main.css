@@ -244,6 +244,12 @@ li > a + p:last-child {
   font-size: 0.9rem;
 }
 
+/* For external stylesheets used for syntax highlighting remove the 
+ * background color so it does not clash with our dark mode handling */
+.code {
+  background-color: transparent;
+}
+
 @media screen and (max-width: 480px) {
   ul.features {
     columns: 1;

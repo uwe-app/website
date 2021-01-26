@@ -21,6 +21,7 @@ include-commit = true
 [dependencies]
 "std::syntax" = "~1"
 #"std::syntax" = { version =  "~1", apply = { styles = [ { to = "**", filter = "base16-*.css" } ] } }
+#"std::syntax" = { version = "^1", apply = { styles = [ { to = "**", filter = "solarized-light.css" } ] } }
 "std::listing" = "~1"
 "std::core" = { version = "~4.1.11", apply = { styles = ["**"] } }
 "std::menu" = { version = "~1", apply = { styles = [ "**" ] } }
@@ -35,7 +36,6 @@ apply = { styles = [ "**" ] }
 features = ["regular"]
 
 [syntax]
-inline = true
 theme = "Solarized (light)"
 #profiles = ["release"]
 
