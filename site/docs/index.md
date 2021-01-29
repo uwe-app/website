@@ -26,6 +26,10 @@ label = "documentation"
 
 {{menu "content-idx"}}
 
+## Collections
+
+{{menu "collections-idx"}}
+
 ## Plugins
 
 {{menu "plugins-idx"}}

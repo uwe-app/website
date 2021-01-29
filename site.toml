@@ -89,6 +89,7 @@ pages = [
   "/docs/navigation/",
   "/docs/pages/",
   "/docs/content/",
+  "/docs/collections/",
   "/docs/plugins/",
   "/docs/design-patterns/",
   "/docs/search-engines/",
@@ -155,6 +156,13 @@ pages = [
   "/docs/content/feeds/",
   "/docs/content/syntax-highlight/",
   "/docs/content/edit-on-github/",
+]
+
+[menu.collections]
+pages = [
+  "/docs/collections/data-provider/",
+  "/docs/collections/map-indices/",
+  "/docs/collections/queries/",
 ]
 
 [menu.plugins]

@@ -16,8 +16,8 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::crumbtrail"
-version = "1.0.1"
-checksum = "c6fb2b970d2627957de820c875af78e2560984d1d96ef5fd96a1fe0b228cb05a"
+version = "1.0.2"
+checksum = "9a0a40f3becdb143a6c4507e65ebab7543465d18b94d4ce7be2587870caefbf4"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
@@ -58,10 +58,4 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 name = "std::syntax"
 version = "1.0.0"
 checksum = "e45d22b1cd6faffe075c53679dc73daf0394e593478f18b84b69778e36e06d2d"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-
-[[package]]
-name = "std::crumbtrail"
-version = "1.0.2"
-checksum = "9a0a40f3becdb143a6c4507e65ebab7543465d18b94d4ce7be2587870caefbf4"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
