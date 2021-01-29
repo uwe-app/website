@@ -37,4 +37,4 @@ We also add `<link rel="alternate">` elements to help readers find your feeds <3
 
 {{import "footer"}}
 
-[std::feed]: https://github.com/uwe-app/plugins/tree/master/std/feed
+[std::feed]: https://github.com/uwe-app/plugins/tree/main/std/feed

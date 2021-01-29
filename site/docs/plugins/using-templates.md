@@ -33,4 +33,4 @@ The `std::core::main` layout is the default layout so you should never need to e
 {{import "footer"}}
 
 [semver]: https://semver.org/
-[main.hbs]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs
+[main.hbs]: https://github.com/uwe-app/plugins/blob/main/std/core/layouts/main.hbs

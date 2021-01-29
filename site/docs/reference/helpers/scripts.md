@@ -16,4 +16,4 @@ If you do not call this helper in a custom layout then live reload will not work
 
 {{import "footer"}}
 
-[main layout]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs
+[main layout]: https://github.com/uwe-app/plugins/blob/main/std/core/layouts/main.hbs

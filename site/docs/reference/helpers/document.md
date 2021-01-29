@@ -16,5 +16,5 @@ There is no need to call this helper directly unless you are designing your own 
 
 {{import "footer"}}
 
-[std::core]: https://github.com/uwe-app/plugins/tree/master/std/core
-[content partial]: https://github.com/uwe-app/plugins/blob/master/std/core/partials/content.hbs
+[std::core]: https://github.com/uwe-app/plugins/tree/main/std/core
+[content partial]: https://github.com/uwe-app/plugins/blob/main/std/core/partials/content.hbs

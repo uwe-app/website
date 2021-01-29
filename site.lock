@@ -10,8 +10,8 @@ version = "3.15.0"
 
 [[package]]
 name = "std::core"
-version = "4.1.12"
-checksum = "1b1e4596717fd860afbe125659483bb33f264b6a92b66d2f2e2b824a2a41fef4"
+version = "4.1.13"
+checksum = "8df4fc24727a00b4fb47fdf2d5a2a442742afb6f8b6c68fc412103a09f8989b7"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
@@ -61,7 +61,7 @@ checksum = "e45d22b1cd6faffe075c53679dc73daf0394e593478f18b84b69778e36e06d2d"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
-name = "std::core"
-version = "4.1.13"
-checksum = "8df4fc24727a00b4fb47fdf2d5a2a442742afb6f8b6c68fc412103a09f8989b7"
+name = "std::crumbtrail"
+version = "1.0.2"
+checksum = "9a0a40f3becdb143a6c4507e65ebab7543465d18b94d4ce7be2587870caefbf4"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"

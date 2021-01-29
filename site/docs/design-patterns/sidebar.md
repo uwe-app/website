@@ -139,8 +139,8 @@ Now you can add a `sidebar.hbs` file to any folder within `site` and it will be 
 
 {{import "footer"}}
 
-[std::sidebar]: https://github.com/uwe-app/plugins/tree/master/std/sidebar
-[std::core]: https://github.com/uwe-app/plugins/tree/master/std/core
-[std::listing]: https://github.com/uwe-app/plugins/tree/master/std/listing
+[std::sidebar]: https://github.com/uwe-app/plugins/tree/main/std/sidebar
+[std::core]: https://github.com/uwe-app/plugins/tree/main/std/core
+[std::listing]: https://github.com/uwe-app/plugins/tree/main/std/listing
 [community issues]: https://github.com/uwe-app/community/issues
-[sidebar.js]: https://github.com/uwe-app/plugins/blob/master/std/sidebar/scripts/sidebar.js
+[sidebar.js]: https://github.com/uwe-app/plugins/blob/main/std/sidebar/scripts/sidebar.js

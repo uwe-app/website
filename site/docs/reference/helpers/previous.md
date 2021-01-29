@@ -23,7 +23,7 @@ If there is no previous item available the block is not rendered.
 {{{{~/raw}}}}
 ```
 
-See the [previous page partial](https://github.com/uwe-app/plugins/blob/master/std/menu/partials/prev-page.hbs) which uses this helper to create a link to the previous item in a menu.
+See the [previous page partial](https://github.com/uwe-app/plugins/blob/main/std/menu/partials/prev-page.hbs) which uses this helper to create a link to the previous item in a menu.
 
 {{#> note label="warn" type="warn"}}
 You should only use this helper with lists that do not contain duplicate values.

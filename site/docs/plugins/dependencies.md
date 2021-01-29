@@ -58,4 +58,4 @@ prefix = "std/core"
 {{import "footer"}}
 
 [semver]: https://semver.org/
-[main.hbs]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs
+[main.hbs]: https://github.com/uwe-app/plugins/blob/main/std/core/layouts/main.hbs

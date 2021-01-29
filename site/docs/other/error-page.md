@@ -18,4 +18,4 @@ Note that `rewrite-index` is disabled otherwise the file would be written to `40
 
 {{import "footer"}}
 
-[404.md]: https://github.com/uwe-app/runtime/blob/master/blueprint/default/site/404.md
+[404.md]: https://github.com/uwe-app/runtime/blob/main/blueprint/default/site/404.md

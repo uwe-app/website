@@ -27,4 +27,4 @@ Only use these sequential navigation partials on pages that exist in the menu de
 
 {{import "footer"}}
 
-[std::menu]: https://github.com/uwe-app/plugins/tree/master/std/menu
+[std::menu]: https://github.com/uwe-app/plugins/tree/main/std/menu

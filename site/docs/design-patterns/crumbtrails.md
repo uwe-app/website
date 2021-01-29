@@ -11,28 +11,30 @@ The [[docs/reference/helpers/crumbtrail|crumbtrail helper]] does the job of iter
 To use the crumbtrail system first add a dependency on the [std::crumbtrail][] plugin to your `site.toml` settings:
 
 ```toml
-[dependencies]
-"std::crumbtrail" = { version = "~1", apply = { styles = [ "**" ] } }
+[dependencies."std::crumbtrail"]
+version = "~1"
+apply = { styles = [ "**" ] }
 ```
 
 Then call the partial supplied by the plugin wherever you want to render a crumbtrail:
 
 ```handlebars
-\{{> crumbtrail}}
+\{{> crumbtrail~}}
 ```
 
 Which will create markup like this:
 
 ```html
-{{> crumbtrail}}```
+{{> crumbtrail~}}
+```
 
-The [plugin styles](https://github.com/uwe-app/plugins/blob/master/std/crumbtrail/styles/crumbtrail.css) are trivial so you may prefer to copy them into your stylesheet. If you do that change the dependency so you do not apply the plugin styles; it should look like this:
+The [plugin styles](https://github.com/uwe-app/plugins/blob/main/std/crumbtrail/styles/crumbtrail.css) are small so you may prefer to copy them into your stylesheet. If you do copy the styles to your project change the dependency so you that the plugin styles are not applied; it should look like this:
 
 ```toml
-[dependencies]
-"std::crumbtrail" = { version = "~1" }
+[dependencies."std::crumbtrail"]
+version = "~1"
 ```
 
 {{import "footer"}}
 
-[std::crumbtrail]: https://github.com/uwe-app/plugins/tree/master/std/crumbtrail
+[std::crumbtrail]: https://github.com/uwe-app/plugins/tree/main/std/crumbtrail

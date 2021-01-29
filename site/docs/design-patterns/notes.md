@@ -6,7 +6,7 @@ description = "Show tips, warnings and other notes"
 
 {{> table-of-contents}}
 
-A common pattern is to show notes such as tips, warnings or info messages. The [std::note](https://github.com/uwe-app/plugins/tree/master/std/note) plugin provides a [note block partial](https://github.com/uwe-app/plugins/blob/master/std/note/partials/note.hbs) which makes it easy to integrate notes in to your pages.
+A common pattern is to show notes such as tips, warnings or info messages. The [std::note](https://github.com/uwe-app/plugins/tree/main/std/note) plugin provides a [note block partial](https://github.com/uwe-app/plugins/blob/main/std/note/partials/note.hbs) which makes it easy to integrate notes in to your pages.
 
 You should add the dependency to your site settings to use it:
 
@@ -71,7 +71,7 @@ This is an error.
 
 ## Style
 
-If you want to use the default [styles](https://github.com/uwe-app/plugins/blob/master/std/note/styles/note.css) apply them in the dependency:
+If you want to use the default [styles](https://github.com/uwe-app/plugins/blob/main/std/note/styles/note.css) apply them in the dependency:
 
 ```toml
 [dependencies]

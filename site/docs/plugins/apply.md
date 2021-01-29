@@ -55,5 +55,5 @@ Will include all the style sheets in the `std::syntax` plugin whose name begins 
 {{import "footer"}}
 
 [semver]: https://semver.org/
-[main.hbs]: https://github.com/uwe-app/plugins/blob/master/std/core/layouts/main.hbs
-[std::sidebar]: https://github.com/uwe-app/plugins/blob/master/std/sidebar
+[main.hbs]: https://github.com/uwe-app/plugins/blob/main/std/core/layouts/main.hbs
+[std::sidebar]: https://github.com/uwe-app/plugins/blob/main/std/sidebar

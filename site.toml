@@ -28,7 +28,7 @@ include-commit = true
 "std::sidebar" = { version = "^1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
 "std::link" = { version = "^1", features = ["github"] }
 "std::note" = { version = "^1.0.1", apply = { styles = [ "**" ] } }
-"std::crumbtrail" = { version = "^1", apply = { styles = [ "**" ] } }
+"std::crumbtrail" = { version = "^1.0.2", apply = { styles = [ "**" ] } }
 
 [dependencies."font::inter"]
 version = "~3"

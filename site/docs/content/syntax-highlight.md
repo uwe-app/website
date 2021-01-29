@@ -94,5 +94,5 @@ apply = { scripts = [ "**" ], styles = [ { to = "**", filter = "monokai.css" } ]
 
 {{import "footer"}}
 
-[syntax theme]: https://github.com/uwe-app/runtime/tree/master/syntax/themes
+[syntax theme]: https://github.com/uwe-app/runtime/tree/main/syntax/themes
 [highlight.js]: https://highlightjs.org/

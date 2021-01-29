@@ -36,4 +36,4 @@ Renders as:
 
 {{import "footer"}}
 
-[std::crumbtrail]: https://github.com/uwe-app/plugins/tree/master/std/crumbtrail
+[std::crumbtrail]: https://github.com/uwe-app/plugins/tree/main/std/crumbtrail

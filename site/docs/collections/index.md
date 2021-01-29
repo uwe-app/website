@@ -1,10 +1,12 @@
 +++
-description = "Create pages from data sources"
+description = "Collections of data sources"
 +++
 
 {{import "header"}}
 
-Data sources create indices from JSON documents that you can reference in your pages; read [configuration]({{link "/docs/collections/configuration/"}}) first.
+Collections let us get data into our templates either using the data assigned to pages or a folder of files.
+
+Templates can then render markup based on the content of these data sources and 
 
 {{> listing}}
 
