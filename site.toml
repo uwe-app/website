@@ -163,6 +163,7 @@ pages = [
   "/docs/collections/data-provider/",
   "/docs/collections/map-indices/",
   "/docs/collections/queries/",
+  "/docs/collections/page-generators/",
 ]
 
 [menu.plugins]

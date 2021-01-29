@@ -22,6 +22,12 @@ The query must specify the collection `name` and the identifier for the `index`;
 
 Using the `desc` flag with a `limit` we can get only the most recent posts in our collection of blog articles.
 
+To see the shape of the query `result` in a page template use a [[docs/getting-started/debugging]] technique like logging the variable:
+
+```handlebars
+\{{log (json result pretty=true)}}
+```
+
 The query result will be assigned as the `result` variable to the page template but if you want to use a different name for the variable set the `parameter`:
 
 ```toml
