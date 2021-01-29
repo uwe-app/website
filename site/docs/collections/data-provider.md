@@ -47,4 +47,25 @@ When loading data sources from a folder file names are important as they become 
 JSON data providers only support the `object` type; if you need to use another type wrap it in an `object` with a property.
 {{/note}}
 
+## Document
+
+If a data source is a single document and you want to expand it out to a collection use a `document` provider.
+
+```toml
+[db.load.colors]
+provider = "document"
+type = "json"
+from = "collections/colors/names.json"
+```
+
+{{#>note}}
+The document value must be an iterable type; either an `array` or `object`.
+{{/note}}
+
+For arrays the item identitier is the index in the array and for objects the property key is the item identifier.
+
+See the [colors example][colors-example] for a complete project using this technique.
+
 {{import "footer"}}
+
+[colors-example]: https://github.com/uwe-app/examples/tree/main/collections/colors
