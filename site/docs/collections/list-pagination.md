@@ -6,7 +6,7 @@ description = "Create pages from results"
 
 Large collections can require paginating for navigation so we built an easy way to paginate result lists.
 
-To see [example site settings][entities-site-settings] check out the [entities example][entities-example] which is a collection of all the HTML entities with pagination enabled.
+To see complete [example site settings][entities-site-settings] check out the [entities example][entities-example] which is a collection of all the HTML entities with pagination enabled.
 
 Enabling pagination for a query result behaves like [[docs/collections/page-generators]] by creating a *synthetic page* for each *page chunk* in the result list.
 
@@ -28,7 +28,9 @@ By adding the page size definition:
 page = { size = 100 }
 ```
 
-We indicate that the result list should be broken down into chunks of at most `100` items and each chunk should be rendered as a page using the `index.md` file as the template.
+The result list will be split into chunks of at most `100` items and each chunk should be rendered as a page using the `index.md` file as the template.
+
+## Redirect
 
 When we enable pagination the `index.md` file will not be rendered directly, instead it has multiple locations organized by page number so we must *redirect to the location of the first page*:
 
@@ -36,6 +38,8 @@ When we enable pagination the `index.md` file will not be rendered directly, ins
 [redirects]
 "/" = "/1/"
 ```
+
+## Navigation
 
 At this point we are generating pages `/1/` until `/22/` listing upto 100 HTML entities on each page but now we should enable navigation for the generated pages.
 
@@ -51,6 +55,42 @@ Then in the `index.md` template render the pagination navigation by calling the 
 
 ```handlebars
 \{{> paginate~}}
+```
+
+## Paginate Object
+
+If you want to design your own partial for navigating pages this is the shape of the `paginate` object exposed to pagination templates:
+
+```json
+{
+  "current": 0,
+  "first": 0,
+  "last": 4,
+  "length": 6,
+  "links": [
+    {
+      "href": "/posts/1/",
+      "index": 0,
+      "name": "1",
+      "preserve": false
+    },
+    {
+      "href": "/posts/2/",
+      "index": 1,
+      "name": "2",
+      "preserve": true
+    }
+  ],
+  "name": "1",
+  "next": {
+    "href": "/posts/2/",
+    "index": 1,
+    "name": "2",
+    "preserve": true
+  },
+  "size": 5,
+  "total": 2
+}
 ```
 
 {{import "footer"}}
