@@ -65,4 +65,4 @@ Once you have configured multi-lingual support the target build directory now co
 
 Which will dynamically generate a root `index.html` page that redirects to your default language.
 
-{{> back}}
+{{import "footer"}}

@@ -11,6 +11,6 @@ Live reload is used during development by passing the `--live` option to automat
 notify = true
 ```
 
-* `notify` Show browser notification whilst building (default `true`).
+* `notify` Show browser notification whilst building (default `true`)
 
-{{> back}}
+{{import "footer"}}

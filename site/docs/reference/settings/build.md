@@ -4,25 +4,16 @@ description = "Configure the build"
 
 {{import "header"}}
 
-Settings for the build process, for example:
+The `[build]` table sets the default compiler profile; see [[docs/other/profiles]] for more information.
 
-```toml
-[build]
-source = "site"
-target = "build"
-```
-
-* `source` Read source files from the input directory (default: `site`).
-* `target` Destination for all builds (default: `build`).
-* `strict` Error when an unknown template variable is detected (default: `true`).
-* `assets` Path to use for finding assets (default: `assets`).
-* `partials` Path to use for finding partials (default: `partials`).
-* `collections` Path to use for finding data sources(default: `collections`).
-* `resources` Path to use for finding resources (default: `resources`).
-* `rewrite-index` Rewrite to directory with index.html (default: `false`).
-* `render` List of additional file extensions to render as pages (default: `[]`).
-
-Relative paths are resolved using `source` so partials should go in `site/partial` etc.
+* `source` Read source files from the input directory (default `site`)
+* `target` Destination for all builds (default `build`)
+* `strict` Error when an unknown template variable is detected (default `true`)
+* `rewrite-index` Rewrite to directory with index.html (default `true`)
+* `assets` Path to use for finding assets (default `assets`)
+* `partials` Path to use for finding partials (default `partials`)
+* `collections` Path to use for finding collections (default `collections`)
+* `resources` Path to use for finding resources (default `resources`)
 
 ### Extend
 
@@ -42,4 +33,4 @@ It is possible to include any type of file; we use it at times to render JSON do
 extend = ["html", "json"]
 ```
 
-{{> back}}
+{{import "footer"}}

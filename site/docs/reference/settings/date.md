@@ -4,7 +4,7 @@ description = "Custom date formats"
 
 {{import "header"}}
 
-The `date` settings allow adding custom data format specifiers:
+The `[date.formats]` table allows adding custom date formats:
 
 ```toml
 [date.formats]
@@ -20,4 +20,4 @@ Note that you can overwrite the built-in formats if you wish to, for example:
 date-short = "%d/%m/%y"
 ```
 
-{{> back}}
+{{import "footer"}}

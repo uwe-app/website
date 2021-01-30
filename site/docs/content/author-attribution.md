@@ -12,17 +12,7 @@ name = "Muji"
 url = "https://tmpfs.org"
 ```
 
-Afterwards authors can be referenced by their alias which in this example is `tmpfs`.
-
-Each author entry supports these fields:
-
-* `name`: The author name (required).
-* `url`: Link to a website for the author (optional).
-* `avatar`: Link to an image for the author (optional).
-
-{{#> note label="info"}}
-The url and avatar must be absolute URLs.
-{{/note}}
+Afterwards authors can be referenced by their alias which in this example is `tmpfs`, see [[docs/reference/settings/authors]] for the complete list of fields.
 
 ## Global Authors
 
@@ -46,10 +36,6 @@ To assign author(s) to pages refer to them in the front matter:
 authors = ["tmpfs"]
 +++
 ```
-
-{{#> note type="warn" label="warn"}}
-Page authors override global authors.
-{{/note}}
 
 ## Template Data
 

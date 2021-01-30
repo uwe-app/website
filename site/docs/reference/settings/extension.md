@@ -30,4 +30,4 @@ Often you may just wish to add some types to be render as templates in which cas
 extend = ["html"]
 ```
 
-{{> back}}
+{{import "footer"}}

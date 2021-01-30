@@ -4,9 +4,9 @@ description = "Settings for the project"
 
 {{import "header"}}
 
-The project settings in `site.toml` configures various information for the project;  this page describes the required settings for a project. See the [[docs/reference/settings|settings reference]] for detailed information.
+The settings for a project go in `site.toml`;  this page describes the required settings for a project. See the [[docs/reference/settings|settings reference]] for a complete reference to all available settings.
 
-The minimum required settings for a project are shown below:
+The minimum required settings are:
 
 ```toml
 lang = "en"

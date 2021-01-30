@@ -30,4 +30,4 @@ allow = [
 
 Allow paths **must not** begin with a slash.
 
-{{> back}}
+{{import "footer"}}
