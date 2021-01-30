@@ -64,8 +64,8 @@ The document value must be an iterable type; either an `array` or `object`.
 
 For arrays the item identitier is the index in the array and for objects the property key is the item identifier.
 
-See the [colors example][colors-example] for a complete project using this technique.
+See the [document example][document-example] for a complete project using this technique.
 
 {{import "footer"}}
 
-[colors-example]: https://github.com/uwe-app/examples/tree/main/collections/colors
+[document-example]: https://github.com/uwe-app/examples/tree/main/collections/document
