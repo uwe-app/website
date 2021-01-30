@@ -1,5 +1,5 @@
 +++
-description = "Collections settings"
+description = "Collections database"
 +++
 
 {{import "header"}}
