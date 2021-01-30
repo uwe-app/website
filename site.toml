@@ -164,6 +164,7 @@ pages = [
   "/docs/collections/map-indices/",
   "/docs/collections/queries/",
   "/docs/collections/page-generators/",
+  "/docs/collections/list-pagination/",
 ]
 
 [menu.plugins]
