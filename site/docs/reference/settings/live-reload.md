@@ -1,16 +1,15 @@
 +++
-description = "Live reload notifications and controls"
+description = "Live reload behaviors"
 +++
 
 {{import "header"}}
 
-Live reload is used during development by passing the `--live` option to automatically refresh the browser window when files have changed; these are the default settings:
+The `[live-reload]` table exposes some control over the live reload behavior.
 
-```toml
-[livereload]
-notify = true
-```
+{{#> note}}
+These settings are currently considered experimental and may be removed in a future version.
+{{/note}}
 
-* `notify` Show browser notification whilst building (default `true`)
+* `follow-edits` Navigate in the browser as pages are edited (optional, default `false`)
 
 {{import "footer"}}

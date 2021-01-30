@@ -13,7 +13,7 @@ Add the [std::feed][] plugin to your project dependencies and configure generati
 version = "~2"
 ```
 
-Here is an example from the [blog blueprint settings][blog-settings] which stores it's articles in a `posts` folder, to generate feeds for the blog posts add this to your [[docs/getting-started/site-settings]]:
+Here is an example from the [blog blueprint settings][blog-settings] which stores it's articles in a posts folder, to generate feeds for the blog posts add this to your [[docs/getting-started/site-settings]]:
 
 ```toml
 [feed.posts]
@@ -28,7 +28,7 @@ excludes = ["/posts/[0-9]*/", "/posts/"]
 includes = ["/", "/posts/**/*.html"]
 ```
 
-Now when you compile your project the feeds will automatically be generated using the pages in the `posts` folder generating the feeds for each support type:
+Now when you compile your project the feeds will automatically be generated using the pages in the `posts` folder generating the feeds for each type of feed.
 
 * JSON `posts/feed.json`
 * RSS `posts/rss.xml`

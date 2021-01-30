@@ -6,7 +6,7 @@ version = "1.0.0"
 url = "https://github.com/uwe-app/website/"
 edit-path = "edit/main/"
 
-[livereload]
+[live-reload]
 follow-edits = true
 
 [build]
