@@ -50,7 +50,7 @@ url = "https://tmpfs.org"
 [page]
 image = "/assets/img/social.jpg"
 description = "Universal Web Editor"
-keywords = "Fast, Static, Website, Generator, Markdown, Handlebars, Mdbook, Rust"
+keywords = "Fast, Secure, Static, Website, Generator, Blog, Platform"
 authors = [ "tmpfs" ]
 
 [page.http-equiv]
