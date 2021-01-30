@@ -6,35 +6,46 @@ description = "Syndicate your content"
 
 Feeds are integrated with the compiler but are optional so they need to be enabled.
 
-Add the [std::feed][] plugin to your project dependencies to use the standard feed templates:
+Add the [std::feed][] plugin to your project dependencies and configure generation of feeds to a `target` folder.
 
 ```toml
-[dependencies]
-"std::feed" = { version = "~1" }
+[dependencies."std::feed"]
+version = "~2"
 ```
 
-Then you can configure generation of feeds for a `target` folder.
-
-For example a blog normally stores it's articles in a `posts` folder, to configure feeds for the blog posts add this to your `site.toml` settings:
+Here is an example from the [blog blueprint settings][blog-settings] which stores it's articles in a `posts` folder, to generate feeds for the blog posts add this to your [[docs/getting-started/site-settings]]:
 
 ```toml
 [feed.posts]
-title = "Feed title"
-description = "Feed description"
+title = "Feed Title"
+description = "Short feed description"
 favicon = "/favicon.ico"
 target = "posts"
 includes = ["/posts/**"]
 excludes = ["/posts/[0-9]*/", "/posts/"]
+
+[feed.posts.alternate]
+includes = ["/", "/posts/**/*.html"]
 ```
 
-Now when you compile your project the feeds will automatically be generated using the pages in the `posts` folder:
+Now when you compile your project the feeds will automatically be generated using the pages in the `posts` folder generating the feeds for each support type:
 
-* JSON (`posts/feed.json`)
-* RSS (`posts/rss.xml`)
-* Atom (`posts/atom.xml`)
+* JSON `posts/feed.json`
+* RSS `posts/rss.xml`
+* Atom `posts/atom.xml`
 
-We also add `<link rel="alternate">` elements to help readers find your feeds <3.
+## Alternate
+
+The settings for `alternate` are used to indicate which *output files* should link to the generated feeds:
+
+```toml
+[feed.posts.alternate]
+includes = ["/", "/posts/**/*.html"]
+```
+
+Files that match the glob patterns include `<link rel="alternate">` elements for each feed to help readers find your feeds <3.
 
 {{import "footer"}}
 
 [std::feed]: https://github.com/uwe-app/plugins/tree/main/std/feed
+[blog-settings]: https://github.com/uwe-app/blueprints/blob/main/blog/site.toml
