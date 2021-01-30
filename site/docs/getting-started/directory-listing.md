@@ -9,8 +9,8 @@ As you start to design the structure for your website it is useful to quickly cr
 The `listing` partial is part of the [std::listing][] plugin so you should add it to the dependencies in your site settings:
 
 ```toml
-[dependencies]
-"std::listing" = { version = "~1" }
+[dependencies."std::listing"]
+version = "~1"
 ```
 
 It will render links to all the pages in the current folder *except the index page* so is ideal for `index.md` files.
