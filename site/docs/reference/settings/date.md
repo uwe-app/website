@@ -11,9 +11,10 @@ The `[date.formats]` table allows adding custom date formats:
 timestamp = "%s"
 ```
 
-You can then reference the custom format using `date-formats.timestamp`, see the [[docs/reference/helpers/date|date helper]] for examples.
+You can then reference the custom format using `date-formats.timestamp`, see the [[docs/reference/helpers/date|date helper]] for examples and the [list of format specifiers](https://docs.rs/chrono/latest/chrono/format/strftime/index.html#specifiers) for more information on the formatting options available.
 
-Note that you can overwrite the built-in formats if you wish to, for example:
+
+You can overwrite the built-in formats if necessary, for example:
 
 ```toml
 [date.formats]
