@@ -6,6 +6,8 @@ description = "Complete guide to the site settings"
 
 This section provides the definitive reference to all the settings in `site.toml`; see [[docs/getting-started/site-settings]] for example usage.
 
+Settings are defined as [TOML][] which uses the term *table* which is often also called an *object*, *map* or *dictionary*.
+
 Minimum required settings are shown below:
 
 ```toml
@@ -34,3 +36,4 @@ For more settings see the relevant section:
 {{> back}}
 
 [semver]: https://semver.org/
+[TOML]: https://toml.io/

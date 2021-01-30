@@ -13,7 +13,6 @@ The `[build]` table sets the default compiler profile; see [[docs/other/profiles
 * `assets` Path to use for finding assets (default `assets`)
 * `partials` Path to use for finding partials (default `partials`)
 * `collections` Path to use for finding collections (default `collections`)
-* `resources` Path to use for finding resources (default `resources`)
 
 ### Extend
 
