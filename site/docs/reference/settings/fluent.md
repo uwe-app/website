@@ -2,7 +2,7 @@
 description = "Support multiple languages"
 +++
 
-{{> crumbtrail}}
+{{import "header"}}
 
 The `[fluent]` table is optional but allows modifying the translation parameters if necessary; we recommend using the default values.
 
@@ -10,11 +10,11 @@ The `[fluent]` table is optional but allows modifying the translation parameters
 * `shared` The name of the file used for shared messages (optional, default `core.ftl`)
 
 {{#> note}}
-The default fallback language is the primary language for the project defined by the `lang` setting.
+The default fallback language is the primary language for the project defined by the top-level `lang` setting.
 {{/note}}
 
 {{#> note}}
-The shared file must exist in the `locales` directory.
+The shared file must exist in the `locales` directory, ie: `site/locales/core.ftl`.
 {{/note}}
 
 {{import "footer"}}
