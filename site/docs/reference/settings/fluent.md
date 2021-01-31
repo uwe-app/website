@@ -4,65 +4,17 @@ description = "Support multiple languages"
 
 {{> crumbtrail}}
 
-To configure your website for multi-lingual support add a `fluent` section to the settings in `site.toml`.
+The `[fluent]` table is optional but allows modifying the translation parameters if necessary; we recommend using the default values.
 
-```toml
-[fluent]
-fallback = "en"
-```
+* `fallback` Identifier of the fallback language (optional)
+* `shared` The name of the file used for shared messages (optional, default `core.ftl`)
 
-Which will read your [fluent](https://www.projectfluent.org/) language files from `site/locales` and configure the build for multi-lingual output.
+{{#> note}}
+The default fallback language is the primary language for the project defined by the `lang` setting.
+{{/note}}
 
-To learn how to get your messages into your page templates see the [[docs/reference/helpers/fluent|fluent helper]].
-
-Your locales directory should have a `main.ftl` file in each language directory. An example layout:
-
-```
-site/locales
-├── en
-│   └── main.ftl
-└── id
-    └── main.ftl
-```
-
-If you want a bundle to be shared across all languages use `shared`:
-
-```toml
-[fluent]
-fallback = "en"
-shared = "core.ftl"
-```
-
-The shared resource bundle is resolved relative to the locales directory so the example layout would now look like:
-
-```
-site/locales
-├── core.ftl
-├── en
-│   └── main.ftl
-└── id
-    └── main.ftl
-```
-
-### Locales
-
-If you want to use a different folder name use the `locales` option:
-
-```toml
-[fluent]
-fallback = "en"
-locales = "i18n"
-```
-
-### Redirect
-
-Once you have configured multi-lingual support the target build directory now contains a folder for each locale. To redirect to a specific locale by default use a [[docs/pages/redirects|redirect]]:
-
-```toml
-[redirect]
-"/" = "/en/"
-```
-
-Which will dynamically generate a root `index.html` page that redirects to your default language.
+{{#> note}}
+The shared file must exist in the `locales` directory.
+{{/note}}
 
 {{import "footer"}}
