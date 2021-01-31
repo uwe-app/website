@@ -19,7 +19,7 @@ include-commit = true
 #profiles = true
 
 [dependencies]
-"std::syntax" = "^1"
+"std::syntax" = "^1.0.1"
 #"std::syntax" = { version =  "~1", apply = { styles = [ { to = "**", filter = "base16-*.css" } ] } }
 #"std::syntax" = { version = "^1", apply = { styles = [ { to = "**", filter = "solarized-light.css" } ] } }
 "std::listing" = "^1"
@@ -37,6 +37,8 @@ features = ["regular"]
 
 [syntax]
 theme = "Solarized (light)"
+[syntax.map]
+rust = "rs"
 #profiles = ["release"]
 
 [transform.html]
