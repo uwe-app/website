@@ -22,7 +22,7 @@ excludes = ["index.*"]
 This collection has an identifier of `posts` (the name after `db.load`) which we will need later to reference the collection.
 {{/note}}
 
-The first part of this definition is the `provider` which uses a value of `pages` to indicate that the data for this collection should come from our pages. The `type` field is used to indicate the format of the data to load; currently `toml` and `json` are supported values; however, for a `provider` with a value of `pages` this should always be `toml`.
+The first part of this definition is the `provider` which uses a value of `pages` to indicate that the data for this collection should come from our pages. The `type` field is used to indicate the format of the data to load; currently `toml`, `json` and `csv` are supported values; however, for a `provider` with a value of `pages` this should always be `toml`.
 
 The `from` field indicates that we are only interested in pages inside the `posts` folder for this collection - we are loading data *from* that location. The `from` path is resolved relative to the main `site` folder and must be a relative path.
 
