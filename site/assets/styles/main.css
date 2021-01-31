@@ -244,10 +244,18 @@ li > a + p:last-child {
   font-size: 0.9rem;
 }
 
-/* For external stylesheets used for syntax highlighting remove the 
+/* For external stylesheets used for syntax highlighting remove the
  * background color so it does not clash with our dark mode handling */
 .code {
   background-color: transparent;
+}
+
+.footnote-definition {
+  display: flex;
+}
+
+.footnote-definition-label {
+  margin-right: 2em;
 }
 
 @media screen and (max-width: 480px) {

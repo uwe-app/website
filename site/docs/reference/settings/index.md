@@ -6,7 +6,7 @@ description = "Complete guide to the site settings"
 
 This section provides the definitive reference to all the settings in `site.toml`; see [[docs/getting-started/site-settings]] for example usage.
 
-Settings are defined as [TOML][] which uses the term *table* also called an *object*, *map* or *dictionary*.
+Settings are defined as TOML [^1] which uses the term *table* also called an *object*, *map* or *dictionary*. Language identifiers are Unicode Language Identfiers [^2].
 
 Minimum required settings are shown below:
 
@@ -37,3 +37,7 @@ For more settings see the relevant section:
 
 [semver]: https://semver.org/
 [TOML]: https://toml.io/
+
+[^1]: [TOML][] is a language well suited to configuration as it is easy to read, write and parse and supports comments unlike other alternatives such as JSON.
+
+[^2]: Languages must be identified using [Unicode Language Identfiers](https://unicode.org/reports/tr35/tr35.html#Unicode_language_identifier).
