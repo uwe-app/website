@@ -59,3 +59,9 @@ name = "std::syntax"
 version = "1.0.1"
 checksum = "ce53850cef8e9d99480fe3f3ac2a9899ccdc9a5ca8ce73f36d3e41cfefe9554a"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::crumbtrail"
+version = "1.0.3"
+checksum = "efb795c2ff054be4239c7ef3a7f3251b76f474df74e42fda0b043a4ed64bf27d"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"

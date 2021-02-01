@@ -22,12 +22,6 @@ Then call the partial supplied by the plugin wherever you want to render a crumb
 \{{> crumbtrail~}}
 ```
 
-Which will create markup like this:
-
-```html
-{{> crumbtrail~}}
-```
-
 The [plugin styles](https://github.com/uwe-app/plugins/blob/main/std/crumbtrail/styles/crumbtrail.css) are small so you may prefer to copy them into your stylesheet. If you do copy the styles to your project change the dependency so you that the plugin styles are not applied; it should look like this:
 
 ```toml
