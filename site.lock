@@ -10,14 +10,14 @@ version = "3.15.0"
 
 [[package]]
 name = "std::core"
-version = "4.1.13"
-checksum = "8df4fc24727a00b4fb47fdf2d5a2a442742afb6f8b6c68fc412103a09f8989b7"
+version = "5.0.0"
+checksum = "b2f567c7e721c375078dbba3aa0499a29cfd0425979533655e9268c697c6089d"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::crumbtrail"
-version = "1.0.2"
-checksum = "9a0a40f3becdb143a6c4507e65ebab7543465d18b94d4ce7be2587870caefbf4"
+version = "1.0.3"
+checksum = "efb795c2ff054be4239c7ef3a7f3251b76f474df74e42fda0b043a4ed64bf27d"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
@@ -38,8 +38,8 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::menu"
-version = "1.0.0"
-checksum = "567fc490700c08e820c7d9d73150037a75464ffd814e5beb36ec202856ed5195"
+version = "1.0.2"
+checksum = "8c9d6e10eec0f9c449a071310c4d8a82fd38bab80062b182493dd70cac194146"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
@@ -58,10 +58,4 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 name = "std::syntax"
 version = "1.0.1"
 checksum = "ce53850cef8e9d99480fe3f3ac2a9899ccdc9a5ca8ce73f36d3e41cfefe9554a"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-
-[[package]]
-name = "std::crumbtrail"
-version = "1.0.3"
-checksum = "efb795c2ff054be4239c7ef3a7f3251b76f474df74e42fda0b043a4ed64bf27d"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
