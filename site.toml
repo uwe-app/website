@@ -226,6 +226,7 @@ pages = [
   "/docs/reference/helpers/",
   "/docs/reference/settings/",
   "/docs/reference/commands/",
+  "/docs/reference/troubleshooting/",
 ]
 
 #[profile.inc]
