@@ -71,14 +71,6 @@ main > header + article {
   max-width: none;
 }
 
-/*#sidebar {*/
-  /*background: white;*/
-/*}*/
-
-body > aside > nav > ul > li {
-  padding: 0 1rem;
-}
-
 svg {
   fill: currentColor;
 }
@@ -87,16 +79,29 @@ li.selected {
   background: var(--std-background-active);
 }
 
+body > aside {
+  font-size: 15px;
+}
+
 body > aside ul {
   list-style-type: none;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
 
-body > aside > nav > p {
-  margin: 1em 1em 0.5em 1em;
-  text-transform: uppercase;
+body > aside summary {
+  margin: 0.5em 0;
   font-size: 14px;
+}
+
+body > aside > nav {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+body > aside > nav > p {
+  margin: 0 1em 0.5em 0;
 }
 
 body > aside > nav > p > a {
@@ -256,6 +261,36 @@ li > a + p:last-child {
 
 .footnote-definition-label {
   margin-right: 2em;
+}
+
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary::before {
+    content: '▸';
+    margin-right: 0.5em;
+}
+
+details[open] > summary::before {
+    content: '▾';
+    margin-right: 0.5em;
+}
+
+details {
+    margin: 0 1em;
+}
+
+details > ul {
+  margin-left: 1em !important;
+}
+
+details[open] > summary {
+    margin-bottom: 0.5em;
 }
 
 @media screen and (max-width: 480px) {

@@ -75,11 +75,11 @@ variants = [{ description = true, suffix = "-idx" }]
 
 [menu.primary]
 pages = [
+  "/docs/installation/",
   "/docs/",
-]
-
-[menu.primary-footer]
-pages = [
+  "/docs/tutorials/",
+  "/docs/guides/",
+  "/docs/reference/",
   "/faq/",
   "/contact/",
 ]
