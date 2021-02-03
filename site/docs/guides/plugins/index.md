@@ -13,7 +13,7 @@ See the [plugins repository][plugins] for the source to all the plugins in the r
 {{#> note label="info"}}
 Currently publishing plugins is not a public feature as we refine the plugin system. Once plugins are considered stable we will consider how best to support publishing plugins to the plugin registry.
 
-If you are working in a team and need to share plugins the workaround for now is to use `git` [[docs/plugins/dependencies]].
+If you are working in a team and need to share plugins the workaround for now is to use `git` [[docs/guides/plugins/dependencies]].
 {{/note}}
 
 [plugins]: https://github.com/uwe-app/plugins

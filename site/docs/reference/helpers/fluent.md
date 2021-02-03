@@ -4,7 +4,7 @@ description = "Render translations"
 
 {{import "header"}}
 
-The `fluent` helper is used to render messages for the current language, see [[docs/translate]] for more information on creating translations.
+The `fluent` helper is used to render messages for the current language, see [[docs/guides/translate]] for more information on creating translations.
 
 Let's say we put a greeting in `locales/en/main.ftl` such as:
 

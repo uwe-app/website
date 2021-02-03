@@ -26,7 +26,7 @@ entries = 20000
 ```
 
 {{#> note label="info"}}
-When site maps are enabled a [[docs/search-engines/robots]] file is always generated so we can let bots know where to find the site maps.
+When site maps are enabled a [[docs/guides/search-engines/robots]] file is always generated so we can let bots know where to find the site maps.
 {{/note}}
 
 {{import "footer"}}

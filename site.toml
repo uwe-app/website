@@ -75,11 +75,6 @@ variants = [{ description = true, suffix = "-idx" }]
 
 [menu.primary]
 pages = [
-  "/docs/installation/",
-  "/docs/",
-  "/docs/tutorials/",
-  "/docs/guides/",
-  "/docs/reference/",
   "/faq/",
   "/contact/",
 ]
@@ -87,17 +82,8 @@ pages = [
 [menu.docs]
 pages = [
   "/docs/installation/",
-  "/docs/guides/getting-started/",
-  "/docs/guides/navigation/",
-  "/docs/guides/pages/",
-  "/docs/guides/content/",
-  "/docs/guides/collections/",
-  "/docs/plugins/",
-  "/docs/design-patterns/",
-  "/docs/search-engines/",
-  "/docs/translate/",
-  "/docs/publish/",
-  "/docs/other/",
+  "/docs/guides/",
+  "/docs/tutorials/",
   "/docs/reference/",
 ]
 
@@ -110,6 +96,21 @@ pages = [
   "/docs/installation/offline-documentation/",
   "/docs/installation/clean-install/",
   "/docs/installation/uninstall/",
+]
+
+[menu.guides]
+pages = [
+  "/docs/guides/getting-started/",
+  "/docs/guides/navigation/",
+  "/docs/guides/pages/",
+  "/docs/guides/content/",
+  "/docs/guides/collections/",
+  "/docs/guides/plugins/",
+  "/docs/guides/design-patterns/",
+  "/docs/guides/search-engines/",
+  "/docs/guides/translate/",
+  "/docs/guides/publish/",
+  "/docs/guides/other/",
 ]
 
 [menu.getting-started]
@@ -171,54 +172,54 @@ pages = [
 
 [menu.plugins]
 pages = [
-  "/docs/plugins/dependencies/",
-  "/docs/plugins/apply/",
-  "/docs/plugins/using-templates/",
+  "/docs/guides/plugins/dependencies/",
+  "/docs/guides/plugins/apply/",
+  "/docs/guides/plugins/using-templates/",
 ]
 
 [menu.design-patterns]
 pages = [
-  "/docs/design-patterns/sidebar/",
-  "/docs/design-patterns/crumbtrails/",
-  "/docs/design-patterns/table-of-contents/",
-  "/docs/design-patterns/sticky-header/",
-  "/docs/design-patterns/notes/",
+  "/docs/guides/design-patterns/sidebar/",
+  "/docs/guides/design-patterns/crumbtrails/",
+  "/docs/guides/design-patterns/table-of-contents/",
+  "/docs/guides/design-patterns/sticky-header/",
+  "/docs/guides/design-patterns/notes/",
 ]
 
 [menu.seo]
 pages = [
-  "/docs/search-engines/no-index/",
-  "/docs/search-engines/robots/",
-  "/docs/search-engines/site-maps/",
+  "/docs/guides/search-engines/no-index/",
+  "/docs/guides/search-engines/robots/",
+  "/docs/guides/search-engines/site-maps/",
 ]
 
 [menu.translate]
 pages = [
-  "/docs/translate/introduction/",
-  "/docs/translate/languages/",
-  "/docs/translate/messages/",
-  "/docs/translate/pages/",
+  "/docs/guides/translate/introduction/",
+  "/docs/guides/translate/languages/",
+  "/docs/guides/translate/messages/",
+  "/docs/guides/translate/pages/",
 ]
 
 [menu.publish]
 pages = [
-  "/docs/publish/self-hosting/",
-  "/docs/publish/amazon-web-services/",
+  "/docs/guides/publish/self-hosting/",
+  "/docs/guides/publish/amazon-web-services/",
 ]
 
 [menu.other]
 pages = [
-  "/docs/other/workspaces/",
-  "/docs/other/profiles/",
-  "/docs/other/hooks/",
-  "/docs/other/content-security-policy/",
-  "/docs/other/json-templates/",
-  "/docs/other/link-catalog/",
-  "/docs/other/ignores/",
-  "/docs/other/error-page/",
-  "/docs/other/strict-mode/",
-  "/docs/other/parallel-builds/",
-  "/docs/other/ssl-certificates/",
+  "/docs/guides/other/workspaces/",
+  "/docs/guides/other/profiles/",
+  "/docs/guides/other/hooks/",
+  "/docs/guides/other/content-security-policy/",
+  "/docs/guides/other/json-templates/",
+  "/docs/guides/other/link-catalog/",
+  "/docs/guides/other/ignores/",
+  "/docs/guides/other/error-page/",
+  "/docs/guides/other/strict-mode/",
+  "/docs/guides/other/parallel-builds/",
+  "/docs/guides/other/ssl-certificates/",
 ]
 
 [menu.reference]

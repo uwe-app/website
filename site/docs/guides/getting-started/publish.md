@@ -21,6 +21,6 @@ Then you can upload the files in `build/release` to your preferred hosting provi
 
 ## Providers
 
-You can publish to supported hosting providers using the `publish` command please see [[docs/publish]] for more information.
+You can publish to supported hosting providers using the `publish` command please see [[docs/guides/publish]] for more information.
 
 {{import "footer"}}

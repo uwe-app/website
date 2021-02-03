@@ -19,7 +19,7 @@ uwe build .
 uwe server . --skip-build
 ```
 
-It is strongly recommended that you configure [[docs/other/ssl-certificates]] when self-hosting.
+It is strongly recommended that you configure [[docs/guides/other/ssl-certificates]] when self-hosting.
 
 Of course, you can do SSL termination using another web server and configure a reverse proxy to the UWE server which may be easier if you are already using another web server.
 

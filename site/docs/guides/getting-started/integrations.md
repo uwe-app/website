@@ -4,7 +4,7 @@ description = "Integrate with external build tools"
 
 {{import "header"}}
 
-To integrate a Javscript build tool or CSS preprocessor add a [[docs/other/hooks|hook]] to your project. This page describes the steps for creating an integration and you can find examples for several popular tools in the [integrations repository][].
+To integrate a Javscript build tool or CSS preprocessor add a [[docs/guides/other/hooks|hook]] to your project. This page describes the steps for creating an integration and you can find examples for several popular tools in the [integrations repository][].
 
 For the best performance compiling Javascript/Typescript we recommend using the [swc][swc-example] integration.
 
@@ -23,7 +23,7 @@ For the best performance compiling Javascript/Typescript we recommend using the 
 
 ## Integration Steps
 
-To integrate with an external build tool add a [[docs/other/hooks|hook]] which runs whenever a website is compiled; each integration also runs the hook when build source files are changed and live reload is enabled (`uwe dev --exec`).
+To integrate with an external build tool add a [[docs/guides/other/hooks|hook]] which runs whenever a website is compiled; each integration also runs the hook when build source files are changed and live reload is enabled (`uwe dev --exec`).
 
 ### Modules
 
@@ -35,7 +35,7 @@ Source files should go in the `site` directory so they can trigger a live reload
 
 ### Target
 
-Build tools executed via hooks should write build products to the `BUILD_TARGET` environment variable which is automatically exposed to the command when a hook executes and points to the output directory for the current build. The [[docs/other/hooks]] documentation has more information about the environment variables available to build tools.
+Build tools executed via hooks should write build products to the `BUILD_TARGET` environment variable which is automatically exposed to the command when a hook executes and points to the output directory for the current build. The [[docs/guides/other/hooks]] documentation has more information about the environment variables available to build tools.
 
 Do **not write build products** to the `site` directory otherwise you may **create an infinite loop** executing the hook!
 
@@ -97,7 +97,7 @@ dynamic = true
 
 The compiler will automatically set `NODE_ENV=production` for release builds (`uwe build --exec` or `uwe server --exec`) and we recommend using this environment variable to add production optimizations in build tool configuration files (see an example in [postcss.config.js][]).
 
-For some build tools this may not be possible in which case you can set a hook just for the release [[docs/other/profiles]]; for example:
+For some build tools this may not be possible in which case you can set a hook just for the release [[docs/guides/other/profiles]]; for example:
 
 ```toml
 \[[hooks.run]]

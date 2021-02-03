@@ -7,7 +7,7 @@ description = "Render a table of contents list"
 Render a table of contents list.
 
 {{#> note label="info"}}
-This helper is only available when the `toc` transform is enabled, see [table of contents]({{link "/docs/design-patterns/table-of-contents/"}}) for more detail.
+This helper is only available when the `toc` transform is enabled, see [table of contents]({{link "/docs/guides/design-patterns/table-of-contents/"}}) for more detail.
 {{/note}}
 
 ## Parameters

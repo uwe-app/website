@@ -7,7 +7,7 @@ description = "Create crumbtrails"
 The `crumbtrail` helper iterates parent folders and can be used to create a navigation menu like the one above ^^. If a parent folder does not have an index file it will not be included.
 
 {{#> note label="info"}}
-Prefer the [std::crumbtrail][] plugin over using this helper directly; see [[docs/design-patterns/crumbtrails]] for more information.
+Prefer the [std::crumbtrail][] plugin over using this helper directly; see [[docs/guides/design-patterns/crumbtrails]] for more information.
 {{/note}}
 
 ## Local Variables

@@ -62,7 +62,7 @@ uwe
 
 When you use live reload (`uwe dev`) in a workspace all of the projects are available but only the first project in the list will be launched.
 
-Assuming [[docs/other/ssl-certificates|SSL certificates]] are enabled the projects can be accessed using the following URLs 
+Assuming [[docs/guides/other/ssl-certificates|SSL certificates]] are enabled the projects can be accessed using the following URLs 
 
 * `https://example-com.loopback.space:8843/`
 * `https://blog-example-com.loopback.space:8843/`

@@ -24,7 +24,7 @@ description = "About us"
 About content.
 ```
 
-Assuming we have already configured the project for the French language (see [[docs/translate/languages]]) then we could create the `about.fr.md` with this content:
+Assuming we have already configured the project for the French language (see [[docs/guides/translate/languages]]) then we could create the `about.fr.md` with this content:
 
 ```markdown
 +++
@@ -39,7 +39,7 @@ description = "À propos de nous"
 
 ## Fallback
 
-When we create a translated page the content in the new page is used by default but if the existing content is already localized (using [[docs/translate/messages]]) then it is possible to defer to the fallback content but still override the page data using the `fallback` flag.
+When we create a translated page the content in the new page is used by default but if the existing content is already localized (using [[docs/guides/translate/messages]]) then it is possible to defer to the fallback content but still override the page data using the `fallback` flag.
 
 ### site/locales/en/main.ftl
 
