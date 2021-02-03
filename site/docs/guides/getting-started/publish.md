@@ -15,8 +15,8 @@ uwe build .
 Then you can upload the files in `build/release` to your preferred hosting provider.
 
 {{#> note label="remember"}}
-* If you are using [[docs/pages/redirects]] you will need to configure them on your server.
-* The server should be configured to use a [[docs/pages/trailing-slash]] for folders.
+* If you are using [[docs/guides/pages/redirects]] you will need to configure them on your server.
+* The server should be configured to use a [[docs/guides/pages/trailing-slash]] for folders.
 {{/note}}
 
 ## Providers

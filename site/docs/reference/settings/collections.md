@@ -4,11 +4,11 @@ description = "Collections database"
 
 {{import "header"}}
 
-See the [[docs/collections]] section for more information about working with collections.
+See the [[docs/guides/collections]] section for more information about working with collections.
 
 ## Data Provider
 
-These fields can be used when creating a collection data provider, see [[docs/collections/data-provider]] for example usage.
+These fields can be used when creating a collection data provider, see [[docs/guides/collections/data-provider]] for example usage.
 
 * `provider` The provider implementation; one of `pages`, `files` or `document` (required)
 * `type` The type of the data source; one of `json` or `toml` (required)
@@ -17,7 +17,7 @@ These fields can be used when creating a collection data provider, see [[docs/co
 
 ## Index
 
-These fields can be used when defining a collections index, see [[docs/collections/map-indices]] for example usage.
+These fields can be used when defining a collections index, see [[docs/guides/collections/map-indices]] for example usage.
 
 * `key` Dot-delimited path to a property in the source document (required)
 
@@ -27,7 +27,7 @@ The wildcard value `*` for `key` will match all documents.
 
 ## Query
 
-These fields can be used in page queries, see [[docs/collections/queries]] for example usage.
+These fields can be used in page queries, see [[docs/guides/collections/queries]] for example usage.
 
 * `name` The name of the collection (required)
 * `index` The name of the index (required)

@@ -29,7 +29,7 @@ keywords = "Website, Project, Keywords"
 authors = [{ name = "Author Name", url = "https://example.com" }]
 ```
 
-See the [[docs/pages]] documentation for detailed information on the available fields.
+See the [[docs/guides/pages]] documentation for detailed information on the available fields.
 
 {{import "footer"}}
 

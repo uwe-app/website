@@ -89,9 +89,9 @@ pages = [
   "/docs/installation/",
   "/docs/guides/getting-started/",
   "/docs/guides/navigation/",
-  "/docs/pages/",
-  "/docs/content/",
-  "/docs/collections/",
+  "/docs/guides/pages/",
+  "/docs/guides/content/",
+  "/docs/guides/collections/",
   "/docs/plugins/",
   "/docs/design-patterns/",
   "/docs/search-engines/",
@@ -143,30 +143,30 @@ pages = [
 
 [menu.pages]
 pages = [
-  "/docs/pages/combining-pages/",
-  "/docs/pages/removing-pages/",
-  "/docs/pages/drafts/",
-  "/docs/pages/redirects/",
-  "/docs/pages/clean-urls/",
-  "/docs/pages/trailing-slash/",
+  "/docs/guides/pages/combining-pages/",
+  "/docs/guides/pages/removing-pages/",
+  "/docs/guides/pages/drafts/",
+  "/docs/guides/pages/redirects/",
+  "/docs/guides/pages/clean-urls/",
+  "/docs/guides/pages/trailing-slash/",
 ]
 
 [menu.content]
 pages = [
-  "/docs/content/author-attribution/",
-  "/docs/content/reading-time/",
-  "/docs/content/feeds/",
-  "/docs/content/syntax-highlight/",
-  "/docs/content/edit-on-github/",
+  "/docs/guides/content/author-attribution/",
+  "/docs/guides/content/reading-time/",
+  "/docs/guides/content/feeds/",
+  "/docs/guides/content/syntax-highlight/",
+  "/docs/guides/content/edit-on-github/",
 ]
 
 [menu.collections]
 pages = [
-  "/docs/collections/data-provider/",
-  "/docs/collections/map-indices/",
-  "/docs/collections/queries/",
-  "/docs/collections/page-generators/",
-  "/docs/collections/list-pagination/",
+  "/docs/guides/collections/data-provider/",
+  "/docs/guides/collections/map-indices/",
+  "/docs/guides/collections/queries/",
+  "/docs/guides/collections/page-generators/",
+  "/docs/guides/collections/list-pagination/",
 ]
 
 [menu.plugins]

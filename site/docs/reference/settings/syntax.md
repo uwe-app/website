@@ -4,7 +4,7 @@ description = "Syntax highlight"
 
 {{import "header"}}
 
-The `[syntax]` table defines directives for the syntax highlighting support; see [[docs/content/syntax-highlight]] for more information and examples.
+The `[syntax]` table defines directives for the syntax highlighting support; see [[docs/guides/content/syntax-highlight]] for more information and examples.
 
 * `theme` A theme to use for inline styles (optional)
 * `map` Map language names to file extensions (optional)

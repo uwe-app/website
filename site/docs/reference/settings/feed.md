@@ -4,7 +4,7 @@ description = "Feed generation"
 
 {{import "header"}}
 
-The `[feed]` table is used to define assets for feed generation; see [[docs/content/feeds]] for more information.
+The `[feed]` table is used to define assets for feed generation; see [[docs/guides/content/feeds]] for more information.
 
 Feed tables require an identifier so use the `[feed.posts]` notation which creates feed settings using a `posts` identifier.
 

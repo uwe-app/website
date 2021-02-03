@@ -22,6 +22,6 @@ Renders as:
 {{slug "Title With Spaces"}}
 ```
 
-This is particularly useful when building links to documents created using [[docs/collections]].
+This is particularly useful when building links to documents created using [[docs/guides/collections]].
 
 {{import "footer"}}

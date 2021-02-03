@@ -4,7 +4,7 @@ description = "Query a collection index"
 
 {{import "header"}}
 
-Now that we have defined a [[docs/collections/data-provider]] and [[docs/collections/map-indices|mapped some indices]] for our collection we can assign queries to pages which will make collections data available to our page templates.
+Now that we have defined a [[docs/guides/collections/data-provider]] and [[docs/guides/collections/map-indices|mapped some indices]] for our collection we can assign queries to pages which will make collections data available to our page templates.
 
 In the following example we find the last two blog posts and make the result available to the `index.md` page:
 

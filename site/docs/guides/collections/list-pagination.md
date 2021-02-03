@@ -8,7 +8,7 @@ Large collections can require paginating for navigation so we built an easy way 
 
 To see complete [example site settings][pagination-site-settings] check out the [pagination example][pagination-example] which is a collection of all the HTML entities with pagination enabled.
 
-Enabling pagination for a query result behaves like [[docs/collections/page-generators]] by creating a *synthetic page* for each *page chunk* in the result list.
+Enabling pagination for a query result behaves like [[docs/guides/collections/page-generators]] by creating a *synthetic page* for each *page chunk* in the result list.
 
 Created pages are numbered starting from index `1` and pagination templates are automatically given a `paginate` object so they can render navigation controls.
 

@@ -9,8 +9,8 @@ For print media it can be useful to combine multiple pages into a single page; t
 To combine several pages we can either call the `render` helper multiple times:
 
 ```handlebars
-\{{render "/docs/pages/clean-urls/"}}
-\{{render "/docs/pages/trailing-slash/"}}
+\{{render "/docs/guides/pages/clean-urls/"}}
+\{{render "/docs/guides/pages/trailing-slash/"}}
 ```
 
 Or we could use an iterator to render multiple pages; for example:

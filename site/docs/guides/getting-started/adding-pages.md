@@ -74,7 +74,7 @@ HTML files are not parsed as Markdown but you can use the [[docs/reference/helpe
 {{/note}}
 
 {{#> note type="warn" label="warn"}}
-Mixing HTML with Markdown makes naming collisions more likely, see [[docs/pages/clean-urls|clean URLs]] for more information.
+Mixing HTML with Markdown makes naming collisions more likely, see [[docs/guides/pages/clean-urls|clean URLs]] for more information.
 {{/note}}
 
 ---

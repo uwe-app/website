@@ -45,7 +45,7 @@ A page title is inferred from the file name unless a specific title has been def
 
 ## Summary
 
-The summary field is intended to be used as an introduction to the page content. It is used primarily when generating [[docs/content/feeds]] but could also be used by convention for an introductory paragraph that is rendered using the [[docs/reference/helpers/markdown|markdown helper]].
+The summary field is intended to be used as an introduction to the page content. It is used primarily when generating [[docs/guides/content/feeds]] but could also be used by convention for an introductory paragraph that is rendered using the [[docs/reference/helpers/markdown|markdown helper]].
 
 ```markdown
 +++

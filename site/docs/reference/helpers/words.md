@@ -6,7 +6,7 @@ description = "Word count and reading time"
 
 The `words` helper can be used to count the approximate number of words on a page and display an estimated reading time.
 
-This helper must be enabled using the `words` transform, see [[docs/content/reading-time]] for more information.
+This helper must be enabled using the `words` transform, see [[docs/guides/content/reading-time]] for more information.
 
 ## Parameters
 

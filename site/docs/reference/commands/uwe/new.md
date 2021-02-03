@@ -37,7 +37,7 @@ uwe new project-name --locales=fr,de,zh
 
 Which will create the skeleton structure in the `site/locales` directory and update the [[docs/reference/settings/fluent|fluent settings]].
 
-When creating a multi-lingual project a [[docs/pages/redirects|redirect]] is configured for the default locale. The default locale is the `--language` option when it is given otherwise the first locale in the list is used.
+When creating a multi-lingual project a [[docs/guides/pages/redirects|redirect]] is configured for the default locale. The default locale is the `--language` option when it is given otherwise the first locale in the list is used.
 
 When `--language` is combined with `--locales` the given language must exist in the list of locales.
 
