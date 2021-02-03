@@ -6,7 +6,7 @@ description = "Release profiles"
 
 The default profile for the `build` command  is `release` which will generate a build into `build/release`; for the live reload server started using the `dev` command the default profile is `debug` which writes files to `build/debug`.
 
-To create a custom build profile first define it in the [[docs/getting-started/site-settings]]. The example profile belowis useful to zip up a website and send it for review:
+To create a custom build profile first define it in the [[docs/guides/getting-started/site-settings]]. The example profile belowis useful to zip up a website and send it for review:
 
 ```toml
 [profile.dist]

@@ -9,7 +9,7 @@ A powerful feature of our system is the *compile-time link checking* which verif
 To link to another page use wiki-style syntax:
 
 ```text
-\[[docs/getting-started/links]]
+\[[docs/guides/getting-started/links]]
 ```
 
 ## Label & Title
@@ -23,17 +23,17 @@ label = "links documentation"
 Or use a vertical bar (`|`) to set the link label:
 
 ```text
-\[[docs/getting-started/links|Learn how to create links]]
+\[[docs/guides/getting-started/links|Learn how to create links]]
 ```
 
 Which will render as:
 
-* [[docs/getting-started/links|Learn how to create links]]
+* [[docs/guides/getting-started/links|Learn how to create links]]
 
 Use another vertical bar to set a custom title:
 
 ```text
-\[[docs/getting-started/links|Links|Links guide]]
+\[[docs/guides/getting-started/links|Links|Links guide]]
 ```
 
 ## Escaping
@@ -41,7 +41,7 @@ Use another vertical bar to set a custom title:
 If you need to include a literal wiki-style link escape it with a backslash and it will be rendered as text:
 
 ```text
-\\[[docs/getting-started/links]]
+\\[[docs/guides/getting-started/links]]
 ```
 
 Links cannot include newlines, vertical pipes (`|`) or the right square bracket (`]`) it you need to include them in a value they must be escaped with a backslash.
@@ -49,10 +49,10 @@ Links cannot include newlines, vertical pipes (`|`) or the right square bracket 
 For example here is how to use a vertical pipe in a link label:
 
 ```
-\[[docs/getting-started/links|Links \| More Information]]
+\[[docs/guides/getting-started/links|Links \| More Information]]
 ```
 
-Which will render like this: [[docs/getting-started/links|Links \| More Information]].
+Which will render like this: [[docs/guides/getting-started/links|Links \| More Information]].
 
 ## Link Helper
 

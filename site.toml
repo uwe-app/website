@@ -87,7 +87,7 @@ pages = [
 [menu.docs]
 pages = [
   "/docs/installation/",
-  "/docs/getting-started/",
+  "/docs/guides/getting-started/",
   "/docs/navigation/",
   "/docs/pages/",
   "/docs/content/",
@@ -114,24 +114,24 @@ pages = [
 
 [menu.getting-started]
 pages = [
-  "/docs/getting-started/new-project/",
-  "/docs/getting-started/build-project/",
-  "/docs/getting-started/site-settings/",
-  "/docs/getting-started/live-reload/",
-  "/docs/getting-started/adding-pages/",
-  "/docs/getting-started/front-matter/",
-  "/docs/getting-started/links/",
-  "/docs/getting-started/content/",
-  "/docs/getting-started/styles/",
-  "/docs/getting-started/scripts/",
-  "/docs/getting-started/layouts/",
-  "/docs/getting-started/integrations/",
-  "/docs/getting-started/web-manifest/",
-  "/docs/getting-started/debugging/",
-  "/docs/getting-started/conventions/",
-  "/docs/getting-started/directory-listing/",
-  "/docs/getting-started/publish/",
-  "/docs/getting-started/powered-by/",
+  "/docs/guides/getting-started/new-project/",
+  "/docs/guides/getting-started/build-project/",
+  "/docs/guides/getting-started/site-settings/",
+  "/docs/guides/getting-started/live-reload/",
+  "/docs/guides/getting-started/adding-pages/",
+  "/docs/guides/getting-started/front-matter/",
+  "/docs/guides/getting-started/links/",
+  "/docs/guides/getting-started/content/",
+  "/docs/guides/getting-started/styles/",
+  "/docs/guides/getting-started/scripts/",
+  "/docs/guides/getting-started/layouts/",
+  "/docs/guides/getting-started/integrations/",
+  "/docs/guides/getting-started/web-manifest/",
+  "/docs/guides/getting-started/debugging/",
+  "/docs/guides/getting-started/conventions/",
+  "/docs/guides/getting-started/directory-listing/",
+  "/docs/guides/getting-started/publish/",
+  "/docs/guides/getting-started/powered-by/",
 ]
 
 [menu.navigation]

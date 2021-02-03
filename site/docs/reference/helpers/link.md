@@ -6,7 +6,7 @@ description = "Create valid, relative links"
 
 The link helper generates links relative to the current page. You pass it an absolute path and it will return a URL relative to the current page with the correct amount of `../` references; it also does the important job of checking links exist at compile time!
 
-Prefer using wiki-style [[docs/getting-started/links]] wherever possible.
+Prefer using wiki-style [[docs/guides/getting-started/links]] wherever possible.
 
 {{#> note label="info"}}
 If you pass a relative path starting with a period or use the `http:` or `https:` schemes it will not be modified.

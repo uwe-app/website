@@ -6,7 +6,7 @@ description = "Show estimated reading time"
 
 For long-form content like blog articles it is helpful to indicate to visitors an estimated time to read the page.
 
-To enable this feature you should update the [[docs/getting-started/site-settings]] so that word counts are performed:
+To enable this feature you should update the [[docs/guides/getting-started/site-settings]] so that word counts are performed:
 
 ```toml
 [transform.html]

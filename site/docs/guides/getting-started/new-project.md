@@ -31,7 +31,7 @@ Which will install the `std::blueprint::blog` plugin and scaffold a new project 
 
 ## Custom Blueprints
 
-You can create and distribute your own project blueprints easily as the `new` command will also accept a folder path or repository URL; the only requirement is that it has valid [[docs/getting-started/site-settings]] and plugin settings.
+You can create and distribute your own project blueprints easily as the `new` command will also accept a folder path or repository URL; the only requirement is that it has valid [[docs/guides/getting-started/site-settings]] and plugin settings.
 
 {{! TODO: link to the plugin settings ^^^ documentation once it is complete }}
 

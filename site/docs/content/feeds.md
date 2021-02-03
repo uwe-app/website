@@ -13,7 +13,7 @@ Add the [std::feed][] plugin to your project dependencies and configure generati
 version = "~2"
 ```
 
-Here is an example from the [blog blueprint settings][blog-settings] which stores it's articles in a posts folder, to generate feeds for the blog posts add this to your [[docs/getting-started/site-settings]]:
+Here is an example from the [blog blueprint settings][blog-settings] which stores it's articles in a posts folder, to generate feeds for the blog posts add this to your [[docs/guides/getting-started/site-settings]]:
 
 ```toml
 [feed.posts]

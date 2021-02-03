@@ -4,9 +4,9 @@ description = "Live reload"
 
 {{import "header"}}
 
-In [[docs/getting-started/build-project]] we used the `uwe dev` command to launch a server with live reload enabled.
+In [[docs/guides/getting-started/build-project]] we used the `uwe dev` command to launch a server with live reload enabled.
 
-Live reload has an *experimental* feature that will sync the browser location to the *last edited page* called `follow-edits`, to enable this feature update the [[docs/getting-started/site-settings]]:
+Live reload has an *experimental* feature that will sync the browser location to the *last edited page* called `follow-edits`, to enable this feature update the [[docs/guides/getting-started/site-settings]]:
 
 ```toml
 [livereload]

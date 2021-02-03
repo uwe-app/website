@@ -4,9 +4,9 @@ description = "Define navigation menus"
 
 {{import "header"}}
 
-We saw in [[docs/getting-started/directory-listing]] that it is easy to create a list of links to the pages in a folder but often we need more control over the navigation items and presentation; this is particularly useful when we need to control the *order of menu items*.
+We saw in [[docs/guides/getting-started/directory-listing]] that it is easy to create a list of links to the pages in a folder but often we need more control over the navigation items and presentation; this is particularly useful when we need to control the *order of menu items*.
 
-Menu definitions go in the [[docs/getting-started/site-settings]] and are named so that we can reference them later when they should be rendered; they can be a folder (similar to a directory listing) or a list of page paths.
+Menu definitions go in the [[docs/guides/getting-started/site-settings]] and are named so that we can reference them later when they should be rendered; they can be a folder (similar to a directory listing) or a list of page paths.
 
 ## Directory
 

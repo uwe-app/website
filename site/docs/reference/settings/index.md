@@ -4,7 +4,7 @@ description = "Complete guide to the site settings"
 
 {{import "header"}}
 
-This section provides the definitive reference to all the settings in `site.toml`; see [[docs/getting-started/site-settings]] for example usage.
+This section provides the definitive reference to all the settings in `site.toml`; see [[docs/guides/getting-started/site-settings]] for example usage.
 
 Settings are defined as TOML [^1] which uses the term *table* also called an *object*, *map* or *dictionary*. Language identifiers are Unicode Language Identfiers [^2].
 

@@ -45,6 +45,6 @@ Our software let's developers and designers use industry standard tools to seaml
 
 Alpha testing is in progress and a public beta will be available in 2021.
 
-Interested? Head over to [[docs/installation]] then learn more in the [[docs/getting-started]] guide and read the [[docs]] for more information.
+Interested? Head over to [[docs/installation]] then learn more in the [[docs/guides/getting-started]] guide and read the [[docs]] for more information.
 
 [handlebars]: https://github.com/sunng87/handlebars-rust

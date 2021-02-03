@@ -5,7 +5,7 @@ description = "Create a project"
 
 {{import "header"}}
 
-The `new` command creates a new project from a [[docs/getting-started/new-project|blueprint]], folder or repository URL.
+The `new` command creates a new project from a [[docs/guides/getting-started/new-project|blueprint]], folder or repository URL.
 
 To create a new project using the default blueprint pass the project name:
 

@@ -22,7 +22,7 @@ For a complete list of properties see the [[docs/reference/settings/collections|
 
 The query must specify the collection `name` and the identifier for the `index`. Using the `desc` flag with a `limit` we can get only the most recent posts in our collection of blog articles.
 
-To see the shape of the query `result` in a page template use a [[docs/getting-started/debugging]] technique like logging the variable:
+To see the shape of the query `result` in a page template use a [[docs/guides/getting-started/debugging]] technique like logging the variable:
 
 ```handlebars
 \{{log (json result pretty=true)}}

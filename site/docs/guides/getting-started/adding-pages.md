@@ -79,7 +79,7 @@ Mixing HTML with Markdown makes naming collisions more likely, see [[docs/pages/
 
 ---
 
-The next section looks at defining data for individual pages using [[docs/getting-started/front-matter]] and the meta data typically assigned to pages.
+The next section looks at defining data for individual pages using [[docs/guides/getting-started/front-matter]] and the meta data typically assigned to pages.
 
 {{import "footer"}}
 

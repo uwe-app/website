@@ -9,7 +9,7 @@ The `include` helper can be used to include files into your pages; normally it i
 It is an error attempting to include a file outside the `site` source folder.
 
 {{#> note label="info"}}
-Use the *includes* folder [[docs/getting-started/conventions]] to automatically ignore included files.
+Use the *includes* folder [[docs/guides/getting-started/conventions]] to automatically ignore included files.
 {{/note}}
 
 

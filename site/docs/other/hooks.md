@@ -14,7 +14,7 @@ uwe dev --exec
 
 Commands are executed with the current working directory set to the project folder.
 
-Hooks are [[docs/getting-started/site-settings]] named using the `hooks.run` notation, so the simplest hook would be:
+Hooks are [[docs/guides/getting-started/site-settings]] named using the `hooks.run` notation, so the simplest hook would be:
 
 ```toml
 \[[hooks.run]]

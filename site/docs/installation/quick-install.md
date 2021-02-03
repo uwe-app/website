@@ -45,7 +45,7 @@ Which will perform the following tasks:
 
 You can get going right away; edit the files in `project/site` and check your changes in the browser.
 
-To learn more about the platform head over to [[docs/getting-started]] or read on to learn how to upgrade and manage release versions.
+To learn more about the platform head over to [[docs/guides/getting-started]] or read on to learn how to upgrade and manage release versions.
 
 {{import "footer"}}
 
