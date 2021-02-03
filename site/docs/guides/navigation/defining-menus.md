@@ -24,8 +24,8 @@ When order is important list the page paths explicitly:
 ```toml
 [menu.navigation]
 pages = [
-  "/docs/navigation/defining-menus/",
-  "/docs/navigation/rendering-menus/",
+  "/docs/guides/navigation/defining-menus/",
+  "/docs/guides/navigation/rendering-menus/",
 ]
 ```
 

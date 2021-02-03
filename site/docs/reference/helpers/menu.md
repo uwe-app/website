@@ -4,7 +4,7 @@ description = "Render navigation menus"
 
 {{import "header"}}
 
-Use the `menu` helper to render [[docs/navigation/defining-menus|menus]].
+Use the `menu` helper to render [[docs/guides/navigation/defining-menus|menus]].
 
 ## Arguments
 
