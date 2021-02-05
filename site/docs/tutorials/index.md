@@ -1,4 +1,7 @@
-## TODO
++++
+tutorials = "Learn the fundamentals"
++++
 
-* Create a blog
-* Create a deck
+{{import "header"}}
+
+{{menu "tutorials-idx"}}

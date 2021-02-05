@@ -10,6 +10,10 @@ label = "documentation"
 
 {{menu "installation-idx"}}
 
+## Tutorials
+
+{{menu "tutorials-idx"}}
+
 ## Getting Started
 
 {{menu "getting-started-idx"}}

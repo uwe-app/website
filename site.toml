@@ -113,6 +113,11 @@ pages = [
   "/docs/guides/other/",
 ]
 
+[menu.tutorials]
+pages = [
+  "/docs/tutorials/adding-integration-tests/",
+]
+
 [menu.getting-started]
 pages = [
   "/docs/guides/getting-started/new-project/",
