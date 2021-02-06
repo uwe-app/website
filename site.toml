@@ -217,6 +217,7 @@ pages = [
   "/docs/guides/other/workspaces/",
   "/docs/guides/other/profiles/",
   "/docs/guides/other/hooks/",
+  "/docs/guides/other/test-options/",
   "/docs/guides/other/content-security-policy/",
   "/docs/guides/other/json-templates/",
   "/docs/guides/other/link-catalog/",
