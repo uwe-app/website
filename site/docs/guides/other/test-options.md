@@ -29,6 +29,8 @@ uwe test . -- \
 When passing custom options using `--` the default options from `test/cypress.opts` are not used so you must pass the path to the configuration file.
 {{/note}}
 
+For fine-grained control of the command name, arguments and environment variables see the [[docs/reference/settings/test|test settings]].
+
 {{import "footer"}}
 
 [cypress]: https://www.cypress.io/
