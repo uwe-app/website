@@ -33,12 +33,12 @@ mkcert *.loopback.space loopback.space localhost 127.0.0.1 ::1
 
 To configure the web server use the `--ssl-` options on the command line (see `uwe help server`) or set environment variables to always run over SSL.
 
-We recommend taking the environment variable approach, just configure your shell with the `SSL_CERT` and `SSL_KEY` variables. For example for the ZSH shell:
+We recommend taking the environment variable approach, just configure your shell with the `UWE_SSL_CERT` and `UWE_SSL_KEY` variables. For example for the ZSH shell:
 
 ```text
 export MKCERT="$HOME/.local/share/mkcert"
-export SSL_CERT="$MKCERT/certs/_wildcard.loopback.space+4.pem"
-export SSL_KEY="$MKCERT/certs/_wildcard.loopback.space+4-key.pem"
+export UWE_SSL_CERT="$MKCERT/certs/_wildcard.loopback.space+4.pem"
+export UWE_SSL_KEY="$MKCERT/certs/_wildcard.loopback.space+4-key.pem"
 ```
 
 Now when you use `uwe dev` and `uwe server` your certificate will be used and the site served over HTTPS!
@@ -46,7 +46,7 @@ Now when you use `uwe dev` and `uwe server` your certificate will be used and th
 If you have configured an SSL certificate via the environment and want to temporarily run over HTTP set the variables to the empty string:
 
 ```text
-SSL_KEY= SSL_CERT= uwe dev
+UWE_SSL_KEY= UWE_SSL_CERT= uwe dev
 ```
 
 {{import "footer"}}

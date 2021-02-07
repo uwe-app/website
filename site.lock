@@ -10,8 +10,8 @@ version = "3.15.0"
 
 [[package]]
 name = "std::core"
-version = "5.0.0"
-checksum = "b2f567c7e721c375078dbba3aa0499a29cfd0425979533655e9268c697c6089d"
+version = "5.0.1"
+checksum = "92a22b61d85fb9009026725fe1ec2f2438e9532c3e44aebf3243b9daafebb640"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]

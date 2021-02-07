@@ -4,7 +4,7 @@ description = "Add and run integration tests"
 
 {{import "header"}}
 
-Let's take a look at adding integration tests to a project. This tutorial will walk you through the process of creating a project, scaffolding integration tests and running them using the excellent [cypress test runner][cypress]. To follow along you should have already [[docs/installation|installed the platform tools]] and a modern version of [nodejs][] that includes the `npx` program.
+Let's take a look at adding integration tests to a project. This tutorial will walk you through the process of creating a project, scaffolding integration tests and running them using the excellent [cypress test runner][cypress]. To follow along you should have already [[docs/installation/quick-install|installed the platform tools]] and a modern version of [nodejs][] that includes the `npx` program.
 
 {{#> note label="Learn how to"}}
 * [Create a project](#create-a-project)
@@ -16,7 +16,7 @@ Let's take a look at adding integration tests to a project. This tutorial will w
 
 ## Introduction
 
-Integration tests are useful to check your website is functioning as intended and the pages you need exist but be careful that you only test the functionality you really care about otherwise it is easy to write brittle tests that quickly break as you make changes to the website. 
+Integration tests are useful to check your website is functioning as intended and the pages you need exist but be careful that you only test the functionality you really care about otherwise it is easy to write brittle tests that quickly break as you make changes to the website.
 
 The [cypress test runner][cypress] can capture videos and take screenshots as well as run tests in different browsers so it is also useful for creating presentations and other tasks.
 
@@ -37,7 +37,7 @@ cd test-project
 uwe dev
 ```
 
-This should build the new project and launch a browser tab displaying the website. If everything is working close the browser tab and quit the server using the `Ctrl+c` keyboard command. 
+This should build the new project and launch a browser tab displaying the website. If everything is working close the browser tab and quit the server using the `Ctrl+c` keyboard command.
 
 ## Install cypress
 
