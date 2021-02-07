@@ -1,5 +1,5 @@
 +++
-description = "Live reload"
+description = "Start a development server"
 +++
 
 {{import "header"}}

@@ -115,6 +115,7 @@ pages = [
 
 [menu.tutorials]
 pages = [
+  "/docs/tutorials/getting-started/",
   "/docs/tutorials/using-javascript-transpiler/",
   "/docs/tutorials/adding-integration-tests/",
 ]

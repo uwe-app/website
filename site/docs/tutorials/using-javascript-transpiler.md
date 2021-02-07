@@ -1,12 +1,12 @@
 +++
-description = "Use a hook to integrate with a Javascript compiler"
+description = "Use a hook to transpile Javascript"
 +++
 
 {{import "header"}}
 
 The frontend ecosystem is diverse and there are a myriad of tools available for compiling to Javascript or CSS so we provide *hooks* that let you choose which tools you want to use.
 
-This tutorial walks through an example integration with the [esbuild][] transpiler however this technique can be used to run any frontend tool.
+This tutorial walks through an example integration with the [esbuild][] transpiler however this technique can be used to run any frontend tool. You should have already [[docs/installation/quick-install|installed the platform tools]].
 
 If you want to dive straight in to the source code see the [integrations][] repository for various working examples using the technique described here.
 
