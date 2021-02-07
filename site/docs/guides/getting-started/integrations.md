@@ -4,9 +4,22 @@ description = "Integrate with external build tools"
 
 {{import "header"}}
 
-To integrate a Javscript build tool or CSS preprocessor add a [[docs/guides/other/hooks|hook]] to your project. This page describes the steps for creating an integration and you can find examples for several popular tools in the [integrations repository][].
+The [[docs/tutorials/using-javascript-transpiler|javascript transpiler]] tutorial shows the basic steps for integrating with an external build tool using a [[docs/guides/other/hooks|hook]].
+
+This document looks in more detail at what happens under the hood when integrating a Javscript transpiler or CSS preprocessor; see the [integrations repository][] for the source code to several popular build tools.
 
 For the best performance compiling Javascript/Typescript we recommend using the [swc][swc-example] integration.
+
+{{#> note label="tip"}}
+To try out an integration quickly install from a blueprint like this:
+
+```
+uwe new webpack-project std::integration::webpack
+cd webpack-project
+npm install
+uwe dev
+```
+{{/note}}
 
 * [Integration Steps](#integration-steps) General steps for integration.
   * [Modules](#modules) Dependencies should go in the project root.
