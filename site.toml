@@ -117,6 +117,7 @@ pages = [
 [menu.tutorials]
 pages = [
   "/docs/tutorials/getting-started/",
+  "/docs/tutorials/create-workspace/",
   "/docs/tutorials/using-javascript-transpiler/",
   "/docs/tutorials/adding-integration-tests/",
 ]
@@ -222,7 +223,6 @@ pages = [
 
 [menu.other]
 pages = [
-  "/docs/guides/other/workspaces/",
   "/docs/guides/other/profiles/",
   "/docs/guides/other/test-options/",
   "/docs/guides/other/content-security-policy/",

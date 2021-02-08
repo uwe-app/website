@@ -4,7 +4,7 @@ description = "Run commands before or after a build"
 
 {{import "header"}}
 
-Hooks allow us to run commands before or after a build which means you can easily integrate with your favourite CSS pre-processor, Javascript bundler or perform custom optimizations.
+Hooks allow us to run commands before or after a build which means you can easily integrate with your favourite CSS pre-processor, Javascript bundler or perform custom tasks.
 
 Hook command execution requires that the `--exec` capability is granted on the command line, for example:
 

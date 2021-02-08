@@ -7,10 +7,7 @@ description = "Create and build a website"
 This tutorial walks through the steps for creating, editing and building a website; you will need to have already [[docs/installation/quick-install|installed the platform tools]].
 
 {{#> note label="Learn how to"}}
-* [Create a project](#create-a-project)
-* [Run development server](#run-development-server)
-* [Build a release](#build-a-release)
-* [Preview a release](#preview-a-release)
+{{toc from="h2" tag="ul"}}
 {{/note}}
 
 ## Create a project
@@ -25,7 +22,7 @@ uwe new basic-website
 This command uses the default blueprint which generates a website with one page and basic styles.
 {{/note}}
 
-## Run development server
+## Run the development server
 
 Now let's start a development server which will watch the source files for changes and refresh the browser when changes are detected:
 
@@ -59,3 +56,5 @@ To generate a release build and view the website in a browser use the `server` c
 ```
 uwe server --open
 ```
+
+{{import "footer"}}

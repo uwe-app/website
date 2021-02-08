@@ -11,13 +11,7 @@ This tutorial walks through an example integration with the [esbuild][] transpil
 If you want to dive straight in to the source code see the [build tools][] repository for various working examples using the technique described here.
 
 {{#> note label="Learn how to"}}
-* [Create a project](#create-a-project)
-* [Create a package.json](#create-a-package-json)
-* [Install esbuild](#install-esbuild)
-* [Define the hook](#define-the-hook)
-* [Add main script](#add-main-script)
-* [Edit the index page](#edit-the-index-page)
-* [Build the website](#build-the-website)
+{{toc from="h2" tag="ul"}}
 {{/note}}
 
 ## Create a project
@@ -119,6 +113,8 @@ Remember when using hooks to pass the `--exec` option so they are executed.
 {{/note}}
 
 If you edit the `site/src/main.js` file the hook will re-compile the javascript and the live reload server will refresh the browser!
+
+{{import "footer"}}
 
 [build tools]: https://github.com/uwe-app/build-tools
 [esbuild]: https://esbuild.github.io/

@@ -1,5 +1,5 @@
 +++
-description = "Group related projects"
+description = "Group related projects in a workspace"
 +++
 
 {{import "header"}}
@@ -12,17 +12,25 @@ Remember to replace `example.com` with your website domain name if you plan to u
 
 Currently, workspaces can only contain projects they may not contain other workspaces; if this restriction affects you please let us know in the [community discussions](https://github.com/uwe-app/community/discussions).
 
-To follow along with this guide run these commands to create a workspace with multiple projects:
+{{#> note label="Learn how to"}}
+{{toc from="h2" tag="ul"}}
+{{/note}}
+
+## Create multiple projects
+
+To begin we use the `new` command to scaffold several projects for the workspace:
 
 ```
 mkdir example.com
-uwe new example.com/website
-uwe new example.com/blog
-uwe new example.com/docs
-touch example.com/site.toml
+cd example.com
+uwe new website
+uwe new blog
+uwe new docs
 ```
 
-Then in the `example.com/site.toml` file define the workspace members:
+## Define workspace members
+
+Then edit the `example.com/site.toml` file to define the members of our new workspace:
 
 ```toml
 [workspace]
@@ -32,6 +40,8 @@ members = [
   "docs"
 ]
 ```
+
+## Set unique host names
 
 Now each project should be given a different host name so we can create virtual hosts.
 
@@ -53,16 +63,18 @@ And update `example.com/docs/site.toml` too:
 host = "docs.example.com"
 ```
 
+## Build all the workspace members
+
 Now when you compile in the workspace folder it will build all of the projects, for example:
 
 ```
 cd example.com
-uwe
+uwe build
 ```
 
 When you use live reload (`uwe dev`) in a workspace all of the projects are available but only the first project in the list will be launched.
 
-Assuming [[docs/guides/other/ssl-certificates|SSL certificates]] are enabled the projects can be accessed using the following URLs 
+Assuming [[docs/guides/other/ssl-certificates|SSL certificates]] are enabled the projects can be accessed using the following URLs
 
 * `https://example-com.loopback.space:8843/`
 * `https://blog-example-com.loopback.space:8843/`

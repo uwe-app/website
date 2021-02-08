@@ -1,12 +1,12 @@
 +++
-description = "Integrate with external build tools"
+description = "Add external build tools"
 +++
 
 {{import "header"}}
 
-The [[docs/tutorials/using-javascript-transpiler|javascript transpiler]] tutorial shows the basic steps for integrating with an external build tool using a [[docs/in-depth/hooks|hook]].
+The [[docs/tutorials/using-javascript-transpiler|javascript transpiler]] tutorial shows the basic steps for adding an external build tool using a [[docs/in-depth/hooks|hook]].
 
-This document looks in more detail at what happens under the hood when integrating a Javscript transpiler or CSS preprocessor; see the [build tools repository][build tools] for the source code to several popular build tools.
+Here we look in more detail at what happens under the hood when integrating a Javscript transpiler or CSS preprocessor; see the [build tools repository][build tools] for source code.
 
 For the best performance compiling Javascript/Typescript we recommend using the [swc][swc-example] integration.
 
