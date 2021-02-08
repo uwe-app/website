@@ -263,6 +263,10 @@ li > a + p:last-child {
   margin-right: 2em;
 }
 
+article > nav + details {
+  margin: 0 0 1em 0;
+}
+
 details > summary {
     list-style-type: none;
 }

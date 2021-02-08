@@ -84,6 +84,8 @@ pages = [
   "/docs/installation/",
   "/docs/guides/",
   "/docs/tutorials/",
+  "/docs/cookbook/",
+  "/docs/in-depth/",
   "/docs/reference/",
 ]
 
@@ -106,7 +108,6 @@ pages = [
   "/docs/guides/content/",
   "/docs/guides/collections/",
   "/docs/guides/plugins/",
-  "/docs/guides/design-patterns/",
   "/docs/guides/search-engines/",
   "/docs/guides/translate/",
   "/docs/guides/publish/",
@@ -118,6 +119,19 @@ pages = [
   "/docs/tutorials/getting-started/",
   "/docs/tutorials/using-javascript-transpiler/",
   "/docs/tutorials/adding-integration-tests/",
+]
+
+[menu.cookbook]
+pages = [
+  "/docs/cookbook/sidebar/",
+  "/docs/cookbook/crumbtrails/",
+  "/docs/cookbook/table-of-contents/",
+  "/docs/cookbook/sticky-header/",
+  "/docs/cookbook/notes/",
+]
+
+[menu.in-depth]
+pages = [
 ]
 
 [menu.getting-started]
@@ -182,15 +196,6 @@ pages = [
   "/docs/guides/plugins/dependencies/",
   "/docs/guides/plugins/apply/",
   "/docs/guides/plugins/using-templates/",
-]
-
-[menu.design-patterns]
-pages = [
-  "/docs/guides/design-patterns/sidebar/",
-  "/docs/guides/design-patterns/crumbtrails/",
-  "/docs/guides/design-patterns/table-of-contents/",
-  "/docs/guides/design-patterns/sticky-header/",
-  "/docs/guides/design-patterns/notes/",
 ]
 
 [menu.seo]

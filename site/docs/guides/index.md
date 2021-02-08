@@ -29,10 +29,6 @@ description = "How to guides"
 
 {{menu "plugins-idx"}}
 
-## Design Patterns
-
-{{menu "design-patterns-idx"}}
-
 ## Search Engines
 
 {{menu "seo-idx"}}

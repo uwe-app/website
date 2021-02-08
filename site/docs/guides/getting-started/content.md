@@ -40,7 +40,7 @@ When you use a blueprint to create a new project these files already exist.
 
 ## Aside
 
-To create content for an `aside` element that could be used for a global navigation create the `partials/aside.hbs` file; see the [[docs/guides/design-patterns/sidebar]] documentation for a common navigation pattern.
+To create content for an `aside` element that could be used for a global navigation create the `partials/aside.hbs` file; see the [[docs/cookbook/sidebar]] documentation for a common navigation pattern.
 
 ## Structure
 
