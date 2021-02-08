@@ -4,7 +4,7 @@ description = "Run external commands"
 
 {{import "header"}}
 
-The `[hook.run]` table is used to define command hooks; see [[docs/guides/other/hooks]] for more detail.
+The `[hook.run]` table is used to define command hooks; see [[docs/in-depth/hooks]] for more detail.
 
 * `path` Path to the command to execute (required)
 * `args` List of string arguments to pass to the command (optional)

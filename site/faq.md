@@ -16,7 +16,7 @@ No. You can of course use your favourite Javascript framework as a pre-processor
 
 ### Do you support CSS preprocessors?
 
-Yes, use one of the style [integrations][].
+Yes, use one of the style [build tools][].
 
 ### Can I bring my own template language?
 
@@ -42,7 +42,7 @@ Yes, if you have created a useful plugin please submit it to the [plugins reposi
 
 The speed is thanks to [rust][] and the projects listed in the [[credits]].
 
-[integrations]: https://github.com/uwe-app/integrations/
+[build tools]: https://github.com/uwe-app/build-tools/
 [handlebars]: https://handlebarsjs.com/
 [commonmark]: https://commonmark.org/
 [rust]: https://www.rust-lang.org/

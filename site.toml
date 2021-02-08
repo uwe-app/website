@@ -132,6 +132,8 @@ pages = [
 
 [menu.in-depth]
 pages = [
+  "/docs/in-depth/hooks/",
+  "/docs/in-depth/build-tools/",
 ]
 
 [menu.getting-started]
@@ -147,7 +149,6 @@ pages = [
   "/docs/guides/getting-started/styles/",
   "/docs/guides/getting-started/scripts/",
   "/docs/guides/getting-started/layouts/",
-  "/docs/guides/getting-started/integrations/",
   "/docs/guides/getting-started/web-manifest/",
   "/docs/guides/getting-started/debugging/",
   "/docs/guides/getting-started/conventions/",
@@ -223,7 +224,6 @@ pages = [
 pages = [
   "/docs/guides/other/workspaces/",
   "/docs/guides/other/profiles/",
-  "/docs/guides/other/hooks/",
   "/docs/guides/other/test-options/",
   "/docs/guides/other/content-security-policy/",
   "/docs/guides/other/json-templates/",

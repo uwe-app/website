@@ -4,9 +4,9 @@ description = "Integrate with external build tools"
 
 {{import "header"}}
 
-The [[docs/tutorials/using-javascript-transpiler|javascript transpiler]] tutorial shows the basic steps for integrating with an external build tool using a [[docs/guides/other/hooks|hook]].
+The [[docs/tutorials/using-javascript-transpiler|javascript transpiler]] tutorial shows the basic steps for integrating with an external build tool using a [[docs/in-depth/hooks|hook]].
 
-This document looks in more detail at what happens under the hood when integrating a Javscript transpiler or CSS preprocessor; see the [integrations repository][] for the source code to several popular build tools.
+This document looks in more detail at what happens under the hood when integrating a Javscript transpiler or CSS preprocessor; see the [build tools repository][build tools] for the source code to several popular build tools.
 
 For the best performance compiling Javascript/Typescript we recommend using the [swc][swc-example] integration.
 
@@ -31,12 +31,12 @@ uwe dev
       * [Script](#script) Set the main script for the site.
       * [Style](#style) Set the main stylesheet for the site.
   * [Production](#production) Optimizations for release builds.
-* [Run](#run) Compile integrations with live reload or for a production release.
-* [Examples](#examples) List of example integrations.
+* [Run](#run) Compile with live reload or for a production release.
+* [Examples](#examples) List of build tool examples.
 
 ## Integration Steps
 
-To integrate with an external build tool add a [[docs/guides/other/hooks|hook]] which runs whenever a website is compiled; each integration also runs the hook when build source files are changed and live reload is enabled (`uwe dev --exec`).
+To integrate with an external build tool add a [[docs/in-depth/hooks|hook]] which runs whenever a website is compiled; each integration also runs the hook when build source files are changed and live reload is enabled (`uwe dev --exec`).
 
 ### Modules
 
@@ -48,7 +48,7 @@ Source files should go in the `site` directory so they can trigger a live reload
 
 ### Target
 
-Build tools executed via hooks should write build products to the `BUILD_TARGET` environment variable which is automatically exposed to the command when a hook executes and points to the output directory for the current build. The [[docs/guides/other/hooks]] documentation has more information about the environment variables available to build tools.
+Build tools executed via hooks should write build products to the `BUILD_TARGET` environment variable which is automatically exposed to the command when a hook executes and points to the output directory for the current build. The [[docs/in-depth/hooks]] documentation has more information about the environment variables available to build tools.
 
 Do **not write build products** to the `site` directory otherwise you may **create an infinite loop** executing the hook!
 
@@ -138,18 +138,18 @@ watch = true
 
 {{import "footer"}}
 
-[integrations repository]: https://github.com/uwe-app/integrations
+[build tools]: https://github.com/uwe-app/build-tools
 
-[swc-example]: https://github.com/uwe-app/integrations/tree/main/swc
-[esbuild-example]: https://github.com/uwe-app/integrations/tree/main/esbuild
-[babel-example]: https://github.com/uwe-app/integrations/tree/main/babel
-[webpack-example]: https://github.com/uwe-app/integrations/tree/main/webpack
+[swc-example]: https://github.com/uwe-app/build-tools/tree/main/swc
+[esbuild-example]: https://github.com/uwe-app/build-tools/tree/main/esbuild
+[babel-example]: https://github.com/uwe-app/build-tools/tree/main/babel
+[webpack-example]: https://github.com/uwe-app/build-tools/tree/main/webpack
 
-[sass-example]: https://github.com/uwe-app/integrations/tree/main/sass
-[postcss-example]: https://github.com/uwe-app/integrations/tree/main/postcss
-[tailwind-postcss-example]: https://github.com/uwe-app/integrations/tree/main/tailwind-postcss
+[sass-example]: https://github.com/uwe-app/build-tools/tree/main/sass
+[postcss-example]: https://github.com/uwe-app/build-tools/tree/main/postcss
+[tailwind-postcss-example]: https://github.com/uwe-app/build-tools/tree/main/tailwind-postcss
 
-[postcss.config.js]: https://github.com/uwe-app/integrations/tree/main/tailwind-postcss/postcss.config.js
+[postcss.config.js]: https://github.com/uwe-app/build-tools/tree/main/tailwind-postcss/postcss.config.js
 
 [react]: https://reactjs.org/
 [babel]: https://babeljs.io/

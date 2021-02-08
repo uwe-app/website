@@ -8,7 +8,7 @@ The frontend ecosystem is diverse and there are a myriad of tools available for 
 
 This tutorial walks through an example integration with the [esbuild][] transpiler however this technique can be used to run any frontend tool. You should have already [[docs/installation/quick-install|installed the platform tools]].
 
-If you want to dive straight in to the source code see the [integrations][] repository for various working examples using the technique described here.
+If you want to dive straight in to the source code see the [build tools][] repository for various working examples using the technique described here.
 
 {{#> note label="Learn how to"}}
 * [Create a project](#create-a-project)
@@ -120,6 +120,6 @@ Remember when using hooks to pass the `--exec` option so they are executed.
 
 If you edit the `site/src/main.js` file the hook will re-compile the javascript and the live reload server will refresh the browser!
 
-[integrations]: https://github.com/uwe-app/integrations
+[build tools]: https://github.com/uwe-app/build-tools
 [esbuild]: https://esbuild.github.io/
 [yarn]: https://yarnpkg.com/
