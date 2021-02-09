@@ -24,7 +24,7 @@ To begin we use the `new` command to scaffold several projects for the workspace
 mkdir example.com
 cd example.com
 uwe new website
-uwe new blog
+uwe new blog blog
 uwe new docs
 ```
 

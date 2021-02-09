@@ -14,10 +14,10 @@ For the best performance compiling Javascript/Typescript we recommend using the 
 To try out an integration quickly install from a blueprint like this:
 
 ```
-uwe new webpack-project std::integration::webpack
+uwe new webpack-project build::webpack
 cd webpack-project
 npm install
-uwe dev
+uwe dev --exec
 ```
 {{/note}}
 
