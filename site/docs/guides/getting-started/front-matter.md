@@ -40,7 +40,7 @@ description  = "Brief description of the page content"
 ```
 
 {{#> note type="tip" label="tip"}}
-A page title is inferred from the file name unless a specific title has been defined; when a page is an index file the name of the parent directory is used instead. Use this feature with [[docs/guides/getting-started/directory-listing|directory listings]] to rapidly sketch your site pages.
+A page title is inferred from the file name unless a specific title has been defined; when a page is an index file the name of the parent directory is used instead. Use this feature with [[docs/cookbook/directory-listing|directory listings]] to rapidly sketch your site pages.
 {{/note}}
 
 ## Summary

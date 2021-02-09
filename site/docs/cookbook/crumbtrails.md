@@ -6,6 +6,8 @@ description = "Guide visitors with links to parent folders"
 
 The *crumbtrail* pattern is very useful to orientate visitors when navigating deep folder hierarchies; you can see an example above ^^.
 
+{{> source-code repo="cookbook" path="content/crumbtrails" title="Crumbtrails"}}
+
 The [[docs/reference/helpers/crumbtrail|crumbtrail helper]] does the job of iterating the parent folders and the [std::crumbtrail][] plugin provides a partial and stylesheet for rendering a crumbtrail `nav` menu.
 
 To use the crumbtrail system first add a dependency on the [std::crumbtrail][] plugin to your `site.toml` settings:

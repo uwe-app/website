@@ -6,6 +6,8 @@ description = "Directory index listings"
 
 As you start to design the structure for your website it is useful to quickly create a list of links for the pages in a folder.
 
+{{> source-code repo="cookbook" path="content/directory-listing" title="Directory Listing"}}
+
 The `listing` partial is part of the [std::listing][] plugin so you should add it to the dependencies in your site settings:
 
 ```toml

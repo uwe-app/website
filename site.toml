@@ -123,11 +123,12 @@ pages = [
 
 [menu.cookbook]
 pages = [
-  "/docs/cookbook/sidebar/",
-  "/docs/cookbook/crumbtrails/",
   "/docs/cookbook/table-of-contents/",
-  "/docs/cookbook/sticky-header/",
+  "/docs/cookbook/directory-listing/",
+  "/docs/cookbook/crumbtrails/",
   "/docs/cookbook/notes/",
+  "/docs/cookbook/sidebar/",
+  "/docs/cookbook/sticky-header/",
 ]
 
 [menu.in-depth]
@@ -167,7 +168,6 @@ pages = [
   "/docs/guides/getting-started/web-manifest/",
   "/docs/guides/getting-started/debugging/",
   "/docs/guides/getting-started/conventions/",
-  "/docs/guides/getting-started/directory-listing/",
   "/docs/guides/getting-started/publish/",
   "/docs/guides/getting-started/powered-by/",
 ]
