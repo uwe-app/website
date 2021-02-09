@@ -1,4 +1,4 @@
-uvm-uninstall 0.42.22
+uvm-uninstall 0.47.2
 Uninstall the platform tools
 
 USAGE:

@@ -6,7 +6,7 @@ description = "Sitemap generation"
 
 The `[sitemap]` table can be used to change how sitemaps are generated.
 
-The default settings will generate sitemap files for the release [[docs/guides/other/profiles|profile]]; if you want to disable sitemaps completely `profiles` should be disabled:
+The default settings will generate sitemap files for the release [[docs/in-depth/build-profiles|profile]]; if you want to disable sitemaps completely `profiles` should be disabled:
 
 ```toml
 [sitemap]

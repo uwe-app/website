@@ -50,7 +50,7 @@ If you design your source to avoid these naming conflicts then index rewrites sh
 
 ## Disable for a Page
 
-Sometimes you want clean URLs for the majority of the website but some pages should be rendered directly, you can use the `rewrite-index` option for the page to override for a single page. A good example of this is for [[docs/guides/other/error-page|error pages]] which must be written to `404.html`:
+Sometimes you want clean URLs for the majority of the website but some pages should be rendered directly, you can use the `rewrite-index` option for the page to override for a single page. A good example of this is for [[docs/in-depth/error-page|error pages]] which must be written to `404.html`:
 
 ```markdown
 +++

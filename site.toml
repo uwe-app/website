@@ -111,7 +111,6 @@ pages = [
   "/docs/guides/search-engines/",
   "/docs/guides/translate/",
   "/docs/guides/publish/",
-  "/docs/guides/other/",
 ]
 
 [menu.tutorials]
@@ -133,8 +132,23 @@ pages = [
 
 [menu.in-depth]
 pages = [
+  "/docs/in-depth/build-profiles/",
   "/docs/in-depth/hooks/",
   "/docs/in-depth/build-tools/",
+  "/docs/in-depth/test-options/",
+  "/docs/in-depth/json-templates/",
+  "/docs/in-depth/link-catalog/",
+  "/docs/in-depth/ignores/",
+  "/docs/in-depth/error-page/",
+  "/docs/in-depth/strict-mode/",
+  "/docs/in-depth/parallel-builds/",
+  "/docs/in-depth/security/",
+]
+
+[menu.security]
+pages = [
+  "/docs/in-depth/security/content-security-policy/",
+  "/docs/in-depth/security/ssl-certificates/",
 ]
 
 [menu.getting-started]
@@ -219,20 +233,6 @@ pages = [
 pages = [
   "/docs/guides/publish/self-hosting/",
   "/docs/guides/publish/amazon-web-services/",
-]
-
-[menu.other]
-pages = [
-  "/docs/guides/other/profiles/",
-  "/docs/guides/other/test-options/",
-  "/docs/guides/other/content-security-policy/",
-  "/docs/guides/other/json-templates/",
-  "/docs/guides/other/link-catalog/",
-  "/docs/guides/other/ignores/",
-  "/docs/guides/other/error-page/",
-  "/docs/guides/other/strict-mode/",
-  "/docs/guides/other/parallel-builds/",
-  "/docs/guides/other/ssl-certificates/",
 ]
 
 [menu.reference]

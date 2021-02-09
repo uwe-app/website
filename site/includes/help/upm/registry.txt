@@ -1,0 +1,14 @@
+upm-registry 0.47.3
+Update and list registry packages
+
+USAGE:
+    upm registry <SUBCOMMAND>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+SUBCOMMANDS:
+    help      Prints this message or the help of the given subcommand(s)
+    list      List registry plugins
+    update    Update the local plugin registry

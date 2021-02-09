@@ -1,21 +1,25 @@
-uwe-new 0.42.22
+uwe-new 0.47.3
 Create a new project
 
 USAGE:
-    uwe new [OPTIONS] <target> [source]
+    uwe new [FLAGS] [OPTIONS] <target> [plugin]
 
 FLAGS:
+        --bare       Create project without git initialization
         --help       Prints help information
     -V, --version    Prints version information
 
 OPTIONS:
+    -g, --git <git>                    Create project from a git blueprint
     -h, --host <host>                  Host name for the new project
     -l, --language <language>          Language for the new project
     -L, --locales <locales>            Create translation locales (comma delimited)
     -m, --message <message>            Initial commit message
-        --remote-name <remote-name>    Remote name [default: origin]
-    -r, --remote-url <remote-url>      Remote repository URL
+    -p, --path <path>                  Create project from a folder blueprint
+        --prefix <prefix>              Folder prefix for git blueprints
+        --remote-name <remote-name>    Remote name for the new project [default: origin]
+    -r, --remote-url <remote-url>      Remote repository URL for the new project
 
 ARGS:
     <target>    Output directory for the new project
-    <source>    Repository URL, folder or blueprint name
+    <plugin>    Plugin name for the project blueprint

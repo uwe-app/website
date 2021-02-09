@@ -1,12 +1,12 @@
-uvm-install 0.47.2
-Install a release version
+upm-list 0.47.3
+List project dependencies
 
 USAGE:
-    uvm install <version>
+    upm list [project]
 
 FLAGS:
     -h, --help       Prints help information
     -V, --version    Prints version information
 
 ARGS:
-    <version>    
+    <project>    Project path [default: .]

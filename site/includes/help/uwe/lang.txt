@@ -1,4 +1,4 @@
-uwe-lang 0.42.22
+uwe-lang 0.47.3
 Manage translations
 
 USAGE:

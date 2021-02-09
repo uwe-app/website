@@ -110,7 +110,7 @@ dynamic = true
 
 The compiler will automatically set `NODE_ENV=production` for release builds (`uwe build --exec` or `uwe server --exec`) and we recommend using this environment variable to add production optimizations in build tool configuration files (see an example in [postcss.config.js][]).
 
-For some build tools this may not be possible in which case you can set a hook just for the release [[docs/guides/other/profiles]]; for example:
+For some build tools this may not be possible in which case you can set a hook just for the release [[docs/in-depth/build-profiles]]; for example:
 
 ```toml
 \[[hooks.run]]

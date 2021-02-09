@@ -1,4 +1,4 @@
-uwe-docs 0.42.22
+uwe-docs 0.47.3
 Browse the documentation
 
 USAGE:
@@ -16,5 +16,4 @@ OPTIONS:
         --ssl-port <ssl-port>    The port number for SSL
 
 ARGS:
-    <version-range>    Version range for the documentation plugin [env:
-                       UWE_DOCS_VERSION_RANGE]
+    <version-range>    Version range for the documentation plugin [env: UWE_DOCS_VERSION_RANGE]

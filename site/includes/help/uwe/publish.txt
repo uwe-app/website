@@ -1,13 +1,14 @@
-uwe-publish 0.42.22
+uwe-publish 0.47.3
 Publish a website
 
 USAGE:
     uwe publish [FLAGS] <env> [project]
 
 FLAGS:
-    -e, --exec       Allow hook command execution
-    -h, --help       Prints help information
-    -V, --version    Prints version information
+    -e, --exec              Allow hook command execution
+    -h, --help              Prints help information
+    -s, --sync-redirects    Sync local redirects with remote
+    -V, --version           Prints version information
 
 ARGS:
     <env>        Publish environment

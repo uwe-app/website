@@ -25,7 +25,7 @@ Use the `--profile` option to build into another location:
 uwe build . --profile=debug
 ```
 
-Would write files to `build/debug`; you can set more build options using a [[docs/guides/other/profiles|custom profile]].
+Would write files to `build/debug`; you can set more build options using a [[docs/in-depth/build-profiles|custom profile]].
 
 ## Filters
 

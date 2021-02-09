@@ -4,7 +4,7 @@ description = "Map profile names to NODE_ENV"
 
 {{import "header"}}
 
-The `[node]` table can be used to map [[docs/guides/other/profiles|profile names]] to the `NODE_ENV` variable set when running [[docs/in-depth/hooks]].
+The `[node]` table can be used to map [[docs/in-depth/build-profiles|build profile names]] to the `NODE_ENV` variable set when running [[docs/in-depth/hooks]].
 
 The default mappings are `debug` to `development`, `release` to `production` and  `dist` to `production`.
 

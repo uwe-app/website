@@ -1,4 +1,4 @@
-UWE_COMMAND_DOCS = build clean dev docs lang new publish server sync task
+UWE_COMMAND_DOCS = build clean dev docs lang new publish server sync task test
 UPM_COMMAND_DOCS = install list add show remove lint pack publish registry
 UVM_COMMAND_DOCS = install list remove uninstall update use prune
 
@@ -29,4 +29,4 @@ help-uvm:
 
 help: help-uwe help-upm help-uvm
 
-.PHONY: all help dist 
+.PHONY: all help dist

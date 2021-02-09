@@ -1,24 +1,23 @@
-uwe-server 0.47.3
-Serve static files
+uwe-test 0.47.3
+Run integration tests
 
 USAGE:
-    uwe server [FLAGS] [OPTIONS] [--] [target]
+    uwe test [FLAGS] [OPTIONS] [--] [project]...
 
 FLAGS:
     -e, --exec              Allow hook command execution
         --help              Prints help information
     -i, --include-drafts    Include drafts
-    -O, --open              Launch a web browser
-    -s, --skip-build        Do not create a release build for projects
     -V, --version           Prints version information
 
 OPTIONS:
     -h, --host <host>            Bind address for the web server
     -m, --member <member>...     Filter on workspace members
     -p, --port <port>            The port number
+        --profile <profile>      Build profile name [default: test]
         --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
         --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
         --ssl-port <ssl-port>    The port number for SSL
 
 ARGS:
-    <target>    Project or directory to serve files from [default: .]
+    <project>...    Project path [default: .]

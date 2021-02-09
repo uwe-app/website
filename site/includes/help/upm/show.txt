@@ -1,8 +1,8 @@
-upm-info 0.42.22
+upm-show 0.47.3
 Show plugin information
 
 USAGE:
-    upm info <target>
+    upm show <target>
 
 FLAGS:
     -h, --help       Prints help information

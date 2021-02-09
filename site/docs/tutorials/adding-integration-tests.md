@@ -76,7 +76,7 @@ Whilst you could perform these tasks manually it would be tedious and prone to p
 The server for the test runner uses an ephemeral port so you can have a development server running at the same time!
 {{/note}}
 
-To learn more see the [cypress documentation][] and [[docs/guides/other/test-options]] to find out how to pass custom options.
+To learn more see the [cypress documentation][] and [[docs/in-depth/test-options]] to find out how to pass custom options.
 
 {{import "footer"}}
 

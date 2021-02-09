@@ -1,4 +1,4 @@
-uvm-use 0.42.22
+uvm-use 0.47.2
 Use a release version
 
 USAGE:

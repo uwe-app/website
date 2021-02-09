@@ -4,7 +4,7 @@ description = "Configure the build"
 
 {{import "header"}}
 
-The `[build]` table sets the default compiler profile; see [[docs/guides/other/profiles]] for more information.
+The `[build]` table sets the default compiler profile; see [[docs/in-depth/build-profiles]] for more information.
 
 * `source` Read source files from the input directory (default `site`)
 * `target` Destination for all builds (default `build`)

@@ -1,8 +1,8 @@
-uwe-clean 0.47.3
-Remove the build directory
+upm-install 0.47.3
+Install project dependencies
 
 USAGE:
-    uwe clean [project]
+    upm install [project]
 
 FLAGS:
     -h, --help       Prints help information

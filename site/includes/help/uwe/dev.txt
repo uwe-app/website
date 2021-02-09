@@ -1,8 +1,8 @@
-uwe-dev 0.42.22
-Live reload server
+uwe-dev 0.47.3
+Launch a development server
 
-Compiles a debug build of the website into the `build/debug` folder and starts a web server with
-live reload enabled watching for changes to the source files in the `site` folder.
+Compiles a debug build of the website into the `build/debug` folder and starts a web server with live reload
+enabled watching for changes to the source files in the `site` folder.
 
 USAGE:
     uwe dev [FLAGS] [OPTIONS] [--] [ARGS]
@@ -11,7 +11,6 @@ FLAGS:
     -e, --exec              Allow hook command execution
         --help              Prints help information
     -i, --include-drafts    Include drafts
-    -o, --offline           Offline mode, do not attempt plugin installation
     -V, --version           Prints version information
 
 OPTIONS:
@@ -19,7 +18,7 @@ OPTIONS:
         --launch <launch>        Launch page URL
     -m, --member <member>...     Filter on workspace members
     -p, --port <port>            The port number
-        --profile <profile>      Build profile name
+        --profile <profile>      Build profile name [default: debug]
         --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
         --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
         --ssl-port <ssl-port>    The port number for SSL

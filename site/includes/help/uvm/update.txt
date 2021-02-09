@@ -1,5 +1,5 @@
-uvm-update 0.42.22
-Update the platform tools
+uvm-update 0.47.2
+Update to a new release
 
 USAGE:
     uvm update [FLAGS] [version-range]

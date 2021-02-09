@@ -1,11 +1,11 @@
-uwe-build 0.42.22
+uwe-build 0.47.3
 Compile a site
 
-Creates a release build of the website into the `build/release` folder; use the `--profile`
-option to build to a different location with alternative build settings.
+Creates a release build of the website into the `build/release` folder; use the `--profile` option to build to a
+different location with alternative build settings.
 
-If the project is a workspace all of the workspace members are compiled; filter the workspace
-members to build using the `--member` option.
+If the project is a workspace all of the workspace members are compiled; filter the workspace members to build
+using the `--member` option.
 
 USAGE:
     uwe build [FLAGS] [OPTIONS] [--] [ARGS]
@@ -14,12 +14,11 @@ FLAGS:
     -e, --exec              Allow hook command execution
     -h, --help              Prints help information
     -i, --include-drafts    Include drafts
-    -o, --offline           Offline mode, do not attempt plugin installation
     -V, --version           Prints version information
 
 OPTIONS:
     -m, --member <member>...    Filter on workspace members
-        --profile <profile>     Build profile name
+        --profile <profile>     Build profile name [default: release]
 
 ARGS:
     <project>     Project path [default: .]
