@@ -10,9 +10,9 @@ Some frequently asked questions and relevant answers!
 
 Universal web editor is incredibly fast and predicated on the idea that not every website needs to be a huge bundle of Javascript; many people still appreciate simple, clean pages with a focus on the content.
 
-### Do you support Javascript frameworks?
+### Do you support Javascript transpilers?
 
-No. You can of course use your favourite Javascript framework as a pre-processor and write the files to the correct location for your website.
+Yes, use one of the Javascript/Typescript [build tools][].
 
 ### Do you support CSS preprocessors?
 
@@ -32,7 +32,7 @@ We use [commonmark][] with support for a few non-standard features:
 
 ### Where should I report bugs or request features?
 
-Please raise an issue [in the community repository](https://github.com/uwe-app/community/issues).
+Please raise an issue [in the community repository](https://github.com/uwe-app/community/issues) or chat with us on [discord][].
 
 ### Can I submit a plugin?
 
@@ -42,7 +42,8 @@ Yes, if you have created a useful plugin please submit it to the [plugins reposi
 
 The speed is thanks to [rust][] and the projects listed in the [[credits]].
 
-[build tools]: https://github.com/uwe-app/build-tools/
-[handlebars]: https://handlebarsjs.com/
-[commonmark]: https://commonmark.org/
-[rust]: https://www.rust-lang.org/
+[build tools]: https://github.com/uwe-app/cookbook/tree/main/build "Build Tools"
+[handlebars]: https://handlebarsjs.com/ "Handlebars"
+[commonmark]: https://commonmark.org/ "Commonmark"
+[rust]: https://www.rust-lang.org/ "Rust"
+[discord]: https://discord.gg/gmhWetv2fE "Discord Chat"

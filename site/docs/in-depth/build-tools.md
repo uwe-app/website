@@ -6,12 +6,26 @@ description = "Add external build tools"
 
 The [[docs/tutorials/using-javascript-transpiler|javascript transpiler]] tutorial shows the basic steps for adding an external build tool using a [[docs/in-depth/hooks|hook]].
 
-Here we look in more detail at what happens under the hood when integrating a Javscript transpiler or CSS preprocessor; see the [build tools repository][build tools] for source code.
+Here we look in more detail at what happens under the hood when integrating a Javascript transpiler or CSS preprocessor; see the [build tools cookbook][build tools] for source code.
 
-For the best performance compiling Javascript/Typescript we recommend using the [swc][swc-example] integration.
+{{!-- {{toc from="h2" tag="ul"}} --}}
 
-{{#> note label="tip"}}
-To try out an integration quickly install from a blueprint like this:
+* [Quick Start](#quick-start) Use a build tool blueprint
+* [General Steps](#general-steps) General steps for adding build tools
+  * [Modules](#modules) Dependencies should go in the project root
+  * [Sources](#sources) Source file location
+  * [Configuration](#configuration) Configuration file location
+  * [Site Settings](#site-settings)
+    * [Hook](#hook) Add a hook to the site settings
+    * [Paths](#paths) Set the script and style paths
+      * [Script](#script) Set the main script for the site
+      * [Style](#style) Set the main stylesheet for the site
+  * [Production](#production) Optimizations for release builds
+* [Run](#run) Compile with live reload or for a production release
+
+## Quick Start
+
+To quickly try out a build tool install from a blueprint like this:
 
 ```
 uwe new webpack-project build::webpack
@@ -19,24 +33,10 @@ cd webpack-project
 npm install
 uwe dev --exec
 ```
-{{/note}}
 
-* [Integration Steps](#integration-steps) General steps for integration.
-  * [Modules](#modules) Dependencies should go in the project root.
-  * [Sources](#sources) Source file location.
-  * [Configuration](#configuration) Configuration file location.
-  * [Site Settings](#site-settings)
-    * [Hook](#hook) Add a hook to the site settings.
-    * [Paths](#paths) Set the script and style paths.
-      * [Script](#script) Set the main script for the site.
-      * [Style](#style) Set the main stylesheet for the site.
-  * [Production](#production) Optimizations for release builds.
-* [Run](#run) Compile with live reload or for a production release.
-* [Examples](#examples) List of build tool examples.
+## General Steps
 
-## Integration Steps
-
-To integrate with an external build tool add a [[docs/in-depth/hooks|hook]] which runs whenever a website is compiled; each integration also runs the hook when build source files are changed and live reload is enabled (`uwe dev --exec`).
+To integrate with an external build tool add a [[docs/in-depth/hooks|hook]] which runs whenever a website is compiled; each build tool also runs the hook when build source files are changed and live reload is enabled (`uwe dev --exec`).
 
 ### Modules
 
@@ -56,7 +56,7 @@ Do **not write build products** to the `site` directory otherwise you may **crea
 
 Configuration files for build tools should go in the project root outside of the `site` directory unless they should trigger a live reload.
 
-If a configuration file should trigger a hook to be run when files change it can go in the `site` directory; for example the [tailwind][] integration needs to rebuild the stylesheet when the configuration file changes (see the [tailwind-postcss][tailwind-postcss-example] integration).
+If a configuration file should trigger a hook to be run when files change it can go in the `site` directory; for example the [tailwind][] build tool needs to rebuild the stylesheet when the configuration file changes (see the [tailwind-postcss][tailwind-postcss] example project).
 
 ## Site Settings
 
@@ -98,7 +98,7 @@ dynamic = true
 
 #### Style
 
-The main stylesheet that would be loaded for all pages also needs to be `dynamic` when using an integration that compiles stylesheets:
+The main stylesheet that would be loaded for all pages also needs to be `dynamic` when using a build tool that compiles stylesheets:
 
 ```toml
 [style]
@@ -121,35 +121,12 @@ files = ["src/*.js"]
 watch = true
 ```
 
-## Examples
-
-### Javscript / Typescript
-
-* [Swc][swc-example] Compile scripts using [swc][].
-* [Esbuild][esbuild-example] Compile scripts using [esbuild][].
-* [Babel][babel-example] Compile scripts using [babel][].
-* [Webpack][webpack-example] Compile scripts using [webpack][].
-
-### Stylesheets
-
-* [Sass][sass-example]: Compile styles using [sass][].
-* [PostCSS][postcss-example]: Compile styles using [postcss][].
-* [Tailwind w/ PostCSS][tailwind-postcss-example]: Compile styles using the [tailwind][] framework.
-
 {{import "footer"}}
 
-[build tools]: https://github.com/uwe-app/build-tools
+[build tools]: https://github.com/uwe-app/cookbook/tree/main/build "Build Tools"
 
-[swc-example]: https://github.com/uwe-app/build-tools/tree/main/swc
-[esbuild-example]: https://github.com/uwe-app/build-tools/tree/main/esbuild
-[babel-example]: https://github.com/uwe-app/build-tools/tree/main/babel
-[webpack-example]: https://github.com/uwe-app/build-tools/tree/main/webpack
-
-[sass-example]: https://github.com/uwe-app/build-tools/tree/main/sass
-[postcss-example]: https://github.com/uwe-app/build-tools/tree/main/postcss
-[tailwind-postcss-example]: https://github.com/uwe-app/build-tools/tree/main/tailwind-postcss
-
-[postcss.config.js]: https://github.com/uwe-app/build-tools/tree/main/tailwind-postcss/postcss.config.js
+[tailwind-postcss]: https://github.com/uwe-app/cookbook/tree/main/build/tailwind-postcss/
+[postcss.config.js]: https://github.com/uwe-app/cookbook/tree/main/build/tailwind-postcss/postcss.config.js
 
 [react]: https://reactjs.org/
 [babel]: https://babeljs.io/
