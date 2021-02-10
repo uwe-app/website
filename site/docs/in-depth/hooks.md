@@ -18,14 +18,14 @@ Hooks are [[docs/guides/getting-started/site-settings]] named using the `hooks.r
 
 ```toml
 \[[hooks.run]]
-path = "echo"
+command = "echo"
 ```
 
 Arguments can be passed using the `args` field:
 
 ```toml
 \[[hooks.run]]
-path = "echo"
+command = "echo"
 args = ["Hello", ", world!"]
 ```
 
@@ -55,7 +55,7 @@ For example, when live reload is enabled changes to CSS files in `site/src` will
 
 ```toml
 \[[hooks.run]]
-path = "npm"
+command = "npm"
 args = ["run", "build"]
 files = [ "src/*.css" ]
 watch = true
@@ -67,7 +67,7 @@ By default hooks are run before a build, if you need to run a hook afterwards us
 
 ```toml
 \[[hooks.run]]
-path = "node"
+command = "node"
 args = ["optimize.js"]
 after = true
 ```
@@ -80,7 +80,7 @@ Once your script is working you might want to use the `stdout` and `stderr` flag
 
 ```toml
 \[[hooks.run]]
-path = "./compile-css"
+command = "./compile-css"
 stdout = false
 ```
 

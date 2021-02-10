@@ -64,7 +64,7 @@ src = "/assets/scripts/main.js"
 dynamic = true
 
 \[[hooks.run]]
-path = "npm"
+command = "npm"
 args = ["run", "build"]
 files = ["src/*.js"]
 watch = true

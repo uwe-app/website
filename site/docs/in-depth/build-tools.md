@@ -66,7 +66,7 @@ The hook setting in `site.toml` runs the build script:
 
 ```toml
 \[[hooks.run]]
-path = "npm"
+command = "npm"
 args = ["run", "build"]
 files = ["src/*.js"]
 watch = true
@@ -114,7 +114,7 @@ For some build tools this may not be possible in which case you can set a hook j
 
 ```toml
 \[[hooks.run]]
-path = "npm"
+command = "npm"
 args = ["run", "build-production"]
 profiles = ["release"]
 files = ["src/*.js"]
