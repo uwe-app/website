@@ -4,7 +4,7 @@ description = "Run external commands"
 
 {{import "header"}}
 
-The `[[hooks.run]]` list is used to define command hooks; see [[docs/in-depth/hooks]] for more detail.
+The `\[[hooks.run]]` list is used to define command hooks; see [[docs/in-depth/hooks]] for more detail.
 
 If a command begins with a period (`.`) it is resolved relative to the project directory.
 
