@@ -14,23 +14,23 @@ uwe dev --exec
 
 Commands are executed with the current working directory set to the project folder.
 
-Hooks are [[docs/guides/getting-started/site-settings]] named using the `hooks.run` notation, so the simplest hook would be:
+Hooks are [[docs/guides/getting-started/site-settings]] named using the `\[[hook]]` notation, so the simplest hook would be:
 
 ```toml
-\[[hooks.run]]
+\[[hook]]
 command = "echo"
 ```
 
 Arguments can be passed using the `args` field:
 
 ```toml
-\[[hooks.run]]
+\[[hook]]
 command = "echo"
 args = ["Hello", ", world!"]
 ```
 
-{{#> note label="info"}}
-When a command `path` begins with a period (eg: `./build.sh`) it is resolved relative to the project folder which is useful if you have executable programs inside the project.
+{{#> note}}
+When a `command` begins with a period (eg: `./build.sh`) it is resolved relative to the project folder which is useful if you have executable programs inside the project.
 {{/note}}
 
 ## Environment
@@ -43,7 +43,7 @@ Hooks are passed the following environment variables; paths are canonical absolu
 * `BUILD_FILE` The file that triggered the hook to be executed when watching files.
 * `NODE_ENV` The current environment.
 
-{{#> note label="info"}}
+{{#> note}}
 The `BUILD_FILE` variable will only be set when live reload is watching files and a matched file has changed.
 {{/note}}
 
@@ -54,7 +54,7 @@ To indicate ownership of files relative to `site` use the `files` glob patterns 
 For example, when live reload is enabled changes to CSS files in `site/src` will trigger the hook:
 
 ```toml
-\[[hooks.run]]
+\[[hook]]
 command = "npm"
 args = ["run", "build"]
 files = [ "src/*.css" ]
@@ -66,7 +66,7 @@ watch = true
 By default hooks are run before a build, if you need to run a hook afterwards use the `after` flag:
 
 ```toml
-\[[hooks.run]]
+\[[hook]]
 command = "node"
 args = ["optimize.js"]
 after = true
@@ -79,7 +79,7 @@ This is particularly useful if you need custom optimizations for the build files
 Once your script is working you might want to use the `stdout` and `stderr` flags to suppress program output:
 
 ```toml
-\[[hooks.run]]
+\[[hook]]
 command = "./compile-css"
 stdout = false
 ```

@@ -63,7 +63,7 @@ We need to add a hook to `site.toml` so that it knows which command to run befor
 src = "/assets/scripts/main.js"
 dynamic = true
 
-\[[hooks.run]]
+\[[hook]]
 command = "npm"
 args = ["run", "build"]
 files = ["src/*.js"]

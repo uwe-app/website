@@ -28,7 +28,7 @@ Here we look in more detail at what happens under the hood when integrating a Ja
 To quickly try out a build tool install from a blueprint like this:
 
 ```
-uwe new webpack-project build::webpack
+uwe new webpack-project cookbook::build::webpack
 cd webpack-project
 npm install
 uwe dev --exec
@@ -65,7 +65,7 @@ If a configuration file should trigger a hook to be run when files change it can
 The hook setting in `site.toml` runs the build script:
 
 ```toml
-\[[hooks.run]]
+\[[hook]]
 command = "npm"
 args = ["run", "build"]
 files = ["src/*.js"]
@@ -113,7 +113,7 @@ The compiler will automatically set `NODE_ENV=production` for release builds (`u
 For some build tools this may not be possible in which case you can set a hook just for the release [[docs/in-depth/build-profiles]]; for example:
 
 ```toml
-\[[hooks.run]]
+\[[hook]]
 command = "npm"
 args = ["run", "build-production"]
 profiles = ["release"]
