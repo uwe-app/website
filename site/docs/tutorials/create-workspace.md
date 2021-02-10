@@ -10,8 +10,6 @@ Workspaces let us group multiple related projects together so we can build them 
 Remember to replace `example.com` with your website domain name if you plan to use the workspace.
 {{/note}}
 
-Currently, workspaces can only contain projects they may not contain other workspaces; if this restriction affects you please let us know in the [community discussions](https://github.com/uwe-app/community/discussions).
-
 {{#> note label="Learn how to"}}
 {{toc from="h2" tag="ul"}}
 {{/note}}
@@ -23,10 +21,14 @@ To begin we use the `new` command to scaffold several projects for the workspace
 ```
 mkdir example.com
 cd example.com
-uwe new website
-uwe new blog blog
-uwe new docs
+uwe new --bare website
+uwe new --bare blog blog
+uwe new --bare docs
 ```
+
+{{#> note}}
+The `--bare` option will skip initializing a git repository for each new project as it is more common to use a monorepo with a workspace.
+{{/note}}
 
 ## Define workspace members
 
@@ -101,7 +103,7 @@ There is a caveat to this technique that is important to be aware of: the `membe
 Assuming that `website` links to the `blog` project like in the example above if we tried to build the `website` project directly we would get an error:
 
 ```
-uwe example.com/website
+uwe build example.com/website
 ```
 
 Would generate an error like this:
@@ -113,7 +115,7 @@ ERROR compiler::compile  > Variable 'projects.blog' not found in website/site/in
 The solution is to use a workspace `member` filter when we only want to launch a single project:
 
 ```
-uwe example.com -m website --live
+uwe dev example.com -m website
 ```
 
 Now the link to the `blog` project will be available and a compiler error is not generated.
