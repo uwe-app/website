@@ -39,9 +39,9 @@ description  = "Brief description of the page content"
 # \{{title}}
 ```
 
-{{#> note type="tip" label="tip"}}
+{{#>alert type="tip" label="tip"}}
 A page title is inferred from the file name unless a specific title has been defined; when a page is an index file the name of the parent directory is used instead. Use this feature with [[docs/cookbook/directory-listing|directory listings]] to rapidly sketch your site pages.
-{{/note}}
+{{/alert}}
 
 ## Summary
 
@@ -85,9 +85,9 @@ image = "/assets/img/article-banner.jpg"
 # \{{title}}
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Images must be relative paths; they are automatically made absolute when rendering.
-{{/note}}
+{{/alert}}
 
 ## Meta Data
 
@@ -120,9 +120,9 @@ Renders to:
 <meta property="og:title" content="Title to use when shared on social websites">
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 The `og:` prefix is not required the [open graph partial](https://github.com/uwe-app/plugins/blob/main/std/core/partials/open-graph.hbs) will insert it and the `og:url` property is always created automatically.
-{{/note}}
+{{/alert}}
 
 If you want to set the `og:site_name` for all pages you can add this to your site settings:
 
@@ -150,9 +150,9 @@ permalink = "/posts/article-link/"
 # \{{title}}
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 The `permalink` variable will use the redirect path for the page when `permalink` is set otherwise the page URL is used; the value is guaranteed to be an absolute URI once it is passed to a template.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}
 

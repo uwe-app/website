@@ -6,13 +6,13 @@ description = "Show tips, warnings and other notes"
 
 {{> table-of-contents}}
 
-A common pattern is to show notes such as tips, warnings or info messages. The [std::note](https://github.com/uwe-app/plugins/tree/main/std/note) plugin provides a [note block partial](https://github.com/uwe-app/plugins/blob/main/std/note/partials/note.hbs) which makes it easy to integrate notes in to your pages.
+A common pattern is to show alerts such as tips, warnings or info messages. The [std::alert](https://github.com/uwe-app/plugins/tree/main/std/alert) plugin provides a [note block partial](https://github.com/uwe-app/plugins/blob/main/std/alert/partials/alert.hbs) which makes it easy to integrate notes in to your pages.
 
 You should add the dependency to your site settings to use it:
 
 ```toml
 [dependencies]
-"std::note" = { version = "~1" }
+"std::alert" = "~1"
 ```
 
 ## Usage
@@ -21,17 +21,17 @@ Use the note partial like this:
 
 ```handlebars
 {{{{~raw}}}}
-{{#> note}}
+{{#>alert}}
 This is a note with *seamless* Markdown handling.
-{{/note}}
+{{/alert}}
 {{{{~/raw}}}}
 ```
 
 Renders to:
 
-{{#> note}}
+{{#>alert}}
 This is a note with *seamless* Markdown handling.
-{{/note}}
+{{/alert}}
 
 ## Type
 
@@ -39,17 +39,17 @@ Add a `type` which is appended to the `class`:
 
 ```handlebars
 {{{{~raw}}}}
-{{#> note type="warn"}}
+{{#>alert type="warn"}}
 This is a warning.
-{{/note}}
+{{/alert}}
 {{{{~/raw}}}}
 ```
 
 Renders to:
 
-{{#> note type="warn"}}
+{{#>alert type="warn"}}
 This is a warning.
-{{/note}}
+{{/alert}}
 
 ## Label
 
@@ -57,25 +57,25 @@ Add a `label` to render a span inside:
 
 ```handlebars
 {{{{~raw}}}}
-{{#> note type="error" label="error"}}
+{{#>alert type="error" label="error"}}
 This is an error.
-{{/note}}
+{{/alert}}
 {{{{~/raw}}}}
 ```
 
 Renders to:
 
-{{#> note type="error" label="error"}}
+{{#>alert type="error" label="error"}}
 This is an error.
-{{/note}}
+{{/alert}}
 
 ## Style
 
-If you want to use the default [styles](https://github.com/uwe-app/plugins/blob/main/std/note/styles/note.css) apply them in the dependency:
+If you want to use the default [styles](https://github.com/uwe-app/plugins/blob/main/std/alert/styles/alert.css) apply them in the dependency:
 
 ```toml
 [dependencies]
-"std::note" = { version = "~1", apply = { styles = [ "**" ] } }
+"std::alert" = { version = "~1", apply = { styles = [ "**" ] } }
 ```
 
 {{import "footer"}}

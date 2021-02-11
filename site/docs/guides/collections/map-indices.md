@@ -12,9 +12,9 @@ The simplest index is one that includes all documents. Following on from the pre
 [db.load.posts.on.all]
 key = "*"
 ```
-{{#> note}}
+{{#>alert}}
 The wildcard character `*` is special and indicates that the index should include all documents.
-{{/note}}
+{{/alert}}
 
 Suppose we only wanted to include pages that have a `description` in our collection index we could specify the key:
 

@@ -6,9 +6,9 @@ description = "Render a table of contents list"
 
 Render a table of contents list.
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 This helper is only available when the `toc` transform is enabled, see [table of contents]({{link "/docs/cookbook/table-of-contents/"}}) for more detail.
-{{/note}}
+{{/alert}}
 
 ## Parameters
 

@@ -18,8 +18,8 @@ Feed tables require an identifier so use the `[feed.posts]` notation which creat
 * `plugin` Plugin name containing the feed templates (optional, default `std::feed`)
 * `alternate` List of glob patterns for build files that should link to the generated feeds (optional)
 
-{{#> note}}
+{{#>alert}}
 When both `includes` and `excludes` glob patterns are given the `excludes` take precedence.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

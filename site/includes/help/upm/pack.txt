@@ -1,4 +1,4 @@
-upm-pack 0.47.3
+upm-pack 0.47.5
 Package a plugin
 
 USAGE:

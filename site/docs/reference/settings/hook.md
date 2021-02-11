@@ -17,8 +17,8 @@ If a command begins with a period (`.`) it is resolved relative to the project d
 * `stdout` Print command stdout (default `true`)
 * `stderr` Print command stderr (default `true`)
 
-{{#> note}}
+{{#>alert}}
 Hooks are only executed when the `--exec` option is passed.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

@@ -25,8 +25,8 @@ Site maps are automatically chunked on a number of entries so that bots are not 
 entries = 20000
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 When site maps are enabled a [[docs/guides/search-engines/robots]] file is always generated so we can let bots know where to find the site maps.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

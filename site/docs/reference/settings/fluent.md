@@ -9,12 +9,12 @@ The `[fluent]` table is optional but allows modifying the translation parameters
 * `fallback` Identifier of the fallback language (optional)
 * `shared` The name of the file used for shared messages (optional, default `core.ftl`)
 
-{{#> note}}
+{{#>alert}}
 The default fallback language is the primary language for the project defined by the top-level `lang` setting.
-{{/note}}
+{{/alert}}
 
-{{#> note}}
+{{#>alert}}
 The shared file must exist in the `locales` directory, ie: `site/locales/core.ftl`.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

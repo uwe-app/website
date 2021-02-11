@@ -20,9 +20,9 @@ First create a `footer.hbs` file in the folder and then each page can *import* i
 \{{import "footer"}}
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Do not specify a file extension when importing files using this syntax.
-{{/note}}
+{{/alert}}
 
 When importing files using a name the helper will walk the parent hierarchy to find the first template that matches the given name.
 
@@ -32,8 +32,8 @@ It is recommended to use a named template whenever possible but sometimes you ma
 \{{import ../../docs/footer.hbs}}
 ```
 
-{{#> note label="warn" type="warn"}}
+{{#>alert label="warn" type="warn"}}
 Imports should not be confused with *partials* which should be placed in the `partials` folder and rendered using the `>` notation (eg: `\{{> crumbtrail}}`).
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

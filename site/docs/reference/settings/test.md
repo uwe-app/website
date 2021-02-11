@@ -13,9 +13,9 @@ The `[test.integration]` table supports these fields:
 * `opts` File used for default options (optional, default `test/cypress.opts`)
 * `env` Map of environment variables to set (optional)
 
-{{#> note type="warn"}}
+{{#>alert type="warn"}}
 Do not set the `CYPRESS_BASE_URL` environment variable as it is automatically set to the URL of the test server.
-{{/note}}
+{{/alert}}
 
 ## Example
 

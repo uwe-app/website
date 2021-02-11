@@ -35,9 +35,9 @@ src = "assets/scripts/custom.js"
 # \{{title}}
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Because your styles and scripts use the assets folder convention when you edit the file with live reload enabled (`uwe dev`) then all your pages will be compiled.
-{{/note}}
+{{/alert}}
 
 To add a `<noscript>` element create some content in the `partials/noscript.hbs` file, for example:
 

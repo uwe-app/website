@@ -36,9 +36,9 @@ site/locales
     └── main.ftl
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 The `core.ftl` file can be used to share messages across all translations; it is a required file and must exist even if you have no shared messages.
-{{/note}}
+{{/alert}}
 
 ## Redirect
 

@@ -10,9 +10,9 @@ This tutorial walks through an example integration with the [esbuild][] transpil
 
 If you want to dive straight in to the source code see the [build tools][] cookbook for various working examples using the technique described here.
 
-{{#> note label="Learn how to"}}
+{{#>alert label="Learn how to"}}
 {{toc from="h2" tag="ul"}}
-{{/note}}
+{{/alert}}
 
 ## Create a project
 
@@ -39,9 +39,9 @@ Next we add the `esbuild-hook/package.json` file to keep track of the project de
 }
 ```
 
-{{#> note}}
+{{#>alert}}
 Notice the `build` script uses the environment variables `BUILD_SOURCE` and `BUILD_TARGET`; these will be set when the hook is executed.
-{{/note}}
+{{/alert}}
 
 ## Install esbuild
 
@@ -72,9 +72,9 @@ watch = true
 
 When you compile the site the `build` script defined earlier in `package.json` will be called beforehand and the `/assets/scripts/main.js` file will be loaded by all pages.
 
-{{#> note}}
+{{#>alert}}
 The `files` and `watch` settings ensure that the hook runs when live reload is enabled using `uwe dev`.
-{{/note}}
+{{/alert}}
 
 ## Add main script
 
@@ -108,9 +108,9 @@ esbuild ✓
 
 Which was written by the `main.js` script we created earlier!
 
-{{#> note}}
+{{#>alert}}
 Remember when using hooks to pass the `--exec` option so they are executed.
-{{/note}}
+{{/alert}}
 
 If you edit the `site/src/main.js` file the hook will re-compile the javascript and the live reload server will refresh the browser!
 

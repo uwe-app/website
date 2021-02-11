@@ -11,9 +11,9 @@ To add plugins to a project put them in the `[dependencies]` section of the site
 "std::core" = "~4"
 ```
 
-{{#> note}}
+{{#>alert}}
 Plugin names must be quoted.
-{{/note}}
+{{/alert}}
 
 All dependencies must specify a name and version range which can be an exact version (`1.0.0`) or a request range which allows for dependencies to be updated within the matching range. Versions follow the [semver][] specification.
 

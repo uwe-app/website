@@ -6,9 +6,9 @@ description = "Live reload behaviors"
 
 The `[live-reload]` table exposes some control over the live reload behavior.
 
-{{#> note}}
+{{#>alert}}
 These settings are currently considered experimental and may be removed in a future version.
-{{/note}}
+{{/alert}}
 
 * `follow-edits` Navigate in the browser as pages are edited (optional, default `false`)
 

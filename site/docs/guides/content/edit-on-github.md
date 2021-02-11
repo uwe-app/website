@@ -12,9 +12,9 @@ url = "https://github.com/uwe-app/website/"
 edit-path = "edit/<branch-name>/"
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Replace `<branch-name>` with your preferred branch name, eg: `main`.
-{{/note}}
+{{/alert}}
 
 Then add a dependency on the [std::link][] plugin and enable the `github` feature:
 

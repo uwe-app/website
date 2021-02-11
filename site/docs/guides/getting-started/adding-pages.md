@@ -6,9 +6,9 @@ description = "Add and edit pages"
 
 Pages are Markdown documents that use a template engine for rendering; to add a new page to your website create a file with a `.md` extension in the `site` folder.
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 For brevity this documentation will omit the `site` prefix when specifying source file paths; unless otherwise specified you should assume file paths refer to documents in the `site` directory.
-{{/note}}
+{{/alert}}
 
 File names correspond to the links for your pages so you should follow some simple conventions when naming files:
 
@@ -52,13 +52,13 @@ rewrite-index = false
 render = false
 ```
 
-{{#> note type="info" label="info"}}
+{{#>alert type="info" label="info"}}
 We think front matter makes the project easier to understand so we recommend using it wherever possible.
-{{/note}}
+{{/alert}}
 
-{{#> note type="warn" label="warn"}}
+{{#>alert type="warn" label="warn"}}
 Be sure to quote the path to prevent a [TOML][] error; paths are resolved relative to the `site` directory and it is an error if the file does not exist. So that paths are platform independent you should always use a forward slash.
-{{/note}}
+{{/alert}}
 
 ## Using HTML
 
@@ -69,13 +69,13 @@ If you want to also use plain HTML files with the `.html` extension then you can
 extend = ["html"]
 ```
 
-{{#> note type="tip" label="tip"}}
+{{#>alert type="tip" label="tip"}}
 HTML files are not parsed as Markdown but you can use the [[docs/reference/helpers/markdown|markdown helper]] if you need it.
-{{/note}}
+{{/alert}}
 
-{{#> note type="warn" label="warn"}}
+{{#>alert type="warn" label="warn"}}
 Mixing HTML with Markdown makes naming collisions more likely, see [[docs/guides/pages/clean-urls|clean URLs]] for more information.
-{{/note}}
+{{/alert}}
 
 ---
 

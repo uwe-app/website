@@ -24,9 +24,9 @@ If a message does not exist then an unknown localization message is rendered:
 {{fluent "missing-key"}}
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 See [project fluent][] for more information on the syntax used in `.ftl` files.
-{{/note}}
+{{/alert}}
 
 ## Variables
 

@@ -38,9 +38,9 @@ bucket = "example.com"
 
 You need to ensure that the region matches where your buckets are located and the buckets must already exist, have public read permissions and be configured for static website hosting using `index.html` for the index page and `404.html` for the error page.
 
-{{#>note}}
+{{#>alert}}
 If no bucket is given for an environment it inherits the value from the `host` setting.
-{{/note}}
+{{/alert}}
 
 Afterwards you can publish an environment like this:
 
@@ -72,9 +72,9 @@ An example of this is the [releases web page](https://releases.uwe.app) which is
 
 You can set a `prefix` to publish into a particular location in the bucket.
 
-{{#> note label="warn" type="warn"}}
+{{#>alert label="warn" type="warn"}}
 Be aware that this configuration has issues with trailing slash redirects when proxied via Cloudfront so we recommend a separate bucket per environment.
-{{/note}}
+{{/alert}}
 
 ```toml
 host = "example.com"

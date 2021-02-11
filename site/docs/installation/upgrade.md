@@ -30,8 +30,8 @@ uvm use 0.30.0
 
 Rather than relying on the *default* release version a better approach is to use [[docs/installation/project-versioning]] which we discuss next.
 
-{{#>note}}
+{{#>alert}}
 See the [[docs/reference/commands/uvm|version manager]] command reference for more information.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

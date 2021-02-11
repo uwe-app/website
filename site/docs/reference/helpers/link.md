@@ -8,15 +8,15 @@ The link helper generates links relative to the current page. You pass it an abs
 
 Prefer using wiki-style [[docs/guides/getting-started/links]] wherever possible.
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 If you pass a relative path starting with a period or use the `http:` or `https:` schemes it will not be modified.
 
 If the current page has set `absolute` then this helper will render an absolute path.
-{{/note}}
+{{/alert}}
 
-{{#> note label="warn" type="warn"}}
+{{#>alert label="warn" type="warn"}}
 Relative paths are not verified so should be avoided.
-{{/note}}
+{{/alert}}
 
 ## Arguments
 

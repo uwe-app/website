@@ -25,8 +25,8 @@ Now you can reference those links in any Markdown document as you would normally
 Check out the [UWE][] app!
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 To prevent creating a page for `links.md` you should add the ignore pattern `/links.md` to an `.ignore` file in the `site` directory.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

@@ -25,9 +25,9 @@ Now for pages that need a table of contents you just call the [[docs/reference/h
 
 Using the [details element][] as a wrapper for the table of contents allows the visitor to collapse the menu; see this [example partial][] for markup and a [[docs/guides/getting-started/content|working example is here]].
 
-{{#> note label="warn" type="warn"}}
+{{#>alert label="warn" type="warn"}}
 Be careful where you put headings otherwise you may get too many entries in your table of contents. For example, if you are using a sidebar navigation with sections it is tempting to use headings to delimit the sections but these would also appear in the table of contents which is probably not what you want!
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}
 

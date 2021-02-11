@@ -17,9 +17,9 @@ Use the `menu` helper to render [[docs/guides/navigation/defining-menus|menus]].
 * `depth` Maximum depth when listing directory content (default: `1`).
 * `path` Optional directory to list.
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Use `depth=0` to get all the descendants of a folder; the listing will use the default maximum folder depth for traversal which is 64.
-{{/note}}
+{{/alert}}
 
 ## Local Variables
 

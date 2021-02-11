@@ -10,8 +10,8 @@ The `[authors]` table is used to define the list of authors for a project, see [
 * `url` Link to a website for the author (optional)
 * `avatar` Link to an image for the author (optional)
 
-{{#> note}}
+{{#>alert}}
 The `url` and `avatar` must be absolute URLs.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

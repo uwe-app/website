@@ -15,9 +15,9 @@ lang = "en"
 host = "example.com"
 ```
 
-{{#> note}}
+{{#>alert}}
 If you do not have a `host` name yet use `localhost` as a placeholder value.
-{{/note}}
+{{/alert}}
 
 These are the settings that can be defined at the top-level of `site.toml`:
 

@@ -1,4 +1,4 @@
-uwe-dev 0.47.3
+uwe-dev 0.47.5
 Launch a development server
 
 Compiles a debug build of the website into the `build/debug` folder and starts a web server with live reload
@@ -19,8 +19,8 @@ OPTIONS:
     -m, --member <member>...     Filter on workspace members
     -p, --port <port>            The port number
         --profile <profile>      Build profile name [default: debug]
-        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
-        --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
+        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: UWE_SSL_CERT]
+        --ssl-key <ssl-key>      Path to an SSL key file [env: UWE_SSL_KEY]
         --ssl-port <ssl-port>    The port number for SSL
 
 ARGS:

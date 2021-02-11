@@ -21,9 +21,9 @@ Afterwards, you can use the partials passing the name of a menu as the source fo
 \{{> next-prev menu="primary"~}}
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Only use these sequential navigation partials on pages that exist in the menu definition otherwise nothing will be rendered!
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}
 

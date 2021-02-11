@@ -67,12 +67,12 @@ This helper knows the file context so when you are in HTML files there is no nee
 </section>
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 The only time you should use `render` is in HTML *inside a Markdown document*.
-{{/note}}
+{{/alert}}
 
-{{#> note type="warn" label="warn"}}
+{{#>alert type="warn" label="warn"}}
 Be careful using the block syntax `\{{#markdown}}` in HTML documents as leading whitespace can be mistakenly interpreted as fenced code blocks.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

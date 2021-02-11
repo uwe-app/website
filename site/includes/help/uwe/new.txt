@@ -1,4 +1,4 @@
-uwe-new 0.47.3
+uwe-new 0.47.5
 Create a new project
 
 USAGE:

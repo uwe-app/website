@@ -17,9 +17,9 @@ url = "https://github.com/uwe-app/website/"
 edit-path = "edit/main/"
 ```
 
-{{#> note}}
+{{#>alert}}
 Use a trailing slash for the `url` and omit a leading slash from the `edit-path` so they are joined correctly.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}
 

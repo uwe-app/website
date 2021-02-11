@@ -6,9 +6,9 @@ description = "Create and build a website"
 
 This tutorial walks through the steps for creating, editing and building a website; you will need to have already [[docs/installation/quick-install|installed the platform tools]].
 
-{{#> note label="Learn how to"}}
+{{#>alert label="Learn how to"}}
 {{toc from="h2" tag="ul"}}
-{{/note}}
+{{/alert}}
 
 ## Create a project
 
@@ -18,9 +18,9 @@ To start we need to create a project, let's call it `basic-website`:
 uwe new basic-website
 ```
 
-{{#> note}}
+{{#>alert}}
 This command uses the default blueprint which generates a website with one page and basic styles.
-{{/note}}
+{{/alert}}
 
 ## Run the development server
 
@@ -33,9 +33,9 @@ uwe dev
 
 Which will build the site using the `debug` build profile and launch it in your default browser.
 
-{{#> note}}
+{{#>alert}}
 Open the `site/index.md` file in a text editor and make some changes to see the browser tab refresh and show the changes.
-{{/note}}
+{{/alert}}
 
 To stop the development server press the `Ctrl+c` key combination in your terminal window.
 

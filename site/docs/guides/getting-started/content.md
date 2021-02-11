@@ -16,11 +16,11 @@ icon = "favicon.svg"
 
 However, we recommend using the default location as some applications like RSS readers will load the file by convention. If you have a PNG file for the icon rename it to `.ico` and it will work; a good size is 32x32 pixels.
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 When a favicon file exists and the build is not a release a random query string is appended to bypass the browser favicon cache.
 
 When no icon is available a transparent image is used so that the browser network inspector does not show spurious 404 errors for the network requests that browsers automatically generate for favicons.
-{{/note}}
+{{/alert}}
 
 ## Partials
 

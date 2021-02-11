@@ -23,11 +23,11 @@ include-commit = true
 #"std::syntax" = { version =  "~1", apply = { styles = [ { to = "**", filter = "base16-*.css" } ] } }
 #"std::syntax" = { version = "^1", apply = { styles = [ { to = "**", filter = "solarized-light.css" } ] } }
 "std::listing" = "^1"
+"std::alert" = { version = "^1", apply = { styles = [ "**" ] } }
 "std::core" = { version = "^5.0.1", apply = { styles = ["**"] } }
 "std::menu" = { version = "^1", apply = { styles = [ "**" ] } }
 "std::sidebar" = { version = "^1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
 "std::link" = { version = "^1", features = ["github"] }
-"std::note" = { version = "^1.0.1", apply = { styles = [ "**" ] } }
 "std::crumbtrail" = { version = "^1.0.3", apply = { styles = [ "**" ] } }
 
 [dependencies."font::inter"]
@@ -125,8 +125,8 @@ pages = [
 pages = [
   "/docs/cookbook/table-of-contents/",
   "/docs/cookbook/directory-listing/",
+  "/docs/cookbook/alerts/",
   "/docs/cookbook/crumbtrails/",
-  "/docs/cookbook/notes/",
   "/docs/cookbook/sidebar/",
   "/docs/cookbook/sticky-header/",
 ]

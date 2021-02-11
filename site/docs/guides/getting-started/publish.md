@@ -14,10 +14,10 @@ uwe build .
 
 Then you can upload the files in `build/release` to your preferred hosting provider.
 
-{{#> note label="remember"}}
+{{#>alert label="remember"}}
 * If you are using [[docs/guides/pages/redirects]] you will need to configure them on your server.
 * The server should be configured to use a [[docs/guides/pages/trailing-slash]] for folders.
-{{/note}}
+{{/alert}}
 
 ## Providers
 

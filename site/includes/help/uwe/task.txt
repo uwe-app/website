@@ -1,4 +1,4 @@
-uwe-task 0.47.3
+uwe-task 0.47.5
 Utility tasks
 
 USAGE:

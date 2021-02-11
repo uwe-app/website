@@ -10,9 +10,9 @@ The scripts helper is called automatically to include scripts in a page by the [
 \{{scripts}}
 ```
 
-{{#> note type="warn" label="warn"}}
+{{#>alert type="warn" label="warn"}}
 If you do not call this helper in a custom layout then live reload will not work.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}
 

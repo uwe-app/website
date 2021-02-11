@@ -25,9 +25,9 @@ uwe test . -- \
   --no-color
 ```
 
-{{#> note}}
+{{#>alert}}
 When passing custom options using `--` the default options from `test/cypress.opts` are not used so you must pass the path to the configuration file.
-{{/note}}
+{{/alert}}
 
 For fine-grained control of the command name, arguments and environment variables see the [[docs/reference/settings/test|test settings]].
 

@@ -13,9 +13,9 @@ This helper must be enabled using the `words` transform, see [[docs/guides/conte
 * `time`: Print estimated reading time (default `false`).
 * `avg`: Average number of words per minute (default: `250`).
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 The lower bound for `avg` is 100 words per minute.
-{{/note}}
+{{/alert}}
 
 ## Example
 

@@ -9,6 +9,12 @@ name = "font::inter::regular"
 version = "3.15.0"
 
 [[package]]
+name = "std::alert"
+version = "1.0.0"
+checksum = "f0e469a534e2ea8e93674b82387141a30000c7dbf0fff340ae88e55e88a9b689"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
 name = "std::core"
 version = "5.0.1"
 checksum = "92a22b61d85fb9009026725fe1ec2f2438e9532c3e44aebf3243b9daafebb640"
@@ -40,12 +46,6 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 name = "std::menu"
 version = "1.0.2"
 checksum = "8c9d6e10eec0f9c449a071310c4d8a82fd38bab80062b182493dd70cac194146"
-source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
-
-[[package]]
-name = "std::note"
-version = "1.0.1"
-checksum = "bbcdd66ab34fc50467cb69a804f3887441f834b231dc9b6e67d89913bf0d1d0f"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]

@@ -10,9 +10,9 @@ Use collections to load from data providers, create indices and define queries t
 
 If you want to dive straight in take a look at the [site settings][blog-site-settings] for the [blog blueprint][blog-blueprint] or read more in this section which looks in detail at how to create and use collections.
 
-{{#> note}}
+{{#>alert}}
 The term *synthetic* is used to refer to generated pages that do not have a corresponding source file.
-{{/note}}
+{{/alert}}
 
 {{menu "collections-idx"}}
 

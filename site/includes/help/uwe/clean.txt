@@ -1,4 +1,4 @@
-uwe-clean 0.47.3
+uwe-clean 0.47.5
 Remove the build directory
 
 USAGE:

@@ -1,4 +1,4 @@
-uwe-docs 0.47.3
+uwe-docs 0.47.5
 Browse the documentation
 
 USAGE:
@@ -11,8 +11,8 @@ FLAGS:
 OPTIONS:
     -h, --host <host>            Bind address for the web server
     -p, --port <port>            The port number
-        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: SSL_CERT]
-        --ssl-key <ssl-key>      Path to an SSL key file [env: SSL_KEY]
+        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: UWE_SSL_CERT]
+        --ssl-key <ssl-key>      Path to an SSL key file [env: UWE_SSL_KEY]
         --ssl-port <ssl-port>    The port number for SSL
 
 ARGS:

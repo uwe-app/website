@@ -8,14 +8,14 @@ The `include` helper can be used to include files into your pages; normally it i
 
 It is an error attempting to include a file outside the `site` source folder.
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Use the *includes* folder [[docs/guides/getting-started/conventions]] to automatically ignore included files.
-{{/note}}
+{{/alert}}
 
 
-{{#> note label="warn" type="warn"}}
+{{#>alert label="warn" type="warn"}}
 If you use this helper inside a partial loaded from a plugin relative paths are resolved from the plugin partial file which is probably not what you want; instead use an absolute path to resolve from the project `site` folder.
-{{/note}}
+{{/alert}}
 
 
 ## Arguments

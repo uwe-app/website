@@ -6,13 +6,15 @@ description = "Group related projects in a workspace"
 
 Workspaces let us group multiple related projects together so we can build them at the same time; they are useful when deploying projects to separate sub-domains. Perhaps you want your main website at `example.com`, your blog at `blog.example.com` and your documentation at `docs.example.com`.
 
-{{#>note}}
+{{#>alert}}
 Remember to replace `example.com` with your website domain name if you plan to use the workspace.
-{{/note}}
+{{/alert}}
 
-{{#> note label="Learn how to"}}
+Currently, workspaces can only contain projects they may not contain other workspaces; if this restriction affects you please let us know in the [community discussions](https://github.com/uwe-app/community/discussions).
+
+{{#>alert label="Learn how to"}}
 {{toc from="h2" tag="ul"}}
-{{/note}}
+{{/alert}}
 
 ## Create multiple projects
 
@@ -26,9 +28,9 @@ uwe new --bare blog blog
 uwe new --bare docs
 ```
 
-{{#> note}}
+{{#>alert}}
 The `--bare` option will skip initializing a git repository for each new project as it is more common to use a monorepo with a workspace.
-{{/note}}
+{{/alert}}
 
 ## Define workspace members
 
@@ -82,9 +84,9 @@ Assuming [[docs/in-depth/security/ssl-certificates|SSL certificates]] are enable
 * `https://blog-example-com.loopback.space:8843/`
 * `https://docs-example-com.loopback.space:8843/`
 
-{{#>note}}
+{{#>alert}}
 We use the `loopback.space` domain to resolve to the `127.0.0.1` loopback address and each host name is converted to a slug and used as the sub-domain for the virtual host.
-{{/note}}
+{{/alert}}
 
 ## Link Projects
 
@@ -108,9 +110,9 @@ uwe build example.com/website
 
 Would generate an error like this:
 
-{{#>note type="error"}}
+{{#>alert type="error"}}
 ERROR compiler::compile  > Variable 'projects.blog' not found in website/site/index.md, check the variable path and verify the template data
-{{/note}}
+{{/alert}}
 
 The solution is to use a workspace `member` filter when we only want to launch a single project:
 
@@ -120,8 +122,8 @@ uwe dev example.com -m website
 
 Now the link to the `blog` project will be available and a compiler error is not generated.
 
-{{#>note}}
+{{#>alert}}
 In this scenario if you follow the link it would generate a 404 error as we did not launch a virtual host for the blog workspace member!
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

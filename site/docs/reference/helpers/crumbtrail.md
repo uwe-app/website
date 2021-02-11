@@ -6,9 +6,9 @@ description = "Create crumbtrails"
 
 The `crumbtrail` helper iterates parent folders and can be used to create a navigation menu like the one above ^^. If a parent folder does not have an index file it will not be included.
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 Prefer the [std::crumbtrail][] plugin over using this helper directly; see [[docs/cookbook/crumbtrails]] for more information.
-{{/note}}
+{{/alert}}
 
 ## Local Variables
 

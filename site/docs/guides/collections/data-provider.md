@@ -18,9 +18,9 @@ from = "posts"
 excludes = ["index.*"]
 ```
 
-{{#>note}}
+{{#>alert}}
 This collection has an identifier of `posts` (the name after `db.load`) which we will need later to reference the collection.
-{{/note}}
+{{/alert}}
 
 The first part of this definition is the `provider` which uses a value of `pages` to indicate that the data for this collection should come from our pages. The `type` field is used to indicate the format of the data to load; currently `toml`, `json` and `csv` are supported values; however, for a `provider` with a value of `pages` this should always be `toml`.
 
@@ -43,9 +43,9 @@ Which creates a collection called `quotes` that loads all JSON files in the `sit
 
 When loading data sources from a folder file names are important as they become the `id` for each item in the collection which means traversing nested folders is not supported.
 
-{{#>note type="warn"}}
+{{#>alert type="warn"}}
 JSON data providers only support the `object` type; if you need to use another type wrap it in an `object` with a property.
-{{/note}}
+{{/alert}}
 
 ## Document
 
@@ -58,9 +58,9 @@ type = "json"
 from = "collections/colors/names.json"
 ```
 
-{{#>note}}
+{{#>alert}}
 The document value must be an iterable type; either an `array` or `object`.
-{{/note}}
+{{/alert}}
 
 For arrays the item identitier is the index in the array and for objects the property key is the item identifier.
 

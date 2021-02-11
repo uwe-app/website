@@ -6,9 +6,9 @@ description = "Add and run integration tests"
 
 Let's take a look at adding integration tests to a project. This tutorial will walk you through the process of creating a project, scaffolding integration tests and running them using the excellent [cypress test runner][cypress]. To follow along you should have already [[docs/installation/quick-install|installed the platform tools]] and a modern version of [nodejs][] that includes the `npx` program.
 
-{{#> note label="Learn how to"}}
+{{#>alert label="Learn how to"}}
 {{toc from="h2" tag="ul"}}
-{{/note}}
+{{/alert}}
 
 ## Introduction
 
@@ -72,9 +72,9 @@ Which will perform the following tasks:
 
 Whilst you could perform these tasks manually it would be tedious and prone to port errors.
 
-{{#> note}}
+{{#>alert}}
 The server for the test runner uses an ephemeral port so you can have a development server running at the same time!
-{{/note}}
+{{/alert}}
 
 To learn more see the [cypress documentation][] and [[docs/in-depth/test-options]] to find out how to pass custom options.
 

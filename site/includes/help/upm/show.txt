@@ -1,4 +1,4 @@
-upm-show 0.47.3
+upm-show 0.47.5
 Show plugin information
 
 USAGE:

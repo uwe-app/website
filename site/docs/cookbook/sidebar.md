@@ -11,9 +11,9 @@ Using a *sidebar* as a navigation menu is a common use case so we decided to sup
 
 We designed a plugin that uses a neat hidden checkbox trick so the menu can be toggled even when a visitor has Javascript disabled.
 
-{{#>note label="warn" type="warn"}}
+{{#>alert type="warn"}}
 Unfortunately RTL layouts are not currently supported; if this is an issue for you please let us know in the [community issues][].
-{{/note}}
+{{/alert}}
 
 ## Plugin
 
@@ -32,9 +32,9 @@ Then create the `site/partials/aside.hbs` file and render the `sidebar` partial 
 \{{> sidebar}}
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 The aside partial is a placeholder that is called by the default main layout in [std::core][].
-{{/note}}
+{{/alert}}
 
 ## Content
 
@@ -103,9 +103,9 @@ main > header + section {
 }
 ```
 
-{{#> note label="info"}}
+{{#>alert label="info"}}
 It is important that scrolling is done on the `main` element not the `body` otherwise the sidebar sticky positioning has some subtle issues.
-{{/note}}
+{{/alert}}
 
 ## Script
 

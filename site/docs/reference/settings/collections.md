@@ -21,9 +21,9 @@ These fields can be used when defining a collections index, see [[docs/guides/co
 
 * `key` Dot-delimited path to a property in the source document (required)
 
-{{#> note}}
+{{#>alert}}
 The wildcard value `*` for `key` will match all documents.
-{{/note}}
+{{/alert}}
 
 ## Query
 

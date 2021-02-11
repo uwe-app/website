@@ -29,9 +29,9 @@ command = "echo"
 args = ["Hello", ", world!"]
 ```
 
-{{#> note}}
+{{#>alert}}
 When a `command` begins with a period (eg: `./build.sh`) it is resolved relative to the project folder which is useful if you have executable programs inside the project.
-{{/note}}
+{{/alert}}
 
 ## Environment
 
@@ -43,9 +43,9 @@ Hooks are passed the following environment variables; paths are canonical absolu
 * `BUILD_FILE` The file that triggered the hook to be executed when watching files.
 * `NODE_ENV` The current environment.
 
-{{#> note}}
+{{#>alert}}
 The `BUILD_FILE` variable will only be set when live reload is watching files and a matched file has changed.
-{{/note}}
+{{/alert}}
 
 ## Watch
 

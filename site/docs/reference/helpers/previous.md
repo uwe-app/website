@@ -25,8 +25,8 @@ If there is no previous item available the block is not rendered.
 
 See the [previous page partial](https://github.com/uwe-app/plugins/blob/main/std/menu/partials/prev-page.hbs) which uses this helper to create a link to the previous item in a menu.
 
-{{#> note label="warn" type="warn"}}
+{{#>alert label="warn" type="warn"}}
 You should only use this helper with lists that do not contain duplicate values.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}

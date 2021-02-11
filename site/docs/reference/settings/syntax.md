@@ -27,9 +27,9 @@ Then when we want to embed *Rust* code we can use the `rust` keyword with a fenc
 ```
 ````
 
-{{#> note}}
+{{#>alert}}
 This mapping technique is useful if you have a lot of existing documents that use an unknown language identifier.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}
 

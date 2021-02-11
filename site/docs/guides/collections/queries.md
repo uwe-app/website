@@ -34,7 +34,7 @@ The query result will be assigned as the `result` variable to the page template 
 parameter = "recent_posts"
 ```
 
-{{#>note}}
+{{#>alert}}
 To see this query in action create and run a test project:
 
 ```text
@@ -43,6 +43,6 @@ cd query-test && uwe dev
 ```
 
 The results of the query are shown under the *Recent Posts* heading.
-{{/note}}
+{{/alert}}
 
 {{import "footer"}}
