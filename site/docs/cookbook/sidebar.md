@@ -20,8 +20,9 @@ Unfortunately RTL layouts are not currently supported; if this is an issue for y
 The first step to adding a sidebar to your project is to enable the sidebar plugin:
 
 ```toml
-[dependencies]
-"std::sidebar" = { version = "~1", apply = { styles = [ "**" ] } }
+[dependencies."std::sidebar"]
+version = "~1"
+apply = { styles = [ "**" ] }
 ```
 
 ## Aside
@@ -107,17 +108,6 @@ main > header + section {
 It is important that scrolling is done on the `main` element not the `body` otherwise the sidebar sticky positioning has some subtle issues.
 {{/alert}}
 
-## Script
-
-You should have a working sidebar by now but there is one small issue; as we toggle the sidebar menu visibility and navigate around the site the *open* state for the sidebar is not remembered.
-
-To remedy this you can add the tiny [sidebar.js][] script to all your pages by changing the plugin dependency to apply the script file:
-
-```toml
-[dependencies]
-"std::sidebar" = { version = "~1", apply = { styles = [ "**" ], scripts = [ "**" ] } }
-```
-
 ## Custom
 
 Sidebar navigation menus will need to change depending upon the location; we can use the [[docs/reference/helpers/import|import helper]] to achieve this as it walks parent folders to find the nearest template. First create a `sidebar.hbs` file in the `site` folder and put your default sidebar navigation menu inside.
@@ -143,4 +133,3 @@ Now you can add a `sidebar.hbs` file to any folder within `site` and it will be 
 [std::core]: https://github.com/uwe-app/plugins/tree/main/std/core
 [std::listing]: https://github.com/uwe-app/plugins/tree/main/std/listing
 [community issues]: https://github.com/uwe-app/community/issues
-[sidebar.js]: https://github.com/uwe-app/plugins/blob/main/std/sidebar/scripts/sidebar.js

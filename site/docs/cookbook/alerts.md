@@ -1,28 +1,26 @@
 +++
-description = "Show tips, warnings and other notes"
+description = "Show tips, warnings and other alerts"
 +++
 
 {{import "header"}}
 
-{{> table-of-contents}}
+A common pattern is to show alerts such as tips, warnings or info messages. The [std::alert](https://github.com/uwe-app/plugins/tree/main/std/alert) plugin provides an [alert block partial](https://github.com/uwe-app/plugins/blob/main/std/alert/partials/alert.hbs) which makes it easy to add alerts to your pages.
 
-A common pattern is to show alerts such as tips, warnings or info messages. The [std::alert](https://github.com/uwe-app/plugins/tree/main/std/alert) plugin provides a [note block partial](https://github.com/uwe-app/plugins/blob/main/std/alert/partials/alert.hbs) which makes it easy to integrate notes in to your pages.
+{{> source-code repo="cookbook" path="content/alerts" title="Alerts"}}
 
 You should add the dependency to your site settings to use it:
 
 ```toml
 [dependencies]
-"std::alert" = "~1"
+"std::alert" = "^1"
 ```
 
-## Usage
-
-Use the note partial like this:
+Afterwards, you can use the alert partial like this:
 
 ```handlebars
 {{{{~raw}}}}
 {{#>alert}}
-This is a note with *seamless* Markdown handling.
+This is an alert with *seamless* Markdown handling.
 {{/alert}}
 {{{{~/raw}}}}
 ```
@@ -30,12 +28,10 @@ This is a note with *seamless* Markdown handling.
 Renders to:
 
 {{#>alert}}
-This is a note with *seamless* Markdown handling.
+This is an alert with *seamless* Markdown handling.
 {{/alert}}
 
-## Type
-
-Add a `type` which is appended to the `class`:
+When a `type` is passed to the partial it is appended to the `class` for the element:
 
 ```handlebars
 {{{{~raw}}}}
@@ -51,9 +47,7 @@ Renders to:
 This is a warning.
 {{/alert}}
 
-## Label
-
-Add a `label` to render a span inside:
+Add a `label` to render a title:
 
 ```handlebars
 {{{{~raw}}}}
@@ -68,14 +62,12 @@ Renders to:
 {{#>alert type="error" label="error"}}
 This is an error.
 {{/alert}}
-
-## Style
 
 If you want to use the default [styles](https://github.com/uwe-app/plugins/blob/main/std/alert/styles/alert.css) apply them in the dependency:
 
 ```toml
 [dependencies]
-"std::alert" = { version = "~1", apply = { styles = [ "**" ] } }
+"std::alert" = { version = "^1", apply = { styles = [ "**" ] } }
 ```
 
 {{import "footer"}}

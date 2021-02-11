@@ -50,8 +50,8 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::sidebar"
-version = "1.0.1"
-checksum = "59cb1aae475b0ce987d7b6b8bda49d997a12906aea16f454437e7d6a67317376"
+version = "2.1.0"
+checksum = "db95b53d28912b1bcb370b51f7bc0704fd11ce7eabdbfb74ef31aef1cf9b0479"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]

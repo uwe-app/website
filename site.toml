@@ -26,7 +26,7 @@ include-commit = true
 "std::alert" = { version = "^1", apply = { styles = [ "**" ] } }
 "std::core" = { version = "^5.0.1", apply = { styles = ["**"] } }
 "std::menu" = { version = "^1", apply = { styles = [ "**" ] } }
-"std::sidebar" = { version = "^1", apply = { styles = [ "**" ], scripts = [ "**" ] }}
+"std::sidebar" = { version = "^2.1.0", apply = { styles = [ "**" ] }}
 "std::link" = { version = "^1", features = ["github"] }
 "std::crumbtrail" = { version = "^1.0.3", apply = { styles = [ "**" ] } }
 
@@ -82,8 +82,8 @@ pages = [
 [menu.docs]
 pages = [
   "/docs/installation/",
-  "/docs/guides/",
   "/docs/tutorials/",
+  "/docs/guides/",
   "/docs/cookbook/",
   "/docs/in-depth/",
   "/docs/reference/",
@@ -123,9 +123,9 @@ pages = [
 
 [menu.cookbook]
 pages = [
+  "/docs/cookbook/alerts/",
   "/docs/cookbook/table-of-contents/",
   "/docs/cookbook/directory-listing/",
-  "/docs/cookbook/alerts/",
   "/docs/cookbook/crumbtrails/",
   "/docs/cookbook/sidebar/",
   "/docs/cookbook/sticky-header/",

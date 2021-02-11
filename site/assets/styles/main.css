@@ -263,7 +263,7 @@ li > a + p:last-child {
   margin-right: 2em;
 }
 
-article > nav + details {
+article details {
   margin: 0 0 1em 0;
 }
 
