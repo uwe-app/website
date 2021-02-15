@@ -144,6 +144,7 @@ pages = [
   "/docs/in-depth/error-page/",
   "/docs/in-depth/strict-mode/",
   "/docs/in-depth/parallel-builds/",
+  "/docs/in-depth/virtual-hosts/",
 ]
 
 [menu.security]
