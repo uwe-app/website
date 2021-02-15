@@ -1,4 +1,4 @@
-upm-list 0.47.5
+upm-list 0.47.8
 List project dependencies
 
 USAGE:

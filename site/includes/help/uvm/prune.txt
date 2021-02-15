@@ -1,4 +1,4 @@
-uvm-prune 0.47.5
+uvm-prune 0.47.7
 Remove old release versions
 
 USAGE:

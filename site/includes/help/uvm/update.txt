@@ -1,4 +1,4 @@
-uvm-update 0.47.5
+uvm-update 0.47.7
 Update to a new release
 
 USAGE:

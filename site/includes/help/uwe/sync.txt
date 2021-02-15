@@ -1,4 +1,4 @@
-uwe-sync 0.47.5
+uwe-sync 0.47.8
 Sync project source files
 
 USAGE:

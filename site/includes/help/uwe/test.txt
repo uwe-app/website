@@ -1,4 +1,4 @@
-uwe-test 0.47.5
+uwe-test 0.47.8
 Run integration tests
 
 USAGE:

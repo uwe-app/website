@@ -1,4 +1,4 @@
-uwe-dev 0.47.5
+uwe-dev 0.47.8
 Launch a development server
 
 Compiles a debug build of the website into the `build/debug` folder and starts a web server with live reload

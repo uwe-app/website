@@ -1,4 +1,4 @@
-upm-add 0.47.5
+upm-add 0.47.8
 Add a plugin
 
 The target plugin will be installed if it does not exist; if the plugin already exists use the --force option to
