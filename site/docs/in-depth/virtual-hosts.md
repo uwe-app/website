@@ -24,12 +24,8 @@ Let's assume we are running a development server that is given the LAN IP addres
 To allow the IP address to pass the `Host` header check we can add an `--authority` when starting the development server:
 
 ```
-uwe dev . --authority 192.168.1.10:8843
+uwe dev . --authority 192.168.1.10
 ```
-
-{{#>alert}}
-For ports other than `80` and `443` you should include the port when setting an authority.
-{{/alert}}
 
 When [[docs/security/ssl-certificates]] are enabled and connecting to the development server the device would need to trust the SSL certificate (assuming the certificate did not include the IP address when it was issued) but afterwards can connect directly using the URL `https://192.168.1.10:8843` and view the website!
 
