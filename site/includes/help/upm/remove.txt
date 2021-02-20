@@ -1,4 +1,4 @@
-upm-remove 0.47.8
+upm-remove 0.48.0
 Remove installed plugin(s)
 
 USAGE:
@@ -12,9 +12,9 @@ ARGS:
     <target>    
 
 EXAMPLES:
-    Remove all versions of a plugin: 
+    Remove all versions of a plugin:
         upm rm std::core
-    Remove a specific version: 
+    Remove a specific version:
         upm rm std::core@=4.1.12
-    Remove all versions with major version 4: 
+    Remove all versions with major version 4:
         upm rm std::core@^4

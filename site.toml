@@ -241,6 +241,7 @@ pages = [
   "/docs/reference/helpers/",
   "/docs/reference/settings/",
   "/docs/reference/commands/",
+  "/docs/reference/server/",
   "/docs/reference/environment-variables/",
   "/docs/reference/troubleshooting/",
 ]

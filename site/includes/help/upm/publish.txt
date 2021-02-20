@@ -1,4 +1,4 @@
-upm-publish 0.47.8
+upm-publish 0.48.0
 Publish a plugin
 
 USAGE:

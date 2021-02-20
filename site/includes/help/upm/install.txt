@@ -1,4 +1,4 @@
-upm-install 0.47.8
+upm-install 0.48.0
 Install project dependencies
 
 USAGE:

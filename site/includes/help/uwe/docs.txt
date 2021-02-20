@@ -1,19 +1,20 @@
-uwe-docs 0.47.8
+uwe-docs 0.48.0
 Browse the documentation
 
 USAGE:
-    uwe docs [OPTIONS] [version-range]
+    uwe docs [OPTIONS] [--] [version-range]
 
 FLAGS:
-        --help       Prints help information
+    -h, --help       Prints help information
     -V, --version    Prints version information
 
 OPTIONS:
-    -h, --host <host>            Bind address for the web server
-    -p, --port <port>            The port number
-        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: UWE_SSL_CERT]
-        --ssl-key <ssl-key>      Path to an SSL key file [env: UWE_SSL_KEY]
-        --ssl-port <ssl-port>    The port number for SSL
+    -a, --addr <addr>                 Bind address for the web server [default: 0.0.0.0]
+        --authority <authority>...    Allow these virtual host authorities
+    -p, --port <port>                 The port number
+        --ssl-cert <ssl-cert>         Path to an SSL certificate file [env: UWE_SSL_CERT]
+        --ssl-key <ssl-key>           Path to an SSL key file [env: UWE_SSL_KEY]
+        --ssl-port <ssl-port>         The port number for SSL
 
 ARGS:
     <version-range>    Version range for the documentation plugin [env: UWE_DOCS_VERSION_RANGE]

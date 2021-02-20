@@ -1,4 +1,4 @@
-upm-show 0.47.8
+upm-show 0.48.0
 Show plugin information
 
 USAGE:
@@ -12,7 +12,7 @@ ARGS:
     <target>    
 
 EXAMPLES:
-    Print plugin information: 
+    Print plugin information:
         upm info std::core
-    Print plugin information for a specific version: 
+    Print plugin information for a specific version:
         upm info std::core@4.1.12

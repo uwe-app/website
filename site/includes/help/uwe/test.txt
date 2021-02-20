@@ -1,4 +1,4 @@
-uwe-test 0.47.8
+uwe-test 0.48.0
 Run integration tests
 
 USAGE:
@@ -6,18 +6,19 @@ USAGE:
 
 FLAGS:
     -e, --exec              Allow hook command execution
-        --help              Prints help information
+    -h, --help              Prints help information
     -i, --include-drafts    Include drafts
     -V, --version           Prints version information
 
 OPTIONS:
-    -h, --host <host>            Bind address for the web server
-    -m, --member <member>...     Filter on workspace members
-    -p, --port <port>            The port number
-        --profile <profile>      Build profile name [default: test]
-        --ssl-cert <ssl-cert>    Path to an SSL certificate file [env: UWE_SSL_CERT]
-        --ssl-key <ssl-key>      Path to an SSL key file [env: UWE_SSL_KEY]
-        --ssl-port <ssl-port>    The port number for SSL
+    -a, --addr <addr>                 Bind address for the web server [default: 0.0.0.0]
+        --authority <authority>...    Allow these virtual host authorities
+    -m, --member <member>...          Filter on workspace members
+    -p, --port <port>                 The port number
+        --profile <profile>           Build profile name [default: test]
+        --ssl-cert <ssl-cert>         Path to an SSL certificate file [env: UWE_SSL_CERT]
+        --ssl-key <ssl-key>           Path to an SSL key file [env: UWE_SSL_KEY]
+        --ssl-port <ssl-port>         The port number for SSL
 
 ARGS:
     <project>...    Project path [default: .]

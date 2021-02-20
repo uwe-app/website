@@ -1,4 +1,4 @@
-upm-registry 0.47.8
+upm-registry 0.48.0
 Update and list registry packages
 
 USAGE:
