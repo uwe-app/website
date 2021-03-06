@@ -1,4 +1,4 @@
-uwe-dev 0.48.0
+uwe-dev 0.48.6
 Launch a development server
 
 Compiles a debug build of the website into the `build/debug` folder and starts a web server with live reload
@@ -10,6 +10,7 @@ USAGE:
 FLAGS:
     -e, --exec              Allow hook command execution
     -h, --help              Prints help information
+        --headless          Do not launch a browser
     -i, --include-drafts    Include drafts
     -V, --version           Prints version information
 

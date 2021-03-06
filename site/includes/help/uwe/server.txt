@@ -1,20 +1,21 @@
-uwe-server 0.48.0
+uwe-server 0.48.6
 Serve static files
 
 USAGE:
-    uwe server [FLAGS] [OPTIONS] [--] [target]
+    uwe server [FLAGS] [OPTIONS] [--] [project]
 
 FLAGS:
     -e, --exec              Allow hook command execution
     -h, --help              Prints help information
     -i, --include-drafts    Include drafts
     -O, --open              Launch a web browser
-    -s, --skip-build        Do not create a release build for projects
     -V, --version           Prints version information
 
 OPTIONS:
     -a, --addr <addr>                 Bind address for the web server [default: 0.0.0.0]
         --authority <authority>...    Allow these virtual host authorities
+    -c, --config <config>...          Config file
+    -d, --directory <directory>       Directory to serve
     -m, --member <member>...          Filter on workspace members
     -p, --port <port>                 The port number
         --ssl-cert <ssl-cert>         Path to an SSL certificate file [env: UWE_SSL_CERT]
@@ -22,4 +23,4 @@ OPTIONS:
         --ssl-port <ssl-port>         The port number for SSL
 
 ARGS:
-    <target>    Project or directory to serve files from [default: .]
+    <project>    Project path

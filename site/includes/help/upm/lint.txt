@@ -1,4 +1,4 @@
-upm-lint 0.48.0
+upm-lint 0.48.6
 Lint a plugin
 
 USAGE:

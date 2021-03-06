@@ -1,4 +1,4 @@
-upm-remove 0.48.0
+upm-remove 0.48.6
 Remove installed plugin(s)
 
 USAGE:

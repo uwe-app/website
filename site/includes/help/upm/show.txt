@@ -1,4 +1,4 @@
-upm-show 0.48.0
+upm-show 0.48.6
 Show plugin information
 
 USAGE:

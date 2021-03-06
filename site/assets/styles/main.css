@@ -172,7 +172,6 @@ ul.features > li :first-child > * {
 }
 
 ul.features > li :first-child > svg {
-  position: relative;
   margin-top: -4px;
 }
 
