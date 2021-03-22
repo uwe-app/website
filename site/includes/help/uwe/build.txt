@@ -1,4 +1,4 @@
-uwe-build 0.48.6
+uwe-build 0.48.10
 Compile a site
 
 Creates a release build of the website into the `build/release` folder; use the `--profile` option to build to a

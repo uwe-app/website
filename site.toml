@@ -24,16 +24,18 @@ include-commit = true
 #"std::syntax" = { version = "^1", apply = { styles = [ { to = "**", filter = "solarized-light.css" } ] } }
 "std::listing" = "^1"
 "std::alert" = { version = "^1", apply = { styles = [ "**" ] } }
-"std::core" = { version = "^5.0.1", apply = { styles = ["**"] } }
+"std::core" = { version = "^5.0.1" }
 "std::menu" = { version = "^1", apply = { styles = [ "**" ] } }
 "std::sidebar" = { version = "^2.1.0", apply = { styles = [ "**" ] }}
 "std::link" = { version = "^1", features = ["github"] }
 "std::crumbtrail" = { version = "^1.0.3", apply = { styles = [ "**" ] } }
 
-[dependencies."font::inter"]
-version = "~3"
-apply = { styles = [ "**" ] }
-features = ["regular"]
+#"uwe::brand::main" = { version = "^1", apply = { styles = [ "**" ] }, path = "../../brand/main" }
+
+#[dependencies."font::inter"]
+#version = "~3"
+#apply = { styles = [ "**" ] }
+#features = ["regular"]
 
 [syntax]
 theme = "Solarized (light)"
@@ -55,8 +57,8 @@ description = "Universal Web Editor"
 keywords = "Fast, Secure, Static, Website, Generator, Blog, Platform"
 authors = [ "tmpfs" ]
 
-[page.http-equiv]
-content-security-policy = "default-src data: 'self'; style-src 'self' 'unsafe-inline';"
+#[page.http-equiv]
+#content-security-policy = "default-src data: 'self'; style-src 'self' 'unsafe-inline';"
 
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"

@@ -1,4 +1,4 @@
-uwe-task 0.48.6
+uwe-task 0.48.10
 Utility tasks
 
 USAGE:
@@ -9,7 +9,6 @@ FLAGS:
     -V, --version    Prints version information
 
 SUBCOMMANDS:
-    alias              Manage site aliases (symbolic links)
     check-deps         Check project for local dependencies
     help               Prints this message or the help of the given subcommand(s)
     init-test          Initialize the integration test folder for a project

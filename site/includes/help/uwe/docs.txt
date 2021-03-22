@@ -1,4 +1,4 @@
-uwe-docs 0.48.6
+uwe-docs 0.48.10
 Browse the documentation
 
 USAGE:

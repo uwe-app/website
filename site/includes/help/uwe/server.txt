@@ -1,4 +1,4 @@
-uwe-server 0.48.6
+uwe-server 0.48.10
 Serve static files
 
 USAGE:

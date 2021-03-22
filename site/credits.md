@@ -1,6 +1,6 @@
 ## Credits
 
-Universal web editor draws inspiration from [mdbook][]; much respect and credit to the authors along with the creators of these brilliant projects:
+Universal web editor draws inspiration from [mdbook](https://docs.rs/mdbook/); much respect and credit to the authors along with the creators of these brilliant projects:
 
 * [handlebars](https://docs.rs/handlebars/) (MIT)
 * [pulldown-cmark](https://docs.rs/pulldown-cmark/) (MIT)
@@ -8,7 +8,4 @@ Universal web editor draws inspiration from [mdbook][]; much respect and credit 
 * [tokio](https://docs.rs/tokio/) (MIT)
 * [warp](https://docs.rs/warp/) (MIT)
 
-Thanks to the other dependencies we use directly and indirectly and most importantly the majority of the credit goes to the [rust][] authors <3.
-
-[mdbook]: https://docs.rs/mdbook/
-[rust]: https://www.rust-lang.org/
+Thanks to the other dependencies we use directly and indirectly and most importantly the majority of the credit goes to the [rust](https://www.rust-lang.org/) authors <3.
