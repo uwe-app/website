@@ -39,12 +39,31 @@ main header {
   justify-content: space-between;
   align-items: center;
   background: var(--std-background);
-  border-bottom: 1px solid var(--std-color);
+  filter: drop-shadow(0px 1px 0px var(--uwe-navy-600));
 
   height: var(--header-height);
 
   position: sticky;
   top: 0;
+}
+
+main > header > :first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+main > header > :first-child > a:first-child {
+  margin-right: var(--uwe-gutter-regular) !important;
+}
+
+main > header > :first-child > a:not(:last-child) {
+  margin-right: var(--uwe-gutter-small);
+}
+
+main > header a {
+  text-decoration: none;
 }
 
 main > header + article {
@@ -79,20 +98,15 @@ li.selected {
   background: var(--std-background-active);
 }
 
-body > aside {
-  font-size: 15px;
-}
-
 body > aside ul {
   list-style-type: none;
-  font-size: 14px;
   margin: 0;
   padding: 0;
 }
 
 body > aside summary {
   margin: 0.5em 0;
-  font-size: 14px;
+  /*font-size: 14px;*/
 }
 
 body > aside > nav {
@@ -112,7 +126,7 @@ body > aside > nav > p > a {
 body > aside > header {
   display: flex;
   height: var(--header-height);
-  border-bottom: 1px solid var(--std-color);
+  filter: drop-shadow(0px 1px 0px var(--uwe-navy-600));
   position: sticky;
   top: 0;
   background: var(--std-background);
@@ -176,7 +190,7 @@ ul.features > li :first-child > svg {
 }
 
 footer {
-  font-size: 0.9rem;
+  font-size: var(--uwe-size-small);
   padding-bottom: 2rem;
 }
 
@@ -310,6 +324,21 @@ details[open] > summary {
   background: var(--std-background-active);
   text-decoration: none;
   border-radius: 4px;
+}
+
+.home-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-banner > img {
+  flex: 0;
+}
+
+.home-banner > * {
+  margin-bottom: var(--uwe-gutter-large);
 }
 
 @media screen and (max-width: 480px) {

@@ -41,6 +41,3 @@ description = "How to guides"
 
 {{menu "publish-idx"}}
 
-## Other Topics
-
-{{menu "other-idx"}}

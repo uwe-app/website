@@ -2,9 +2,17 @@
 title = "Home"
 +++
 
-Universal web editor is a platform for anyone who wants to create a website that is fast and secure unlike other alternatives such as Wordpress.
-
-Our software let's developers and designers use industry standard tools to seamlessly collaborate with content editors using a combination of Markdown and standard web technology.
+<div class="home-banner">
+  <img src="{{link "/assets/svg/home-stacked.svg"}}" />
+  <p class="text-large">
+    A platform for creating fast and secure websites
+  </p>
+  <div>
+    <a class="button primary" href="{{link "/docs/tutorials/getting-started/"}}">Get Started</a>
+    <a class="button" href="{{link "/docs/"}}">Documentation</a>
+  </div>
+  <h2>Key Features</h2>
+</div>
 
 <ul class="features">
   <li>
@@ -40,11 +48,5 @@ Our software let's developers and designers use industry standard tools to seaml
     <small>Use any CSS or Javascript bundler</small>
   </li>
 </ul>
-
----
-
-Alpha testing is in progress and a public beta will be available in 2021.
-
-Interested? Head over to [[docs/installation]] then learn more in the [[docs/guides/getting-started]] guide and read the [[docs]] for more information.
 
 [handlebars]: https://github.com/sunng87/handlebars-rust

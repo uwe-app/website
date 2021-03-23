@@ -30,7 +30,8 @@ include-commit = true
 "std::link" = { version = "^1", features = ["github"] }
 "std::crumbtrail" = { version = "^1.0.3", apply = { styles = [ "**" ] } }
 
-#"uwe::brand::main" = { version = "^1", apply = { styles = [ "**" ] }, path = "../../brand/main" }
+"uwe::brand::main" = { version = "^1", apply = { styles = [ "**" ] }, path = "../../brand/main" }
+"uwe::brand::syntax" = { version = "^1", apply = { styles = [ "**" ] }, path = "../../brand/syntax" }
 
 #[dependencies."font::inter"]
 #version = "~3"
@@ -38,7 +39,7 @@ include-commit = true
 #features = ["regular"]
 
 [syntax]
-theme = "Solarized (light)"
+
 [syntax.map]
 rust = "rs"
 #profiles = ["release"]

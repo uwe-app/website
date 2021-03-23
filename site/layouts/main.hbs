@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+{{> head~}}
+</head>
+<body>
+{{#match "/docs/"}}
+{{> aside~}}
+{{/match}}
+<main>
+{{> header~}}
+<article>
+{{> content~}}
+</article>
+{{> footer~}}
+</main>
+{{scripts}}
+{{~> script~}}
+</body>
+</html>

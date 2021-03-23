@@ -1,5 +1,14 @@
 <header>
-  [[/|UWE]]
+  <div>
+    <a href="/">
+      <img src="{{link "/assets/svg/header-logotype.svg"}}" />
+    </a>
+    [[/docs/|Docs]]
+    [[https://releases.uwe.app|Releases]]
+  </div>
+  {{#match "/docs/"}}
   {{#> sidebar-label~}}
   <span>Menu</span>&nbsp;{{include /assets/svg/menu.svg}}</span>
-  {{~/sidebar-label~}}</header>
+  {{~/sidebar-label~}}
+  {{/match}}
+</header>

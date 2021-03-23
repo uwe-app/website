@@ -64,3 +64,8 @@ source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 name = "uwe::brand::main"
 version = "1.0.0"
 source = "file:///home/muji/git/uwe/brand/main"
+
+[[package]]
+name = "uwe::brand::syntax"
+version = "1.0.0"
+source = "file:///home/muji/git/uwe/brand/syntax"

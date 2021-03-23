@@ -1,6 +1,8 @@
+{{#match "/docs/"~}}
 <header>
   <a href="{{link "/"}}" title="Home">Home</a>
   {{#> sidebar-label~}}
   {{include /assets/svg/close.svg}}
   {{~/sidebar-label~}}</header>
 {{import "sidebar"~}}
+{{~/match}}
