@@ -9,13 +9,25 @@
   --header-height: 64px;
   --std-max-width: none;
 
+  --header-shadow-color: var(--uwe-navy-300);
+  --sidebar-background: var(--uwe-navy-100);
+  --sidebar-selected: var(--uwe-navy-300);
+
   --uwe-feature-background: var(--uwe-navy-200);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --header-shadow-color: var(--uwe-navy-600);
+    --sidebar-background: var(--uwe-navy-700);
+    --sidebar-selected: var(--uwe-navy-600);
     --uwe-feature-background: var(--uwe-navy-900);
   }
+
+  img.svg.icon {
+    filter: invert(.8);
+  }
+
 }
 
 html, * {
@@ -40,13 +52,12 @@ main {
 
 main header {
   margin: 0;
-  padding: 0 2rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--std-background);
-  filter: drop-shadow(0px 1px 0px var(--uwe-navy-600));
+  filter: drop-shadow(0px 1px 0px var(--header-shadow-color));
 
   height: var(--header-height);
 
@@ -82,7 +93,7 @@ main > header a {
 }
 
 main > header + article {
-  padding: var(--uwe-gutter-large) var(--uwe-gutter-regular);
+  padding: var(--uwe-gutter-large) 0;
   max-width: 1296px;
   margin: 0 auto;
 }
@@ -120,7 +131,11 @@ svg {
 }
 
 li.selected {
-  background: var(--std-background-active);
+  background: var(--sidebar-selected);
+}
+
+body > aside#sidebar {
+  background: var(--sidebar-background);
 }
 
 body > aside ul {
@@ -129,18 +144,29 @@ body > aside ul {
   padding: 0;
 }
 
+body > aside ul li {
+  padding: var(--uwe-gutter-x-small) var(--uwe-gutter-small);
+}
+
+body > aside a {
+  text-decoration: none;
+}
+
 body > aside summary {
   margin: 0.5em 0;
   /*font-size: 14px;*/
 }
 
+/*
 body > aside > nav {
   margin-top: 1em;
   margin-left: 1em;
 }
+*/
 
 body > aside > nav > p {
-  margin: 0 1em 0.5em 0;
+  margin: 0;
+  padding: var(--uwe-gutter-small);
 }
 
 body > aside > nav > p > a {
@@ -151,16 +177,17 @@ body > aside > nav > p > a {
 body > aside > header {
   display: flex;
   height: var(--header-height);
-  filter: drop-shadow(0px 1px 0px var(--uwe-navy-600));
+  filter: drop-shadow(0px 1px 0px var(--header-shadow-color));
   position: sticky;
   top: 0;
-  background: var(--std-background);
+  background: var(--sidebar-background);
   padding: 0 1rem;
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
@@ -396,8 +423,24 @@ details[open] > summary {
   margin-bottom: var(--uwe-gutter-large);
 }
 
-@media screen and (max-width: 480px) {
+/* LARGE */
+@media screen and (min-width: 640px) {
+  main {
+    /*background: red;*/
+    padding: 0 var(--uwe-gutter-xx-large);
+  }
+
+}
+
+/* SMALL */
+@media screen and (max-width: 640px) {
+
+  main header, .home-banner {
+    padding: 0 var(--uwe-gutter-regular);
+  }
+
   ul.features {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+

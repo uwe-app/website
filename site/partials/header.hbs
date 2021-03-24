@@ -6,6 +6,11 @@
     [[/docs/|Docs]]
     [[https://releases.uwe.app|Releases]]
   </nav>
+  {{#match "/"}}
+    <a href="https://github.com/uwe-app" title="Github">
+      <img class="svg icon" src="{{link "/assets/svg/github.svg"}}" />
+    </a>
+  {{/match}}
   {{#match "/docs/"}}
   {{#> sidebar-label~}}
   <span>Menu</span>&nbsp;{{include /assets/svg/menu.svg}}</span>
