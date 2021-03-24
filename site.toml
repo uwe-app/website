@@ -24,7 +24,7 @@ include-commit = true
 "std::alert" = { version = "^1", apply = { styles = [ "**" ] } }
 "std::core" = { version = "^5.0.1" }
 "std::menu" = { version = "^1", apply = { styles = [ "**" ] } }
-"std::sidebar" = { version = "^2.1.0", apply = { styles = [ "**" ] }}
+"std::sidebar" = { version = "^2.1.0", apply = { styles = [ "/docs/**" ] }}
 "std::link" = { version = "^1", features = ["github"] }
 "std::crumbtrail" = { version = "^1.0.3", apply = { styles = [ "**" ] } }
 
