@@ -1,5 +1,9 @@
 +++
 title = "UWE"
+
+[[links]]
+src = "/assets/styles/home.css"
+rel = "stylesheet"
 +++
 
 <div class="home-banner">
@@ -17,23 +21,23 @@ title = "UWE"
 <ul class="features">
   <li>
     <div>{{include /assets/svg/features/dark/fast.svg}}<h3>Extremely fast</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>is built with Rust</span></p>
-    <p class="text-large">Hundreds of pages in milliseconds</p>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>is built for speed</span></p>
+    <p class="text-large">We use modern tools like [[https://rust-lang.org|Rust]] to engineer a fast user experience; the UWE compiler can build hundreds of pages in milliseconds</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/zero-config.svg}} <h3>Zero config</h3></div>
     <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses project blueprints</span></p>
-    <p class="text-large">Get up and running quickly</p>
+    <p class="text-large">Create a new blog, deck or website using a blueprint to get up and running in a flash.</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/cloud.svg}}<h3>Effortless publishing</h3></div>
     <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>deploys to servers or the cloud</span></p>
-    <p class="text-large">Up to the cloud</p>
+    <p class="text-large">Deploy to the cloud, a server or self-host on your own infrastructure.</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/reload.svg}}<h3>Live reload</h3></div>
     <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>automatically previews changes</span></p>
-    <p class="text-large">Rapid feedback loop</p>
+    <p class="text-large">Preview the design and content as you make changes.</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/templating.svg}}<h3>Flexible templates</h3></div>
