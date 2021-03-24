@@ -68,6 +68,19 @@ ul.features li > div:first-child {
   align-items: center;
 }
 
+@media print {
+  ul.features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* LARGE */
+@media screen and (min-width: 641px) {
+  ul.features li > div:first-child > svg {
+    margin-right: var(--uwe-gutter-regular);
+  }
+}
+
 /* SMALL */
 @media screen and (max-width: 640px) {
 

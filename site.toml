@@ -55,10 +55,6 @@ authors = [ "tmpfs" ]
 [page.open-graph]
 site_name = "UWE / Universal Web Editor"
 
-[[page.styles]]
-src = "assets/styles/print.css"
-media = "print"
-
 #[[page.links]]
 #as = "audio"
 #href = "/my-audio-file.mp3"
