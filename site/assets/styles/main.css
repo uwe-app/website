@@ -118,7 +118,7 @@ li.selected {
   background: var(--sidebar-selected);
 }
 
-body > aside#sidebar {
+body > aside {
   background: var(--sidebar-background);
 }
 
@@ -132,39 +132,68 @@ body > aside ul li {
   padding: var(--uwe-gutter-x-small) var(--uwe-gutter-small);
 }
 
+body > aside ul li a {
+  display: block;
+}
+
 body > aside a {
   text-decoration: none;
 }
 
 body > aside summary {
-  margin: 0.5em 0;
+  margin: var(--uwe-gutter-small) 0;
   /*font-size: 14px;*/
 }
 
-body > aside > nav > p {
+body > aside nav > p {
   margin: 0;
   padding: var(--uwe-gutter-small);
 }
 
-body > aside > nav > p > a {
+body > aside nav > p > a {
   text-decoration: none;
   color: inherit;
 }
 
-body > aside > header {
+body > aside header {
+  flex: 0 0;
   display: flex;
   height: var(--uwe-header-height);
+  flex-basis: var(--uwe-header-height);
   filter: drop-shadow(0px 1px 0px var(--uwe-header-shadow-color));
   position: sticky;
   top: 0;
   background: var(--sidebar-background);
   padding: 0 var(--uwe-gutter-regular);
   margin: 0;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
+body > aside {
+  overflow: hidden;
+}
+
+body > aside > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body > aside section {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body > aside footer {
+  flex: 0;
+  filter: drop-shadow(0px -1px 0px var(--uwe-header-shadow-color));
+  position: sticky;
+  bottom: 0;
+  background: var(--sidebar-background);
+  padding: var(--uwe-gutter-regular);
+}
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;

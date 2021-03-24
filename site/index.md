@@ -47,6 +47,6 @@ rel = "stylesheet"
   <li>
     <div>{{include /assets/svg/features/dark/languages.svg}}<h3>Natural Languages</h3></div>
     <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses [[https://www.projectfluent.org/|Fluent]] for translations</span></p>
-    <p class="text-large">...</p>
+    <p class="text-large">Reach a wider audience with multiple languages.</p>
   </li>
 </ul>

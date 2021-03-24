@@ -1,7 +1,13 @@
 {{#match "/docs/"~}}
+<div>
 <header>
   {{#> sidebar-label~}}
   {{include /assets/svg/close.svg}}
   {{~/sidebar-label~}}</header>
-{{import "sidebar"~}}
+<section>{{import "sidebar"~}}</section>
+<footer>
+  <p>{{~> github-edit label="Edit on Github" title="Edit on Github"~}}</p>
+  <small>{{powered}} ({{generator}})</small>
+</footer>
+</div>
 {{~/match}}
