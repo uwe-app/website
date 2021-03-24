@@ -181,18 +181,6 @@ main > header > nav {
   justify-content: center;
 }
 
-main > header nav a:not(:last-child) {
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-
-/*
-main > header a.main {
-  color: inherit;
-  text-decoration: none;
-}
-*/
-
 li {
   margin-top: 0;
 }
@@ -200,6 +188,10 @@ li {
 footer {
   font-size: var(--uwe-size-small);
   padding-bottom: 2rem;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 footer > :last-child {
@@ -298,12 +290,12 @@ details > summary::-webkit-details-marker {
 
 details > summary::before {
     content: '▸';
-    margin-right: 0.5em;
+    margin-right: var(--uwe-gutter-small);
 }
 
 details[open] > summary::before {
     content: '▾';
-    margin-right: 0.5em;
+    margin-right: var(--uwe-gutter-small);
 }
 
 details {
