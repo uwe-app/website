@@ -18,6 +18,18 @@ label = "documentation"
 
 {{menu "guides-idx"}}
 
+## Cookbook
+
+{{menu "cookbook-idx"}}
+
+## In-Depth
+
+{{menu "in-depth-idx"}}
+
+## Security
+
+{{menu "security-idx"}}
+
 ## Reference
 
 {{menu "reference-idx"}}
