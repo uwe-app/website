@@ -83,7 +83,7 @@ main > header a {
 
 main > header + article {
   padding: var(--uwe-gutter-large) var(--uwe-gutter-regular);
-  max-width: 960px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 
@@ -218,10 +218,10 @@ ul.features li {
   padding: var(--uwe-gutter-regular);
 }
 
-ul.features li .detail {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+ul.features li > .detail,
+ul.features li > .detail > * {
+  vertical-align: top;
+  line-height: 1;
 }
 
 ul.features li .detail > img {

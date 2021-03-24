@@ -1,5 +1,5 @@
 +++
-title = "UWE: Universal Web Editor"
+title = "UWE"
 +++
 
 <div class="home-banner">
@@ -17,29 +17,32 @@ title = "UWE: Universal Web Editor"
 <ul class="features">
   <li>
     <div>{{include /assets/svg/features/dark/fast.svg}}<h3>Extremely fast</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> is built with Rust</p>
-    <p>Hundreds of pages in milliseconds</p>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>is built with Rust</span></p>
+    <p class="text-large">Hundreds of pages in milliseconds</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/zero-config.svg}} <h3>Zero config</h3></div>
-    <small>Get up and running quickly</small>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses project blueprints</span></p>
+    <p class="text-large">Get up and running quickly</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/cloud.svg}}<h3>Effortless publishing</h3></div>
-    <small>Up to the cloud</small>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>deploys to servers or the cloud</span></p>
+    <p class="text-large">Up to the cloud</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/reload.svg}}<h3>Live reload</h3></div>
-    <small>Rapid feedback loop</small>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>automatically previews changes</span></p>
+    <p class="text-large">Rapid feedback loop</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/templating.svg}}<h3>Flexible templates</h3></div>
-    <small>By <a href="https://handlebarsjs.com/">Handlebars</a> with some [[docs/reference/helpers]]</small>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses [[https://handlebarsjs.com/|Handlebars]] with [[docs/reference/helpers]]</span></p>
+    <p class="text-large">...</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/languages.svg}}<h3>Natural Languages</h3></div>
-    <small>Designed using <a href="https://www.projectfluent.org/">Fluent</a> for i18n</small>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses [[https://www.projectfluent.org/|Fluent]] for translations</span></p>
+    <p class="text-large">...</p>
   </li>
 </ul>
-
-[handlebars]: https://github.com/sunng87/handlebars-rust

@@ -20,8 +20,6 @@ include-commit = true
 
 [dependencies]
 "std::syntax" = "^1.0.1"
-#"std::syntax" = { version =  "~1", apply = { styles = [ { to = "**", filter = "base16-*.css" } ] } }
-#"std::syntax" = { version = "^1", apply = { styles = [ { to = "**", filter = "solarized-light.css" } ] } }
 "std::listing" = "^1"
 "std::alert" = { version = "^1", apply = { styles = [ "**" ] } }
 "std::core" = { version = "^5.0.1" }
@@ -32,8 +30,6 @@ include-commit = true
 
 #"uwe::brand::main" = { version = "^1", apply = { styles = [ "**" ] }, path = "../../brand/main" }
 #"uwe::brand::syntax" = { version = "^1", apply = { styles = [ "**" ] }, path = "../../brand/syntax" }
-
-[syntax]
 
 [syntax.map]
 rust = "rs"
