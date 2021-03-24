@@ -330,4 +330,8 @@ details[open] > summary {
 @media screen and (min-width: 641px) {}
 
 /* SMALL */
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
+  article {
+    padding: 0 var(--uwe-gutter-regular) !important;
+  }
+}

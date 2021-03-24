@@ -59,7 +59,7 @@ ul.features li > .detail > * {
 }
 
 ul.features li .detail > img {
-  margin-right: var(--uwe-gutter-regular);
+  margin-right: var(--uwe-gutter-small);
 }
 
 ul.features li > div:first-child {
@@ -88,10 +88,6 @@ ul.features li > div:first-child {
     font-size: 24px;
   }
 
-  .home-banner {
-    padding: 0 var(--uwe-gutter-regular);
-  }
-
   .home-banner nav {
     text-align: center;
   }
@@ -105,6 +101,10 @@ ul.features li > div:first-child {
   }
 
   ul.features {
-    grid-template-columns: repeat(1, 1fr);
+    display: block;
+  }
+
+  ul.features li {
+    margin-bottom: var(--uwe-gutter-regular);
   }
 }
