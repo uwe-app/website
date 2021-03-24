@@ -1,51 +1,44 @@
 +++
-title = "Home"
+title = "UWE: Universal Web Editor"
 +++
 
 <div class="home-banner">
   <img src="{{link "/assets/svg/home-stacked.svg"}}" />
-  <p class="text-large">
+  <p class="strapline">
     A platform for creating fast and secure websites
   </p>
-  <div>
-    <a class="button primary" href="{{link "/docs/tutorials/getting-started/"}}">Get Started</a>
-    <a class="button" href="{{link "/docs/"}}">Documentation</a>
-  </div>
+  <nav>
+    <a class="button x-large primary" href="{{link "/docs/tutorials/getting-started/"}}">Get Started</a>
+    <a class="button x-large" href="{{link "/docs/"}}">Documentation</a>
+  </nav>
   <h2>Key Features</h2>
 </div>
 
 <ul class="features">
   <li>
-    <h5>{{include /assets/svg/check.svg}} Extremely fast</h5>
-    <small>Hundreds of pages in milliseconds</small>
+    <div>{{include /assets/svg/features/dark/fast.svg}}<h3>Extremely fast</h3></div>
+    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> is built with Rust</p>
+    <p>Hundreds of pages in milliseconds</p>
   </li>
   <li>
-    <h5>{{include /assets/svg/check.svg}} Zero config</h5>
+    <div>{{include /assets/svg/features/dark/zero-config.svg}} <h3>Zero config</h3></div>
     <small>Get up and running quickly</small>
   </li>
   <li>
-    <h5>{{include /assets/svg/check.svg}} Natural Languages</h5>
-    <small>Designed using <a href="https://www.projectfluent.org/">Fluent</a> for i18n</small>
-  </li>
-  <li>
-    <h5>{{include /assets/svg/check.svg}} Create anything</h5>
-    <small>Full Markdown and HTML support</small>
-  </li>
-  <li>
-    <h5>{{include /assets/svg/check.svg}} Effortless publishing</h5>
+    <div>{{include /assets/svg/features/dark/cloud.svg}}<h3>Effortless publishing</h3></div>
     <small>Up to the cloud</small>
   </li>
   <li>
-    <h5>{{include /assets/svg/check.svg}} Flexible templates</h5>
-    <small>By <a href="https://handlebarsjs.com/">Handlebars</a> with some [[docs/reference/helpers]]</small>
-  </li>
-  <li>
-    <h5>{{include /assets/svg/check.svg}} Live reload</h5>
+    <div>{{include /assets/svg/features/dark/reload.svg}}<h3>Live reload</h3></div>
     <small>Rapid feedback loop</small>
   </li>
   <li>
-    <h5>{{include /assets/svg/check.svg}} Bring your own</h5>
-    <small>Use any CSS or Javascript bundler</small>
+    <div>{{include /assets/svg/features/dark/templating.svg}}<h3>Flexible templates</h3></div>
+    <small>By <a href="https://handlebarsjs.com/">Handlebars</a> with some [[docs/reference/helpers]]</small>
+  </li>
+  <li>
+    <div>{{include /assets/svg/features/dark/languages.svg}}<h3>Natural Languages</h3></div>
+    <small>Designed using <a href="https://www.projectfluent.org/">Fluent</a> for i18n</small>
   </li>
 </ul>
 

@@ -1,11 +1,11 @@
 <header>
-  <div>
-    <a href="/">
+  <nav>
+    <a href="{{link "/"}}" class="home">
       <img src="{{link "/assets/svg/header-logotype.svg"}}" />
     </a>
     [[/docs/|Docs]]
     [[https://releases.uwe.app|Releases]]
-  </div>
+  </nav>
   {{#match "/docs/"}}
   {{#> sidebar-label~}}
   <span>Menu</span>&nbsp;{{include /assets/svg/menu.svg}}</span>
