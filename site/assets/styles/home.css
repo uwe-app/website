@@ -17,10 +17,11 @@
 
 .strapline {
   max-width: 760px;
-  font-size: 48px;  
+  font-size: 48px;
   font-weight: var(--uwe-bold);
   text-align: center;
   font-family: var(--std-font-headings);
+  font-style: italic;
   line-height: 1.2;
   margin: var(--uwe-gutter-large) 0;
 }
