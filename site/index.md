@@ -4,6 +4,10 @@ title = "UWE"
 [[links]]
 src = "/assets/styles/home.css"
 rel = "stylesheet"
+
+[[links]]
+src = "/assets/svg/home-stacked.svg"
+rel = "preload"
 +++
 
 <div class="home-banner">

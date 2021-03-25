@@ -92,8 +92,12 @@ main > header + article {
   margin: 0 auto;
 }
 
+article p {
+  max-width: 760px;
+}
+
 [id] {
-  scroll-margin-top: var(--header-height);
+  scroll-margin-top: var(--uwe-header-height);
 }
 
 [for="sidebar-toggle"] {
