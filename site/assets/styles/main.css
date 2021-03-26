@@ -47,12 +47,7 @@ main > footer {
 
 main > header + article {
   padding: var(--uwe-gutter-large) 0;
-  max-width: 1296px;
   margin: 0 auto;
-}
-
-article p, article pre, article blockquote {
-  max-width: 760px;
 }
 
 [for="sidebar-toggle"] {
@@ -60,6 +55,8 @@ article p, article pre, article blockquote {
   font-family: var(--std-font-headings);
   font-style: italic;
   text-transform: uppercase;
+  margin: 0;
+  font-size: inherit;
 }
 
 [for="sidebar-toggle"] span {
@@ -95,7 +92,7 @@ body > aside ul {
 }
 
 body > aside ul li {
-  padding: var(--uwe-gutter-x-small) var(--uwe-gutter-small);
+  padding: var(--uwe-gutter-x-small) var(--uwe-gutter-regular);
 }
 
 body > aside ul li a {
@@ -113,7 +110,7 @@ body > aside summary {
 
 body > aside nav > p {
   margin: 0;
-  padding: var(--uwe-gutter-small);
+  padding: var(--uwe-gutter-small) var(--uwe-gutter-regular);
 }
 
 body > aside nav > p > a {
@@ -161,11 +158,6 @@ body > aside footer {
   padding: var(--uwe-gutter-regular);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.4;
-  font-weight: normal;
-}
-
 main > header {
   text-align: center;
 }
@@ -197,7 +189,7 @@ main > footer nav ul .selected {
   background: transparent;
 }
 
-main > footer nav h5 {
+main > footer nav h6 {
   font-size: var(--uwe-size-regular);
 }
 
@@ -285,14 +277,6 @@ details[open] > summary::before {
 
 details {
     margin: 0 1em;
-}
-
-details > ul {
-  margin-left: 1em !important;
-}
-
-details[open] > summary {
-    margin-bottom: 0.5em;
 }
 
 /* LARGE */
