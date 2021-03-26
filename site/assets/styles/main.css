@@ -27,56 +27,22 @@
 
 }
 
-html, * {
-  box-sizing: border-box;
-}
-
 body {
   display: flex;
   overflow: hidden;
-  padding: 0;
 }
 
 main {
   flex: 1;
   overflow-y: auto;
   height: 100vh;
-
   /* Important so that pre elements do not overflow the width
    * and therefore will respect overflow and scroll properly */
   min-width: 0;
 }
 
-main header {
-  /*margin: 0;*/
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--std-background);
-  filter: drop-shadow(0px 1px 0px var(--uwe-header-shadow-color));
-  height: var(--uwe-header-height);
-  position: sticky;
-  z-index: 100;
-  top: 0;
-}
-
-main > header > nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-main > header > nav > a {
-  margin-right: var(--uwe-gutter-large) !important;
-  font-family: var(--std-font-headings);
-  font-style: italic;
-  color: var(--std-color);
-}
-
-main > header a {
-  text-decoration: none;
+main > footer {
+  text-align: left;
 }
 
 main > header + article {
@@ -87,10 +53,6 @@ main > header + article {
 
 article p, article pre, article blockquote {
   max-width: 760px;
-}
-
-[id] {
-  scroll-margin-top: var(--uwe-header-height);
 }
 
 [for="sidebar-toggle"] {
