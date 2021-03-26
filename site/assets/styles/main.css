@@ -70,14 +70,6 @@ main > header > nav {
 
 main > header > nav > a {
   margin-right: var(--uwe-gutter-large) !important;
-}
-
-main > header > nav > .home {
-  width: 90px;
-  height: 30px;
-}
-
-main > header > nav > a {
   font-family: var(--std-font-headings);
   font-style: italic;
   color: var(--std-color);
