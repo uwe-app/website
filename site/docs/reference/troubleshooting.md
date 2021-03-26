@@ -17,3 +17,7 @@ The workaround is to remove the plugin downloads cache so that the new version i
 ```
 upm clean downloads
 ```
+
+## Italic fonts not showing in the editor
+
+If you assign `font-style: italic;` to a font declarared in a `@font-face` rule you should also ensure that the style rules using the font also specify `font-style: italic;` otherwise the font may not render correctly when displayed in the editor preview.
