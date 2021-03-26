@@ -12,11 +12,11 @@ You can use the `server` command to compile and serve a release build; for examp
 uwe server .
 ```
 
-If you know that your release build is up to date you can use the `--skip-build` option:
+If you know that your release build is up to date you can serve directly from the build folder:
 
 ```text
 uwe build .
-uwe server . --skip-build
+uwe server ./build/release
 ```
 
 It is strongly recommended that you configure [[docs/security/ssl-certificates]] when self-hosting.
