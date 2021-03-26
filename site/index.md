@@ -25,32 +25,32 @@ rel = "preload"
 <ul class="features">
   <li>
     <div>{{include /assets/svg/features/dark/fast.svg}}<h3>Extremely fast</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>is built for speed</span></p>
-    <p class="text-large">We use modern tools like [[https://rust-lang.org|Rust]] to engineer a fast user experience; the UWE compiler can build hundreds of pages in milliseconds</p>
+    <p class="detail text-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>is built for speed</span></p>
+    <p class="text-medium">We use modern tools like [[https://rust-lang.org|Rust]] to engineer a fast user experience; the UWE compiler can build hundreds of pages in milliseconds</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/zero-config.svg}} <h3>Zero config</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses project blueprints</span></p>
-    <p class="text-large">Create a new blog, deck or website using a blueprint to get up and running in a flash.</p>
+    <p class="detail text-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses project blueprints</span></p>
+    <p class="text-medium">Create a new blog, deck or website using a blueprint to get up and running in a flash.</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/cloud.svg}}<h3>Effortless publishing</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>deploys to servers or the cloud</span></p>
-    <p class="text-large">Deploy to the cloud, a server or self-host on your own infrastructure.</p>
+    <p class="detail text-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>deploys to servers or the cloud</span></p>
+    <p class="text-medium">Deploy to the cloud, a server or self-host on your own infrastructure.</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/reload.svg}}<h3>Live reload</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>automatically previews changes</span></p>
-    <p class="text-large">Preview the design and content as you make changes.</p>
+    <p class="detail text-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>automatically previews changes</span></p>
+    <p class="text-medium">Preview the design and content as you make changes.</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/templating.svg}}<h3>Flexible templates</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses [[https://handlebarsjs.com/|Handlebars]] with [[docs/reference/helpers]]</span></p>
-    <p class="text-large">...</p>
+    <p class="detail text-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses [[https://handlebarsjs.com/|Handlebars]] with [[docs/reference/helpers]]</span></p>
+    <p class="text-medium">...</p>
   </li>
   <li>
     <div>{{include /assets/svg/features/dark/languages.svg}}<h3>Natural Languages</h3></div>
-    <p class="detail text-x-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses [[https://www.projectfluent.org/|Fluent]] for translations</span></p>
-    <p class="text-large">Reach a wider audience with multiple languages.</p>
+    <p class="detail text-large"><img src="{{link "/assets/svg/small-mark.svg"}}" /> <span>uses [[https://www.projectfluent.org/|Fluent]] for translations</span></p>
+    <p class="text-medium">Reach a wider audience with multiple languages.</p>
   </li>
 </ul>

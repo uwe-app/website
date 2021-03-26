@@ -51,7 +51,7 @@ ul.features li {
 
 ul.features li > .detail,
 ul.features li > .detail > * {
-  vertical-align: top;
+  vertical-align: middle;
   line-height: 1;
 }
 
@@ -79,7 +79,7 @@ ul.features li > div:first-child {
 }
 
 
-@media screen and (min-width: 1296px) {
+@media screen and (min-width: 1360px) {
   :root {
     --uwe-content-width: 1296px;
   }
