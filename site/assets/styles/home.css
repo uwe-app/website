@@ -15,6 +15,10 @@
   margin-bottom: var(--uwe-gutter-large);
 }
 
+.home-banner > nav > :not(:last-child) {
+  margin-right: var(--uwe-gutter-regular);
+}
+
 .strapline {
   max-width: 760px;
   font-size: 48px;

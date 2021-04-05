@@ -16,8 +16,8 @@ rel = "preload"
     A platform for creating fast and secure websites
   </p>
   <nav>
-    <a class="button x-large primary" href="{{link "/docs/tutorials/getting-started/"}}">Get Started</a>
-    <a class="button x-large" href="{{link "/docs/"}}">Documentation</a>
+    <a class="button x-large primary skew" href="{{link "/docs/tutorials/getting-started/"}}">Get Started</a>
+    <a class="button x-large skew" href="{{link "/docs/"}}">Documentation</a>
   </nav>
   <h2>Key Features</h2>
 </div>
