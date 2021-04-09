@@ -1,8 +1,8 @@
-uwe-build 0.48.10
+uwe-build 0.48.12
 Compile a site
 
-Creates a release build of the website into the `build/release` folder; use the `--profile` option to build to a
-different location with alternative build settings.
+Creates a release build of the website into the `build/release` folder; use the `--profile` option to build to
+a different location with alternative build settings.
 
 If the project is a workspace all of the workspace members are compiled; filter the workspace members to build
 using the `--member` option.

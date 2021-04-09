@@ -1,4 +1,4 @@
-uwe-test 0.48.10
+uwe-test 0.48.12
 Run integration tests
 
 USAGE:

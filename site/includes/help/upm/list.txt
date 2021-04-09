@@ -1,4 +1,4 @@
-upm-list 0.48.10
+upm-list 0.48.12
 List project dependencies
 
 USAGE:
